@@ -1,1 +1,1673 @@
-if game['\x43\x6f\x72\x65\x47\x75\x69']:FindFirstChild("\x55\x49")then DestroyUI()end local Library={RainbowColorValue=0,HueSelectionPosition=0}local UserInputService=game['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x53\x65\x72\x76\x69\x63\x65'] local TweenService=game['\x54\x77\x65\x65\x6e\x53\x65\x72\x76\x69\x63\x65'] local RunService=game['\x52\x75\x6e\x53\x65\x72\x76\x69\x63\x65'] local Mouse=game['\x50\x6c\x61\x79\x65\x72\x73']['\x4c\x6f\x63\x61\x6c\x50\x6c\x61\x79\x65\x72']:GetMouse()local MouseMovement=Enum['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']['\x4d\x6f\x75\x73\x65\x4d\x6f\x76\x65\x6d\x65\x6e\x74'] local MouseButton1=Enum['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31'] local Touch=Enum['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']['\x54\x6f\x75\x63\x68'] local UI=Instance['\x6e\x65\x77']("\x53\x63\x72\x65\x65\x6e\x47\x75\x69")UI['\x4e\x61\x6d\x65']="\x55\x49"UI['\x50\x61\x72\x65\x6e\x74']=game['\x43\x6f\x72\x65\x47\x75\x69'] UI['\x5a\x49\x6e\x64\x65\x78\x42\x65\x68\x61\x76\x69\x6f\x72']=Enum['\x5a\x49\x6e\x64\x65\x78\x42\x65\x68\x61\x76\x69\x6f\x72']['\x53\x69\x62\x6c\x69\x6e\x67'] function DestroyUI()UI:Destroy()end coroutine['\x77\x72\x61\x70'](function()while wait()do Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65']=Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65']+1/255 Library['\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x50\x6f\x73\x69\x74\x69\x6f\x6e']=Library['\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x50\x6f\x73\x69\x74\x69\x6f\x6e']+1 if Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65']>=1 then Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65']=0 end if Library['\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x50\x6f\x73\x69\x74\x69\x6f\x6e']==80 then Library['\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x50\x6f\x73\x69\x74\x69\x6f\x6e']=0 end end end)()local function MakeDraggable(dIsn1,NzdHyld2)local Dragging=nil local DragInput=nil local DragStart=nil local StartPosition=nil local function Update(input)local Delta=input['\x50\x6f\x73\x69\x74\x69\x6f\x6e']-DragStart local pos=UDim2['\x6e\x65\x77'](StartPosition['\x58']['\x53\x63\x61\x6c\x65'],StartPosition['\x58']['\x4f\x66\x66\x73\x65\x74']+Delta['\x58'],StartPosition['\x59']['\x53\x63\x61\x6c\x65'],StartPosition['\x59']['\x4f\x66\x66\x73\x65\x74']+Delta['\x59'])NzdHyld2['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=pos end dIsn1['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:Connect(function(input)if input['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or input['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then Dragging=true DragStart=input['\x50\x6f\x73\x69\x74\x69\x6f\x6e'] StartPosition=NzdHyld2['\x50\x6f\x73\x69\x74\x69\x6f\x6e'] input['\x43\x68\x61\x6e\x67\x65\x64']:Connect(function()if input['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65']==Enum['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x53\x74\x61\x74\x65']['\x45\x6e\x64'] then Dragging=false end end)end end)dIsn1['\x49\x6e\x70\x75\x74\x43\x68\x61\x6e\x67\x65\x64']:Connect(function(cqgu3)if cqgu3['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseMovement or cqgu3['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then DragInput=cqgu3 end end)UserInputService['\x49\x6e\x70\x75\x74\x43\x68\x61\x6e\x67\x65\x64']:Connect(function(JUQjJLSr4)if JUQjJLSr4==DragInput and Dragging then Update(JUQjJLSr4)end end)end function Library:Window(D$Kfpk5,kvfNOs6,gU7,lUDhs8)CloseBind=lUDhs8 or Enum['\x4b\x65\x79\x43\x6f\x64\x65']['\x52\x69\x67\x68\x74\x43\x6f\x6e\x74\x72\x6f\x6c'] PresetColor=gU7 or Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,240,104)fs=false local Switch=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x42\x75\x74\x74\x6f\x6e")local SwitchCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local Main=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local TabHold=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local TabHoldLayout=Instance['\x6e\x65\x77']("\x55\x49\x4c\x69\x73\x74\x4c\x61\x79\x6f\x75\x74")local Title=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local TabFolder=Instance['\x6e\x65\x77']("\x46\x6f\x6c\x64\x65\x72")local DragFrame=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")Switch['\x4e\x61\x6d\x65']="\x53\x77\x69\x74\x63\x68"Switch['\x50\x61\x72\x65\x6e\x74']=UI Switch['\x44\x72\x61\x67\x67\x61\x62\x6c\x65']=true Switch['\x49\x6d\x61\x67\x65']="\x72\x62\x78\x61\x73\x73\x65\x74\x69\x64\x3a\x2f\x2f\x31\x35\x35\x31\x32\x33\x38\x32\x31\x35\x31"Switch['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1 Switch['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.2,0,0,0)Switch['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,50,0,50)SwitchCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0.5,0)SwitchCorner['\x4e\x61\x6d\x65']="\x53\x77\x69\x74\x63\x68\x43\x6f\x72\x6e\x65\x72"SwitchCorner['\x50\x61\x72\x65\x6e\x74']=Switch Main['\x4e\x61\x6d\x65']="\x4d\x61\x69\x6e"Main['\x50\x61\x72\x65\x6e\x74']=UI Main['\x41\x6e\x63\x68\x6f\x72\x50\x6f\x69\x6e\x74']=Vector2['\x6e\x65\x77'](0.5,0.5)Main['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](30,30,30)Main['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 Main['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Main['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.5,0,0.5,0)Main['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,0)Main['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true Main['\x56\x69\x73\x69\x62\x6c\x65']=true TabHold['\x4e\x61\x6d\x65']="\x54\x61\x62\x48\x6f\x6c\x64"TabHold['\x50\x61\x72\x65\x6e\x74']=Main TabHold['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TabHold['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 TabHold['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0339285731,0,0.147335425,0)TabHold['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,107,0,254)TabHoldLayout['\x4e\x61\x6d\x65']="\x54\x61\x62\x48\x6f\x6c\x64\x4c\x61\x79\x6f\x75\x74"TabHoldLayout['\x50\x61\x72\x65\x6e\x74']=TabHold TabHoldLayout['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']=Enum['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']['\x4c\x61\x79\x6f\x75\x74\x4f\x72\x64\x65\x72'] TabHoldLayout['\x50\x61\x64\x64\x69\x6e\x67']=UDim['\x6e\x65\x77'](0,11)Title['\x4e\x61\x6d\x65']="\x54\x69\x74\x6c\x65"Title['\x50\x61\x72\x65\x6e\x74']=Main Title['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Title['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 Title['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0339285731,0,0.0564263314,0)Title['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,200,0,23)Title['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d\x53\x65\x6d\x69\x62\x6f\x6c\x64'] Title['\x54\x65\x78\x74']=kvfNOs6 Title['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Title['\x54\x65\x78\x74\x53\x69\x7a\x65']=12.000 Title['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] DragFrame['\x4e\x61\x6d\x65']="\x44\x72\x61\x67\x46\x72\x61\x6d\x65"DragFrame['\x50\x61\x72\x65\x6e\x74']=Main DragFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)DragFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 DragFrame['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,560,0,41)Main:TweenSize(UDim2['\x6e\x65\x77'](0,560,0,319),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.6,true)MakeDraggable(DragFrame,Main)local uitoggled=false function ToggleUI()if uitoggled==false then Main:TweenSize(UDim2['\x6e\x65\x77'](0,0,0,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.6,true)uitoggled=true else Main:TweenSize(UDim2['\x6e\x65\x77'](0,560,0,319),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.6,true)uitoggled=false end end Switch['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()ToggleUI()end)UserInputService['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:Connect(function(qba$oGA9,YX$pnO10)if qba$oGA9['\x4b\x65\x79\x43\x6f\x64\x65']==CloseBind then ToggleUI()end end)TabFolder['\x4e\x61\x6d\x65']="\x54\x61\x62\x46\x6f\x6c\x64\x65\x72"TabFolder['\x50\x61\x72\x65\x6e\x74']=Main function Library:ChangePresetColor(SY11)PresetColor=SY11 end function Library:Notification(texttitle,sXK12,qRkd13)local NotificationHold=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local NotificationFrame=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local OkayBtn=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local OkayBtnCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local OkayBtnTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local NotificationTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local NotificationDesc=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")NotificationHold['\x4e\x61\x6d\x65']="\x4e\x6f\x74\x69\x66\x69\x63\x61\x74\x69\x6f\x6e\x48\x6f\x6c\x64"NotificationHold['\x50\x61\x72\x65\x6e\x74']=Main NotificationHold['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)NotificationHold['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 NotificationHold['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 NotificationHold['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,560,0,319)NotificationHold['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false NotificationHold['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] NotificationHold['\x54\x65\x78\x74']=""NotificationHold['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)NotificationHold['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 TweenService:Create(NotificationHold,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0.7}):Play()wait(0.4)NotificationFrame['\x4e\x61\x6d\x65']="\x4e\x6f\x74\x69\x66\x69\x63\x61\x74\x69\x6f\x6e\x46\x72\x61\x6d\x65"NotificationFrame['\x50\x61\x72\x65\x6e\x74']=NotificationHold NotificationFrame['\x41\x6e\x63\x68\x6f\x72\x50\x6f\x69\x6e\x74']=Vector2['\x6e\x65\x77'](0.5,0.5)NotificationFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](30,30,30)NotificationFrame['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 NotificationFrame['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true NotificationFrame['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.5,0,0.498432577,0)NotificationFrame:TweenSize(UDim2['\x6e\x65\x77'](0,164,0,193),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.6,true)OkayBtn['\x4e\x61\x6d\x65']="\x4f\x6b\x61\x79\x42\x74\x6e"OkayBtn['\x50\x61\x72\x65\x6e\x74']=NotificationFrame OkayBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)OkayBtn['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0609756112,0,0.720207274,0)OkayBtn['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,144,0,42)OkayBtn['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false OkayBtn['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] OkayBtn['\x54\x65\x78\x74']=""OkayBtn['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)OkayBtn['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 OkayBtnCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)OkayBtnCorner['\x4e\x61\x6d\x65']="\x4f\x6b\x61\x79\x42\x74\x6e\x43\x6f\x72\x6e\x65\x72"OkayBtnCorner['\x50\x61\x72\x65\x6e\x74']=OkayBtn OkayBtnTitle['\x4e\x61\x6d\x65']="\x4f\x6b\x61\x79\x42\x74\x6e\x54\x69\x74\x6c\x65"OkayBtnTitle['\x50\x61\x72\x65\x6e\x74']=OkayBtn OkayBtnTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)OkayBtnTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 OkayBtnTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0763888881,0,0,0)OkayBtnTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,181,0,42)OkayBtnTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] OkayBtnTitle['\x54\x65\x78\x74']=textbtn OkayBtnTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)OkayBtnTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 OkayBtnTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] NotificationTitle['\x4e\x61\x6d\x65']="\x4e\x6f\x74\x69\x66\x69\x63\x61\x74\x69\x6f\x6e\x54\x69\x74\x6c\x65"NotificationTitle['\x50\x61\x72\x65\x6e\x74']=NotificationFrame NotificationTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)NotificationTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 NotificationTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0670731738,0,0.0829015523,0)NotificationTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,143,0,26)NotificationTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] NotificationTitle['\x54\x65\x78\x74']=texttitle NotificationTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)NotificationTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=18.000 NotificationTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] NotificationDesc['\x4e\x61\x6d\x65']="\x4e\x6f\x74\x69\x66\x69\x63\x61\x74\x69\x6f\x6e\x44\x65\x73\x63"NotificationDesc['\x50\x61\x72\x65\x6e\x74']=NotificationFrame NotificationDesc['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)NotificationDesc['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 NotificationDesc['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0670000017,0,0.218999997,0)NotificationDesc['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,143,0,91)NotificationDesc['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] NotificationDesc['\x54\x65\x78\x74']=textdesc NotificationDesc['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)NotificationDesc['\x54\x65\x78\x74\x53\x69\x7a\x65']=15.000 NotificationDesc['\x54\x65\x78\x74\x57\x72\x61\x70\x70\x65\x64']=true NotificationDesc['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] NotificationDesc['\x54\x65\x78\x74\x59\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x59\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x54\x6f\x70'] OkayBtn['\x4d\x6f\x75\x73\x65\x45\x6e\x74\x65\x72']:Connect(function()TweenService:Create(OkayBtn,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)}):Play()end)OkayBtn['\x4d\x6f\x75\x73\x65\x4c\x65\x61\x76\x65']:Connect(function()TweenService:Create(OkayBtn,TweenInfo['\x6e\x65\x77'](.2,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)}):Play()end)OkayBtn['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()NotificationFrame:TweenSize(UDim2['\x6e\x65\x77'](0,0,0,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.6,true)wait(0.4)TweenService:Create(NotificationHold,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()wait(.3)NotificationHold:Destroy()end)end local tabhold={}function tabhold:Tab(text)local TabBtn=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local TabTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local TabBtnIndicator=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local TabBtnIndicatorCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")TabBtn['\x4e\x61\x6d\x65']="\x54\x61\x62\x42\x74\x6e"TabBtn['\x50\x61\x72\x65\x6e\x74']=TabHold TabBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TabBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 TabBtn['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,107,0,21)TabBtn['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] TabBtn['\x54\x65\x78\x74']=""TabBtn['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)TabBtn['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 TabTitle['\x4e\x61\x6d\x65']="\x54\x61\x62\x54\x69\x74\x6c\x65"TabTitle['\x50\x61\x72\x65\x6e\x74']=TabBtn TabTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TabTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 TabTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,107,0,21)TabTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] TabTitle['\x54\x65\x78\x74']=text TabTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](150,150,150)TabTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 TabTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] TabBtnIndicator['\x4e\x61\x6d\x65']="\x54\x61\x62\x42\x74\x6e\x49\x6e\x64\x69\x63\x61\x74\x6f\x72"TabBtnIndicator['\x50\x61\x72\x65\x6e\x74']=TabBtn TabBtnIndicator['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor TabBtnIndicator['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 TabBtnIndicator['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0,0,1,0)TabBtnIndicator['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,2)TabBtnIndicatorCorner['\x4e\x61\x6d\x65']="\x54\x61\x62\x42\x74\x6e\x49\x6e\x64\x69\x63\x61\x74\x6f\x72\x43\x6f\x72\x6e\x65\x72"TabBtnIndicatorCorner['\x50\x61\x72\x65\x6e\x74']=TabBtnIndicator coroutine['\x77\x72\x61\x70'](function()while wait()do TabBtnIndicator['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor end end)()local Tab=Instance['\x6e\x65\x77']("\x53\x63\x72\x6f\x6c\x6c\x69\x6e\x67\x46\x72\x61\x6d\x65")local TabLayout=Instance['\x6e\x65\x77']("\x55\x49\x4c\x69\x73\x74\x4c\x61\x79\x6f\x75\x74")Tab['\x4e\x61\x6d\x65']="\x54\x61\x62"Tab['\x50\x61\x72\x65\x6e\x74']=TabFolder Tab['\x41\x63\x74\x69\x76\x65']=true Tab['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Tab['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 Tab['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 Tab['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.31400001,0,0.147,0)Tab['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,373,0,254)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,0)Tab['\x53\x63\x72\x6f\x6c\x6c\x42\x61\x72\x54\x68\x69\x63\x6b\x6e\x65\x73\x73']=3 Tab['\x53\x63\x72\x6f\x6c\x6c\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']=Enum['\x53\x63\x72\x6f\x6c\x6c\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x59'] Tab['\x56\x69\x73\x69\x62\x6c\x65']=false TabLayout['\x4e\x61\x6d\x65']="\x54\x61\x62\x4c\x61\x79\x6f\x75\x74"TabLayout['\x50\x61\x72\x65\x6e\x74']=Tab TabLayout['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']=Enum['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']['\x4c\x61\x79\x6f\x75\x74\x4f\x72\x64\x65\x72'] TabLayout['\x50\x61\x64\x64\x69\x6e\x67']=UDim['\x6e\x65\x77'](0,6)if fs==false then fs=true TabBtnIndicator['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,13,0,2)TabTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Tab['\x56\x69\x73\x69\x62\x6c\x65']=true end TabBtn['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()for i,v in next,TabFolder:GetChildren()do if v['\x4e\x61\x6d\x65']=="\x54\x61\x62"then v['\x56\x69\x73\x69\x62\x6c\x65']=false end Tab['\x56\x69\x73\x69\x62\x6c\x65']=true end for i,v in next,TabHold:GetChildren()do if v['\x4e\x61\x6d\x65']=="\x54\x61\x62\x42\x74\x6e"then v['\x54\x61\x62\x42\x74\x6e\x49\x6e\x64\x69\x63\x61\x74\x6f\x72']:TweenSize(UDim2['\x6e\x65\x77'](0,0,0,2),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)TabBtnIndicator:TweenSize(UDim2['\x6e\x65\x77'](0,13,0,2),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)TweenService:Create(v['\x54\x61\x62\x54\x69\x74\x6c\x65'],TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{TextColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](150,150,150)}):Play()TweenService:Create(TabTitle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{TextColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)}):Play()end end end)local tabcontent={}function tabcontent:Button(text,i14)local Button=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local ButtonCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ButtonTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")Button['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e"Button['\x50\x61\x72\x65\x6e\x74']=Tab Button['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Button['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Button['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)Button['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Button['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] Button['\x54\x65\x78\x74']=""Button['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)Button['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ButtonCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)ButtonCorner['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e\x43\x6f\x72\x6e\x65\x72"ButtonCorner['\x50\x61\x72\x65\x6e\x74']=Button ButtonTitle['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e\x54\x69\x74\x6c\x65"ButtonTitle['\x50\x61\x72\x65\x6e\x74']=Button ButtonTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ButtonTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ButtonTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)ButtonTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)ButtonTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] ButtonTitle['\x54\x65\x78\x74']=text ButtonTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ButtonTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ButtonTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] Button['\x4d\x6f\x75\x73\x65\x45\x6e\x74\x65\x72']:Connect(function()TweenService:Create(Button,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)}):Play()end)Button['\x4d\x6f\x75\x73\x65\x4c\x65\x61\x76\x65']:Connect(function()TweenService:Create(Button,TweenInfo['\x6e\x65\x77'](.2,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)}):Play()end)Button['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()pcall(i14)end)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Toggle(asnuNZ15,default,RSvcbBkIh16)local toggled=false local Toggle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local ToggleCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ToggleTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local FrameToggle1=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameToggle1Corner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameToggle2=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameToggle2Corner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameToggle3=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameToggle3Corner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameToggleCircle=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameToggleCircleCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")Toggle['\x4e\x61\x6d\x65']="\x54\x6f\x67\x67\x6c\x65"Toggle['\x50\x61\x72\x65\x6e\x74']=Tab Toggle['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Toggle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Toggle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.215625003,0,0.446271926,0)Toggle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)Toggle['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Toggle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] Toggle['\x54\x65\x78\x74']=""Toggle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)Toggle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ToggleCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)ToggleCorner['\x4e\x61\x6d\x65']="\x54\x6f\x67\x67\x6c\x65\x43\x6f\x72\x6e\x65\x72"ToggleCorner['\x50\x61\x72\x65\x6e\x74']=Toggle ToggleTitle['\x4e\x61\x6d\x65']="\x54\x6f\x67\x67\x6c\x65\x54\x69\x74\x6c\x65"ToggleTitle['\x50\x61\x72\x65\x6e\x74']=Toggle ToggleTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ToggleTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ToggleTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)ToggleTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)ToggleTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] ToggleTitle['\x54\x65\x78\x74']=asnuNZ15 ToggleTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ToggleTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ToggleTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] FrameToggle1['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x31"FrameToggle1['\x50\x61\x72\x65\x6e\x74']=Toggle FrameToggle1['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)FrameToggle1['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.859504104,0,0.285714298,0)FrameToggle1['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,37,0,18)FrameToggle1Corner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x31\x43\x6f\x72\x6e\x65\x72"FrameToggle1Corner['\x50\x61\x72\x65\x6e\x74']=FrameToggle1 FrameToggle2['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x32"FrameToggle2['\x50\x61\x72\x65\x6e\x74']=FrameToggle1 FrameToggle2['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)FrameToggle2['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0489999987,0,0.0930000022,0)FrameToggle2['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,33,0,14)FrameToggle2Corner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x32\x43\x6f\x72\x6e\x65\x72"FrameToggle2Corner['\x50\x61\x72\x65\x6e\x74']=FrameToggle2 FrameToggle3['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x33"FrameToggle3['\x50\x61\x72\x65\x6e\x74']=FrameToggle1 FrameToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor FrameToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 FrameToggle3['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,37,0,18)FrameToggle3Corner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x33\x43\x6f\x72\x6e\x65\x72"FrameToggle3Corner['\x50\x61\x72\x65\x6e\x74']=FrameToggle3 FrameToggleCircle['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x43\x69\x72\x63\x6c\x65"FrameToggleCircle['\x50\x61\x72\x65\x6e\x74']=FrameToggle1 FrameToggleCircle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)FrameToggleCircle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.127000004,0,0.222000003,0)FrameToggleCircle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,10,0,10)FrameToggleCircleCorner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x43\x69\x72\x63\x6c\x65\x43\x6f\x72\x6e\x65\x72"FrameToggleCircleCorner['\x50\x61\x72\x65\x6e\x74']=FrameToggleCircle coroutine['\x77\x72\x61\x70'](function()while wait()do FrameToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor end end)()Toggle['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()if toggled==false then TweenService:Create(Toggle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)}):Play()TweenService:Create(FrameToggle1,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameToggle2,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameToggle3,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameToggleCircle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)}):Play()FrameToggleCircle:TweenPosition(UDim2['\x6e\x65\x77'](0.587,0,0.222000003,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)else TweenService:Create(Toggle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)}):Play()TweenService:Create(FrameToggle1,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameToggle2,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameToggle3,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameToggleCircle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)}):Play()FrameToggleCircle:TweenPosition(UDim2['\x6e\x65\x77'](0.127000004,0,0.222000003,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)end toggled=not toggled pcall(callback,toggled)end)if default==true then TweenService:Create(Toggle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)}):Play()TweenService:Create(FrameToggle1,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameToggle2,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameToggle3,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameToggleCircle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)}):Play()FrameToggleCircle:TweenPosition(UDim2['\x6e\x65\x77'](0.587,0,0.222000003,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)toggled=not toggled end Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Slider(opU17,aPBiJM18,Kzq19,j20,vIRa21)local dragging=false local Slider=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local SliderCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local SliderTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local SliderValue=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local SlideFrame=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local CurrentValueFrame=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local SlideCircle=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x42\x75\x74\x74\x6f\x6e")Slider['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x72"Slider['\x50\x61\x72\x65\x6e\x74']=Tab Slider['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Slider['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Slider['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](-0.48035714,0,-0.570532918,0)Slider['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,60)Slider['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Slider['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] Slider['\x54\x65\x78\x74']=""Slider['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)Slider['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 SliderCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)SliderCorner['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x72\x43\x6f\x72\x6e\x65\x72"SliderCorner['\x50\x61\x72\x65\x6e\x74']=Slider SliderTitle['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x72\x54\x69\x74\x6c\x65"SliderTitle['\x50\x61\x72\x65\x6e\x74']=Slider SliderTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)SliderTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 SliderTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)SliderTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)SliderTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] SliderTitle['\x54\x65\x78\x74']=opU17 SliderTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)SliderTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 SliderTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] SliderValue['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x72\x56\x61\x6c\x75\x65"SliderValue['\x50\x61\x72\x65\x6e\x74']=Slider SliderValue['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)SliderValue['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 SliderValue['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)SliderValue['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,335,0,42)SliderValue['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] SliderValue['\x54\x65\x78\x74']=tostring(j20 and math['\x66\x6c\x6f\x6f\x72']((j20/Kzq19)*(Kzq19-aPBiJM18)+aPBiJM18)or 0)SliderValue['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)SliderValue['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 SliderValue['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x52\x69\x67\x68\x74'] SlideFrame['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x46\x72\x61\x6d\x65"SlideFrame['\x50\x61\x72\x65\x6e\x74']=Slider SlideFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)SlideFrame['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 SlideFrame['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0342647657,0,0.686091602,0)SlideFrame['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,335,0,3)CurrentValueFrame['\x4e\x61\x6d\x65']="\x43\x75\x72\x72\x65\x6e\x74\x56\x61\x6c\x75\x65\x46\x72\x61\x6d\x65"CurrentValueFrame['\x50\x61\x72\x65\x6e\x74']=SlideFrame CurrentValueFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor CurrentValueFrame['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 CurrentValueFrame['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77']((j20 or 0)/Kzq19,0,0,3)SlideCircle['\x4e\x61\x6d\x65']="\x53\x6c\x69\x64\x65\x43\x69\x72\x63\x6c\x65"SlideCircle['\x50\x61\x72\x65\x6e\x74']=SlideFrame SlideCircle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor SlideCircle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 SlideCircle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77']((j20 or 0)/Kzq19,-6,-1.30499995,0)SlideCircle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,11,0,11)SlideCircle['\x49\x6d\x61\x67\x65']="\x72\x62\x78\x61\x73\x73\x65\x74\x69\x64\x3a\x2f\x2f\x33\x35\x37\x30\x36\x39\x35\x37\x38\x37"SlideCircle['\x49\x6d\x61\x67\x65\x43\x6f\x6c\x6f\x72\x33']=PresetColor coroutine['\x77\x72\x61\x70'](function()while wait()do CurrentValueFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor SlideCircle['\x49\x6d\x61\x67\x65\x43\x6f\x6c\x6f\x72\x33']=PresetColor end end)()local function move(gBGoPaD22)local pos=UDim2['\x6e\x65\x77'](math['\x63\x6c\x61\x6d\x70']((gBGoPaD22['\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58']-SlideFrame['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58'])/SlideFrame['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'],0,1),-6,-1.30499995,0)local pos1=UDim2['\x6e\x65\x77'](math['\x63\x6c\x61\x6d\x70']((gBGoPaD22['\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58']-SlideFrame['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58'])/SlideFrame['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'],0,1),0,0,3)CurrentValueFrame:TweenSize(pos1,"\x4f\x75\x74","\x53\x69\x6e\x65",0.1,true)SlideCircle:TweenPosition(pos,"\x4f\x75\x74","\x53\x69\x6e\x65",0.1,true)local value=math['\x66\x6c\x6f\x6f\x72'](((pos['\x58']['\x53\x63\x61\x6c\x65']*Kzq19)/Kzq19)*(Kzq19-aPBiJM18)+aPBiJM18)SliderValue['\x54\x65\x78\x74']=tostring(value)pcall(vIRa21,value)end SlideCircle['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:Connect(function(MoI23)if MoI23['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or MoI23['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then dragging=true end end)UserInputService['\x49\x6e\x70\x75\x74\x45\x6e\x64\x65\x64']:Connect(function(K24)if K24['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or K24['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then dragging=false end end)UserInputService['\x49\x6e\x70\x75\x74\x43\x68\x61\x6e\x67\x65\x64']:Connect(function(EkABHocLJ25)if dragging then if EkABHocLJ25['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseMovement or EkABHocLJ25['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then move(EkABHocLJ25)end end end)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Dropdown(WYVEmEL$26,BkYbcZym27,csIkXBL28)local droptog=false local framesize=0 local itemcount=0 local Dropdown=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local DropdownCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local DropdownBtn=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local DropdownTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local ArrowImg=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x4c\x61\x62\x65\x6c")local DropItemHolder=Instance['\x6e\x65\x77']("\x53\x63\x72\x6f\x6c\x6c\x69\x6e\x67\x46\x72\x61\x6d\x65")local DropLayout=Instance['\x6e\x65\x77']("\x55\x49\x4c\x69\x73\x74\x4c\x61\x79\x6f\x75\x74")Dropdown['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x64\x6f\x77\x6e"Dropdown['\x50\x61\x72\x65\x6e\x74']=Tab Dropdown['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Dropdown['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Dropdown['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true Dropdown['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](-0.541071415,0,-0.532915354,0)Dropdown['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)DropdownCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)DropdownCorner['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x64\x6f\x77\x6e\x43\x6f\x72\x6e\x65\x72"DropdownCorner['\x50\x61\x72\x65\x6e\x74']=Dropdown DropdownBtn['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x64\x6f\x77\x6e\x42\x74\x6e"DropdownBtn['\x50\x61\x72\x65\x6e\x74']=Dropdown DropdownBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)DropdownBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 DropdownBtn['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)DropdownBtn['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] DropdownBtn['\x54\x65\x78\x74']=""DropdownBtn['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)DropdownBtn['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 DropdownTitle['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x64\x6f\x77\x6e\x54\x69\x74\x6c\x65"DropdownTitle['\x50\x61\x72\x65\x6e\x74']=Dropdown DropdownTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)DropdownTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 DropdownTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)DropdownTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)DropdownTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] DropdownTitle['\x54\x65\x78\x74']=WYVEmEL$26 DropdownTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)DropdownTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 DropdownTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] ArrowImg['\x4e\x61\x6d\x65']="\x41\x72\x72\x6f\x77\x49\x6d\x67"ArrowImg['\x50\x61\x72\x65\x6e\x74']=DropdownTitle ArrowImg['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ArrowImg['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ArrowImg['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1.65240645,0,0.190476194,0)ArrowImg['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,26,0,26)ArrowImg['\x49\x6d\x61\x67\x65']="\x68\x74\x74\x70\x3a\x2f\x2f\x77\x77\x77\x2e\x72\x6f\x62\x6c\x6f\x78\x2e\x63\x6f\x6d\x2f\x61\x73\x73\x65\x74\x2f\x3f\x69\x64\x3d\x36\x30\x33\x34\x38\x31\x38\x33\x37\x35"DropItemHolder['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x49\x74\x65\x6d\x48\x6f\x6c\x64\x65\x72"DropItemHolder['\x50\x61\x72\x65\x6e\x74']=DropdownTitle DropItemHolder['\x41\x63\x74\x69\x76\x65']=true DropItemHolder['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)DropItemHolder['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 DropItemHolder['\x42\x6f\x72\x64\x65\x72\x53\x69\x7a\x65\x50\x69\x78\x65\x6c']=0 DropItemHolder['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](-0.00400000019,0,1.04999995,0)DropItemHolder['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,342,0,0)DropItemHolder['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,0)DropItemHolder['\x53\x63\x72\x6f\x6c\x6c\x42\x61\x72\x54\x68\x69\x63\x6b\x6e\x65\x73\x73']=3 DropLayout['\x4e\x61\x6d\x65']="\x44\x72\x6f\x70\x4c\x61\x79\x6f\x75\x74"DropLayout['\x50\x61\x72\x65\x6e\x74']=DropItemHolder DropLayout['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']=Enum['\x53\x6f\x72\x74\x4f\x72\x64\x65\x72']['\x4c\x61\x79\x6f\x75\x74\x4f\x72\x64\x65\x72'] DropdownBtn['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()if droptog==false then Dropdown:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,55+framesize),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)TweenService:Create(ArrowImg,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{Rotation=270}):Play()wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])else Dropdown:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,42),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)TweenService:Create(ArrowImg,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{Rotation=0}):Play()wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end droptog=not droptog end)for i,v in next,list do itemcount=itemcount+1 if itemcount<=3 then framesize=framesize+26 DropItemHolder['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,342,0,framesize)end local Item=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local ItemCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")Item['\x4e\x61\x6d\x65']="\x49\x74\x65\x6d"Item['\x50\x61\x72\x65\x6e\x74']=DropItemHolder Item['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Item['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true Item['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,335,0,25)Item['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Item['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] Item['\x54\x65\x78\x74']=v Item['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Item['\x54\x65\x78\x74\x53\x69\x7a\x65']=15.000 ItemCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,4)ItemCorner['\x4e\x61\x6d\x65']="\x49\x74\x65\x6d\x43\x6f\x72\x6e\x65\x72"ItemCorner['\x50\x61\x72\x65\x6e\x74']=Item Item['\x4d\x6f\x75\x73\x65\x45\x6e\x74\x65\x72']:Connect(function()TweenService:Create(Item,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)}):Play()end)Item['\x4d\x6f\x75\x73\x65\x4c\x65\x61\x76\x65']:Connect(function()TweenService:Create(Item,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)}):Play()end)Item['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()droptog=not droptog DropdownTitle['\x54\x65\x78\x74']=opU17.." \x2d ".['\x76'] pcall(vIRa21,v)Dropdown:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,42),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)TweenService:Create(ArrowImg,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{Rotation=0}):Play()wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end)DropItemHolder['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,DropLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Colorpicker(u29,QN$_m30,yFOIvClvp31)local ColorPickerToggled=false local OldToggleColor=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)local OldColor=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)local OldColorSelectionPosition=nil local OldHueSelectionPosition=nil local ColorH,ColorS,ColorV=1,1,1 local RainbowColorPicker=false local ColorPickerInput=nil local ColorInput=nil local HueInput=nil local Colorpicker=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local ColorpickerCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ColorpickerTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local BoxColor=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local BoxColorCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ConfirmBtn=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local ConfirmBtnCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ConfirmBtnTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local ColorpickerBtn=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local RainbowToggle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local RainbowToggleCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local RainbowToggleTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local FrameRainbowToggle1=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameRainbowToggle1Corner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameRainbowToggle2=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameRainbowToggle2_2=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameRainbowToggle3=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameToggle3=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local FrameRainbowToggleCircle=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local FrameRainbowToggleCircleCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local Color=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x4c\x61\x62\x65\x6c")local ColorCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local ColorSelection=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x4c\x61\x62\x65\x6c")local Hue=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x4c\x61\x62\x65\x6c")local HueCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local HueGradient=Instance['\x6e\x65\x77']("\x55\x49\x47\x72\x61\x64\x69\x65\x6e\x74")local HueSelection=Instance['\x6e\x65\x77']("\x49\x6d\x61\x67\x65\x4c\x61\x62\x65\x6c")Colorpicker['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x70\x69\x63\x6b\x65\x72"Colorpicker['\x50\x61\x72\x65\x6e\x74']=Tab Colorpicker['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Colorpicker['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Colorpicker['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true Colorpicker['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](-0.541071415,0,-0.532915354,0)Colorpicker['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)ColorpickerCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)ColorpickerCorner['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x70\x69\x63\x6b\x65\x72\x43\x6f\x72\x6e\x65\x72"ColorpickerCorner['\x50\x61\x72\x65\x6e\x74']=Colorpicker ColorpickerTitle['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x70\x69\x63\x6b\x65\x72\x54\x69\x74\x6c\x65"ColorpickerTitle['\x50\x61\x72\x65\x6e\x74']=Colorpicker ColorpickerTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ColorpickerTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ColorpickerTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)ColorpickerTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)ColorpickerTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] ColorpickerTitle['\x54\x65\x78\x74']=u29 ColorpickerTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ColorpickerTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ColorpickerTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] BoxColor['\x4e\x61\x6d\x65']="\x42\x6f\x78\x43\x6f\x6c\x6f\x72"BoxColor['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,0,4)BoxColor['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1.60427809,0,0.214285716,0)BoxColor['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,41,0,23)BoxColorCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)BoxColorCorner['\x4e\x61\x6d\x65']="\x42\x6f\x78\x43\x6f\x6c\x6f\x72\x43\x6f\x72\x6e\x65\x72"BoxColorCorner['\x50\x61\x72\x65\x6e\x74']=BoxColor ConfirmBtn['\x4e\x61\x6d\x65']="\x43\x6f\x6e\x66\x69\x72\x6d\x42\x74\x6e"ConfirmBtn['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle ConfirmBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)ConfirmBtn['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1.25814295,0,1.09037197,0)ConfirmBtn['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,105,0,32)ConfirmBtn['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false ConfirmBtn['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] ConfirmBtn['\x54\x65\x78\x74']=""ConfirmBtn['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)ConfirmBtn['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ConfirmBtnCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)ConfirmBtnCorner['\x4e\x61\x6d\x65']="\x43\x6f\x6e\x66\x69\x72\x6d\x42\x74\x6e\x43\x6f\x72\x6e\x65\x72"ConfirmBtnCorner['\x50\x61\x72\x65\x6e\x74']=ConfirmBtn ConfirmBtnTitle['\x4e\x61\x6d\x65']="\x43\x6f\x6e\x66\x69\x72\x6d\x42\x74\x6e\x54\x69\x74\x6c\x65"ConfirmBtnTitle['\x50\x61\x72\x65\x6e\x74']=ConfirmBtn ConfirmBtnTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ConfirmBtnTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ConfirmBtnTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,33,0,32)ConfirmBtnTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] ConfirmBtnTitle['\x54\x65\x78\x74']="\x43\x6f\x6e\x66\x69\x72\x6d"ConfirmBtnTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ConfirmBtnTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 ConfirmBtnTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] ColorpickerBtn['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x70\x69\x63\x6b\x65\x72\x42\x74\x6e"ColorpickerBtn['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle ColorpickerBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ColorpickerBtn['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ColorpickerBtn['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)ColorpickerBtn['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] ColorpickerBtn['\x54\x65\x78\x74']=""ColorpickerBtn['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)ColorpickerBtn['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 RainbowToggle['\x4e\x61\x6d\x65']="\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65"RainbowToggle['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle RainbowToggle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)RainbowToggle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1.26349044,0,2.12684202,0)RainbowToggle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,104,0,32)RainbowToggle['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false RainbowToggle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] RainbowToggle['\x54\x65\x78\x74']=""RainbowToggle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)RainbowToggle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 RainbowToggleCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)RainbowToggleCorner['\x4e\x61\x6d\x65']="\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x43\x6f\x72\x6e\x65\x72"RainbowToggleCorner['\x50\x61\x72\x65\x6e\x74']=RainbowToggle RainbowToggleTitle['\x4e\x61\x6d\x65']="\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x54\x69\x74\x6c\x65"RainbowToggleTitle['\x50\x61\x72\x65\x6e\x74']=RainbowToggle RainbowToggleTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)RainbowToggleTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 RainbowToggleTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,33,0,32)RainbowToggleTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] RainbowToggleTitle['\x54\x65\x78\x74']="\x52\x61\x69\x6e\x62\x6f\x77"RainbowToggleTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)RainbowToggleTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 RainbowToggleTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] FrameRainbowToggle1['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x31"FrameRainbowToggle1['\x50\x61\x72\x65\x6e\x74']=RainbowToggle FrameRainbowToggle1['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)FrameRainbowToggle1['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.649999976,0,0.186000004,0)FrameRainbowToggle1['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,37,0,18)FrameRainbowToggle1Corner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x31\x43\x6f\x72\x6e\x65\x72"FrameRainbowToggle1Corner['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle1 FrameRainbowToggle2['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x32"FrameRainbowToggle2['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle1 FrameRainbowToggle2['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)FrameRainbowToggle2['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0590000004,0,0.112999998,0)FrameRainbowToggle2['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,33,0,14)FrameRainbowToggle2_2['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x32"FrameRainbowToggle2_2['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle2 FrameRainbowToggle3['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x33"FrameRainbowToggle3['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle1 FrameRainbowToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)FrameRainbowToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 FrameRainbowToggle3['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,37,0,18)FrameToggle3['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x54\x6f\x67\x67\x6c\x65\x33"FrameToggle3['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle3 FrameRainbowToggleCircle['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x43\x69\x72\x63\x6c\x65"FrameRainbowToggleCircle['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggle1 FrameRainbowToggleCircle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)FrameRainbowToggleCircle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.127000004,0,0.222000003,0)FrameRainbowToggleCircle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,10,0,10)FrameRainbowToggleCircleCorner['\x4e\x61\x6d\x65']="\x46\x72\x61\x6d\x65\x52\x61\x69\x6e\x62\x6f\x77\x54\x6f\x67\x67\x6c\x65\x43\x69\x72\x63\x6c\x65\x43\x6f\x72\x6e\x65\x72"FrameRainbowToggleCircleCorner['\x50\x61\x72\x65\x6e\x74']=FrameRainbowToggleCircle Color['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72"Color['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,0,4)Color['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0,0,0,42)Color['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,194,0,80)Color['\x5a\x49\x6e\x64\x65\x78']=10 Color['\x49\x6d\x61\x67\x65']="\x72\x62\x78\x61\x73\x73\x65\x74\x69\x64\x3a\x2f\x2f\x34\x31\x35\x35\x38\x30\x31\x32\x35\x32"ColorCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,3)ColorCorner['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x43\x6f\x72\x6e\x65\x72"ColorCorner['\x50\x61\x72\x65\x6e\x74']=Color ColorSelection['\x4e\x61\x6d\x65']="\x43\x6f\x6c\x6f\x72\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e"ColorSelection['\x50\x61\x72\x65\x6e\x74']=Color ColorSelection['\x41\x6e\x63\x68\x6f\x72\x50\x6f\x69\x6e\x74']=Vector2['\x6e\x65\x77'](0.5,0.5)ColorSelection['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)ColorSelection['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 ColorSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](QN$_m30 and select(3,Color3['\x74\x6f\x48\x53\x56'](QN$_m30)))ColorSelection['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,18,0,18)ColorSelection['\x49\x6d\x61\x67\x65']="\x68\x74\x74\x70\x3a\x2f\x2f\x77\x77\x77\x2e\x72\x6f\x62\x6c\x6f\x78\x2e\x63\x6f\x6d\x2f\x61\x73\x73\x65\x74\x2f\x3f\x69\x64\x3d\x34\x38\x30\x35\x36\x33\x39\x30\x30\x30"ColorSelection['\x53\x63\x61\x6c\x65\x54\x79\x70\x65']=Enum['\x53\x63\x61\x6c\x65\x54\x79\x70\x65']['\x46\x69\x74'] ColorSelection['\x56\x69\x73\x69\x62\x6c\x65']=false Hue['\x4e\x61\x6d\x65']="\x48\x75\x65"Hue['\x50\x61\x72\x65\x6e\x74']=ColorpickerTitle Hue['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)Hue['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0,202,0,42)Hue['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,25,0,80)HueCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,3)HueCorner['\x4e\x61\x6d\x65']="\x48\x75\x65\x43\x6f\x72\x6e\x65\x72"HueCorner['\x50\x61\x72\x65\x6e\x74']=Hue HueGradient['\x43\x6f\x6c\x6f\x72']=ColorSequence['\x6e\x65\x77']{ColorSequenceKeypoint['\x6e\x65\x77'](0.00,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,0,4)),ColorSequenceKeypoint['\x6e\x65\x77'](0.20,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](234,255,0)),ColorSequenceKeypoint['\x6e\x65\x77'](0.40,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](21,255,0)),ColorSequenceKeypoint['\x6e\x65\x77'](0.60,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,255,255)),ColorSequenceKeypoint['\x6e\x65\x77'](0.80,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,17,255)),ColorSequenceKeypoint['\x6e\x65\x77'](0.90,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,0,251)),ColorSequenceKeypoint['\x6e\x65\x77'](1.00,Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,0,4))}HueGradient['\x52\x6f\x74\x61\x74\x69\x6f\x6e']=270 HueGradient['\x4e\x61\x6d\x65']="\x48\x75\x65\x47\x72\x61\x64\x69\x65\x6e\x74"HueGradient['\x50\x61\x72\x65\x6e\x74']=Hue HueSelection['\x4e\x61\x6d\x65']="\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e"HueSelection['\x50\x61\x72\x65\x6e\x74']=Hue HueSelection['\x41\x6e\x63\x68\x6f\x72\x50\x6f\x69\x6e\x74']=Vector2['\x6e\x65\x77'](0.5,0.5)HueSelection['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)HueSelection['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 HueSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.48,0,1-select(1,Color3['\x74\x6f\x48\x53\x56'](preset)))HueSelection['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,18,0,18)HueSelection['\x49\x6d\x61\x67\x65']="\x68\x74\x74\x70\x3a\x2f\x2f\x77\x77\x77\x2e\x72\x6f\x62\x6c\x6f\x78\x2e\x63\x6f\x6d\x2f\x61\x73\x73\x65\x74\x2f\x3f\x69\x64\x3d\x34\x38\x30\x35\x36\x33\x39\x30\x30\x30"HueSelection['\x56\x69\x73\x69\x62\x6c\x65']=false coroutine['\x77\x72\x61\x70'](function()while wait()do FrameRainbowToggle3['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=PresetColor end end)()ColorpickerBtn['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()if ColorPickerToggled==false then ColorSelection['\x56\x69\x73\x69\x62\x6c\x65']=true HueSelection['\x56\x69\x73\x69\x62\x6c\x65']=true Colorpicker:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,132),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])else ColorSelection['\x56\x69\x73\x69\x62\x6c\x65']=false HueSelection['\x56\x69\x73\x69\x62\x6c\x65']=false Colorpicker:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,42),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end ColorPickerToggled=not ColorPickerToggled end)local function UpdateColorPicker(Nmo32)BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x48\x53\x56'](ColorH,ColorS,ColorV)Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x48\x53\x56'](ColorH,1,1)pcall(vIRa21,BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'])end ColorH=1-(math['\x63\x6c\x61\x6d\x70'](HueSelection['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59']-Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59'],0,Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])/Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])ColorS=(math['\x63\x6c\x61\x6d\x70'](ColorSelection['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58']-Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58'],0,Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'])/Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'])ColorV=1-(math['\x63\x6c\x61\x6d\x70'](ColorSelection['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59']-Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59'],0,Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])/Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=preset Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=preset pcall(vIRa21,BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'])Color['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:Connect(function(P_U33)if P_U33['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or P_U33['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then if RainbowColorPicker then return end if ColorInput then ColorInput:Disconnect()end ColorInput=RunService['\x52\x65\x6e\x64\x65\x72\x53\x74\x65\x70\x70\x65\x64']:Connect(function()local ColorX=(math['\x63\x6c\x61\x6d\x70'](Mouse['\x58']-Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x58'],0,Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'])/Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x58'])local ColorY=(math['\x63\x6c\x61\x6d\x70'](Mouse['\x59']-Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59'],0,Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])/Color['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])ColorSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](ColorX,0,ColorY,0)ColorS=ColorX ColorV=1-ColorY UpdateColorPicker(true)end)end end)Color['\x49\x6e\x70\x75\x74\x45\x6e\x64\x65\x64']:Connect(function(KZFtVmMTJ34)if KZFtVmMTJ34['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or KZFtVmMTJ34['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then if ColorInput then ColorInput:Disconnect()end end end)Hue['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:Connect(function(X35)if X35['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or X35['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then if RainbowColorPicker then return end if HueInput then HueInput:Disconnect()end HueInput=RunService['\x52\x65\x6e\x64\x65\x72\x53\x74\x65\x70\x70\x65\x64']:Connect(function()local HueY=(math['\x63\x6c\x61\x6d\x70'](Mouse['\x59']-Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x50\x6f\x73\x69\x74\x69\x6f\x6e']['\x59'],0,Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])/Hue['\x41\x62\x73\x6f\x6c\x75\x74\x65\x53\x69\x7a\x65']['\x59'])HueSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.48,0,HueY,0)ColorH=1-HueY UpdateColorPicker(true)end)end end)Hue['\x49\x6e\x70\x75\x74\x45\x6e\x64\x65\x64']:Connect(function(q36)if q36['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==MouseButton1 or q36['\x55\x73\x65\x72\x49\x6e\x70\x75\x74\x54\x79\x70\x65']==Touch then if HueInput then HueInput:Disconnect()end end end)RainbowToggle['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x44\x6f\x77\x6e']:Connect(function()RainbowColorPicker=not RainbowColorPicker if ColorInput then ColorInput:Disconnect()end if HueInput then HueInput:Disconnect()end if RainbowColorPicker then TweenService:Create(FrameRainbowToggle1,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameRainbowToggle2,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameRainbowToggle3,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameRainbowToggleCircle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)}):Play()FrameRainbowToggleCircle:TweenPosition(UDim2['\x6e\x65\x77'](0.587,0,0.222000003,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)OldToggleColor=BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'] OldColor=Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'] OldColorSelectionPosition=ColorSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e'] OldHueSelectionPosition=HueSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e'] while RainbowColorPicker do BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x48\x53\x56'](Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65'],1,1)Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x48\x53\x56'](Library['\x52\x61\x69\x6e\x62\x6f\x77\x43\x6f\x6c\x6f\x72\x56\x61\x6c\x75\x65'],1,1)ColorSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1,0,0,0)HueSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.48,0,0,Library['\x48\x75\x65\x53\x65\x6c\x65\x63\x74\x69\x6f\x6e\x50\x6f\x73\x69\x74\x69\x6f\x6e'])pcall(vIRa21,BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'])wait()end elseif not RainbowColorPicker then TweenService:Create(FrameRainbowToggle1,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameRainbowToggle2,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=0}):Play()TweenService:Create(FrameRainbowToggle3,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundTransparency=1}):Play()TweenService:Create(FrameRainbowToggleCircle,TweenInfo['\x6e\x65\x77'](.3,Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x64'],Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74']),{BackgroundColor3=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](50,50,50)}):Play()FrameRainbowToggleCircle:TweenPosition(UDim2['\x6e\x65\x77'](0.127000004,0,0.222000003,0),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=OldToggleColor Color['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=OldColor ColorSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=OldColorSelectionPosition HueSelection['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=OldHueSelectionPosition pcall(vIRa21,BoxColor['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33'])end end)ConfirmBtn['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()ColorSelection['\x56\x69\x73\x69\x62\x6c\x65']=false HueSelection['\x56\x69\x73\x69\x62\x6c\x65']=false Colorpicker:TweenSize(UDim2['\x6e\x65\x77'](0,363,0,42),Enum['\x45\x61\x73\x69\x6e\x67\x44\x69\x72\x65\x63\x74\x69\x6f\x6e']['\x4f\x75\x74'],Enum['\x45\x61\x73\x69\x6e\x67\x53\x74\x79\x6c\x65']['\x51\x75\x61\x72\x74'],.2,true)wait(.2)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Label(GBtgzOz_37)local Label=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local LabelCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local LabelTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")Label['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e"Label['\x50\x61\x72\x65\x6e\x74']=Tab Label['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Label['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Label['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)Label['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Label['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] Label['\x54\x65\x78\x74']=""Label['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)Label['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 LabelCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)LabelCorner['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e\x43\x6f\x72\x6e\x65\x72"LabelCorner['\x50\x61\x72\x65\x6e\x74']=Label LabelTitle['\x4e\x61\x6d\x65']="\x42\x75\x74\x74\x6f\x6e\x54\x69\x74\x6c\x65"LabelTitle['\x50\x61\x72\x65\x6e\x74']=Label LabelTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)LabelTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 LabelTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)LabelTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)LabelTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] LabelTitle['\x54\x65\x78\x74']=GBtgzOz_37 LabelTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)LabelTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 LabelTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Textbox(VhsYYSHcG38,BCvSAKD39,FFTcn40)local Textbox=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local TextboxCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local TextboxTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local TextboxFrame=Instance['\x6e\x65\x77']("\x46\x72\x61\x6d\x65")local TextboxFrameCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local TextBox=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x6f\x78")Textbox['\x4e\x61\x6d\x65']="\x54\x65\x78\x74\x62\x6f\x78"Textbox['\x50\x61\x72\x65\x6e\x74']=Tab Textbox['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Textbox['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Textbox['\x43\x6c\x69\x70\x73\x44\x65\x73\x63\x65\x6e\x64\x61\x6e\x74\x73']=true Textbox['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](-0.541071415,0,-0.532915354,0)Textbox['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)TextboxCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)TextboxCorner['\x4e\x61\x6d\x65']="\x54\x65\x78\x74\x62\x6f\x78\x43\x6f\x72\x6e\x65\x72"TextboxCorner['\x50\x61\x72\x65\x6e\x74']=Textbox TextboxTitle['\x4e\x61\x6d\x65']="\x54\x65\x78\x74\x62\x6f\x78\x54\x69\x74\x6c\x65"TextboxTitle['\x50\x61\x72\x65\x6e\x74']=Textbox TextboxTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TextboxTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 TextboxTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)TextboxTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)TextboxTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] TextboxTitle['\x54\x65\x78\x74']=VhsYYSHcG38 TextboxTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TextboxTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 TextboxTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] TextboxFrame['\x4e\x61\x6d\x65']="\x54\x65\x78\x74\x62\x6f\x78\x46\x72\x61\x6d\x65"TextboxFrame['\x50\x61\x72\x65\x6e\x74']=TextboxTitle TextboxFrame['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](37,37,37)TextboxFrame['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](1.28877008,0,0.214285716,0)TextboxFrame['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,100,0,23)TextboxFrameCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)TextboxFrameCorner['\x4e\x61\x6d\x65']="\x54\x65\x78\x74\x62\x6f\x78\x46\x72\x61\x6d\x65\x43\x6f\x72\x6e\x65\x72"TextboxFrameCorner['\x50\x61\x72\x65\x6e\x74']=TextboxFrame TextBox['\x50\x61\x72\x65\x6e\x74']=TextboxFrame TextBox['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TextBox['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 TextBox['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,100,0,23)TextBox['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] TextBox['\x54\x65\x78\x74']=""TextBox['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)TextBox['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 TextBox['\x46\x6f\x63\x75\x73\x4c\x6f\x73\x74']:Connect(function(BrhdW41)if BrhdW41 then if#TextBox['\x54\x65\x78\x74']>0 then pcall(FFTcn40,TextBox['\x54\x65\x78\x74'])if BCvSAKD39 then TextBox['\x54\x65\x78\x74']=""end end end end)Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])end function tabcontent:Bind(ld42,MQa43,v44)local binding=false local Key=MQa43['\x4e\x61\x6d\x65'] local Bind=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x42\x75\x74\x74\x6f\x6e")local BindCorner=Instance['\x6e\x65\x77']("\x55\x49\x43\x6f\x72\x6e\x65\x72")local BindTitle=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")local BindText=Instance['\x6e\x65\x77']("\x54\x65\x78\x74\x4c\x61\x62\x65\x6c")Bind['\x4e\x61\x6d\x65']="\x42\x69\x6e\x64"Bind['\x50\x61\x72\x65\x6e\x74']=Tab Bind['\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=0.5 Bind['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](34,34,34)Bind['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,363,0,42)Bind['\x41\x75\x74\x6f\x42\x75\x74\x74\x6f\x6e\x43\x6f\x6c\x6f\x72']=false Bind['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x53\x6f\x75\x72\x63\x65\x53\x61\x6e\x73'] Bind['\x54\x65\x78\x74']=""Bind['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](0,0,0)Bind['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 BindCorner['\x43\x6f\x72\x6e\x65\x72\x52\x61\x64\x69\x75\x73']=UDim['\x6e\x65\x77'](0,5)BindCorner['\x4e\x61\x6d\x65']="\x42\x69\x6e\x64\x43\x6f\x72\x6e\x65\x72"BindCorner['\x50\x61\x72\x65\x6e\x74']=Bind BindTitle['\x4e\x61\x6d\x65']="\x42\x69\x6e\x64\x54\x69\x74\x6c\x65"BindTitle['\x50\x61\x72\x65\x6e\x74']=Bind BindTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)BindTitle['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 BindTitle['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)BindTitle['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,187,0,42)BindTitle['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] BindTitle['\x54\x65\x78\x74']=ld42 BindTitle['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)BindTitle['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 BindTitle['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x4c\x65\x66\x74'] BindText['\x4e\x61\x6d\x65']="\x42\x69\x6e\x64\x54\x65\x78\x74"BindText['\x50\x61\x72\x65\x6e\x74']=Bind BindText['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)BindText['\x42\x61\x63\x6b\x67\x72\x6f\x75\x6e\x64\x54\x72\x61\x6e\x73\x70\x61\x72\x65\x6e\x63\x79']=1.000 BindText['\x50\x6f\x73\x69\x74\x69\x6f\x6e']=UDim2['\x6e\x65\x77'](0.0358126722,0,0,0)BindText['\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,337,0,42)BindText['\x46\x6f\x6e\x74']=Enum['\x46\x6f\x6e\x74']['\x47\x6f\x74\x68\x61\x6d'] BindText['\x54\x65\x78\x74']=Key BindText['\x54\x65\x78\x74\x43\x6f\x6c\x6f\x72\x33']=Color3['\x66\x72\x6f\x6d\x52\x47\x42'](255,255,255)BindText['\x54\x65\x78\x74\x53\x69\x7a\x65']=14.000 BindText['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']=Enum['\x54\x65\x78\x74\x58\x41\x6c\x69\x67\x6e\x6d\x65\x6e\x74']['\x52\x69\x67\x68\x74'] Tab['\x43\x61\x6e\x76\x61\x73\x53\x69\x7a\x65']=UDim2['\x6e\x65\x77'](0,0,0,TabLayout['\x41\x62\x73\x6f\x6c\x75\x74\x65\x43\x6f\x6e\x74\x65\x6e\x74\x53\x69\x7a\x65']['\x59'])Bind['\x4d\x6f\x75\x73\x65\x42\x75\x74\x74\x6f\x6e\x31\x43\x6c\x69\x63\x6b']:Connect(function()BindText['\x54\x65\x78\x74']="\x2e\x2e\x2e"binding=true local inputwait=UserInputService['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:wait()if inputwait['\x4b\x65\x79\x43\x6f\x64\x65']['\x4e\x61\x6d\x65\x7e']="\x55\x6e\x6b\x6e\x6f\x77\x6e"then BindText['\x54\x65\x78\x74']=inputwait['\x4b\x65\x79\x43\x6f\x64\x65']['\x4e\x61\x6d\x65'] Key=inputwait['\x4b\x65\x79\x43\x6f\x64\x65']['\x4e\x61\x6d\x65'] binding=false else binding=false end end)UserInputService['\x49\x6e\x70\x75\x74\x42\x65\x67\x61\x6e']:connect(function(CZia45,_sAaLX46)if not _sAaLX46 then if CZia45['\x4b\x65\x79\x43\x6f\x64\x65']['\x4e\x61\x6d\x65']==Key and binding==false then pcall(v44)end end end)end return tabcontent end return tabhold end return Library
+if game.CoreGui:FindFirstChild("UI") then
+    DestroyUI()
+end
+local Library = {RainbowColorValue = 0, HueSelectionPosition = 0}
+local UserInputService = game.UserInputService
+local TweenService = game.TweenService
+local RunService = game.RunService
+local Mouse = game.Players.LocalPlayer:GetMouse()
+local MouseMovement = Enum.UserInputType.MouseMovement
+local MouseButton1 = Enum.UserInputType.MouseButton1
+local Touch = Enum.UserInputType.Touch
+
+local UI = Instance.new("ScreenGui")
+UI.Name = "UI"
+UI.Parent = game.CoreGui
+UI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+function DestroyUI()
+    UI:Destroy()
+end
+
+coroutine.wrap(
+    function()
+        while wait() do
+            Library.RainbowColorValue = Library.RainbowColorValue + 1 / 255
+            Library.HueSelectionPosition = Library.HueSelectionPosition + 1
+
+            if Library.RainbowColorValue >= 1 then
+                Library.RainbowColorValue = 0
+            end
+
+            if Library.HueSelectionPosition == 80 then
+                Library.HueSelectionPosition = 0
+            end
+        end
+    end
+)()
+
+local function MakeDraggable(topbarobject, object)
+    local Dragging = nil
+    local DragInput = nil
+    local DragStart = nil
+    local StartPosition = nil
+
+    local function Update(input)
+        local Delta = input.Position - DragStart
+        local pos =
+            UDim2.new(
+            StartPosition.X.Scale,
+            StartPosition.X.Offset + Delta.X,
+            StartPosition.Y.Scale,
+            StartPosition.Y.Offset + Delta.Y
+        )
+        object.Position = pos
+    end
+
+    topbarobject.InputBegan:Connect(
+        function(input)
+            if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                Dragging = true
+                DragStart = input.Position
+                StartPosition = object.Position
+
+                input.Changed:Connect(
+                    function()
+                        if input.UserInputState == Enum.UserInputState.End then
+                            Dragging = false
+                        end
+                    end
+                )
+            end
+        end
+    )
+
+    topbarobject.InputChanged:Connect(
+        function(input)
+            if
+                input.UserInputType == MouseMovement or
+                    input.UserInputType == Touch
+             then
+                DragInput = input
+            end
+        end
+    )
+
+    UserInputService.InputChanged:Connect(
+        function(input)
+            if input == DragInput and Dragging then
+                Update(input)
+            end
+        end
+    )
+end
+
+function Library:Window(name, game, preset, closebind)
+    CloseBind = closebind or Enum.KeyCode.RightControl
+    PresetColor = preset or Color3.fromRGB(0, 240, 104)
+    fs = false
+    local Switch = Instance.new("ImageButton")
+    local SwitchCorner = Instance.new("UICorner")
+    local Main = Instance.new("Frame")
+    local TabHold = Instance.new("Frame")
+    local TabHoldLayout = Instance.new("UIListLayout")
+    local Title = Instance.new("TextLabel")
+    local TabFolder = Instance.new("Folder")
+    local DragFrame = Instance.new("Frame")
+
+    Switch.Name = "Switch"
+    Switch.Parent = UI
+    Switch.Draggable = true
+    Switch.Image = "rbxassetid://15512382151"
+    Switch.BackgroundTransparency = 1
+    Switch.Position = UDim2.new(0.2, 0, 0, 0)
+    Switch.Size = UDim2.new(0, 50, 0, 50)
+
+    SwitchCorner.CornerRadius = UDim.new(0.5, 0)
+    SwitchCorner.Name = "SwitchCorner"
+    SwitchCorner.Parent = Switch
+
+    Main.Name = "Main"
+    Main.Parent = UI
+    Main.AnchorPoint = Vector2.new(0.5, 0.5)
+    Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    Main.BorderSizePixel = 0
+    Main.Transparency = 0.5
+    Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+    Main.Size = UDim2.new(0, 0, 0, 0)
+    Main.ClipsDescendants = true
+    Main.Visible = true
+
+    TabHold.Name = "TabHold"
+    TabHold.Parent = Main
+    TabHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TabHold.BackgroundTransparency = 1.000
+    TabHold.Position = UDim2.new(0.0339285731, 0, 0.147335425, 0)
+    TabHold.Size = UDim2.new(0, 107, 0, 254)
+
+    TabHoldLayout.Name = "TabHoldLayout"
+    TabHoldLayout.Parent = TabHold
+    TabHoldLayout.SortOrder = Enum.SortOrder.LayoutOrder
+    TabHoldLayout.Padding = UDim.new(0, 11)
+
+    Title.Name = "Title"
+    Title.Parent = Main
+    Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    Title.BackgroundTransparency = 1.000
+    Title.Position = UDim2.new(0.0339285731, 0, 0.0564263314, 0)
+    Title.Size = UDim2.new(0, 200, 0, 23)
+    Title.Font = Enum.Font.GothamSemibold
+    Title.Text = game
+    Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    Title.TextSize = 12.000
+    Title.TextXAlignment = Enum.TextXAlignment.Left
+
+    DragFrame.Name = "DragFrame"
+    DragFrame.Parent = Main
+    DragFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    DragFrame.BackgroundTransparency = 1.000
+    DragFrame.Size = UDim2.new(0, 560, 0, 41)
+
+    Main:TweenSize(UDim2.new(0, 560, 0, 319), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+
+    MakeDraggable(DragFrame, Main)
+
+    local uitoggled = false
+    function ToggleUI()
+        if uitoggled == false then
+            Main:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+            uitoggled = true
+        else
+            Main:TweenSize(UDim2.new(0, 560, 0, 319), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, .6, true)
+            uitoggled = false
+        end
+    end
+    Switch.MouseButton1Click:Connect(
+        function()
+            ToggleUI()
+        end
+    )
+    UserInputService.InputBegan:Connect(
+        function(io, p)
+            if io.KeyCode == CloseBind then
+                ToggleUI()
+            end
+        end
+    )
+
+    TabFolder.Name = "TabFolder"
+    TabFolder.Parent = Main
+
+    function Library:ChangePresetColor(toch)
+        PresetColor = toch
+    end
+
+    function Library:Notification(texttitle, textdesc, textbtn)
+        local NotificationHold = Instance.new("TextButton")
+        local NotificationFrame = Instance.new("Frame")
+        local OkayBtn = Instance.new("TextButton")
+        local OkayBtnCorner = Instance.new("UICorner")
+        local OkayBtnTitle = Instance.new("TextLabel")
+        local NotificationTitle = Instance.new("TextLabel")
+        local NotificationDesc = Instance.new("TextLabel")
+
+        NotificationHold.Name = "NotificationHold"
+        NotificationHold.Parent = Main
+        NotificationHold.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        NotificationHold.BackgroundTransparency = 1.000
+        NotificationHold.BorderSizePixel = 0
+        NotificationHold.Size = UDim2.new(0, 560, 0, 319)
+        NotificationHold.AutoButtonColor = false
+        NotificationHold.Font = Enum.Font.SourceSans
+        NotificationHold.Text = ""
+        NotificationHold.TextColor3 = Color3.fromRGB(0, 0, 0)
+        NotificationHold.TextSize = 14.000
+
+        TweenService:Create(
+            NotificationHold,
+            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+            {BackgroundTransparency = 0.7}
+        ):Play()
+        wait(0.4)
+
+        NotificationFrame.Name = "NotificationFrame"
+        NotificationFrame.Parent = NotificationHold
+        NotificationFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+        NotificationFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+        NotificationFrame.BorderSizePixel = 0
+        NotificationFrame.ClipsDescendants = true
+        NotificationFrame.Position = UDim2.new(0.5, 0, 0.498432577, 0)
+
+        NotificationFrame:TweenSize(
+            UDim2.new(0, 164, 0, 193),
+            Enum.EasingDirection.Out,
+            Enum.EasingStyle.Quart,
+            .6,
+            true
+        )
+
+        OkayBtn.Name = "OkayBtn"
+        OkayBtn.Parent = NotificationFrame
+        OkayBtn.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+        OkayBtn.Position = UDim2.new(0.0609756112, 0, 0.720207274, 0)
+        OkayBtn.Size = UDim2.new(0, 144, 0, 42)
+        OkayBtn.AutoButtonColor = false
+        OkayBtn.Font = Enum.Font.SourceSans
+        OkayBtn.Text = ""
+        OkayBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+        OkayBtn.TextSize = 14.000
+
+        OkayBtnCorner.CornerRadius = UDim.new(0, 5)
+        OkayBtnCorner.Name = "OkayBtnCorner"
+        OkayBtnCorner.Parent = OkayBtn
+
+        OkayBtnTitle.Name = "OkayBtnTitle"
+        OkayBtnTitle.Parent = OkayBtn
+        OkayBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        OkayBtnTitle.BackgroundTransparency = 1.000
+        OkayBtnTitle.Position = UDim2.new(0.0763888881, 0, 0, 0)
+        OkayBtnTitle.Size = UDim2.new(0, 181, 0, 42)
+        OkayBtnTitle.Font = Enum.Font.Gotham
+        OkayBtnTitle.Text = textbtn
+        OkayBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+        OkayBtnTitle.TextSize = 14.000
+        OkayBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        NotificationTitle.Name = "NotificationTitle"
+        NotificationTitle.Parent = NotificationFrame
+        NotificationTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationTitle.BackgroundTransparency = 1.000
+        NotificationTitle.Position = UDim2.new(0.0670731738, 0, 0.0829015523, 0)
+        NotificationTitle.Size = UDim2.new(0, 143, 0, 26)
+        NotificationTitle.Font = Enum.Font.Gotham
+        NotificationTitle.Text = texttitle
+        NotificationTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationTitle.TextSize = 18.000
+        NotificationTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        NotificationDesc.Name = "NotificationDesc"
+        NotificationDesc.Parent = NotificationFrame
+        NotificationDesc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationDesc.BackgroundTransparency = 1.000
+        NotificationDesc.Position = UDim2.new(0.0670000017, 0, 0.218999997, 0)
+        NotificationDesc.Size = UDim2.new(0, 143, 0, 91)
+        NotificationDesc.Font = Enum.Font.Gotham
+        NotificationDesc.Text = textdesc
+        NotificationDesc.TextColor3 = Color3.fromRGB(255, 255, 255)
+        NotificationDesc.TextSize = 15.000
+        NotificationDesc.TextWrapped = true
+        NotificationDesc.TextXAlignment = Enum.TextXAlignment.Left
+        NotificationDesc.TextYAlignment = Enum.TextYAlignment.Top
+
+        OkayBtn.MouseEnter:Connect(
+            function()
+                TweenService:Create(
+                    OkayBtn,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}
+                ):Play()
+            end
+        )
+
+        OkayBtn.MouseLeave:Connect(
+            function()
+                TweenService:Create(
+                    OkayBtn,
+                    TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundColor3 = Color3.fromRGB(34, 34, 34)}
+                ):Play()
+            end
+        )
+
+        OkayBtn.MouseButton1Click:Connect(
+            function()
+                NotificationFrame:TweenSize(
+                    UDim2.new(0, 0, 0, 0),
+                    Enum.EasingDirection.Out,
+                    Enum.EasingStyle.Quart,
+                    .6,
+                    true
+                )
+
+                wait(0.4)
+
+                TweenService:Create(
+                    NotificationHold,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundTransparency = 1}
+                ):Play()
+
+                wait(.3)
+
+                NotificationHold:Destroy()
+            end
+        )
+    end
+    local tabhold = {}
+    function tabhold:Tab(text)
+        local TabBtn = Instance.new("TextButton")
+        local TabTitle = Instance.new("TextLabel")
+        local TabBtnIndicator = Instance.new("Frame")
+        local TabBtnIndicatorCorner = Instance.new("UICorner")
+
+        TabBtn.Name = "TabBtn"
+        TabBtn.Parent = TabHold
+        TabBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TabBtn.BackgroundTransparency = 1.000
+        TabBtn.Size = UDim2.new(0, 107, 0, 21)
+        TabBtn.Font = Enum.Font.SourceSans
+        TabBtn.Text = ""
+        TabBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+        TabBtn.TextSize = 14.000
+
+        TabTitle.Name = "TabTitle"
+        TabTitle.Parent = TabBtn
+        TabTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        TabTitle.BackgroundTransparency = 1.000
+        TabTitle.Size = UDim2.new(0, 107, 0, 21)
+        TabTitle.Font = Enum.Font.Gotham
+        TabTitle.Text = text
+        TabTitle.TextColor3 = Color3.fromRGB(150, 150, 150)
+        TabTitle.TextSize = 14.000
+        TabTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+        TabBtnIndicator.Name = "TabBtnIndicator"
+        TabBtnIndicator.Parent = TabBtn
+        TabBtnIndicator.BackgroundColor3 = PresetColor
+        TabBtnIndicator.BorderSizePixel = 0
+        TabBtnIndicator.Position = UDim2.new(0, 0, 1, 0)
+        TabBtnIndicator.Size = UDim2.new(0, 0, 0, 2)
+
+        TabBtnIndicatorCorner.Name = "TabBtnIndicatorCorner"
+        TabBtnIndicatorCorner.Parent = TabBtnIndicator
+
+        coroutine.wrap(
+            function()
+                while wait() do
+                    TabBtnIndicator.BackgroundColor3 = PresetColor
+                end
+            end
+        )()
+
+        local Tab = Instance.new("ScrollingFrame")
+        local TabLayout = Instance.new("UIListLayout")
+
+        Tab.Name = "Tab"
+        Tab.Parent = TabFolder
+        Tab.Active = true
+        Tab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+        Tab.BackgroundTransparency = 1.000
+        Tab.BorderSizePixel = 0
+        Tab.Position = UDim2.new(0.31400001, 0, 0.147, 0)
+        Tab.Size = UDim2.new(0, 373, 0, 254)
+        Tab.CanvasSize = UDim2.new(0, 0, 0, 0)
+        Tab.ScrollBarThickness = 3
+        Tab.ScrollingDirection = Enum.ScrollingDirection.Y
+        Tab.Visible = false
+
+        TabLayout.Name = "TabLayout"
+        TabLayout.Parent = Tab
+        TabLayout.SortOrder = Enum.SortOrder.LayoutOrder
+        TabLayout.Padding = UDim.new(0, 6)
+
+        if fs == false then
+            fs = true
+            TabBtnIndicator.Size = UDim2.new(0, 13, 0, 2)
+            TabTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Tab.Visible = true
+        end
+
+        TabBtn.MouseButton1Click:Connect(
+            function()
+                for i, v in next, TabFolder:GetChildren() do
+                    if v.Name == "Tab" then
+                        v.Visible = false
+                    end
+                    Tab.Visible = true
+                end
+                for i, v in next, TabHold:GetChildren() do
+                    if v.Name == "TabBtn" then
+                        v.TabBtnIndicator:TweenSize(
+                            UDim2.new(0, 0, 0, 2),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        TabBtnIndicator:TweenSize(
+                            UDim2.new(0, 13, 0, 2),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        TweenService:Create(
+                            v.TabTitle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {TextColor3 = Color3.fromRGB(150, 150, 150)}
+                        ):Play()
+                        TweenService:Create(
+                            TabTitle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {TextColor3 = Color3.fromRGB(255, 255, 255)}
+                        ):Play()
+                    end
+                end
+            end
+        )
+        local tabcontent = {}
+        function tabcontent:Button(text, callback)
+            local Button = Instance.new("TextButton")
+            local ButtonCorner = Instance.new("UICorner")
+            local ButtonTitle = Instance.new("TextLabel")
+
+            Button.Name = "Button"
+            Button.Parent = Tab
+            Button.Transparency = 0.5
+            Button.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Button.Size = UDim2.new(0, 363, 0, 42)
+            Button.AutoButtonColor = false
+            Button.Font = Enum.Font.SourceSans
+            Button.Text = ""
+            Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Button.TextSize = 14.000
+
+            ButtonCorner.CornerRadius = UDim.new(0, 5)
+            ButtonCorner.Name = "ButtonCorner"
+            ButtonCorner.Parent = Button
+
+            ButtonTitle.Name = "ButtonTitle"
+            ButtonTitle.Parent = Button
+            ButtonTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ButtonTitle.BackgroundTransparency = 1.000
+            ButtonTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            ButtonTitle.Size = UDim2.new(0, 187, 0, 42)
+            ButtonTitle.Font = Enum.Font.Gotham
+            ButtonTitle.Text = text
+            ButtonTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ButtonTitle.TextSize = 14.000
+            ButtonTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            Button.MouseEnter:Connect(
+                function()
+                    TweenService:Create(
+                        Button,
+                        TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}
+                    ):Play()
+                end
+            )
+
+            Button.MouseLeave:Connect(
+                function()
+                    TweenService:Create(
+                        Button,
+                        TweenInfo.new(.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                        {BackgroundColor3 = Color3.fromRGB(34, 34, 34)}
+                    ):Play()
+                end
+            )
+
+            Button.MouseButton1Click:Connect(
+                function()
+                    pcall(callback)
+                end
+            )
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Toggle(text,default, callback)
+            local toggled = false
+
+            local Toggle = Instance.new("TextButton")
+            local ToggleCorner = Instance.new("UICorner")
+            local ToggleTitle = Instance.new("TextLabel")
+            local FrameToggle1 = Instance.new("Frame")
+            local FrameToggle1Corner = Instance.new("UICorner")
+            local FrameToggle2 = Instance.new("Frame")
+            local FrameToggle2Corner = Instance.new("UICorner")
+            local FrameToggle3 = Instance.new("Frame")
+            local FrameToggle3Corner = Instance.new("UICorner")
+            local FrameToggleCircle = Instance.new("Frame")
+            local FrameToggleCircleCorner = Instance.new("UICorner")
+
+            Toggle.Name = "Toggle"
+            Toggle.Parent = Tab
+            Toggle.Transparency = 0.5
+            Toggle.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Toggle.Position = UDim2.new(0.215625003, 0, 0.446271926, 0)
+            Toggle.Size = UDim2.new(0, 363, 0, 42)
+            Toggle.AutoButtonColor = false
+            Toggle.Font = Enum.Font.SourceSans
+            Toggle.Text = ""
+            Toggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Toggle.TextSize = 14.000
+
+            ToggleCorner.CornerRadius = UDim.new(0, 5)
+            ToggleCorner.Name = "ToggleCorner"
+            ToggleCorner.Parent = Toggle
+
+            ToggleTitle.Name = "ToggleTitle"
+            ToggleTitle.Parent = Toggle
+            ToggleTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ToggleTitle.BackgroundTransparency = 1.000
+            ToggleTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            ToggleTitle.Size = UDim2.new(0, 187, 0, 42)
+            ToggleTitle.Font = Enum.Font.Gotham
+            ToggleTitle.Text = text
+            ToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ToggleTitle.TextSize = 14.000
+            ToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            FrameToggle1.Name = "FrameToggle1"
+            FrameToggle1.Parent = Toggle
+            FrameToggle1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            FrameToggle1.Position = UDim2.new(0.859504104, 0, 0.285714298, 0)
+            FrameToggle1.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameToggle1Corner.Name = "FrameToggle1Corner"
+            FrameToggle1Corner.Parent = FrameToggle1
+
+            FrameToggle2.Name = "FrameToggle2"
+            FrameToggle2.Parent = FrameToggle1
+            FrameToggle2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            FrameToggle2.Position = UDim2.new(0.0489999987, 0, 0.0930000022, 0)
+            FrameToggle2.Size = UDim2.new(0, 33, 0, 14)
+
+            FrameToggle2Corner.Name = "FrameToggle2Corner"
+            FrameToggle2Corner.Parent = FrameToggle2
+
+            FrameToggle3.Name = "FrameToggle3"
+            FrameToggle3.Parent = FrameToggle1
+            FrameToggle3.BackgroundColor3 = PresetColor
+            FrameToggle3.BackgroundTransparency = 1.000
+            FrameToggle3.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameToggle3Corner.Name = "FrameToggle3Corner"
+            FrameToggle3Corner.Parent = FrameToggle3
+
+            FrameToggleCircle.Name = "FrameToggleCircle"
+            FrameToggleCircle.Parent = FrameToggle1
+            FrameToggleCircle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            FrameToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+            FrameToggleCircle.Size = UDim2.new(0, 10, 0, 10)
+
+            FrameToggleCircleCorner.Name = "FrameToggleCircleCorner"
+            FrameToggleCircleCorner.Parent = FrameToggleCircle
+
+            coroutine.wrap(
+                function()
+                    while wait() do
+                        FrameToggle3.BackgroundColor3 = PresetColor
+                    end
+                end
+            )()
+
+            Toggle.MouseButton1Click:Connect(
+                function()
+                    if toggled == false then
+                        TweenService:Create(
+                            Toggle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle1,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle2,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle3,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggleCircle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
+                        ):Play()
+                        FrameToggleCircle:TweenPosition(
+                            UDim2.new(0.587, 0, 0.222000003, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                    else
+                        TweenService:Create(
+                            Toggle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(34, 34, 34)}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle1,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle2,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggle3,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameToggleCircle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}
+                        ):Play()
+                        FrameToggleCircle:TweenPosition(
+                            UDim2.new(0.127000004, 0, 0.222000003, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                    end
+                    toggled = not toggled
+                    pcall(callback, toggled)
+                end
+            )
+
+            if default == true then
+                TweenService:Create(
+                    Toggle,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}
+                ):Play()
+                TweenService:Create(
+                    FrameToggle1,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundTransparency = 1}
+                ):Play()
+                TweenService:Create(
+                    FrameToggle2,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundTransparency = 1}
+                ):Play()
+                TweenService:Create(
+                    FrameToggle3,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundTransparency = 0}
+                ):Play()
+                TweenService:Create(
+                    FrameToggleCircle,
+                    TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                    {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
+                ):Play()
+                FrameToggleCircle:TweenPosition(
+                    UDim2.new(0.587, 0, 0.222000003, 0),
+                    Enum.EasingDirection.Out,
+                    Enum.EasingStyle.Quart,
+                    .2,
+                    true
+                )
+                toggled = not toggled
+            end
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Slider(text, min, max, start, callback)
+            local dragging = false
+            local Slider = Instance.new("TextButton")
+            local SliderCorner = Instance.new("UICorner")
+            local SliderTitle = Instance.new("TextLabel")
+            local SliderValue = Instance.new("TextLabel")
+            local SlideFrame = Instance.new("Frame")
+            local CurrentValueFrame = Instance.new("Frame")
+            local SlideCircle = Instance.new("ImageButton")
+
+            Slider.Name = "Slider"
+            Slider.Parent = Tab
+            Slider.Transparency = 0.5
+            Slider.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Slider.Position = UDim2.new(-0.48035714, 0, -0.570532918, 0)
+            Slider.Size = UDim2.new(0, 363, 0, 60)
+            Slider.AutoButtonColor = false
+            Slider.Font = Enum.Font.SourceSans
+            Slider.Text = ""
+            Slider.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Slider.TextSize = 14.000
+
+            SliderCorner.CornerRadius = UDim.new(0, 5)
+            SliderCorner.Name = "SliderCorner"
+            SliderCorner.Parent = Slider
+
+            SliderTitle.Name = "SliderTitle"
+            SliderTitle.Parent = Slider
+            SliderTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            SliderTitle.BackgroundTransparency = 1.000
+            SliderTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            SliderTitle.Size = UDim2.new(0, 187, 0, 42)
+            SliderTitle.Font = Enum.Font.Gotham
+            SliderTitle.Text = text
+            SliderTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            SliderTitle.TextSize = 14.000
+            SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            SliderValue.Name = "SliderValue"
+            SliderValue.Parent = Slider
+            SliderValue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            SliderValue.BackgroundTransparency = 1.000
+            SliderValue.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            SliderValue.Size = UDim2.new(0, 335, 0, 42)
+            SliderValue.Font = Enum.Font.Gotham
+            SliderValue.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
+            SliderValue.TextColor3 = Color3.fromRGB(255, 255, 255)
+            SliderValue.TextSize = 14.000
+            SliderValue.TextXAlignment = Enum.TextXAlignment.Right
+
+            SlideFrame.Name = "SlideFrame"
+            SlideFrame.Parent = Slider
+            SlideFrame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            SlideFrame.BorderSizePixel = 0
+            SlideFrame.Position = UDim2.new(0.0342647657, 0, 0.686091602, 0)
+            SlideFrame.Size = UDim2.new(0, 335, 0, 3)
+
+            CurrentValueFrame.Name = "CurrentValueFrame"
+            CurrentValueFrame.Parent = SlideFrame
+            CurrentValueFrame.BackgroundColor3 = PresetColor
+            CurrentValueFrame.BorderSizePixel = 0
+            CurrentValueFrame.Size = UDim2.new((start or 0) / max, 0, 0, 3)
+
+            SlideCircle.Name = "SlideCircle"
+            SlideCircle.Parent = SlideFrame
+            SlideCircle.BackgroundColor3 = PresetColor
+            SlideCircle.BackgroundTransparency = 1.000
+            SlideCircle.Position = UDim2.new((start or 0) / max, -6, -1.30499995, 0)
+            SlideCircle.Size = UDim2.new(0, 11, 0, 11)
+            SlideCircle.Image = "rbxassetid://3570695787"
+            SlideCircle.ImageColor3 = PresetColor
+
+            coroutine.wrap(
+                function()
+                    while wait() do
+                        CurrentValueFrame.BackgroundColor3 = PresetColor
+                        SlideCircle.ImageColor3 = PresetColor
+                    end
+                end
+            )()
+
+            local function move(input)
+                local pos =
+                    UDim2.new(
+                    math.clamp((input.Position.X - SlideFrame.AbsolutePosition.X) / SlideFrame.AbsoluteSize.X, 0, 1),
+                    -6,
+                    -1.30499995,
+                    0
+                )
+                local pos1 =
+                    UDim2.new(
+                    math.clamp((input.Position.X - SlideFrame.AbsolutePosition.X) / SlideFrame.AbsoluteSize.X, 0, 1),
+                    0,
+                    0,
+                    3
+                )
+                CurrentValueFrame:TweenSize(pos1, "Out", "Sine", 0.1, true)
+                SlideCircle:TweenPosition(pos, "Out", "Sine", 0.1, true)
+                local value = math.floor(((pos.X.Scale * max) / max) * (max - min) + min)
+                SliderValue.Text = tostring(value)
+                pcall(callback, value)
+            end
+            SlideCircle.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        dragging = true
+                    end
+                end
+            )
+            UserInputService.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        dragging = false
+                    end
+                end
+            )
+            UserInputService.InputChanged:Connect(
+                function(input)
+                    if dragging then
+                        if input.UserInputType == MouseMovement or input.UserInputType == Touch then
+                            move(input)
+                        end
+                    end
+                end
+            )
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Dropdown(text, list, callback)
+            local droptog = false
+            local framesize = 0
+            local itemcount = 0
+
+            local Dropdown = Instance.new("Frame")
+            local DropdownCorner = Instance.new("UICorner")
+            local DropdownBtn = Instance.new("TextButton")
+            local DropdownTitle = Instance.new("TextLabel")
+            local ArrowImg = Instance.new("ImageLabel")
+            local DropItemHolder = Instance.new("ScrollingFrame")
+            local DropLayout = Instance.new("UIListLayout")
+
+            Dropdown.Name = "Dropdown"
+            Dropdown.Parent = Tab
+            Dropdown.Transparency = 0.5
+            Dropdown.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Dropdown.ClipsDescendants = true
+            Dropdown.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
+            Dropdown.Size = UDim2.new(0, 363, 0, 42)
+
+            DropdownCorner.CornerRadius = UDim.new(0, 5)
+            DropdownCorner.Name = "DropdownCorner"
+            DropdownCorner.Parent = Dropdown
+
+            DropdownBtn.Name = "DropdownBtn"
+            DropdownBtn.Parent = Dropdown
+            DropdownBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            DropdownBtn.BackgroundTransparency = 1.000
+            DropdownBtn.Size = UDim2.new(0, 363, 0, 42)
+            DropdownBtn.Font = Enum.Font.SourceSans
+            DropdownBtn.Text = ""
+            DropdownBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+            DropdownBtn.TextSize = 14.000
+
+            DropdownTitle.Name = "DropdownTitle"
+            DropdownTitle.Parent = Dropdown
+            DropdownTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            DropdownTitle.BackgroundTransparency = 1.000
+            DropdownTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            DropdownTitle.Size = UDim2.new(0, 187, 0, 42)
+            DropdownTitle.Font = Enum.Font.Gotham
+            DropdownTitle.Text = text
+            DropdownTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            DropdownTitle.TextSize = 14.000
+            DropdownTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            ArrowImg.Name = "ArrowImg"
+            ArrowImg.Parent = DropdownTitle
+            ArrowImg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ArrowImg.BackgroundTransparency = 1.000
+            ArrowImg.Position = UDim2.new(1.65240645, 0, 0.190476194, 0)
+            ArrowImg.Size = UDim2.new(0, 26, 0, 26)
+            ArrowImg.Image = "http://www.roblox.com/asset/?id=6034818375"
+
+            DropItemHolder.Name = "DropItemHolder"
+            DropItemHolder.Parent = DropdownTitle
+            DropItemHolder.Active = true
+            DropItemHolder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            DropItemHolder.BackgroundTransparency = 1.000
+            DropItemHolder.BorderSizePixel = 0
+            DropItemHolder.Position = UDim2.new(-0.00400000019, 0, 1.04999995, 0)
+            DropItemHolder.Size = UDim2.new(0, 342, 0, 0)
+            DropItemHolder.CanvasSize = UDim2.new(0, 0, 0, 0)
+            DropItemHolder.ScrollBarThickness = 3
+
+            DropLayout.Name = "DropLayout"
+            DropLayout.Parent = DropItemHolder
+            DropLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+            DropdownBtn.MouseButton1Click:Connect(
+                function()
+                    if droptog == false then
+                        Dropdown:TweenSize(
+                            UDim2.new(0, 363, 0, 55 + framesize),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        TweenService:Create(
+                            ArrowImg,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 270}
+                        ):Play()
+                        wait(.2)
+                        Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                    else
+                        Dropdown:TweenSize(
+                            UDim2.new(0, 363, 0, 42),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        TweenService:Create(
+                            ArrowImg,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 0}
+                        ):Play()
+                        wait(.2)
+                        Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                    end
+                    droptog = not droptog
+                end
+            )
+
+            for i, v in next, list do
+                itemcount = itemcount + 1
+                if itemcount <= 3 then
+                    framesize = framesize + 26
+                    DropItemHolder.Size = UDim2.new(0, 342, 0, framesize)
+                end
+                local Item = Instance.new("TextButton")
+                local ItemCorner = Instance.new("UICorner")
+
+                Item.Name = "Item"
+                Item.Parent = DropItemHolder
+                Item.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+                Item.ClipsDescendants = true
+                Item.Size = UDim2.new(0, 335, 0, 25)
+                Item.AutoButtonColor = false
+                Item.Font = Enum.Font.Gotham
+                Item.Text = v
+                Item.TextColor3 = Color3.fromRGB(255, 255, 255)
+                Item.TextSize = 15.000
+
+                ItemCorner.CornerRadius = UDim.new(0, 4)
+                ItemCorner.Name = "ItemCorner"
+                ItemCorner.Parent = Item
+
+                Item.MouseEnter:Connect(
+                    function()
+                        TweenService:Create(
+                            Item,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(37, 37, 37)}
+                        ):Play()
+                    end
+                )
+
+                Item.MouseLeave:Connect(
+                    function()
+                        TweenService:Create(
+                            Item,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(34, 34, 34)}
+                        ):Play()
+                    end
+                )
+
+                Item.MouseButton1Click:Connect(
+                    function()
+                        droptog = not droptog
+                        DropdownTitle.Text = text .. " - " .. v
+                        pcall(callback, v)
+                        Dropdown:TweenSize(
+                            UDim2.new(0, 363, 0, 42),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        TweenService:Create(
+                            ArrowImg,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {Rotation = 0}
+                        ):Play()
+                        wait(.2)
+                        Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                    end
+                )
+
+                DropItemHolder.CanvasSize = UDim2.new(0, 0, 0, DropLayout.AbsoluteContentSize.Y)
+            end
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Colorpicker(text, preset, callback)
+            local ColorPickerToggled = false
+            local OldToggleColor = Color3.fromRGB(0, 0, 0)
+            local OldColor = Color3.fromRGB(0, 0, 0)
+            local OldColorSelectionPosition = nil
+            local OldHueSelectionPosition = nil
+            local ColorH, ColorS, ColorV = 1, 1, 1
+            local RainbowColorPicker = false
+            local ColorPickerInput = nil
+            local ColorInput = nil
+            local HueInput = nil
+
+            local Colorpicker = Instance.new("Frame")
+            local ColorpickerCorner = Instance.new("UICorner")
+            local ColorpickerTitle = Instance.new("TextLabel")
+            local BoxColor = Instance.new("Frame")
+            local BoxColorCorner = Instance.new("UICorner")
+            local ConfirmBtn = Instance.new("TextButton")
+            local ConfirmBtnCorner = Instance.new("UICorner")
+            local ConfirmBtnTitle = Instance.new("TextLabel")
+            local ColorpickerBtn = Instance.new("TextButton")
+            local RainbowToggle = Instance.new("TextButton")
+            local RainbowToggleCorner = Instance.new("UICorner")
+            local RainbowToggleTitle = Instance.new("TextLabel")
+            local FrameRainbowToggle1 = Instance.new("Frame")
+            local FrameRainbowToggle1Corner = Instance.new("UICorner")
+            local FrameRainbowToggle2 = Instance.new("Frame")
+            local FrameRainbowToggle2_2 = Instance.new("UICorner")
+            local FrameRainbowToggle3 = Instance.new("Frame")
+            local FrameToggle3 = Instance.new("UICorner")
+            local FrameRainbowToggleCircle = Instance.new("Frame")
+            local FrameRainbowToggleCircleCorner = Instance.new("UICorner")
+            local Color = Instance.new("ImageLabel")
+            local ColorCorner = Instance.new("UICorner")
+            local ColorSelection = Instance.new("ImageLabel")
+            local Hue = Instance.new("ImageLabel")
+            local HueCorner = Instance.new("UICorner")
+            local HueGradient = Instance.new("UIGradient")
+            local HueSelection = Instance.new("ImageLabel")
+
+            Colorpicker.Name = "Colorpicker"
+            Colorpicker.Parent = Tab
+            Colorpicker.Transparency = 0.5
+            Colorpicker.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Colorpicker.ClipsDescendants = true
+            Colorpicker.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
+            Colorpicker.Size = UDim2.new(0, 363, 0, 42)
+
+            ColorpickerCorner.CornerRadius = UDim.new(0, 5)
+            ColorpickerCorner.Name = "ColorpickerCorner"
+            ColorpickerCorner.Parent = Colorpicker
+
+            ColorpickerTitle.Name = "ColorpickerTitle"
+            ColorpickerTitle.Parent = Colorpicker
+            ColorpickerTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerTitle.BackgroundTransparency = 1.000
+            ColorpickerTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            ColorpickerTitle.Size = UDim2.new(0, 187, 0, 42)
+            ColorpickerTitle.Font = Enum.Font.Gotham
+            ColorpickerTitle.Text = text
+            ColorpickerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerTitle.TextSize = 14.000
+            ColorpickerTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            BoxColor.Name = "BoxColor"
+            BoxColor.Parent = ColorpickerTitle
+            BoxColor.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+            BoxColor.Position = UDim2.new(1.60427809, 0, 0.214285716, 0)
+            BoxColor.Size = UDim2.new(0, 41, 0, 23)
+
+            BoxColorCorner.CornerRadius = UDim.new(0, 5)
+            BoxColorCorner.Name = "BoxColorCorner"
+            BoxColorCorner.Parent = BoxColor
+
+            ConfirmBtn.Name = "ConfirmBtn"
+            ConfirmBtn.Parent = ColorpickerTitle
+            ConfirmBtn.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            ConfirmBtn.Position = UDim2.new(1.25814295, 0, 1.09037197, 0)
+            ConfirmBtn.Size = UDim2.new(0, 105, 0, 32)
+            ConfirmBtn.AutoButtonColor = false
+            ConfirmBtn.Font = Enum.Font.SourceSans
+            ConfirmBtn.Text = ""
+            ConfirmBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+            ConfirmBtn.TextSize = 14.000
+
+            ConfirmBtnCorner.CornerRadius = UDim.new(0, 5)
+            ConfirmBtnCorner.Name = "ConfirmBtnCorner"
+            ConfirmBtnCorner.Parent = ConfirmBtn
+
+            ConfirmBtnTitle.Name = "ConfirmBtnTitle"
+            ConfirmBtnTitle.Parent = ConfirmBtn
+            ConfirmBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ConfirmBtnTitle.BackgroundTransparency = 1.000
+            ConfirmBtnTitle.Size = UDim2.new(0, 33, 0, 32)
+            ConfirmBtnTitle.Font = Enum.Font.Gotham
+            ConfirmBtnTitle.Text = "Confirm"
+            ConfirmBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            ConfirmBtnTitle.TextSize = 14.000
+            ConfirmBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            ColorpickerBtn.Name = "ColorpickerBtn"
+            ColorpickerBtn.Parent = ColorpickerTitle
+            ColorpickerBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorpickerBtn.BackgroundTransparency = 1.000
+            ColorpickerBtn.Size = UDim2.new(0, 363, 0, 42)
+            ColorpickerBtn.Font = Enum.Font.SourceSans
+            ColorpickerBtn.Text = ""
+            ColorpickerBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+            ColorpickerBtn.TextSize = 14.000
+
+            RainbowToggle.Name = "RainbowToggle"
+            RainbowToggle.Parent = ColorpickerTitle
+            RainbowToggle.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            RainbowToggle.Position = UDim2.new(1.26349044, 0, 2.12684202, 0)
+            RainbowToggle.Size = UDim2.new(0, 104, 0, 32)
+            RainbowToggle.AutoButtonColor = false
+            RainbowToggle.Font = Enum.Font.SourceSans
+            RainbowToggle.Text = ""
+            RainbowToggle.TextColor3 = Color3.fromRGB(0, 0, 0)
+            RainbowToggle.TextSize = 14.000
+
+            RainbowToggleCorner.CornerRadius = UDim.new(0, 5)
+            RainbowToggleCorner.Name = "RainbowToggleCorner"
+            RainbowToggleCorner.Parent = RainbowToggle
+
+            RainbowToggleTitle.Name = "RainbowToggleTitle"
+            RainbowToggleTitle.Parent = RainbowToggle
+            RainbowToggleTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowToggleTitle.BackgroundTransparency = 1.000
+            RainbowToggleTitle.Size = UDim2.new(0, 33, 0, 32)
+            RainbowToggleTitle.Font = Enum.Font.Gotham
+            RainbowToggleTitle.Text = "Rainbow"
+            RainbowToggleTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            RainbowToggleTitle.TextSize = 14.000
+            RainbowToggleTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            FrameRainbowToggle1.Name = "FrameRainbowToggle1"
+            FrameRainbowToggle1.Parent = RainbowToggle
+            FrameRainbowToggle1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            FrameRainbowToggle1.Position = UDim2.new(0.649999976, 0, 0.186000004, 0)
+            FrameRainbowToggle1.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameRainbowToggle1Corner.Name = "FrameRainbowToggle1Corner"
+            FrameRainbowToggle1Corner.Parent = FrameRainbowToggle1
+
+            FrameRainbowToggle2.Name = "FrameRainbowToggle2"
+            FrameRainbowToggle2.Parent = FrameRainbowToggle1
+            FrameRainbowToggle2.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            FrameRainbowToggle2.Position = UDim2.new(0.0590000004, 0, 0.112999998, 0)
+            FrameRainbowToggle2.Size = UDim2.new(0, 33, 0, 14)
+
+            FrameRainbowToggle2_2.Name = "FrameRainbowToggle2"
+            FrameRainbowToggle2_2.Parent = FrameRainbowToggle2
+
+            FrameRainbowToggle3.Name = "FrameRainbowToggle3"
+            FrameRainbowToggle3.Parent = FrameRainbowToggle1
+            FrameRainbowToggle3.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            FrameRainbowToggle3.BackgroundTransparency = 1.000
+            FrameRainbowToggle3.Size = UDim2.new(0, 37, 0, 18)
+
+            FrameToggle3.Name = "FrameToggle3"
+            FrameToggle3.Parent = FrameRainbowToggle3
+
+            FrameRainbowToggleCircle.Name = "FrameRainbowToggleCircle"
+            FrameRainbowToggleCircle.Parent = FrameRainbowToggle1
+            FrameRainbowToggleCircle.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+            FrameRainbowToggleCircle.Position = UDim2.new(0.127000004, 0, 0.222000003, 0)
+            FrameRainbowToggleCircle.Size = UDim2.new(0, 10, 0, 10)
+
+            FrameRainbowToggleCircleCorner.Name = "FrameRainbowToggleCircleCorner"
+            FrameRainbowToggleCircleCorner.Parent = FrameRainbowToggleCircle
+
+            Color.Name = "Color"
+            Color.Parent = ColorpickerTitle
+            Color.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+            Color.Position = UDim2.new(0, 0, 0, 42)
+            Color.Size = UDim2.new(0, 194, 0, 80)
+            Color.ZIndex = 10
+            Color.Image = "rbxassetid://4155801252"
+
+            ColorCorner.CornerRadius = UDim.new(0, 3)
+            ColorCorner.Name = "ColorCorner"
+            ColorCorner.Parent = Color
+
+            ColorSelection.Name = "ColorSelection"
+            ColorSelection.Parent = Color
+            ColorSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            ColorSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            ColorSelection.BackgroundTransparency = 1.000
+            ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
+            ColorSelection.Size = UDim2.new(0, 18, 0, 18)
+            ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+            ColorSelection.ScaleType = Enum.ScaleType.Fit
+            ColorSelection.Visible = false
+
+            Hue.Name = "Hue"
+            Hue.Parent = ColorpickerTitle
+            Hue.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            Hue.Position = UDim2.new(0, 202, 0, 42)
+            Hue.Size = UDim2.new(0, 25, 0, 80)
+
+            HueCorner.CornerRadius = UDim.new(0, 3)
+            HueCorner.Name = "HueCorner"
+            HueCorner.Parent = Hue
+
+            HueGradient.Color =
+                ColorSequence.new {
+                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)),
+                ColorSequenceKeypoint.new(0.20, Color3.fromRGB(234, 255, 0)),
+                ColorSequenceKeypoint.new(0.40, Color3.fromRGB(21, 255, 0)),
+                ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 255, 255)),
+                ColorSequenceKeypoint.new(0.80, Color3.fromRGB(0, 17, 255)),
+                ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 0, 251)),
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))
+            }
+            HueGradient.Rotation = 270
+            HueGradient.Name = "HueGradient"
+            HueGradient.Parent = Hue
+
+            HueSelection.Name = "HueSelection"
+            HueSelection.Parent = Hue
+            HueSelection.AnchorPoint = Vector2.new(0.5, 0.5)
+            HueSelection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            HueSelection.BackgroundTransparency = 1.000
+            HueSelection.Position = UDim2.new(0.48, 0, 1 - select(1, Color3.toHSV(preset)))
+            HueSelection.Size = UDim2.new(0, 18, 0, 18)
+            HueSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+            HueSelection.Visible = false
+
+            coroutine.wrap(
+                function()
+                    while wait() do
+                        FrameRainbowToggle3.BackgroundColor3 = PresetColor
+                    end
+                end
+            )()
+
+            ColorpickerBtn.MouseButton1Click:Connect(
+                function()
+                    if ColorPickerToggled == false then
+                        ColorSelection.Visible = true
+                        HueSelection.Visible = true
+                        Colorpicker:TweenSize(
+                            UDim2.new(0, 363, 0, 132),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        wait(.2)
+                        Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                    else
+                        ColorSelection.Visible = false
+                        HueSelection.Visible = false
+                        Colorpicker:TweenSize(
+                            UDim2.new(0, 363, 0, 42),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+                        wait(.2)
+                        Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                    end
+                    ColorPickerToggled = not ColorPickerToggled
+                end
+            )
+
+            local function UpdateColorPicker(nope)
+                BoxColor.BackgroundColor3 = Color3.fromHSV(ColorH, ColorS, ColorV)
+                Color.BackgroundColor3 = Color3.fromHSV(ColorH, 1, 1)
+
+                pcall(callback, BoxColor.BackgroundColor3)
+            end
+
+            ColorH =
+                1 -
+                (math.clamp(HueSelection.AbsolutePosition.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) /
+                    Hue.AbsoluteSize.Y)
+            ColorS =
+                (math.clamp(ColorSelection.AbsolutePosition.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) /
+                Color.AbsoluteSize.X)
+            ColorV =
+                1 -
+                (math.clamp(ColorSelection.AbsolutePosition.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) /
+                    Color.AbsoluteSize.Y)
+
+            BoxColor.BackgroundColor3 = preset
+            Color.BackgroundColor3 = preset
+            pcall(callback, BoxColor.BackgroundColor3)
+
+            Color.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        if RainbowColorPicker then
+                            return
+                        end
+
+                        if ColorInput then
+                            ColorInput:Disconnect()
+                        end
+
+                        ColorInput =
+                            RunService.RenderStepped:Connect(
+                            function()
+                                local ColorX =
+                                    (math.clamp(Mouse.X - Color.AbsolutePosition.X, 0, Color.AbsoluteSize.X) /
+                                    Color.AbsoluteSize.X)
+                                local ColorY =
+                                    (math.clamp(Mouse.Y - Color.AbsolutePosition.Y, 0, Color.AbsoluteSize.Y) /
+                                    Color.AbsoluteSize.Y)
+
+                                ColorSelection.Position = UDim2.new(ColorX, 0, ColorY, 0)
+                                ColorS = ColorX
+                                ColorV = 1 - ColorY
+
+                                UpdateColorPicker(true)
+                            end
+                        )
+                    end
+                end
+            )
+
+            Color.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        if ColorInput then
+                            ColorInput:Disconnect()
+                        end
+                    end
+                end
+            )
+
+            Hue.InputBegan:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        if RainbowColorPicker then
+                            return
+                        end
+
+                        if HueInput then
+                            HueInput:Disconnect()
+                        end
+
+                        HueInput =
+                            RunService.RenderStepped:Connect(
+                            function()
+                                local HueY =
+                                    (math.clamp(Mouse.Y - Hue.AbsolutePosition.Y, 0, Hue.AbsoluteSize.Y) /
+                                    Hue.AbsoluteSize.Y)
+
+                                HueSelection.Position = UDim2.new(0.48, 0, HueY, 0)
+                                ColorH = 1 - HueY
+
+                                UpdateColorPicker(true)
+                            end
+                        )
+                    end
+                end
+            )
+
+            Hue.InputEnded:Connect(
+                function(input)
+                    if input.UserInputType == MouseButton1 or input.UserInputType == Touch then
+                        if HueInput then
+                            HueInput:Disconnect()
+                        end
+                    end
+                end
+            )
+
+            RainbowToggle.MouseButton1Down:Connect(
+                function()
+                    RainbowColorPicker = not RainbowColorPicker
+
+                    if ColorInput then
+                        ColorInput:Disconnect()
+                    end
+
+                    if HueInput then
+                        HueInput:Disconnect()
+                    end
+
+                    if RainbowColorPicker then
+                        TweenService:Create(
+                            FrameRainbowToggle1,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggle2,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggle3,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggleCircle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(255, 255, 255)}
+                        ):Play()
+                        FrameRainbowToggleCircle:TweenPosition(
+                            UDim2.new(0.587, 0, 0.222000003, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+
+                        OldToggleColor = BoxColor.BackgroundColor3
+                        OldColor = Color.BackgroundColor3
+                        OldColorSelectionPosition = ColorSelection.Position
+                        OldHueSelectionPosition = HueSelection.Position
+
+                        while RainbowColorPicker do
+                            BoxColor.BackgroundColor3 = Color3.fromHSV(Library.RainbowColorValue, 1, 1)
+                            Color.BackgroundColor3 = Color3.fromHSV(Library.RainbowColorValue, 1, 1)
+
+                            ColorSelection.Position = UDim2.new(1, 0, 0, 0)
+                            HueSelection.Position = UDim2.new(0.48, 0, 0, Library.HueSelectionPosition)
+
+                            pcall(callback, BoxColor.BackgroundColor3)
+                            wait()
+                        end
+                    elseif not RainbowColorPicker then
+                        TweenService:Create(
+                            FrameRainbowToggle1,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggle2,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 0}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggle3,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundTransparency = 1}
+                        ):Play()
+                        TweenService:Create(
+                            FrameRainbowToggleCircle,
+                            TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
+                            {BackgroundColor3 = Color3.fromRGB(50, 50, 50)}
+                        ):Play()
+                        FrameRainbowToggleCircle:TweenPosition(
+                            UDim2.new(0.127000004, 0, 0.222000003, 0),
+                            Enum.EasingDirection.Out,
+                            Enum.EasingStyle.Quart,
+                            .2,
+                            true
+                        )
+
+                        BoxColor.BackgroundColor3 = OldToggleColor
+                        Color.BackgroundColor3 = OldColor
+
+                        ColorSelection.Position = OldColorSelectionPosition
+                        HueSelection.Position = OldHueSelectionPosition
+
+                        pcall(callback, BoxColor.BackgroundColor3)
+                    end
+                end
+            )
+
+            ConfirmBtn.MouseButton1Click:Connect(
+                function()
+                    ColorSelection.Visible = false
+                    HueSelection.Visible = false
+                    Colorpicker:TweenSize(
+                        UDim2.new(0, 363, 0, 42),
+                        Enum.EasingDirection.Out,
+                        Enum.EasingStyle.Quart,
+                        .2,
+                        true
+                    )
+                    wait(.2)
+                    Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+                end
+            )
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Label(text)
+            local Label = Instance.new("TextButton")
+            local LabelCorner = Instance.new("UICorner")
+            local LabelTitle = Instance.new("TextLabel")
+
+            Label.Name = "Button"
+            Label.Parent = Tab
+            Label.Transparency = 0.5
+            Label.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Label.Size = UDim2.new(0, 363, 0, 42)
+            Label.AutoButtonColor = false
+            Label.Font = Enum.Font.SourceSans
+            Label.Text = ""
+            Label.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Label.TextSize = 14.000
+
+            LabelCorner.CornerRadius = UDim.new(0, 5)
+            LabelCorner.Name = "ButtonCorner"
+            LabelCorner.Parent = Label
+
+            LabelTitle.Name = "ButtonTitle"
+            LabelTitle.Parent = Label
+            LabelTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            LabelTitle.BackgroundTransparency = 1.000
+            LabelTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            LabelTitle.Size = UDim2.new(0, 187, 0, 42)
+            LabelTitle.Font = Enum.Font.Gotham
+            LabelTitle.Text = text
+            LabelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            LabelTitle.TextSize = 14.000
+            LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Textbox(text, disapper, callback)
+            local Textbox = Instance.new("Frame")
+            local TextboxCorner = Instance.new("UICorner")
+            local TextboxTitle = Instance.new("TextLabel")
+            local TextboxFrame = Instance.new("Frame")
+            local TextboxFrameCorner = Instance.new("UICorner")
+            local TextBox = Instance.new("TextBox")
+
+            Textbox.Name = "Textbox"
+            Textbox.Parent = Tab
+            Textbox.Transparency = 0.5
+            Textbox.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Textbox.ClipsDescendants = true
+            Textbox.Position = UDim2.new(-0.541071415, 0, -0.532915354, 0)
+            Textbox.Size = UDim2.new(0, 363, 0, 42)
+
+            TextboxCorner.CornerRadius = UDim.new(0, 5)
+            TextboxCorner.Name = "TextboxCorner"
+            TextboxCorner.Parent = Textbox
+
+            TextboxTitle.Name = "TextboxTitle"
+            TextboxTitle.Parent = Textbox
+            TextboxTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextboxTitle.BackgroundTransparency = 1.000
+            TextboxTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            TextboxTitle.Size = UDim2.new(0, 187, 0, 42)
+            TextboxTitle.Font = Enum.Font.Gotham
+            TextboxTitle.Text = text
+            TextboxTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextboxTitle.TextSize = 14.000
+            TextboxTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            TextboxFrame.Name = "TextboxFrame"
+            TextboxFrame.Parent = TextboxTitle
+            TextboxFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+            TextboxFrame.Position = UDim2.new(1.28877008, 0, 0.214285716, 0)
+            TextboxFrame.Size = UDim2.new(0, 100, 0, 23)
+
+            TextboxFrameCorner.CornerRadius = UDim.new(0, 5)
+            TextboxFrameCorner.Name = "TextboxFrameCorner"
+            TextboxFrameCorner.Parent = TextboxFrame
+
+            TextBox.Parent = TextboxFrame
+            TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            TextBox.BackgroundTransparency = 1.000
+            TextBox.Size = UDim2.new(0, 100, 0, 23)
+            TextBox.Font = Enum.Font.Gotham
+            TextBox.Text = ""
+            TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+            TextBox.TextSize = 14.000
+
+            TextBox.FocusLost:Connect(
+                function(ep)
+                    if ep then
+                        if #TextBox.Text > 0 then
+                            pcall(callback, TextBox.Text)
+                            if disapper then
+                                TextBox.Text = ""
+                            end
+                        end
+                    end
+                end
+            )
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+        end
+        function tabcontent:Bind(text, keypreset, callback)
+            local binding = false
+            local Key = keypreset.Name
+            local Bind = Instance.new("TextButton")
+            local BindCorner = Instance.new("UICorner")
+            local BindTitle = Instance.new("TextLabel")
+            local BindText = Instance.new("TextLabel")
+
+            Bind.Name = "Bind"
+            Bind.Parent = Tab
+            Bind.Transparency = 0.5
+            Bind.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+            Bind.Size = UDim2.new(0, 363, 0, 42)
+            Bind.AutoButtonColor = false
+            Bind.Font = Enum.Font.SourceSans
+            Bind.Text = ""
+            Bind.TextColor3 = Color3.fromRGB(0, 0, 0)
+            Bind.TextSize = 14.000
+
+            BindCorner.CornerRadius = UDim.new(0, 5)
+            BindCorner.Name = "BindCorner"
+            BindCorner.Parent = Bind
+
+            BindTitle.Name = "BindTitle"
+            BindTitle.Parent = Bind
+            BindTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BindTitle.BackgroundTransparency = 1.000
+            BindTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            BindTitle.Size = UDim2.new(0, 187, 0, 42)
+            BindTitle.Font = Enum.Font.Gotham
+            BindTitle.Text = text
+            BindTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            BindTitle.TextSize = 14.000
+            BindTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+            BindText.Name = "BindText"
+            BindText.Parent = Bind
+            BindText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            BindText.BackgroundTransparency = 1.000
+            BindText.Position = UDim2.new(0.0358126722, 0, 0, 0)
+            BindText.Size = UDim2.new(0, 337, 0, 42)
+            BindText.Font = Enum.Font.Gotham
+            BindText.Text = Key
+            BindText.TextColor3 = Color3.fromRGB(255, 255, 255)
+            BindText.TextSize = 14.000
+            BindText.TextXAlignment = Enum.TextXAlignment.Right
+
+            Tab.CanvasSize = UDim2.new(0, 0, 0, TabLayout.AbsoluteContentSize.Y)
+
+            Bind.MouseButton1Click:Connect(
+                function()
+                    BindText.Text = "..."
+                    binding = true
+                    local inputwait = UserInputService.InputBegan:wait()
+                    if inputwait.KeyCode.Name ~= "Unknown" then
+                        BindText.Text = inputwait.KeyCode.Name
+                        Key = inputwait.KeyCode.Name
+                        binding = false
+                    else
+                        binding = false
+                    end
+                end
+            )
+
+            UserInputService.InputBegan:connect(
+                function(current, pressed)
+                    if not pressed then
+                        if current.KeyCode.Name == Key and binding == false then
+                            pcall(callback)
+                        end
+                    end
+                end
+            )
+        end
+        return tabcontent
+    end
+    return tabhold
+end
+return Library
