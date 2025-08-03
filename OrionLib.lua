@@ -25,24 +25,20 @@ local OrionLib = {
 	SaveCfg = false
 }
 
---Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
-local Icons = {}
-
-local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
-end)
-
-if not Success then
-	warn("\nOrion Library - Failed to load Feather Icons. Error code: " .. Response .. "\n")
-end	
+-- 本地静态图标数据（替换原来的HTTP请求）
+local Icons = {
+    ["settings"] = "rbxassetid://7072719338",
+    ["home"] = "rbxassetid://7072720870",
+    ["close"] = "rbxassetid://7072725342",
+    ["dropdown"] = "rbxassetid://7072706796",
+    ["check"] = "rbxassetid://3944680095",
+    ["add"] = "rbxassetid://3944703587",
+    ["user"] = "rbxassetid://4031889928"
+}
 
 local function GetIcon(IconName)
-	if Icons[IconName] ~= nil then
-		return Icons[IconName]
-	else
-		return nil
-	end
-end   
+    return Icons[IconName]  -- 直接返回本地图标
+end
 
 local Orion = Instance.new("ScreenGui")
 Orion.Name = "DUCKOrion"
