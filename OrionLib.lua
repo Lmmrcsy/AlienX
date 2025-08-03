@@ -27,13 +27,16 @@ local OrionLib = {
 
 -- 修改后代码
 local Icons = {
+    ["trash"] = "rbxassetid://3926305901", 
+    ["refresh"] = "rbxassetid://3926307971", 
+    ["download"] = "rbxassetid://3926309569" 
     ["settings"] = "rbxassetid://7072719338",
     ["home"] = "rbxassetid://7072720870",
-    ["close"] = "rbxassetid://7072725342", 
+    ["close"] = "rbxassetid://7072725342",
     ["dropdown"] = "rbxassetid://7072706796",
     ["check"] = "rbxassetid://3944680095",
     ["add"] = "rbxassetid://3944703587",
-    ["user"] = "rbxassetid://4031889928",
+    ["user"] = "rbxassetid://4031889928"
     -- 添加默认图标
     ["default"] = "rbxassetid://7072719338"
 }
