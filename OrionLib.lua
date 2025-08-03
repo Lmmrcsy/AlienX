@@ -37,16 +37,10 @@ local Icons = {
     ["check"] = "rbxassetid://3944680095",
     ["add"] = "rbxassetid://3944703587",
     ["user"] = "rbxassetid://4031889928"
-    -- 添加默认图标
-    ["default"] = "rbxassetid://7072719338"
 }
 
 local function GetIcon(IconName)
-    if type(IconName) ~= "string" then
-        warn("图标名称必须是字符串")
-        return Icons.default
-    end
-    return Icons[IconName] or Icons.default  -- 找不到图标时返回默认图标
+    return Icons[IconName]  -- 直接返回本地图标
 end
 
 local Orion = Instance.new("ScreenGui")
