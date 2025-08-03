@@ -27,7 +27,6 @@ local OrionLib = {
 
 -- 本地静态图标数据（替换原来的HTTP请求）
 local Icons = {
-    local Icons = {
     -- 原有图标...
     ["trash"] = "rbxassetid://3926305901", 
     ["refresh"] = "rbxassetid://3926307971", 
