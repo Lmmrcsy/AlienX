@@ -25,16 +25,32 @@ local OrionLib = {
 	SaveCfg = false
 }
 
---Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
-local Icons = {}
+-- 删除原 HTTP 请求代码，替换为本地图标库
+local Icons = {
+    -- 基础功能图标
+    ["settings"] = "rbxassetid://7072719338",      -- 设置（齿轮）
+    ["close"] = "rbxassetid://7072725342",         -- 关闭（X）
+    ["check"] = "rbxassetid://7072720870",         -- 确认（对勾）
+    ["arrow-down"] = "rbxassetid://7072706796",    -- 下拉箭头
+    ["user"] = "rbxassetid://4031889928",          -- 用户头像
+    
+    -- 文件/媒体
+    ["image"] = "rbxassetid://4384403532",         -- 图片占位符
+    
+    -- 状态提示
+    ["info"] = "rbxassetid://3610239960",          -- 信息（感叹号）
+    ["lock"] = "rbxassetid://4483345875",          -- 锁定
+    
+    -- 其他常用
+    ["search"] = "rbxassetid://7072709312",        -- 搜索
+    ["menu"] = "rbxassetid://7072712766",          -- 菜单（三横线）
+    ["plus"] = "rbxassetid://7072704224"           -- 加号
+}
 
-local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
-end)
-
-if not Success then
-	warn("\nOrion Library - Failed to load Feather Icons. Error code: " .. Response .. "\n")
-end	
+-- 可选：添加默认图标回退
+local function GetIcon(IconName)
+    return Icons[IconName] or "rbxassetid://7072719338" -- 默认返回齿轮图标
+end
 
 local function GetIcon(IconName)
 	if Icons[IconName] ~= nil then
