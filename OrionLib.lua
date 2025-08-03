@@ -25,19 +25,25 @@ local OrionLib = {
 	SaveCfg = false
 }
 
--- 本地静态图标数据（替换原来的HTTP请求）
+-- 修改后代码
 local Icons = {
     ["settings"] = "rbxassetid://7072719338",
     ["home"] = "rbxassetid://7072720870",
-    ["close"] = "rbxassetid://7072725342",
+    ["close"] = "rbxassetid://7072725342", 
     ["dropdown"] = "rbxassetid://7072706796",
     ["check"] = "rbxassetid://3944680095",
     ["add"] = "rbxassetid://3944703587",
-    ["user"] = "rbxassetid://4031889928"
+    ["user"] = "rbxassetid://4031889928",
+    -- 添加默认图标
+    ["default"] = "rbxassetid://7072719338"
 }
 
 local function GetIcon(IconName)
-    return Icons[IconName]  -- 直接返回本地图标
+    if type(IconName) ~= "string" then
+        warn("图标名称必须是字符串")
+        return Icons.default
+    end
+    return Icons[IconName] or Icons.default  -- 找不到图标时返回默认图标
 end
 
 local Orion = Instance.new("ScreenGui")
@@ -91,36 +97,64 @@ task.spawn(function()
 	end
 end)
 
+-- 修改后代码
 local function MakeDraggable(DragPoint, Main)
-	pcall(function()
-		local Dragging, DragInput, MousePos, FramePos = false
-		AddConnection(DragPoint.InputBegan, function(Input)
-			if Input.UserInputType == Enum.UserInputType.MouseButton1 then
-				Dragging = true
-				MousePos = Input.Position
-				FramePos = Main.Position
+    pcall(function()
+        local Dragging = false
+        local DragInput, MousePos, FramePos
+        
+        -- 更安全的输入检测
+        local function onInputBegan(Input)
+            if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+                Dragging = true
+                MousePos = Input.Position
+                FramePos = Main.Position
+                return true
+            end
+            return false
+        end
 
-				Input.Changed:Connect(function()
-					if Input.UserInputState == Enum.UserInputState.End then
-						Dragging = false
-					end
-				end)
-			end
-		end)
-		AddConnection(DragPoint.InputChanged, function(Input)
-			if Input.UserInputType == Enum.UserInputType.MouseMovement then
-				DragInput = Input
-			end
-		end)
-		AddConnection(UserInputService.InputChanged, function(Input)
-			if Input == DragInput and Dragging then
-				local Delta = Input.Position - MousePos
-				--TweenService:Create(Main, TweenInfo.new(0.05, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Position  = UDim2.new(FramePos.X.Scale,FramePos.X.Offset + Delta.X, FramePos.Y.Scale, FramePos.Y.Offset + Delta.Y)}):Play()
-				Main.Position  = UDim2.new(FramePos.X.Scale,FramePos.X.Offset + Delta.X, FramePos.Y.Scale, FramePos.Y.Offset + Delta.Y)
-			end
-		end)
-	end)
-end    
+        local function onInputChanged(Input)
+            if Input.UserInputType == Enum.UserInputType.MouseMovement then
+                return Input
+            end
+        end
+
+        -- 使用新的连接方式
+        local connections = {
+            DragPoint.InputBegan:Connect(function(Input)
+                if onInputBegan(Input) then
+                    Input.Changed:Connect(function()
+                        if Input.UserInputState == Enum.UserInputState.End then
+                            Dragging = false
+                        end
+                    end)
+                end
+            end),
+            
+            DragPoint.InputChanged:Connect(function(Input)
+                DragInput = onInputChanged(Input)
+            end),
+            
+            UserInputService.InputChanged:Connect(function(Input)
+                if Dragging and DragInput and Input == DragInput then
+                    local Delta = Input.Position - MousePos
+                    Main.Position = UDim2.new(
+                        FramePos.X.Scale, 
+                        FramePos.X.Offset + Delta.X, 
+                        FramePos.Y.Scale, 
+                        FramePos.Y.Offset + Delta.Y
+                    )
+                end
+            end)
+        }
+
+        -- 添加断开连接的逻辑
+        table.insert(OrionLib.Connections, connections[1])
+        table.insert(OrionLib.Connections, connections[2])
+        table.insert(OrionLib.Connections, connections[3])
+    end)
+end
 
 local function Create(Name, Properties, Children)
 	local Object = Instance.new(Name)
