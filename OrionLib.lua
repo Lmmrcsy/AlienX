@@ -979,3 +979,4 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
 
             if callback then
                 TextBox.FocusLost:Connect(function()
+end
