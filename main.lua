@@ -7423,13 +7423,13 @@ Title="关闭界面",
 Content="你想要关闭界面吗? 关闭后你需要重新打开.",
 Buttons={
 {
-Title="Cancel",
+Title="取消",
 
 Callback=function()end,
 Variant="Secondary",
 },
 {
-Title="Close Window",
+Title="确定",
 
 Callback=function()o:Close():Destroy()end,
 Variant="Primary",
