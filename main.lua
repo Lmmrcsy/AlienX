@@ -4633,12 +4633,12 @@ HorizontalAlignment="Right",
 
 local Q={
 {
-Title="Cancel",
+Title="取消",
 Variant="Secondary",
 Callback=function()end
 },
 {
-Title="Apply",
+Title="确定",
 Icon="chevron-right",
 Variant="Primary",
 Callback=function()v(Color3.fromHSV(w.Hue,w.Sat,w.Vib),w.Transparency)end
