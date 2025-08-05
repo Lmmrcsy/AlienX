@@ -7419,8 +7419,8 @@ o:CreateTopbarButton("Close","x",function()
 e(o.UIElements.Main,0.35,{Position=UDim2.new(0.5,0,0.5,0)},Enum.EasingStyle.Quint,Enum.EasingDirection.Out):Play()
 o:Dialog{
 
-Title="Close Window",
-Content="Do you want to close this window? You will not be able to open it again.",
+Title="关闭界面",
+Content="你想要关闭界面吗? 关闭后你需要重新打开.",
 Buttons={
 {
 Title="Cancel",
