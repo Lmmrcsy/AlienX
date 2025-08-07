@@ -7018,7 +7018,7 @@ end
 if not k then
 k=not k
 n.WindUI:Notify{
-Title="AlienX",
+Title="Minimize",
 Content="You've closed the Window. "..F,
 Icon="eye-off",
 Duration=5,
