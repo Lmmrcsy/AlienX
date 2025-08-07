@@ -7000,7 +7000,7 @@ o.IsFullscreen=not G
 end
 
 
-o:CreateTopbarButton("Minimize","minus",function()
+o:CreateTopbarButton"Minimize","minus",function()
 o:Close()
 task.spawn(function()
 task.wait(.3)
@@ -7010,7 +7010,7 @@ C:Visible(true)
 end
 end)
 
-local F=v and"Press "..o.ToggleKey.Name.." to open the Window"or"Click the Button to open the Window"
+local F=v and"按下 "..o.ToggleKey.Name.." 打开窗口"or"点击按钮打开窗口"
 
 if not o.IsOpenButtonEnabled then
 k=true
@@ -7018,13 +7018,13 @@ end
 if not k then
 k=not k
 n.WindUI:Notify{
-Title="Minimize",
-Content="You've closed the Window. "..F,
+Title="AlienX",
+Content="您已关闭窗口 "..F,
 Icon="eye-off",
 Duration=5,
 }
 end
-end,997)
+end,997
 
 function o.OnClose(F,G)
 o.OnCloseCallback=G
