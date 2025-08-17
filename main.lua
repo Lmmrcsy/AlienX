@@ -7018,8 +7018,8 @@ end
 if not k then
 k=not k
 n.WindUI:Notify{
-Title="Minimize",
-Content="You've closed the Window. "..F,
+Title="AlienX",
+Content="你将要关闭窗口 "..F,
 Icon="eye-off",
 Duration=5,
 }
