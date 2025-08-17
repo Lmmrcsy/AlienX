@@ -227,30 +227,45 @@ function g.Tween(h,i,j,...)
 return e:Create(h,TweenInfo.new(i,...),j)
 end
 
-function g.NewRoundFrame(h,i,j,k,n)
+function g.NewRoundFrame(h, i, j, k, n)
+    local o = g.New(n and "ImageButton" or "ImageLabel", {
+        Image = i == "Squircle" and "rbxassetid://80999662900595"
+            or i == "SquircleOutline" and "rbxassetid://117788349049947"
+            or i == "SquircleOutline2" and "rbxassetid://117817408534198"
+            or i == "Shadow-sm" and "rbxassetid://84825982946844"
+            or i == "Squircle-TL-TR" and "rbxassetid://73569156276236",
+        ScaleType = "Slice",
+        SliceCenter = i ~= "Shadow-sm" and Rect.new(256, 256, 256, 256) or Rect.new(512, 512, 512, 512),
+        SliceScale = 1,
+        BackgroundTransparency = 1,
+        ThemeTag = j.ThemeTag and j.ThemeTag
+    }, k)
 
+    -- 添加渐变效果
+    if j.Gradient then
+        local gradient = g.New("UIGradient", {
+            Rotation = j.Gradient.Rotation or 0,
+            Color = j.Gradient.Color or ColorSequence.new(Color3.fromRGB(255, 0, 0), -- 默认红色渐变
+            Transparency = j.Gradient.Transparency or NumberSequence.new(0),
+        })
+        gradient.Parent = o
+    end
 
+    for p, q in pairs(j or {}) do
+        if p ~= "ThemeTag" and p ~= "Gradient" then
+            o[p] = q
+        end
+    end
 
+    local function UpdateSliceScale(r)
+        local s = i ~= "Shadow-sm" and (r / 256) or (r / 512)
+        o.SliceScale = s
+    end
 
+    UpdateSliceScale(h)
 
-
-local o=g.New(n and"ImageButton"or"ImageLabel",{
-Image=i=="Squircle"and"rbxassetid://80999662900595"
-or i=="SquircleOutline"and"rbxassetid://117788349049947"
-or i=="SquircleOutline2"and"rbxassetid://117817408534198"
-or i=="Shadow-sm"and"rbxassetid://84825982946844"
-or i=="Squircle-TL-TR"and"rbxassetid://73569156276236",
-ScaleType="Slice",
-SliceCenter=i~="Shadow-sm"and Rect.new(256
-,256
-,256
-,256
-
-)or Rect.new(512,512,512,512),
-SliceScale=1,
-BackgroundTransparency=1,
-ThemeTag=j.ThemeTag and j.ThemeTag
-},k)
+    return o
+end
 
 for p,q in pairs(j or{})do
 if p~="ThemeTag"then
