@@ -252,31 +252,6 @@ BackgroundTransparency=1,
 ThemeTag=j.ThemeTag and j.ThemeTag
 },k)
 
-local gradient = Instance.new("UIGradient")
-    gradient.Rotation = 45  -- 渐变角度
-    gradient.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromHex("#FF0000")),  -- 红色
-        ColorSequenceKeypoint.new(0.5, Color3.fromHex("#00FF00")), -- 绿色
-        ColorSequenceKeypoint.new(1, Color3.fromHex("#0000FF"))    -- 蓝色
-    })
-    gradient.Parent = o
-
-    for p, q in pairs(j or {}) do
-        if p ~= "ThemeTag" then
-            o[p] = q
-        end
-    end
-
-    local function UpdateSliceScale(r)
-        local s = i ~= "Shadow-sm" and (r / 256) or (r / 512)
-        o.SliceScale = s
-    end
-
-    UpdateSliceScale(h)
-
-    return o
-end
-
 for p,q in pairs(j or{})do
 if p~="ThemeTag"then
 o[p]=q
