@@ -7010,7 +7010,7 @@ C:Visible(true)
 end
 end)
 
-local F=v and"Press "..o.ToggleKey.Name.." to open the Window"or"Click the Button to open the Window"
+local F=v and"按下 "..o.ToggleKey.Name.." 来打开UI"or"点击按钮来打开UI"
 
 if not o.IsOpenButtonEnabled then
 k=true
@@ -7019,7 +7019,7 @@ if not k then
 k=not k
 n.WindUI:Notify{
 Title="AlienX",
-Content="你将要关闭窗口 "..F,
+Content="你将要关闭窗口"..F,
 Icon="eye-off",
 Duration=5,
 }
