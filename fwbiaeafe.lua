@@ -1,0 +1,2176 @@
+writefile = function() end
+appendfile = function() end
+makefolder = function() end
+isfile = function() return false end
+isfolder = function() return false end
+delfile = function() end
+delfolder = function() end
+
+local AlienX = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lmmrcsy/AlienX/main/main.lua"))()
+
+local Window = AlienX:CreateWindow({
+    Title = 'AlienX<font color="rgb(0,255,0)">2.0</font> / 战争大亨',
+    Icon = "rbxassetid://4483362748",
+    IconThemed = true,
+    Author = "AlienX",
+    Size = UDim2.fromOffset(580, 460),
+    Transparent = true,
+    Theme = "Dark",
+    SideBarWidth = 200,
+    ScrollBarEnabled = true,
+})
+
+-- 初始化变量
+local Plr = game:GetService("Players").LocalPlayer
+local C_NPlayers = {}
+local fov = 50
+local maxDistance = 50
+local autoAimEnabled = false
+local fovVisible = false
+local ignoreCover = false
+local aimTarget = "敌对"
+local aimPosition = "Head"
+local rainbowEnabled = false
+local espEnabled = false
+local nameEspEnabled = false
+local aimMode1Enabled = false
+
+-- 自瞄绘图初始化
+local FOVring = Drawing.new("Circle")
+FOVring.Visible = false
+FOVring.Thickness = 0.5
+FOVring.Color = Color3.new(1, 1, 1)
+FOVring.Filled = false
+FOVring.Radius = fov
+FOVring.Position = workspace.CurrentCamera.ViewportSize / 2
+
+-- 稳定功能分类
+local StableSection = Window:Section({Title = "稳定功能", Opened = true})
+local TeleportTab = StableSection:Tab({Title = "传送功能", Icon = "map-pin"})
+local AutoTab = StableSection:Tab({Title = "自动功能", Icon = "rbxassetid://4450736564"})
+local EspTab = StableSection:Tab({Title = "透视功能", Icon = "eye"})
+local AssistTab = StableSection:Tab({Title = "辅助功能", Icon = "accessibility"})
+local AimTab = StableSection:Tab({Title = "自瞄功能", Icon = "crosshair"})
+
+-- 娱乐功能分类
+local FunSection = Window:Section({Title = "娱乐功能", Opened = true})
+local AttackTab = FunSection:Tab({Title = "攻击功能", Icon = "sword"})
+local WeaponTab = FunSection:Tab({Title = "武器功能", Icon = "cpu"})
+local PlayerTab = FunSection:Tab({Title = "玩家功能", Icon = "user"})
+
+
+-- 传送功能
+local Positions = {
+    ["Alpha"] = CFrame.new(-1197, 65, -4790),
+    ["Bravo"] = CFrame.new(-220, 65, -4919),
+    ["Charlie"] = CFrame.new(797, 65, -4740),
+    ["Delta"] = CFrame.new(2044, 65, -3984),
+    ["Echo"] = CFrame.new(2742, 65, -3031),
+    ["Foxtrot"] = CFrame.new(3045, 65, -1788),
+    ["Golf"] = CFrame.new(3376, 65, -562),
+    ["Hotel"] = CFrame.new(3290, 65, 587),
+    ["Juliet"] = CFrame.new(2955, 65, 1804),
+    ["Kilo"] = CFrame.new(2569, 65, 2926),
+    ["Lima"] = CFrame.new(989, 65, 3419),
+    ["Omega"] = CFrame.new(-319, 65, 3932),
+    ["Romeo"] = CFrame.new(-1479, 65, 3722),
+    ["Sierra"] = CFrame.new(-2528, 65, 2549),
+    ["Tango"] = CFrame.new(-3018, 65, 1503),
+    ["Victor"] = CFrame.new(-3587, 65, 634),
+    ["Yankee"] = CFrame.new(-3957, 65, -287),
+    ["Zulu"] = CFrame.new(-4049, 65, -1334)
+}
+
+-- 当前玩家基地按钮现在可以点击传送
+TeleportTab:Button({
+    Title = "当前玩家基地: " .. Plr.Team.Name, 
+    Callback = function() 
+        if Plr.Character then 
+            Plr.Character:PivotTo(Positions[Plr.Team.Name]) 
+        end
+    end
+})
+
+TeleportTab:Dropdown({
+    Title = "传送基地", 
+    Values = {"Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "Juliet", "Kilo", "Lima", "Omega", "Romeo", "Sierra", "Tango", "Victor", "Yankee", "Zulu"}, 
+    Value = "Alpha", 
+    Callback = function(d) 
+        if Plr.Character then 
+            Plr.Character:PivotTo(Positions[d]) 
+        end
+    end
+})
+
+-- 新增传送玩家功能
+local playerList = {}
+local playerDropdown = TeleportTab:Dropdown({
+    Title = "传送玩家",
+    Values = {},
+    Value = "",
+    Callback = function(selectedPlayer)
+        if selectedPlayer and selectedPlayer ~= "" then
+            local targetPlayer = game:GetService("Players"):FindFirstChild(selectedPlayer)
+            if targetPlayer and targetPlayer.Character and targetPlayer.Character:FindFirstChild("HumanoidRootPart") then
+                Plr.Character:PivotTo(targetPlayer.Character.HumanoidRootPart.CFrame)
+            end
+        end
+    end
+})
+
+-- 刷新玩家列表函数
+local function refreshPlayerList()
+    playerList = {}
+    for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+        if player ~= Plr then
+            table.insert(playerList, player.Name)
+        end
+    end
+    playerDropdown:Refresh(playerList)
+end
+
+-- 添加刷新玩家按钮
+TeleportTab:Button({
+    Title = "刷新玩家列表",
+    Callback = function()
+        refreshPlayerList()
+    end
+})
+
+-- 初始化玩家列表
+refreshPlayerList()
+
+-- 在TeleportTab标签页中添加传送按钮
+TeleportTab:Button({
+    Title = "传送到捕获点", 
+    Callback = function() 
+        if Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") then
+            local targetCFrame = CFrame.new(-504.67, 177.36, -1025.00)
+            Plr.Character:PivotTo(targetCFrame)
+        end
+    end
+})
+
+local AutoXZ = false
+local baseWhitelist = {} -- 共享的白名单列表
+local basePositions = { -- 基地坐标表
+    ["Alpha"] = Vector3.new(-1197, 65, -4790),
+    ["Bravo"] = Vector3.new(-220, 65, -4919),
+    ["Charlie"] = Vector3.new(797, 65, -4740),
+    ["Delta"] = Vector3.new(2044, 65, -3984),
+    ["Echo"] = Vector3.new(2742, 65, -3031),
+    ["Foxtrot"] = Vector3.new(3045, 65, -1788),
+    ["Golf"] = Vector3.new(3376, 65, -562),
+    ["Hotel"] = Vector3.new(3290, 65, 587),
+    ["Juliet"] = Vector3.new(2955, 65, 1804),
+    ["Kilo"] = Vector3.new(2569, 65, 2926),
+    ["Lima"] = Vector3.new(989, 65, 3419),
+    ["Omega"] = Vector3.new(-319, 65, 3932),
+    ["Romeo"] = Vector3.new(-1479, 65, 3722),
+    ["Sierra"] = Vector3.new(-2528, 65, 2549),
+    ["Tango"] = Vector3.new(-3018, 65, 1503),
+    ["Victor"] = Vector3.new(-3587, 65, 634),
+    ["Yankee"] = Vector3.new(-3957, 65, -287),
+    ["Zulu"] = Vector3.new(-4049, 65, -1334)
+}
+
+-- 白名单检查函数
+local function isCrateInWhitelist(cratePos)
+    for _, baseName in ipairs(baseWhitelist) do
+        local basePos = basePositions[baseName]
+        if basePos and (cratePos - basePos).Magnitude <= 800 then
+            return true
+        end
+    end
+    return false
+end
+
+-- 基地白名单设置
+AutoTab:Dropdown({
+    Title = "基地白名单",
+    Values = {"Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", 
+             "Golf", "Hotel", "Juliet", "Kilo", "Lima", "Omega",
+             "Romeo", "Sierra", "Tango", "Victor", "Yankee", "Zulu"},
+    Value = {},
+    Multi = true,
+    AllowNone = true,
+    Callback = function(selectedBases)
+        baseWhitelist = selectedBases or {}
+    end
+})
+
+local TankCrates = game.ReplicatedStorage:WaitForChild("TankCrates")
+
+AutoTab:Toggle({
+    Title = "自动箱子(持续模式)",
+    Value = false,
+    Callback = function(t)
+        AutoXZ = t
+        local startPosition = Plr.Character.HumanoidRootPart.CFrame
+        local Crate = workspace:WaitForChild("Game Systems"):WaitForChild("Crate Workspace")
+        local currentBase = Plr.Team.Name
+
+        local baseNames = {"Alpha","Bravo","Charlie","Delta","Echo","Foxtrot",
+                           "Golf","Hotel","Juliet","Kilo","Lima","Omega",
+                           "Romeo","Sierra","Tango","Victor","Yankee","Zulu"}
+        local currentIndex = 1
+        local lastSearchPos = nil
+
+        while AutoXZ and task.wait() do
+            local foundCrate = false
+            local crates = Crate:GetChildren()
+            
+            -- 安全地遍历所有箱子
+            for i = 1, #crates do
+                if not AutoXZ then break end
+                
+                local v = crates[i]
+                -- 检查箱子是否有效且可偷取
+                if v and v.Parent and v:FindFirstChild("StealPrompt") and v.StealPrompt.Enabled then
+                    if isCrateInWhitelist(v.Position) then continue end
+
+                    foundCrate = true
+                    -- 传送到箱子上方
+                    Plr.Character.HumanoidRootPart.CFrame = v.CFrame + Vector3.new(0,3,0)
+                    task.wait(0.3)
+
+                    -- 尝试拿箱子
+                    local success, errorMsg = pcall(function()
+                        if v and v.Parent and v:FindFirstChild("StealPrompt") then
+                            TankCrates.WeldCrate:InvokeServer(v)
+                            TankCrates.changePrompt:FireServer(v, false)
+                        end
+                    end)
+                    
+                    if not success then
+                        print("拿箱子失败:", errorMsg)
+                    end
+
+                    -- 回到自己基地的回收区（确保区块加载）
+                    local myBaseName = Plr.Team.Name
+                    local myBasePos = basePositions[myBaseName]
+                    if myBasePos then
+                        Plr.Character.HumanoidRootPart.CFrame = CFrame.new(myBasePos)
+                        task.wait(1) -- 等待区块加载
+                        
+                        -- 在自己的基地查找回收区
+                        local success2, errorMsg2 = pcall(function()
+                            local myTycoon = workspace.Tycoon.Tycoons[myBaseName]
+                            if myTycoon then
+                                local essentials = myTycoon:FindFirstChild("Essentials")
+                                if essentials then
+                                    local oilCollector = essentials:FindFirstChild("Oil Collector")
+                                    if oilCollector then
+                                        local cratePromptPart = oilCollector:FindFirstChild("CratePromptPart")
+                                        if cratePromptPart then
+                                            local sellPrompt = cratePromptPart:FindFirstChild("SellPrompt")
+                                            if sellPrompt then
+                                                Plr.Character.HumanoidRootPart.CFrame = cratePromptPart.CFrame + Vector3.new(0,3,0)
+                                                task.wait(0.5) -- 等待位置稳定
+                                                fireproximityprompt(sellPrompt)
+                                                print("成功回收箱子")
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end)
+                        
+                        if not success2 then
+                            print("回收箱子失败:", errorMsg2)
+                        end
+                    end
+
+                    -- 短暂等待后继续搜索
+                    task.wait(0.5)
+                    break
+                end
+            end
+
+            -- 如果当前区域没找到箱子，就去下一个基地搜索
+            if not foundCrate then
+                local baseName = baseNames[currentIndex]
+                local targetPos = basePositions[baseName]
+                if targetPos then
+                    lastSearchPos = targetPos
+                    Plr.Character.HumanoidRootPart.CFrame = CFrame.new(targetPos)
+                    task.wait(1) -- 等待到达目标位置
+                    currentIndex = (currentIndex % #baseNames) + 1
+                end
+            elseif lastSearchPos then
+                -- 回到上一次搜索位置继续寻找
+                Plr.Character.HumanoidRootPart.CFrame = CFrame.new(lastSearchPos)
+                task.wait(0.5)
+            end
+            
+            -- 短暂延迟，避免过于频繁的搜索
+            task.wait(0.2)
+        end
+
+        -- 关闭时回到起始位置
+        if not AutoXZ then
+            Plr.Character.HumanoidRootPart.CFrame = startPosition
+        end
+    end
+})
+
+AutoTab:Button({
+    Title = "自动箱子(点击触发)",
+    Callback = function()
+        local startPos = Plr.Character.HumanoidRootPart.CFrame
+        local Crate = workspace:WaitForChild("Game Systems"):WaitForChild("Crate Workspace")
+        local baseNames = {"Alpha","Bravo","Charlie","Delta","Echo","Foxtrot",
+                           "Golf","Hotel","Juliet","Kilo","Lima","Omega",
+                           "Romeo","Sierra","Tango","Victor","Yankee","Zulu"}
+        local currentIndex = 1
+        local foundCrate = false
+        local cancelled = false
+
+        while not foundCrate and not cancelled do
+            for _, v in pairs(Crate:GetChildren()) do
+                if cancelled then break end
+                if v and v.Parent and v:FindFirstChild("StealPrompt") and v.StealPrompt.Enabled then
+                    if isCrateInWhitelist(v.Position) then continue end
+
+                    foundCrate = true
+                    -- 传送到箱子上方
+                    Plr.Character.HumanoidRootPart.CFrame = v.CFrame + Vector3.new(0,3,0)
+                    task.wait(0.3)
+
+                    -- 拿箱子（模拟按 E）
+                    local StealPrompt = v:FindFirstChild("StealPrompt")
+                    if StealPrompt then
+                        StealPrompt.PromptShown:Wait()
+                        task.wait(0.1)
+                        StealPrompt:InputHoldBegin()
+                        StealPrompt.Triggered:Wait()
+                        task.wait(0.1)
+                        StealPrompt:InputHoldEnd()
+                    end
+
+                    -- 返回点击位置
+                    if not cancelled then
+                        Plr.Character.HumanoidRootPart.CFrame = startPos
+                        task.wait(0.3)
+
+                        -- 放下箱子（模拟按 X）
+                        local DropPrompt = v:FindFirstChild("DropPrompt") or v:FindFirstChild("UnweldPrompt")
+                        if DropPrompt then
+                            DropPrompt.PromptShown:Wait()
+                            task.wait(0.1)
+                            DropPrompt:InputHoldBegin()
+                            DropPrompt.Triggered:Wait()
+                            task.wait(0.1)
+                            DropPrompt:InputHoldEnd()
+                        end
+                    end
+                    break
+                end
+            end
+
+            -- 如果没找到就移动到下一个基地
+            if not foundCrate and not cancelled then
+                local baseName = baseNames[currentIndex]
+                local targetPos = basePositions[baseName]
+                if targetPos then
+                    Plr.Character.HumanoidRootPart.CFrame = CFrame.new(targetPos)
+                    task.wait(1) -- 移动到下一个基地的速度保持 1 秒
+                    currentIndex = (currentIndex % #baseNames) + 1
+                end
+            end
+        end
+    end
+})
+
+
+
+
+
+AutoTab:Button({
+    Title = "传送到空投箱", 
+    Callback = function() 
+        if not Plr.Character or not Plr.Character:FindFirstChild("HumanoidRootPart") then return end
+        
+        local startPosition = Plr.Character.HumanoidRootPart.CFrame
+        local airdropModel
+        
+        -- 搜索空投箱模型
+        for _, child in ipairs(workspace:GetDescendants()) do
+            if child:IsA("Model") and string.match(child.Name, "^Airdrop_%d+$") then
+                airdropModel = child
+                break
+            end
+        end
+         
+        -- 传送到空投箱上方
+        local position = airdropModel:GetPivot().Position + Vector3.new(0, 3, 0)
+        Plr.Character:PivotTo(CFrame.new(position))
+        task.wait(0.5)
+        
+        -- 模拟按键E (使用虚拟输入)
+        local VirtualInput = game:GetService("VirtualInputManager")
+        
+        -- 按下E
+        VirtualInput:SendKeyEvent(true, Enum.KeyCode.E, false, nil)
+        task.wait(1)
+        -- 抬起E
+        VirtualInput:SendKeyEvent(false, Enum.KeyCode.E, false, nil)
+        
+        -- 等待收集完成 (检查空投箱是否还在)
+        local startTime = tick()
+        while airdropModel:IsDescendantOf(workspace) and (tick() - startTime < 1) do
+            task.wait()
+        end
+        
+        -- 返回原位置
+        task.wait(0)
+        Plr.Character:PivotTo(startPosition)
+        
+        Window:Notify({
+            Title = "自动空投箱",
+            Content = airdropModel:IsDescendantOf(workspace) and "收集可能未完成" or "已完成收集并返回",
+            Duration = 3
+        })
+    end
+})
+
+AutoTab:Toggle({
+    Title="自动油桶",Value=false,
+    Callback=function(v)
+        getgenv().AOE=v
+        local Plr=game.Players.LocalPlayer
+        local VIM=game:GetService("VirtualInputManager")
+        if v then getgenv().AOE_Pos=Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") and Plr.Character.HumanoidRootPart.CFrame end
+        local function tp(p) local h=Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") if h then h.CFrame=CFrame.new(p.X,p.Y+3,p.Z) task.wait(.5) end end
+        local function e() VIM:SendKeyEvent(true,Enum.KeyCode.E,false,nil) task.wait(1.5) VIM:SendKeyEvent(false,Enum.KeyCode.E,false,nil) end
+        local function cp() local c=workspace.Tycoon.Tycoons[Plr.Team.Name].Essentials["Oil Collector"].Collector return c and c.DiamondPlate.Position end
+        local locs={{Vector3.new(1705,120,3773),"Oil Rig2"},{Vector3.new(-1938,120,-3696),"Oil Rig1"},{Vector3.new(-1211,72,-880),"Warehouse1"}}
+        if v then task.spawn(function()
+            while getgenv().AOE do
+                for _,d in ipairs(locs) do
+                    if not getgenv().AOE then break end
+                    tp(d[1]) task.wait(.8)
+                    local rig=workspace["Game Systems"].Warehouses[d[2]]["Oil Capture"]["Barrel Template"].PromptPart:FindFirstChildWhichIsA("ProximityPrompt",true)
+                    if rig then rig.MaxActivationDistance,rig.HoldDuration=10,0.001 tp(rig.Parent.Position) e() tp(cp()) e() task.wait(6) end
+                    local g=workspace:FindFirstChild("Barrel Template") and workspace["Barrel Template"].PromptPart:FindFirstChild("BarrelPickup")
+                    if g then g.MaxActivationDistance,g.HoldDuration=10,0.001 tp(g.Parent.Position) e() tp(cp()) e() task.wait(6) end
+                end
+                task.wait(.5)
+            end
+            if getgenv().AOE_Pos and Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart") then
+                Plr.Character.HumanoidRootPart.CFrame=getgenv().AOE_Pos
+            end
+        end) end
+    end
+})
+
+local AutoUpgrade = false
+AutoTab:Toggle({
+    Title = "自动升级", 
+    Value = false, 
+    Callback = function(t)
+        AutoUpgrade = t
+        
+        if AutoUpgrade then
+            local SETTINGS = {
+                PART_NAME = "Neon",
+                COLORS = {
+                    GREEN = Color3.fromRGB(0, 255, 0),
+                    RED = Color3.fromRGB(255, 0, 0),
+                    YELLOW = Color3.fromRGB(255, 255, 0),
+                    BLUE = Color3.fromRGB(4, 175, 235)
+                },
+                HEIGHT = 1,
+                DELAY = 0.1,
+                RADIUS = 800,
+                FALL_HEIGHT = 5,
+                SCAN_INTERVAL = 0.1,
+                RED_SCAN_INTERVAL = 5
+            }
+            
+            local isPausedDueToRed = false
+            local char, root
+            local currentRebirths = 0
+
+            local function TeleportWithJump(part)
+                if not root or not part then return false end
+                local success = pcall(function()
+                    root.CFrame = part.CFrame + Vector3.new(0, SETTINGS.HEIGHT + SETTINGS.FALL_HEIGHT, 0)
+                    task.wait(0.3)
+                    root.CFrame = part.CFrame + Vector3.new(0, SETTINGS.HEIGHT, 0)
+                end)
+                return success
+            end
+
+            local function InitChar()
+                char = Plr.Character or Plr.CharacterAdded:Wait()
+                root = char:WaitForChild("HumanoidRootPart")
+            end
+
+            local function GetPlayerRebirths()
+                local rebirths = 0
+                pcall(function()
+                    local stats = Plr:FindFirstChild("leaderstats")
+                    if stats then
+                        local rebirthStat = stats:FindFirstChild("Rebirths")
+                        if rebirthStat then
+                            rebirths = rebirthStat.Value
+                        end
+                    end
+                end)
+                currentRebirths = rebirths
+                return rebirths
+            end
+
+            local function GetRequiredRebirthFromParentName(parentName)
+                local specialCases = {
+                    ["Hovercraft Vehicles"] = 4,
+                    ["Unlock Bunker and Missile Silo"] = 2,
+                    ["Tank Unlock"] = 6,
+                    ["Vehicle Bay"] = 1,
+                    ["Planes"] = 7,
+                    ["Medbay Start"] = 1,
+                    ["Trading Hub"] = 1,
+                    ["WW2"] = 4,
+                    ["Drone"] = 5,
+                    ["Missile Silo Start"] = 5,
+                    ["Vietnam Unlock"] = 4
+                }
+                
+                for name, num in pairs(specialCases) do
+                    if string.find(parentName, name, 1, true) then
+                        return num
+                    end
+                end
+                
+                local bracketPattern = "%[(%d+)%s*Rebirths?%]"
+                local bracketNum = tonumber(string.match(parentName, bracketPattern))
+                if bracketNum then return bracketNum end
+                
+                local numPatterns = {
+                    "Rebirth%s*(%d+)",
+                    "Start%s*(%d+)",
+                    "(%d+)%s*Rebirths",
+                    "(%d+)%s*$"
+                }
+                
+                for _, pattern in ipairs(numPatterns) do
+                    local num = tonumber(string.match(parentName, pattern))
+                    if num then return num end
+                end
+                
+                return nil
+            end
+
+            local function IsYellowPartValid(part)
+                if not part then return false end
+                local parent = part.Parent
+                if not parent then return false end
+                
+                if parent.Name == "Server Rack 1" then return false end
+                
+                local requiredRebirth = GetRequiredRebirthFromParentName(parent.Name)
+                if not requiredRebirth then return false end
+                
+                return currentRebirths >= requiredRebirth
+            end
+
+            local function FindAllValidParts()
+                if not root then return {}, {}, {}, false end
+                
+                local greens, yellows, blues = {}, {}, {}
+                local hasRed = false
+                local pos = root.Position
+                GetPlayerRebirths()
+                
+                for _, obj in ipairs(workspace:GetDescendants()) do
+                    if obj:IsA("BasePart") and obj.Name == SETTINGS.PART_NAME then
+                        local dist = (obj.Position - pos).Magnitude
+                        if dist < SETTINGS.RADIUS then
+                            if obj.Color == SETTINGS.COLORS.GREEN then
+                                table.insert(greens, obj)
+                            elseif obj.Color == SETTINGS.COLORS.YELLOW then
+                                if IsYellowPartValid(obj) then
+                                    table.insert(yellows, obj)
+                                end
+                            elseif obj.Color == SETTINGS.COLORS.BLUE then
+                                table.insert(blues, obj)
+                            elseif obj.Color == SETTINGS.COLORS.RED then
+                                hasRed = true
+                            end
+                        end
+                    end
+                end
+                
+                local function sortByDistance(a, b)
+                    return (a.Position - pos).Magnitude < (b.Position - pos).Magnitude
+                end
+                
+                table.sort(greens, sortByDistance)
+                table.sort(yellows, sortByDistance)
+                table.sort(blues, sortByDistance)
+                
+                return greens, yellows, blues, hasRed
+            end
+
+            local function SafeTouch(part)
+                if not part or not root then return end
+                pcall(function()
+                    firetouchinterest(root, part, 0)
+                    firetouchinterest(root, part, 1)
+                end)
+            end
+
+            InitChar()
+            
+            while AutoUpgrade do
+                local greens, yellows, blues, hasRed = FindAllValidParts()
+                
+                if #greens == 0 and hasRed then
+                    isPausedDueToRed = true
+                elseif isPausedDueToRed and (#greens > 0 or not hasRed) then
+                    isPausedDueToRed = false
+                end
+                
+                if not isPausedDueToRed then
+                    for _, part in ipairs(greens) do
+                        if not AutoUpgrade then break end
+                        if part and part.Parent and part.Color == SETTINGS.COLORS.GREEN then
+                            if TeleportWithJump(part) then
+                                SafeTouch(part)
+                                task.wait(SETTINGS.DELAY)
+                            end
+                        end
+                    end
+                    
+                    for _, part in ipairs(blues) do
+                        if not AutoUpgrade then break end
+                        if part and part.Parent then
+                            if TeleportWithJump(part) then
+                                SafeTouch(part)
+                                task.wait(SETTINGS.DELAY)
+                            end
+                        end
+                    end
+                    
+                    for _, part in ipairs(yellows) do
+                        if not AutoUpgrade then break end
+                        if part and part.Parent and IsYellowPartValid(part) then
+                            if TeleportWithJump(part) then
+                                SafeTouch(part)
+                                task.wait(SETTINGS.DELAY)
+                            end
+                        end
+                    end
+                end
+                
+                task.wait(isPausedDueToRed and SETTINGS.RED_SCAN_INTERVAL or SETTINGS.SCAN_INTERVAL)
+            end
+        end
+    end
+})
+
+-- 辅助功能
+AssistTab:Button({
+    Title = "删除摔落伤害",
+    Callback = function()
+        game:GetService("ReplicatedStorage").ACS_Engine.Events.FDMG:Destroy()
+    end
+})
+
+AssistTab:Button({
+    Title = "删除所有门",
+    Callback = function()
+        local tycoons = workspace:FindFirstChild("Tycoon")
+        if not tycoons then return end
+        tycoons = tycoons:FindFirstChild("Tycoons")
+        if not tycoons then return end
+        
+        for _, tycoon in ipairs(tycoons:GetChildren()) do
+            local purchasedObjects = tycoon:FindFirstChild("PurchasedObjects")
+            if purchasedObjects then
+                for _, obj in ipairs(purchasedObjects:GetChildren()) do
+                    local lowerName = obj.Name:lower()
+                    if lowerName:match("door") or lowerName:match("gate") then
+                        obj:Destroy()
+                    end
+                end
+            end
+        end
+    end
+})
+
+local connection
+AssistTab:Toggle({
+    Title = "交互按钮无CD",
+    Value = false,
+    Callback = function(t)
+        if t then
+            if not connection then
+                connection = game:GetService("ProximityPromptService").PromptButtonHoldBegan:Connect(function(prompt)
+                    prompt.HoldDuration = 0.000000000000000001
+                end)
+            end
+        else
+            if connection then
+                connection:Disconnect()
+                connection = nil
+            end
+        end
+    end
+})
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local Plr = Players.LocalPlayer
+local Camera = workspace.CurrentCamera
+
+-- HSV 渐变颜色
+local hue, saturation, value = 0, 1, 1
+local colorSpeed = 0.3
+local currentColor
+local function hsvToRgb(h, s, v)
+    local r, g, b
+    local i = math.floor(h * 6)
+    local f = h * 6 - i
+    local p = v * (1 - s)
+    local q = v * (1 - f * s)
+    local t = v * (1 - (1 - f) * s)
+    i = i % 6
+    if i == 0 then r, g, b = v, t, p
+    elseif i == 1 then r, g, b = q, v, p
+    elseif i == 2 then r, g, b = p, v, t
+    elseif i == 3 then r, g, b = p, q, v
+    elseif i == 4 then r, g, b = t, p, v
+    elseif i == 5 then r, g, b = v, p, q end
+    return Color3.new(r, g, b)
+end
+RunService.RenderStepped:Connect(function(dt)
+    hue = (hue + colorSpeed * dt) % 1
+    currentColor = hsvToRgb(hue, saturation, value)
+end)
+
+-- 检测函数
+local function isInRange(character)
+    if not (character and character:FindFirstChild("HumanoidRootPart")) then return false end
+    if not (Plr.Character and Plr.Character:FindFirstChild("HumanoidRootPart")) then return false end
+    return (character.HumanoidRootPart.Position - Plr.Character.HumanoidRootPart.Position).Magnitude <= 50000
+end
+local function isAlive(character)
+    return character:FindFirstChild("Humanoid") and character.Humanoid.Health > 0
+end
+local function isOnScreen(position)
+    local vp = Camera.ViewportSize
+    return position.X >= 0 and position.Y >= 0 and position.X <= vp.X and position.Y <= vp.Y
+end
+
+-- 存储绘制对象
+local espData = {} -- { player = {boxLines={}, tracer=nil, highlight=nil, name=nil} }
+
+-- 清理函数
+local function cleanupESP(player)
+    local data = espData[player]
+    if not data then return end
+    if data.boxLines then
+        for _, l in pairs(data.boxLines) do if l then l:Remove() end end
+    end
+    if data.tracer then data.tracer:Remove() end
+    if data.highlight then data.highlight:Destroy() end
+    if data.name then data.name:Destroy() end
+    espData[player] = nil
+end
+
+-- 玩家退出立刻清除
+Players.PlayerRemoving:Connect(function(player)
+    cleanupESP(player)
+end)
+
+-- 开关
+local enableBox = false
+local enableTracer = false
+local enableModel = false
+local enableName = false
+
+-- 主循环
+local espConn
+local function toggleESP(state)
+    if espConn then espConn:Disconnect() espConn = nil end
+    for p in pairs(espData) do cleanupESP(p) end
+    if state then
+        espConn = RunService.RenderStepped:Connect(function()
+            for _, p in ipairs(Players:GetPlayers()) do
+                if p ~= Plr and p.Character then
+                    if isAlive(p.Character) and isInRange(p.Character) then
+                        local hrp = p.Character:FindFirstChild("HumanoidRootPart")
+                        local head = p.Character:FindFirstChild("Head")
+                        if hrp and head then
+                            local pos, vis = Camera:WorldToViewportPoint(hrp.Position)
+                            if vis and isOnScreen(pos) then
+                                -- 初始化存储
+                                if not espData[p] then espData[p] = {} end
+                                local data = espData[p]
+
+                                -- 模型透视
+                                if enableModel then
+                                    if not data.highlight then
+                                        local hl = Instance.new("Highlight")
+                                        hl.FillTransparency = 0.7
+                                        hl.OutlineTransparency = 0.3
+                                        hl.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+                                        hl.Parent = p.Character
+                                        data.highlight = hl
+                                    end
+                                    data.highlight.FillColor = currentColor
+                                    data.highlight.OutlineColor = currentColor
+                                elseif data.highlight then
+                                    data.highlight:Destroy()
+                                    data.highlight = nil
+                                end
+
+                                -- 名字透视
+                                if enableName then
+                                    if not data.name then
+                                        local billboard = Instance.new("BillboardGui")
+                                        billboard.Adornee = head
+                                        billboard.Size = UDim2.new(0, 200, 0, 30)
+                                        billboard.StudsOffset = Vector3.new(0, 3, 0)
+                                        billboard.AlwaysOnTop = true
+                                        billboard.MaxDistance = 50000
+                                        local textLabel = Instance.new("TextLabel")
+                                        textLabel.Text = p.Name
+                                        textLabel.Size = UDim2.new(1, 0, 1, 0)
+                                        textLabel.BackgroundTransparency = 1
+                                        textLabel.TextColor3 = p.TeamColor.Color
+                                        textLabel.TextStrokeColor3 = Color3.new(0, 0, 0)
+                                        textLabel.TextStrokeTransparency = 0.3
+                                        textLabel.Font = Enum.Font.SourceSansBold
+                                        textLabel.TextSize = 18
+                                        textLabel.Parent = billboard
+                                        billboard.Parent = head
+                                        data.name = billboard
+                                    end
+                                elseif data.name then
+                                    data.name:Destroy()
+                                    data.name = nil
+                                end
+
+                                -- 方框透视
+                                if enableBox then
+                                    if not data.boxLines then
+                                        data.boxLines = {}
+                                        for i = 1, 12 do data.boxLines[i] = Drawing.new("Line") end
+                                    end
+                                    local scale = head.Size.Y / 2
+                                    local size = Vector3.new(2,3,1.5) * (scale * 2)
+                                    local function wtv(off) return Camera:WorldToViewportPoint((hrp.CFrame * off).p) end
+                                    local T1,T2,T3,T4 = wtv(CFrame.new(-size.X,size.Y,-size.Z)), wtv(CFrame.new(-size.X,size.Y,size.Z)),
+                                                         wtv(CFrame.new(size.X,size.Y,size.Z)), wtv(CFrame.new(size.X,size.Y,-size.Z))
+                                    local B1,B2,B3,B4 = wtv(CFrame.new(-size.X,-size.Y,-size.Z)), wtv(CFrame.new(-size.X,-size.Y,size.Z)),
+                                                         wtv(CFrame.new(size.X,-size.Y,size.Z)), wtv(CFrame.new(size.X,-size.Y,-size.Z))
+                                    local coords = {
+                                        {T1,T2},{T2,T3},{T3,T4},{T4,T1},
+                                        {B1,B2},{B2,B3},{B3,B4},{B4,B1},
+                                        {B1,T1},{B2,T2},{B3,T3},{B4,T4}
+                                    }
+                                    for i, c in ipairs(coords) do
+                                        local l = data.boxLines[i]
+                                        l.From = Vector2.new(c[1].X, c[1].Y)
+                                        l.To = Vector2.new(c[2].X, c[2].Y)
+                                        l.Color = currentColor
+                                        l.Thickness = 1.4
+                                        l.Visible = true
+                                    end
+                                elseif data.boxLines then
+                                    for _, l in pairs(data.boxLines) do if l then l:Remove() end end
+                                    data.boxLines = nil
+                                end
+
+                                -- 射线透视
+                                if enableTracer then
+                                    if not data.tracer then
+                                        data.tracer = Drawing.new("Line")
+                                    end
+                                    local scale = head.Size.Y / 2
+                                    local size = Vector3.new(2,3,1.5) * (scale * 2)
+                                    local tracePos = Camera:WorldToViewportPoint((hrp.CFrame * CFrame.new(0, -size.Y, 0)).p)
+                                    data.tracer.From = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y)
+                                    data.tracer.To = Vector2.new(tracePos.X, tracePos.Y)
+                                    data.tracer.Color = currentColor
+                                    data.tracer.Thickness = 1.4
+                                    data.tracer.Visible = true
+                                elseif data.tracer then
+                                    data.tracer:Remove()
+                                    data.tracer = nil
+                                end
+
+                            else
+                                cleanupESP(p)
+                            end
+                        else
+                            cleanupESP(p)
+                        end
+                    else
+                        cleanupESP(p)
+                    end
+                else
+                    cleanupESP(p)
+                end
+            end
+        end)
+    end
+end
+
+-- UI 开关
+EspTab:Toggle({Title="模型透视",Value=false,Callback=function(v) enableModel=v; toggleESP(enableModel or enableName or enableBox or enableTracer) end})
+EspTab:Toggle({Title="名字透视",Value=false,Callback=function(v) enableName=v; toggleESP(enableModel or enableName or enableBox or enableTracer) end})
+EspTab:Toggle({Title="方框透视",Value=false,Callback=function(v) enableBox=v; toggleESP(enableModel or enableName or enableBox or enableTracer) end})
+EspTab:Toggle({Title="射线透视",Value=false,Callback=function(v) enableTracer=v; toggleESP(enableModel or enableName or enableBox or enableTracer) end})
+
+
+
+
+AimTab:Toggle({
+    Title = "玩家自瞄",
+    Value = false,
+    Callback = function(t)
+        autoAimEnabled = t
+        if ToggleButton then
+            ToggleButton.Image = autoAimEnabled and "rbxassetid://7733765307" or "rbxassetid://7733992469"
+        end
+    end
+})
+
+AimTab:Toggle({
+    Title = "显示范围",
+    Value = false,
+    Callback = function(t)
+        fovVisible = t
+        FOVring.Visible = fovVisible
+    end
+})
+
+AimTab:Toggle({
+    Title = "掩体不瞄",
+    Value = false,
+    Callback = function(t)
+        ignoreCover = t
+    end
+})
+
+AimTab:Input({
+    Title = "自瞄范围",
+    Value = tostring(fov),
+    Placeholder = "输入自瞄范围值",
+    Callback = function(input)
+        local num = tonumber(input)
+        if num then
+            fov = num
+            FOVring.Radius = fov
+        end
+    end
+})
+
+AimTab:Input({
+    Title = "自瞄距离",
+    Value = tostring(maxDistance),
+    Placeholder = "输入自瞄距离值",
+    Callback = function(input)
+        local num = tonumber(input)
+        if num then
+            maxDistance = num
+        end
+    end
+})
+
+AimTab:Input({
+    Title = "自瞄圈粗细",
+    Value = tostring(FOVring.Thickness),
+    Placeholder = "输入自瞄圈粗细值",
+    Callback = function(input)
+        local num = tonumber(input)
+        if num then
+            FOVring.Thickness = num
+        end
+    end
+})
+
+AimTab:Dropdown({
+    Title = "选择自瞄目标",
+    Values = {"敌对", "全部"},
+    Value = "敌对",
+    Callback = function(d) aimTarget = d end
+})
+
+AimTab:Dropdown({
+    Title = "选择自瞄位置",
+    Values = {"头部", "躯干"},
+    Value = "头部",
+    Callback = function(d)
+        aimPosition = d == "头部" and "Head" or "Torso"
+    end
+})
+
+AimTab:Dropdown({
+    Title = "选择圈的颜色",
+    Values = {"红", "黄", "蓝", "绿", "青", "紫", "彩虹"},
+    Value = "红",
+    Callback = function(d)
+        if d == "彩虹" then
+            rainbowEnabled = true
+        else
+            rainbowEnabled = false
+            local colors = {
+                ["红"] = Color3.new(1, 0, 0),
+                ["黄"] = Color3.new(1, 1, 0),
+                ["蓝"] = Color3.new(0, 0, 1),
+                ["绿"] = Color3.new(0, 1, 0),
+                ["青"] = Color3.new(0, 1, 1),
+                ["紫"] = Color3.new(1, 0, 1)
+            }
+            FOVring.Color = colors[d]
+        end
+    end
+})
+
+local ToggleButton
+local buttonPosition = UDim2.new(0, 10, 0, 10)
+
+local function createToggleButton()
+    local ScreenGui = Instance.new("ScreenGui")
+    ScreenGui.Name = "AlienXAimToggle"
+    ScreenGui.Parent = game:GetService("CoreGui")
+    ToggleButton = Instance.new("ImageButton")
+    ToggleButton.Size = UDim2.new(0, 40, 0, 40)
+    ToggleButton.Position = buttonPosition
+    ToggleButton.BackgroundTransparency = 1
+    ToggleButton.Image = autoAimEnabled and "rbxassetid://7733765307" or "rbxassetid://7733992469"
+    ToggleButton.Parent = ScreenGui
+    local hue = 0
+    local saturation = 1
+    local value = 1
+    local enabledColorSpeed = 0.5
+    local disabledColorSpeed = 0.2
+    local function hsvToRgb(h, s, v)
+        local r, g, b
+        local i = math.floor(h * 6)
+        local f = h * 6 - i
+        local p = v * (1 - s)
+        local q = v * (1 - f * s)
+        local t = v * (1 - (1 - f) * s)
+        i = i % 6
+        if i == 0 then r, g, b = v, t, p
+        elseif i == 1 then r, g, b = q, v, p
+        elseif i == 2 then r, g, b = p, v, t
+        elseif i == 3 then r, g, b = p, q, v
+        elseif i == 4 then r, g, b = t, p, v
+        elseif i == 5 then r, g, b = v, p, q
+        end
+        return Color3.new(r, g, b)
+    end
+    game:GetService("RunService").RenderStepped:Connect(function()
+        local speed = autoAimEnabled and enabledColorSpeed or disabledColorSpeed
+        hue = (hue + speed * 0.02) % 1
+        local currentSaturation = autoAimEnabled and saturation or saturation * 0.7
+        local currentValue = autoAimEnabled and value or value * 0.8
+        ToggleButton.ImageColor3 = hsvToRgb(hue, currentSaturation, currentValue)
+    end)
+    local function updateToggleButtonImage()
+        ToggleButton.Image = autoAimEnabled and "rbxassetid://7733765307" or "rbxassetid://7733992469"
+    end
+    ToggleButton.MouseButton1Click:Connect(function()
+        autoAimEnabled = not autoAimEnabled
+        updateToggleButtonImage()
+        AimTab:FindToggle("玩家自瞄"):SetValue(autoAimEnabled)
+    end)
+    local dragging = false
+    local dragInput, dragStart, startPos
+    local function update(input)
+        local delta = input.Position - dragStart
+        ToggleButton.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+        buttonPosition = ToggleButton.Position
+    end
+    ToggleButton.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = ToggleButton.Position
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then dragging = false end
+            end)
+        end
+    end)
+    ToggleButton.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then dragInput = input end
+    end)
+    game:GetService("UserInputService").InputChanged:Connect(function(input)
+        if dragging and input == dragInput then update(input) end
+    end)
+end
+
+local function lookAt(target)
+    local Cam = workspace.CurrentCamera
+    Cam.CFrame = CFrame.new(Cam.CFrame.Position, target)
+end
+
+local function getClosestPlayerInFOV(trg_part)
+    local Cam = workspace.CurrentCamera
+    local nearest = nil
+    local last = math.huge
+    local playerMousePos = Cam.ViewportSize / 2
+    for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+        if player ~= Plr and (aimTarget=="全部" or player.TeamColor~=Plr.TeamColor) then
+            local character = player.Character
+            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+            local part = character and character:FindFirstChild(trg_part)
+            if part and humanoid and humanoid.Health>0 then
+                local ePos, isVisible = Cam:WorldToViewportPoint(part.Position)
+                local distance = (Vector2.new(ePos.X,ePos.Y)-playerMousePos).Magnitude
+                if distance<last and isVisible and distance<fov then
+                    if (part.Position-Cam.CFrame.Position).Magnitude<=tonumber(maxDistance) then
+                        if not ignoreCover or #Cam:GetPartsObscuringTarget({part.Position},{character,Plr.Character})==0 then
+                            last=distance
+                            nearest=player
+                        end
+                    end
+                end
+            end
+        end
+    end
+    return nearest
+end
+
+local function updateDrawings()
+    FOVring.Position = workspace.CurrentCamera.ViewportSize/2
+end
+
+createToggleButton()
+
+-- 添加左Alt键切换功能
+local altPressed = false
+game:GetService("UserInputService").InputBegan:Connect(function(input, gameProcessed)
+    if input.KeyCode == Enum.KeyCode.LeftAlt then
+        altPressed = true
+        autoAimEnabled = not autoAimEnabled
+        if ToggleButton then
+            ToggleButton.Image = autoAimEnabled and "rbxassetid://7733765307" or "rbxassetid://7733992469"
+        end
+        AimTab:FindToggle("玩家自瞄"):SetValue(autoAimEnabled)
+    end
+end)
+
+game:GetService("UserInputService").InputEnded:Connect(function(input, gameProcessed)
+    if input.KeyCode == Enum.KeyCode.LeftAlt then
+        altPressed = false
+    end
+end)
+
+game:GetService("RunService").RenderStepped:Connect(function()
+    updateDrawings()
+    if autoAimEnabled then
+        local closestPlayer=getClosestPlayerInFOV(aimPosition)
+        if closestPlayer and closestPlayer.Character:FindFirstChild(aimPosition) then
+            lookAt(closestPlayer.Character[aimPosition].Position)
+        end
+    end
+    if rainbowEnabled then
+        local t=tick()*2
+        FOVring.Color=Color3.new(math.abs(math.sin(t)),math.abs(math.sin(t+2*math.pi/3)),math.abs(math.sin(t+4*math.pi/3)))
+    end
+end)
+
+Plr.CharacterAdded:Connect(function()
+    if ToggleButton then
+        buttonPosition=ToggleButton.Position
+        ToggleButton:Destroy()
+    end
+    createToggleButton()
+end)
+
+
+-- 攻击功能
+local PlayerList = {}
+for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+    table.insert(PlayerList, player.Name)
+end
+
+local excludeTargetsDropdown = AttackTab:Dropdown({
+    Title = "不攻击的玩家(多选)",
+    Values = PlayerList,
+    Value = {},
+    Multi = true,
+    AllowNone = true,
+    Callback = function(d) C_NPlayers = d or {} end
+})
+
+AttackTab:Button({
+    Title = "刷新玩家列表",
+    Callback = function()
+        PlayerList = {}
+        for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+            table.insert(PlayerList, player.Name)
+        end
+        excludeTargetsDropdown:Refresh(PlayerList)
+    end
+})
+
+AttackTab:Button({
+    Title = "获取RPG",
+    Callback = function()
+        local TycoonsFolder = workspace.Tycoon.Tycoons
+        local savedPosition
+        
+        local function findNearestTeleportPosition()
+            local character = Plr.Character or Plr.CharacterAdded:Wait()
+            local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+            local playerPosition = humanoidRootPart.Position
+            local closestDistance = math.huge
+            local closestCFrame = nil
+            
+            for _, tycoonModel in ipairs(TycoonsFolder:GetChildren()) do
+                if tycoonModel:IsA("Model") then
+                    local purchasedObjects = tycoonModel:FindFirstChild("PurchasedObjects")
+                    if purchasedObjects then
+                        local rpgGiver = purchasedObjects:FindFirstChild("RPG Giver")
+                        if rpgGiver then
+                            local prompt = rpgGiver:FindFirstChild("Prompt")
+                            if prompt and prompt:IsA("BasePart") then
+                                local distance = (playerPosition - prompt.Position).Magnitude
+                                if distance < closestDistance then
+                                    closestDistance = distance
+                                    closestCFrame = prompt.CFrame
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+            return closestCFrame
+        end
+        
+        local function teleportPlayer()
+            local character = Plr.Character
+            if not character then return end
+            
+            local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
+            if humanoidRootPart then
+                savedPosition = humanoidRootPart.CFrame
+            end
+            
+            local targetCFrame = findNearestTeleportPosition()
+            if targetCFrame then
+                humanoidRootPart.CFrame = targetCFrame
+                
+                spawn(function()
+                    while wait(0.5) do
+                        if not character.Parent then break end
+                        
+                        local backpack = Plr:FindFirstChild("Backpack")
+                        if backpack and backpack:FindFirstChild("RPG") then
+                            humanoidRootPart.CFrame = savedPosition
+                            break
+                        end
+                    end
+                end)
+            else
+                Window:Notify({
+                    Title = "ERROR",
+                    Content = "未能找到附近的RPG",
+                    Duration = 4,
+                })
+            end
+        end
+        
+        teleportPlayer()
+    end
+})
+
+local loopActive = false
+local rpgAttackThread = nil
+AttackTab:Toggle({
+    Title = "RPG轰炸",
+    Value = false,
+    Callback = function(t)
+        loopActive = t
+        if t then
+            if rpgAttackThread then
+                coroutine.close(rpgAttackThread)
+                rpgAttackThread = nil
+            end
+            
+            rpgAttackThread = coroutine.create(function()
+                local ReplicatedStorage = game:GetService("ReplicatedStorage")
+                local RocketSystem = ReplicatedStorage:WaitForChild("RocketSystem")
+                local FireRocket = RocketSystem.Events.FireRocket
+                local RocketHit = RocketSystem.Events.RocketHit
+                local attackPhase = "attack"
+                local phaseStartTime = os.clock()
+                
+                while loopActive do
+                    local currentTime = os.clock()
+                    local elapsed = currentTime - phaseStartTime
+                    
+                    if not loopActive then break end
+                    
+                    if attackPhase == "attack" then
+                        if elapsed >= 3 then
+                            attackPhase = "pause"
+                            phaseStartTime = os.clock()
+                        else
+                            local character = Plr.Character
+                            if character and character:FindFirstChild("HumanoidRootPart") then
+                                local attackPosition = character.HumanoidRootPart.Position + Vector3.new(0, 1000, 0)
+                                local weapon = character:FindFirstChild("RPG")
+                                
+                                if weapon then
+                                    for _, player in ipairs(game:GetService("Players"):GetPlayers()) do
+                                        if player ~= Plr and player.Character and not table.find(C_NPlayers, player.Name) then
+                                            local target = player.Character:FindFirstChild("HumanoidRootPart")
+                                            if target then
+                                                FireRocket:InvokeServer(Vector3.new(), weapon, weapon, attackPosition)
+                                                RocketHit:FireServer(attackPosition, Vector3.new(), weapon, weapon, target, nil, "asdfghvcqawRocket4")
+                                                task.wait(0)
+                                            end
+                                        end
+                                    end
+                                end
+                            end
+                        end
+                    elseif attackPhase == "pause" then
+                        if elapsed >= 2 then
+                            attackPhase = "attack"
+                            phaseStartTime = os.clock()
+                        end
+                    end
+                    task.wait(0)
+                end
+            end)
+            coroutine.resume(rpgAttackThread)
+        else
+            if rpgAttackThread then
+                coroutine.close(rpgAttackThread)
+                rpgAttackThread = nil
+            end
+        end
+    end
+})
+
+local shieldAttackActive = false
+local shieldAttackThread = nil
+local Plr = game.Players.LocalPlayer
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RocketSystem = ReplicatedStorage:WaitForChild("RocketSystem") -- 正确位置
+
+AttackTab:Toggle({
+    Title = "护盾攻击",
+    Value = false,
+    Callback = function(state)
+        shieldAttackActive = state
+
+        if shieldAttackThread then
+            coroutine.close(shieldAttackThread)
+            shieldAttackThread = nil
+        end
+
+        if state then
+            shieldAttackThread = coroutine.create(function()
+                local Character = Plr.Character or Plr.CharacterAdded:Wait()
+                local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+
+                while shieldAttackActive do
+                    local success, err = pcall(function()
+                        local rpg = Character:FindFirstChild("RPG")
+                        if not rpg then return end
+
+                        local attackPos = HumanoidRootPart.Position + Vector3.new(0,1000,0)
+                        local tycoonsFolder = workspace:WaitForChild("Tycoon"):WaitForChild("Tycoons")
+
+                        for _, tycoon in ipairs(tycoonsFolder:GetChildren()) do
+                            if not shieldAttackActive then break end
+                            if tycoon.Owner.Value ~= Plr then
+                                local shield = tycoon:FindFirstChild("PurchasedObjects", true)
+                                    and tycoon.PurchasedObjects:FindFirstChild("Base Shield", true)
+                                    and tycoon.PurchasedObjects["Base Shield"]:FindFirstChild("Shield", true)
+                                    and tycoon.PurchasedObjects["Base Shield"].Shield:FindFirstChild("Shield4", true)
+
+                                if shield then
+                                    local fireArgs = { Vector3.new(0,0,0), rpg, rpg, attackPos }
+                                    local hitArgs = {attackPos, Vector3.new(0,-1,0), rpg, rpg, shield, nil, string.format("%sRocket%d", string.char(math.random(65,90)), math.random(1,1000))}
+
+                                    -- 🚀 一次发射三发，更快
+                                    for i = 1, 3 do
+                                        RocketSystem.Events.RocketHit:FireServer(unpack(hitArgs))
+                                        RocketSystem.Events.FireRocket:InvokeServer(unpack(fireArgs))
+                                        task.wait(0) -- 每发之间仅 0.1s
+                                    end
+                                end
+                            end
+                        end
+                    end)
+                    if not success then warn("护盾攻击报错:", err) end
+                    task.wait(0) -- 每轮间隔也改为 0.1s
+                end
+            end)
+            coroutine.resume(shieldAttackThread)
+        end
+    end
+})
+
+
+
+
+
+
+WeaponTab:Toggle({
+    Title = "无限子弹", 
+    Value = false,
+    Callback = function(t)
+        local RS = game:GetService("ReplicatedStorage")
+        local ACS_Guns = RS:WaitForChild("Configurations"):WaitForChild("ACS_Guns")
+        
+        -- 保存原始设置
+        if not originalSettings then
+            originalSettings = {}
+            for _, gun in ipairs(ACS_Guns:GetChildren()) do
+                if gun:FindFirstChild("Settings") then
+                    originalSettings[gun.Name] = table.clone(require(gun.Settings))
+                end
+            end
+        end
+        
+        -- 修改或恢复设置
+        for gunName, data in pairs(originalSettings) do
+            local gunModule = ACS_Guns:FindFirstChild(gunName)
+            if gunModule and gunModule:FindFirstChild("Settings") then
+                local settings = require(gunModule.Settings)
+                if t then
+                    -- 启用无限子弹
+                    settings.Ammo = math.huge
+                    settings.MagAmmo = math.huge
+                    settings.ReserveAmmo = math.huge
+                else
+                    -- 恢复原始设置
+                    settings.Ammo = data.Ammo
+                    settings.MagAmmo = data.MagAmmo
+                    settings.ReserveAmmo = data.ReserveAmmo
+                end
+            end
+        end
+    end
+})
+
+WeaponTab:Toggle({
+    Title = "全枪修改",
+    Value = false,
+    Callback = function(state)
+        local Players = game:GetService("Players")
+        local RS = game:GetService("ReplicatedStorage")
+        local LocalPlayer = Players.LocalPlayer
+        local ACS_Guns = RS:WaitForChild("Configurations"):WaitForChild("ACS_Guns")
+
+        local originalSettings = {}
+        local modifiedGuns = {}
+        local toolConnections = {}
+
+        local function saveOriginal(gunName)
+            local gunModule = ACS_Guns:FindFirstChild(gunName)
+            if gunModule and gunModule:FindFirstChild("Settings") then
+                if not originalSettings[gunName] then
+                    originalSettings[gunName] = table.clone(require(gunModule.Settings))
+                end
+            end
+        end
+
+        local function restoreAll()
+            for gunName, data in pairs(originalSettings) do
+                local gunModule = ACS_Guns:FindFirstChild(gunName)
+                if gunModule and gunModule:FindFirstChild("Settings") then
+                    local settings = require(gunModule.Settings)
+                    for k, v in pairs(data) do
+                        settings[k] = v
+                    end
+                end
+            end
+            modifiedGuns = {}
+            for _, connSet in pairs(toolConnections) do
+                for _, conn in pairs(connSet) do
+                    if typeof(conn) == "RBXScriptConnection" then
+                        conn:Disconnect()
+                    end
+                end
+            end
+            toolConnections = {}
+        end
+
+        local function modifyGun(gunName)
+            if modifiedGuns[gunName] then return end
+            local gunModule = ACS_Guns:FindFirstChild(gunName)
+            if not gunModule or not gunModule:FindFirstChild("Settings") then return end
+            local settings = require(gunModule.Settings)
+            if gunName == "RPG" or gunName == "Javelin" then
+                settings.Ammo = math.huge
+                modifiedGuns[gunName] = true
+                return
+            end
+            settings.Mode = "Auto"
+            settings.FireModes.ChangeFiremode = true
+            settings.FireModes.Auto = true
+            settings.FireModes.Semi = false
+            settings.FireModes.Burst = false
+            settings.Ammo = math.huge
+            settings.FireRate = 999999999999999
+            settings.BurstFireRate = 999999999999999
+            settings.BurstShot = 1
+            settings.DamageMultiplier = 999999999999999
+            settings.HeadDamageMultiplier = 9999999999999999
+            settings.VRecoil = {0, 0}
+            settings.HRecoil = {0, 0}
+            settings.RecoilPunch = 0
+            settings.VPunchBase = 0
+            settings.HPunchBase = 0
+            settings.DPunchBase = 0
+            settings.AimRecoilReduction = 999999999999999
+            settings.PunchRecover = 0
+            settings.MinRecoilPower = 0
+            settings.MaxRecoilPower = 0
+            settings.RecoilPowerStepAmount = 0
+            settings.MinSpread = 0
+            settings.MaxSpread = 0
+            settings.HipfireSpreadMuitpler = 0
+            settings.SwayBase = 0
+            modifiedGuns[gunName] = true
+        end
+
+        local function handleTool(tool)
+            if not tool:IsA("Tool") then return end
+            if toolConnections[tool] then return end
+            local delayMod = task.delay(3, function()
+                if not modifiedGuns[tool.Name] then
+                    modifyGun(tool.Name)
+                end
+            end)
+            local activatedConn = tool.Activated:Connect(function()
+                if not modifiedGuns[tool.Name] then
+                    task.delay(1, function()
+                        if not modifiedGuns[tool.Name] then
+                            modifyGun(tool.Name)
+                        end
+                    end)
+                end
+            end)
+            local changedConn = tool.Changed:Connect(function(prop)
+                if prop == "Parent" and not tool.Parent then
+                    if toolConnections[tool] then
+                        for _, conn in pairs(toolConnections[tool]) do
+                            if typeof(conn) == "RBXScriptConnection" then
+                                conn:Disconnect()
+                            end
+                        end
+                        toolConnections[tool] = nil
+                    end
+                end
+            end)
+            toolConnections[tool] = {
+                delay = delayMod,
+                activated = activatedConn,
+                changed = changedConn
+            }
+            tool.AncestryChanged:Connect(function(_, parent)
+                if not parent then
+                    if toolConnections[tool] then
+                        for _, conn in pairs(toolConnections[tool]) do
+                            if typeof(conn) == "RBXScriptConnection" then
+                                conn:Disconnect()
+                            end
+                        end
+                        toolConnections[tool] = nil
+                    end
+                end
+            end)
+        end
+
+        if state then
+            for _, gun in ipairs(ACS_Guns:GetChildren()) do
+                saveOriginal(gun.Name)
+            end
+            LocalPlayer.CharacterAdded:Connect(function(char)
+                restoreAll()
+                task.wait(1)
+                char.ChildAdded:Connect(function(child)
+                    handleTool(child)
+                end)
+                for _, child in ipairs(char:GetChildren()) do
+                    handleTool(child)
+                end
+            end)
+            if LocalPlayer.Character then
+                for _, child in ipairs(LocalPlayer.Character:GetChildren()) do
+                    handleTool(child)
+                end
+                LocalPlayer.Character.ChildAdded:Connect(function(child)
+                    handleTool(child)
+                end)
+            end
+        else
+            restoreAll()
+        end
+    end
+})
+
+-- 子弹锁定白名单
+local BulletLock_Whitelist = {}
+local PlayerList_BL = {}
+for _, p in ipairs(game.Players:GetPlayers()) do table.insert(PlayerList_BL, p.Name) end
+
+local bulletLockWhitelistDropdown = WeaponTab:Dropdown({
+    Title = "子弹锁定白名单",
+    Values = PlayerList_BL,
+    Value = {},
+    Multi = true,
+    Callback = function(d)
+        BulletLock_Whitelist = d or {}
+    end
+})
+
+WeaponTab:Button({
+    Title = "刷新白名单",
+    Callback = function()
+        PlayerList_BL = {}
+        for _, p in ipairs(game.Players:GetPlayers()) do
+            table.insert(PlayerList_BL, p.Name)
+        end
+        bulletLockWhitelistDropdown:Refresh(PlayerList_BL)
+    end
+})
+
+-- 攻击模式选择
+local SelectedAttackMode = "准心优先"
+WeaponTab:Dropdown({
+    Title = "攻击模式",
+    Values = {"准心优先","距离优先"},
+    Value = SelectedAttackMode,
+    Callback = function(m) SelectedAttackMode = m end
+})
+
+-- 状态变量
+local BulletLockEnabled = false
+local Players = game:GetService("Players")
+local Workspace = game:GetService("Workspace")
+local LocalPlayer = Players.LocalPlayer
+local BulletLockLoop
+
+-- 获取最近的头部
+local function getClosestHead()
+    local closest, shortestDist, closestScreenDist = nil, math.huge, math.huge
+    for _, plr in ipairs(Players:GetPlayers()) do
+        if plr ~= LocalPlayer
+            and not table.find(BulletLock_Whitelist, plr.Name)
+            and plr.Character
+            and plr.Character:FindFirstChild("Head") then
+
+            local head = plr.Character.Head
+            local dist = (head.Position - Workspace.CurrentCamera.CFrame.Position).Magnitude
+
+            if SelectedAttackMode == "距离优先" then
+                if dist < shortestDist then
+                    shortestDist, closest = dist, head
+                end
+            else
+                local screenPos,_ = Workspace.CurrentCamera:WorldToViewportPoint(head.Position)
+                local center = Vector2.new(Workspace.CurrentCamera.ViewportSize.X/2,Workspace.CurrentCamera.ViewportSize.Y/2)
+                local screenDist = (Vector2.new(screenPos.X,screenPos.Y)-center).Magnitude
+                if screenDist < closestScreenDist then
+                    closestScreenDist, closest = screenDist, head
+                end
+            end
+        end
+    end
+    return closest
+end
+
+WeaponTab:Toggle({
+    Title = "子弹锁定",
+    Value = false,
+    Callback = function(state)
+        BulletLockEnabled = state
+        if state then
+            if not BulletLockLoop then
+                BulletLockLoop = game:GetService("RunService").Heartbeat:Connect(function()
+                    local head = getClosestHead()
+                    if BulletLockEnabled and head and LocalPlayer.Character and LocalPlayer.Character:FindFirstChildOfClass("Tool") then
+                        local tool = LocalPlayer.Character:FindFirstChildOfClass("Tool")
+                        if tool:FindFirstChild("Handle") then
+                            tool.Handle.CFrame = CFrame.new(tool.Handle.Position, head.Position)
+                        end
+                    end
+                end)
+            end
+        else
+            if BulletLockLoop then BulletLockLoop:Disconnect() BulletLockLoop=nil end
+        end
+    end
+})
+
+if not _G.BulletLockHooked then
+    _G.BulletLockHooked = true
+    local OldNamecall
+    OldNamecall = hookmetamethod(game, "__namecall", function(self, ...)
+        local method = getnamecallmethod()
+        if BulletLockEnabled and not checkcaller() and self == Workspace then
+            if method == "Raycast" then
+                local origin,direction = ...
+                local head = getClosestHead()
+                if origin and direction and head then
+                    return {Instance=head, Position=head.Position, Normal=(head.Position-origin).Unit, Material=Enum.Material.Plastic}
+                end
+            elseif method == "FindPartOnRay" then
+                local ray = ...
+                local head = getClosestHead()
+                if ray and head then
+                    return head, head.Position, (head.Position-ray.Origin).Unit
+                end
+            end
+        end
+        return OldNamecall(self, ...)
+    end)
+end
+
+
+-- 自瞄循环
+game:GetService("RunService").RenderStepped:Connect(function()
+    -- 更新自瞄圈位置
+    FOVring.Position = workspace.CurrentCamera.ViewportSize / 2
+    
+    -- 自瞄逻辑
+    if autoAimEnabled then
+        local closestPlayer = getClosestPlayerInFOV(aimPosition)
+        if closestPlayer and closestPlayer.Character:FindFirstChild(aimPosition) then
+            lookAt(closestPlayer.Character[aimPosition].Position)
+        end
+    end
+    
+    -- 彩虹颜色效果
+    if rainbowEnabled then
+        local t = tick() * 2
+        local r = math.abs(math.sin(t))
+        local g = math.abs(math.sin(t + 2 * math.pi / 3))
+        local b = math.abs(math.sin(t + 4 * math.pi / 3))
+        FOVring.Color = Color3.new(r, g, b)
+    end
+end)
+
+PlayerTab:Toggle({
+    Title = "玩家穿墙",
+    Value = false,
+    Callback = function(s)
+        if NC then NC:Disconnect() end
+        if s then
+            NC = game:GetService("RunService").RenderStepped:Connect(function()
+                if Plr.Character then
+                    for _, v in pairs(Plr.Character:GetDescendants()) do
+                        if v:IsA("BasePart") then v.CanCollide = false end
+                    end
+                end
+            end)
+        end
+    end
+})
+
+PlayerTab:Toggle({
+    Title = "无限跳跃",
+    Value = false,
+    Callback = function(s)
+        local p, uis, rs = game.Players.LocalPlayer, game:GetService("UserInputService"), game:GetService("RunService")
+        if IJ then IJ:Disconnect() end
+        if s then
+            IJ = rs.RenderStepped:Connect(function()
+                if uis:IsKeyDown(Enum.KeyCode.Space) and p.Character and p.Character:FindFirstChildOfClass("Humanoid") then
+                    p.Character:FindFirstChildOfClass("Humanoid"):ChangeState(Enum.HumanoidStateType.Jumping)
+                end
+            end)
+        end
+    end
+})
+
+
+local conn,enabled,lastcf
+PlayerTab:Toggle({
+    Title="重生修改",
+    Value=false,
+    Callback=function(v)
+        enabled=v
+        if v then
+            if conn then conn:Disconnect() end
+            conn=game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+                local r=c:WaitForChild("HumanoidRootPart")
+                if enabled and lastcf then
+                    for i=1,10 do
+                        r.CFrame=lastcf
+                        r.AssemblyLinearVelocity=Vector3.zero
+                        r.AssemblyAngularVelocity=Vector3.zero
+                        game:GetService("RunService").Heartbeat:Wait()
+                    end
+                end
+                c:FindFirstChildOfClass("Humanoid").Died:Connect(function()
+                    if enabled then lastcf=r.CFrame end
+                end)
+            end)
+            if game.Players.LocalPlayer.Character then
+                local h=game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+                if h then h.Died:Connect(function() if enabled then lastcf=game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart").CFrame end end) end
+            end
+        else
+            if conn then conn:Disconnect() conn=nil end
+            lastcf=nil
+        end
+    end
+})
+
+local autoSkipEnabled = false
+local skipConnections = {}
+
+PlayerTab:Toggle({
+    Title = "秒重生",
+    Value = false,
+    Callback = function(state)
+        autoSkipEnabled = state
+
+        for _, conn in ipairs(skipConnections) do
+            conn:Disconnect()
+        end
+        skipConnections = {}
+
+        if not autoSkipEnabled then return end
+
+        local Players = game:GetService("Players")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local player = Players.LocalPlayer
+        local KillCamSkipEvent = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("KillCamSkipEvent")
+
+        local function setupCharacter(char)
+            local humanoid = char:WaitForChild("Humanoid")
+
+            local conn = humanoid.HealthChanged:Connect(function(health)
+                if not autoSkipEnabled then return end
+                if health <= 0 then
+                    task.spawn(function()
+                        -- 死亡后不断尝试跳过，直到角色重生
+                        while autoSkipEnabled and (not player.Character or not player.Character:FindFirstChild("Humanoid") or player.Character.Humanoid.Health <= 0) do
+                            pcall(function()
+                                KillCamSkipEvent:FireServer()
+                            end)
+                            task.wait(0.2)
+                        end
+                    end)
+                end
+            end)
+
+            table.insert(skipConnections, conn)
+        end
+
+        if player.Character then
+            setupCharacter(player.Character)
+        end
+
+        local charConn = player.CharacterAdded:Connect(setupCharacter)
+        table.insert(skipConnections, charConn)
+    end
+})
+
+
+
+local flySpeed = 50
+local FlyConn
+local FlyEnabled = false -- 默认关闭
+local flying = false
+local OrientToCamera = false -- 仅控制角色朝向，不影响飞行方向
+
+local rs = game:GetService("RunService")
+local uis = game:GetService("UserInputService")
+local plr = game.Players.LocalPlayer
+
+-- 飞行启动函数
+local function startFly()
+    local char = plr.Character or plr.CharacterAdded:Wait()
+    local hum = char:WaitForChild("Humanoid")
+    local root = char:WaitForChild("HumanoidRootPart")
+    hum.PlatformStand = false
+
+    if FlyConn then FlyConn:Disconnect() end
+    FlyConn = rs.RenderStepped:Connect(function()
+        if not flying then return end
+        local dir = Vector3.zero
+        local camCF = workspace.CurrentCamera.CFrame
+
+        -- 飞行方向始终跟随摄像机
+        if uis:IsKeyDown(Enum.KeyCode.W) then dir += camCF.LookVector end
+        if uis:IsKeyDown(Enum.KeyCode.S) then dir -= camCF.LookVector end
+        if uis:IsKeyDown(Enum.KeyCode.A) then dir -= camCF.RightVector end
+        if uis:IsKeyDown(Enum.KeyCode.D) then dir += camCF.RightVector end
+        if uis:IsKeyDown(Enum.KeyCode.E) then dir += Vector3.new(0,1,0) end
+        if uis:IsKeyDown(Enum.KeyCode.Q) then dir -= Vector3.new(0,1,0) end
+
+        -- 角色朝向控制
+        if OrientToCamera then
+            root.CFrame = CFrame.new(root.Position, root.Position + camCF.LookVector)
+        end
+
+        root.Velocity = (dir.Magnitude > 0 and dir.Unit * flySpeed) or Vector3.zero
+    end)
+end
+
+-- 飞行停止函数
+local function stopFly()
+    if FlyConn then
+        FlyConn:Disconnect()
+        FlyConn = nil
+    end
+    local char = plr.Character
+    if char and char:FindFirstChild("HumanoidRootPart") then
+        char.HumanoidRootPart.Velocity = Vector3.zero
+    end
+end
+
+-- UI开关（最前面）
+PlayerTab:Toggle({
+    Title = "玩家飞行",
+    Value = FlyEnabled,
+    Callback = function(enabled)
+        FlyEnabled = enabled
+        flying = FlyEnabled
+        if flying then
+            startFly()
+        else
+            stopFly()
+        end
+    end
+})
+
+-- 角色朝向开关
+PlayerTab:Toggle({
+    Title = "角色朝向摄像机",
+    Value = OrientToCamera,
+    Callback = function(enabled)
+        OrientToCamera = enabled
+    end
+})
+
+-- 飞行速度设置
+PlayerTab:Input({
+    Title = "飞行速度",
+    Placeholder = tostring(flySpeed),
+    Callback = function(t)
+        local n = tonumber(t)
+        if n then flySpeed = n end
+    end
+})
+
+-- F键开关飞行（仅在 FlyEnabled 为 true 时生效）
+uis.InputBegan:Connect(function(input, gameProcessed)
+    if gameProcessed then return end
+    if input.KeyCode == Enum.KeyCode.CapsLock and FlyEnabled then
+        flying = not flying
+        if flying then
+            startFly()
+        else
+            stopFly()
+        end
+    end
+end)
+
+
+-- Targets 可以设置成 {"All"} 或指定玩家名
+local Targets = {"All"}
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+local AllBool = false
+local continuousFlingEnabled = false
+local flingWhitelist = {} -- 白名单列表
+
+-- r3da09 原版 GetPlayer
+local function GetPlayer(Name)
+    Name = Name:lower()
+    if Name == "all" or Name == "others" then
+        AllBool = true
+        return
+    elseif Name == "random" then
+        local GetPlayers = Players:GetPlayers()
+        if table.find(GetPlayers, Player) then table.remove(GetPlayers, table.find(GetPlayers, Player)) end
+        return GetPlayers[math.random(#GetPlayers)]
+    else
+        for _,x in next, Players:GetPlayers() do
+            if x ~= Player then
+                if x.Name:lower():match("^"..Name) or x.DisplayName:lower():match("^"..Name) then
+                    return x
+                end
+            end
+        end
+    end
+end
+
+-- r3da09 原版 SkidFling（保持不变）
+local function SkidFling(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
+    local RootPart = Humanoid and Humanoid.RootPart
+    local TCharacter = TargetPlayer.Character
+    local THumanoid = TCharacter and TCharacter:FindFirstChildOfClass("Humanoid")
+    local TRootPart = THumanoid and THumanoid.RootPart
+    local THead = TCharacter and TCharacter:FindFirstChild("Head")
+    local Accessory = TCharacter and TCharacter:FindFirstChildOfClass("Accessory")
+    local Handle = Accessory and Accessory:FindFirstChild("Handle")
+    if not (Character and Humanoid and RootPart and TCharacter and THumanoid) then return end
+    if not getgenv().OldPos then getgenv().OldPos = RootPart.CFrame end
+
+    local function FPos(BasePart, Pos, Ang)
+        RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+        Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+        RootPart.Velocity = Vector3.new(9e7, 9e7*10, 9e7)
+        RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+    end
+
+    local function SFBasePart(BasePart)
+        local TimeToWait = 2
+        local Time = tick()
+        local Angle = 0
+        repeat
+            if RootPart and THumanoid then
+                if BasePart.Velocity.Magnitude < 50 then
+                    Angle = Angle + 100
+                    FPos(BasePart, CFrame.new(0,1.5,0) + THumanoid.MoveDirection*BasePart.Velocity.Magnitude/1.25, CFrame.Angles(math.rad(Angle),0,0))
+                    task.wait()
+                    FPos(BasePart, CFrame.new(0,-1.5,0) + THumanoid.MoveDirection*BasePart.Velocity.Magnitude/1.25, CFrame.Angles(math.rad(Angle),0,0))
+                    task.wait()
+                    FPos(BasePart, CFrame.new(2.25,1.5,-2.25) + THumanoid.MoveDirection*BasePart.Velocity.Magnitude/1.25, CFrame.Angles(math.rad(Angle),0,0))
+                    task.wait()
+                    FPos(BasePart, CFrame.new(-2.25,-1.5,2.25) + THumanoid.MoveDirection*BasePart.Velocity.Magnitude/1.25, CFrame.Angles(math.rad(Angle),0,0))
+                    task.wait()
+                end
+            else
+                break
+            end
+        until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+    end
+
+    local BV = Instance.new("BodyVelocity")
+    BV.Name = "EpixVel"
+    BV.Parent = RootPart
+    BV.Velocity = Vector3.new(9e8, 9e8, 9e8)
+    BV.MaxForce = Vector3.new(1/0,1/0,1/0)
+    Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+
+    if TRootPart and THead then
+        if (TRootPart.Position - THead.Position).Magnitude > 5 then
+            SFBasePart(THead)
+        else
+            SFBasePart(TRootPart)
+        end
+    elseif TRootPart then
+        SFBasePart(TRootPart)
+    elseif THead then
+        SFBasePart(THead)
+    elseif Handle then
+        SFBasePart(Handle)
+    end
+
+    BV:Destroy()
+    Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+    workspace.CurrentCamera.CameraSubject = Humanoid
+
+    repeat
+        RootPart.CFrame = getgenv().OldPos * CFrame.new(0,.5,0)
+        Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0,.5,0))
+        Humanoid:ChangeState("GettingUp")
+        for _, x in pairs(Character:GetChildren()) do
+            if x:IsA("BasePart") then
+                x.Velocity = Vector3.new()
+                x.RotVelocity = Vector3.new()
+            end
+        end
+        task.wait()
+    until (RootPart.Position - getgenv().OldPos.Position).Magnitude < 25
+end
+
+-- 持续甩飞循环（考虑白名单）
+local function continuousFling()
+    while continuousFlingEnabled do
+        if AllBool then
+            for _,x in next, Players:GetPlayers() do
+                if x ~= Player and not table.find(flingWhitelist, x.Name) then
+                    pcall(function() SkidFling(x) end)
+                end
+            end
+        else
+            for _,x in next, Targets do
+                local TPlayer = GetPlayer(x)
+                if TPlayer and TPlayer ~= Player and not table.find(flingWhitelist, TPlayer.Name) then
+                    pcall(function() SkidFling(TPlayer) end)
+                end
+            end
+        end
+        task.wait(0.1)
+    end
+end
+
+-- 初始化目标
+if Targets[1] then for _,x in next, Targets do GetPlayer(x) end end
+
+-- UI 开关
+PlayerTab:Toggle({
+    Title = "持续甩飞",
+    Value = false,
+    Callback = function(state)
+        continuousFlingEnabled = state
+        if state then
+            coroutine.wrap(continuousFling)()
+        end
+    end
+})
+
+-- 白名单下拉
+local function getPlayerList()
+    local list = {}
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= Player then table.insert(list, p.Name) end
+    end
+    return list
+end
+
+local whitelistDropdown = PlayerTab:Dropdown({
+    Title = "甩飞白名单",
+    Values = getPlayerList(),
+    Value = {},
+    Multi = true,
+    AllowNone = true,
+    Callback = function(selected)
+        flingWhitelist = selected
+    end
+})
+
+-- 刷新白名单按钮
+PlayerTab:Button({
+    Title = "刷新白名单",
+    Callback = function()
+        whitelistDropdown:Refresh(getPlayerList())
+    end
+})
+
+PlayerTab:Button({
+    Title = "重进服务器",
+    Callback = function()
+        local TeleportService = game:GetService("TeleportService")
+        local Players = game:GetService("Players")
+        local LocalPlayer = Players.LocalPlayer
+
+        -- 获取当前游戏的 PlaceId 和 JobId
+        local placeId = game.PlaceId
+        local jobId = game.JobId
+
+        -- 重进同一个服务器
+        TeleportService:TeleportToPlaceInstance(placeId, jobId, LocalPlayer)
+    end
+})
+
+
+
+-- 初始化选择第一个标签页
+Window:SelectTab(1)
