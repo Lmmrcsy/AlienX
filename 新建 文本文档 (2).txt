@@ -1944,7 +1944,7 @@ uis.InputBegan:Connect(function(input, gameProcessed)
 end)
 
 PlayerTab:Toggle({
-    Title = "自动医疗箱",
+    Title = "自动医疗箱1",
     Value = false,
     Callback = function(enabled)
         local Players = game:GetService("Players")
