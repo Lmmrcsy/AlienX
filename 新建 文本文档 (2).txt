@@ -1979,14 +1979,14 @@ PlayerTab:Toggle({
 
                 if closestPrompt then
                     pcall(function() HumanoidRootPart.CFrame = closestPrompt.Parent.CFrame end)
-                    task.wait(0.1)
+                    task.wait(0.05)
                     pcall(function() fireproximityprompt(closestPrompt) end)
 
                     local medkitTool
-                    local timeout, t0 = 5, tick()
+                    local timeout, t0 = 3, tick()
                     repeat
                         medkitTool = Plr.Backpack:FindFirstChild("Medkit") or Character:FindFirstChild("Medkit")
-                        task.wait(0.1)
+                        task.wait(0.05)
                     until medkitTool or tick() - t0 > timeout
 
                     if medkitTool then
@@ -1994,8 +1994,7 @@ PlayerTab:Toggle({
                             if healRemote then healRemote:FireServer(Plr) end
                         end
 
-                        local mt, oldIndex = getrawmetatable(game), nil
-                        oldIndex = mt.__namecall
+                        local mt, oldIndex = getrawmetatable(game), mt and mt.__namecall
                         setreadonly(mt,false)
                         mt.__namecall = newcclosure(function(self,...)
                             local method = getnamecallmethod()
@@ -2008,7 +2007,7 @@ PlayerTab:Toggle({
 
                         medkitTool.Activated:Connect(function() instantUseMedkit(medkitTool) end)
                         pcall(function() Character.Humanoid:EquipTool(medkitTool) end)
-                        task.wait(0.1)
+                        task.wait(0.05)
                         pcall(function()
                             if medkitTool:FindFirstChild("Activate") then
                                 medkitTool.Activate:FireServer()
@@ -2016,7 +2015,7 @@ PlayerTab:Toggle({
                                 medkitTool:Activate()
                             end
                         end)
-                        task.wait(0.2)
+                        task.wait(0.1)
 
                         setreadonly(mt,false)
                         mt.__namecall = oldIndex
@@ -2033,7 +2032,7 @@ PlayerTab:Toggle({
                 if not enabled then return end
                 if newHealth < lastHealth then
                     local injuredCFrame = HumanoidRootPart.CFrame
-                    getAndUseMedkit(injuredCFrame)
+                    getAndUseMedkit(injuredCFrame) -- 一受伤立刻执行传送→使用→返回
                 end
                 lastHealth = newHealth
             end)
@@ -2045,6 +2044,7 @@ PlayerTab:Toggle({
         end
     end
 })
+
 
 
 
