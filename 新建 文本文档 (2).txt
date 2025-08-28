@@ -1944,7 +1944,7 @@ uis.InputBegan:Connect(function(input, gameProcessed)
 end)
 
 PlayerTab:Toggle({
-    Title = "自动医疗箱1",
+    Title = "自动医疗箱",
     Value = false,
     Callback = function(enabled)
         local Players = game:GetService("Players")
@@ -1961,12 +1961,7 @@ PlayerTab:Toggle({
 
         if enabled then
             local lastHealth = Humanoid.Health
-            local busy = false
-
             local function getAndUseMedkit(returnCFrame)
-                if busy then return end
-                busy = true
-
                 local closestPrompt, shortestDistance = nil, math.huge
                 for _, tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
                     local medkitGiver = tycoonData:FindFirstChild("PurchasedObjects") and tycoonData.PurchasedObjects:FindFirstChild("Medkit Giver")
@@ -1983,12 +1978,10 @@ PlayerTab:Toggle({
                 end
 
                 if closestPrompt then
-                    -- 传送到箱子
                     pcall(function() HumanoidRootPart.CFrame = closestPrompt.Parent.CFrame end)
-                    task.wait(0.1)
+                    task.wait(0.05)
                     pcall(function() fireproximityprompt(closestPrompt) end)
 
-                    -- 等待拿到工具
                     local medkitTool
                     local timeout, t0 = 3, tick()
                     repeat
@@ -1997,9 +1990,11 @@ PlayerTab:Toggle({
                     until medkitTool or tick() - t0 > timeout
 
                     if medkitTool then
-                        -- 跳过动画
-                        local mt = getrawmetatable(game)
-                        local oldIndex = mt.__namecall
+                        local function instantUseMedkit(tool)
+                            if healRemote then healRemote:FireServer(Plr) end
+                        end
+
+                        local mt, oldIndex = getrawmetatable(game), mt and mt.__namecall
                         setreadonly(mt,false)
                         mt.__namecall = newcclosure(function(self,...)
                             local method = getnamecallmethod()
@@ -2010,10 +2005,7 @@ PlayerTab:Toggle({
                         end)
                         setreadonly(mt,true)
 
-                        -- 使用医疗箱
-                        medkitTool.Activated:Connect(function()
-                            if healRemote then healRemote:FireServer(Plr) end
-                        end)
+                        medkitTool.Activated:Connect(function() instantUseMedkit(medkitTool) end)
                         pcall(function() Character.Humanoid:EquipTool(medkitTool) end)
                         task.wait(0.05)
                         pcall(function()
@@ -2025,26 +2017,22 @@ PlayerTab:Toggle({
                         end)
                         task.wait(0.1)
 
-                        -- 恢复动画hook
                         setreadonly(mt,false)
                         mt.__namecall = oldIndex
                         setreadonly(mt,true)
                     end
 
-                    -- 返回原位置
                     if returnCFrame then
                         pcall(function() HumanoidRootPart.CFrame = returnCFrame end)
                     end
                 end
-
-                busy = false
             end
 
             _G.AutoMedkitConnection = Humanoid.HealthChanged:Connect(function(newHealth)
                 if not enabled then return end
                 if newHealth < lastHealth then
                     local injuredCFrame = HumanoidRootPart.CFrame
-                    getAndUseMedkit(injuredCFrame)
+                    getAndUseMedkit(injuredCFrame) -- 一受伤立刻执行传送→使用→返回
                 end
                 lastHealth = newHealth
             end)
@@ -2056,10 +2044,6 @@ PlayerTab:Toggle({
         end
     end
 })
-
-
-
-
 
 
 
