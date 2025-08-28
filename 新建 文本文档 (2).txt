@@ -1944,7 +1944,7 @@ uis.InputBegan:Connect(function(input, gameProcessed)
 end)
 
 PlayerTab:Toggle({
-    Title = "自动医疗箱1",
+    Title = "自动医疗箱",
     Value = false,
     Callback = function(enabled)
         local Players = game:GetService("Players")
@@ -1961,6 +1961,7 @@ PlayerTab:Toggle({
 
         if enabled then
             local lastHealth = Humanoid.Health
+            
             local function getAndUseMedkit(returnCFrame)
                 local closestPrompt, shortestDistance = nil, math.huge
                 for _, tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
@@ -1990,10 +1991,6 @@ PlayerTab:Toggle({
                     until medkitTool or tick() - t0 > timeout
 
                     if medkitTool then
-                        local function instantUseMedkit(tool)
-                            if healRemote then healRemote:FireServer(Plr) end
-                        end
-
                         local mt, oldIndex = getrawmetatable(game), nil
                         oldIndex = mt.__namecall
                         setreadonly(mt,false)
@@ -2006,7 +2003,9 @@ PlayerTab:Toggle({
                         end)
                         setreadonly(mt,true)
 
-                        medkitTool.Activated:Connect(function() instantUseMedkit(medkitTool) end)
+                        medkitTool.Activated:Connect(function() 
+                            if healRemote then healRemote:FireServer(Plr) end
+                        end)
                         pcall(function() Character.Humanoid:EquipTool(medkitTool) end)
                         task.wait(0.1)
                         pcall(function()
@@ -2031,11 +2030,13 @@ PlayerTab:Toggle({
 
             _G.AutoMedkitConnection = Humanoid.HealthChanged:Connect(function(newHealth)
                 if not enabled then return end
-                if newHealth < lastHealth then
+                if newHealth < lastHealth and (lastHealth - newHealth) > 5 then
                     local injuredCFrame = HumanoidRootPart.CFrame
                     getAndUseMedkit(injuredCFrame)
+                    lastHealth = math.min(Humanoid.MaxHealth, newHealth + 50)
+                else
+                    lastHealth = newHealth
                 end
-                lastHealth = newHealth
             end)
         else
             if _G.AutoMedkitConnection then
@@ -2045,7 +2046,6 @@ PlayerTab:Toggle({
         end
     end
 })
-
 
 
 
