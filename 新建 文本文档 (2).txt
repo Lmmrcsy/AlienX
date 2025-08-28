@@ -13,7 +13,7 @@ local Window = AlienX:CreateWindow({
     Icon = "rbxassetid://4483362748",
     IconThemed = true,
     Author = "AlienX",
-    Size = UDim2.fromOffset(250, 220),
+    Size = UDim2.fromOffset(300, 270),
     Transparent = true,
     Theme = "Dark",
     SideBarWidth = 200,
@@ -1947,22 +1947,22 @@ PlayerTab:Toggle({
     Title = "自动医疗箱",
     Value = false,
     Callback = function(enabled)
-        if enabled then
-            -- 开启功能
-            local Players = game:GetService("Players")
-            local Plr = Players.LocalPlayer
-            local Character = Plr.Character or Plr.CharacterAdded:Wait()
-            local Humanoid = Character:WaitForChild("Humanoid")
-            local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
-            local ReplicatedStorage = game:GetService("ReplicatedStorage")
-            local healRemote = ReplicatedStorage.Remotes.Medkit:FindFirstChild("HPlr")
-            local originalCFrame = HumanoidRootPart.CFrame
-            local lastHealth = Humanoid.Health
+        local Players = game:GetService("Players")
+        local Plr = Players.LocalPlayer
+        local Character = Plr.Character or Plr.CharacterAdded:Wait()
+        local Humanoid = Character:WaitForChild("Humanoid")
+        local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+        local ReplicatedStorage = game:GetService("ReplicatedStorage")
+        local healRemote = ReplicatedStorage.Remotes.Medkit:FindFirstChild("HPlr")
 
-            -- 定义函数：拿取并使用医疗箱
-            local function getAndUseMedkit()
-                local closestPrompt
-                local shortestDistance = math.huge
+        if not _G.AutoMedkitConnection then
+            _G.AutoMedkitConnection = nil
+        end
+
+        if enabled then
+            local lastHealth = Humanoid.Health
+            local function getAndUseMedkit(returnCFrame)
+                local closestPrompt, shortestDistance = nil, math.huge
                 for _, tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
                     local medkitGiver = tycoonData:FindFirstChild("PurchasedObjects") and tycoonData.PurchasedObjects:FindFirstChild("Medkit Giver")
                     if medkitGiver then
@@ -1978,21 +1978,12 @@ PlayerTab:Toggle({
                 end
 
                 if closestPrompt then
-                    -- 瞬移到箱子位置
-                    pcall(function()
-                        HumanoidRootPart.CFrame = closestPrompt.Parent.CFrame
-                    end)
+                    pcall(function() HumanoidRootPart.CFrame = closestPrompt.Parent.CFrame end)
                     task.wait(0.1)
+                    pcall(function() fireproximityprompt(closestPrompt) end)
 
-                    -- 触发 ProximityPrompt
-                    pcall(function()
-                        fireproximityprompt(closestPrompt)
-                    end)
-
-                    -- 等待工具
                     local medkitTool
-                    local timeout = 5
-                    local t0 = tick()
+                    local timeout, t0 = 5, tick()
                     repeat
                         medkitTool = Plr.Backpack:FindFirstChild("Medkit") or Character:FindFirstChild("Medkit")
                         task.wait(0.1)
@@ -2000,17 +1991,14 @@ PlayerTab:Toggle({
 
                     if medkitTool then
                         local function instantUseMedkit(tool)
-                            if healRemote then
-                                healRemote:FireServer(Plr)
-                            end
+                            if healRemote then healRemote:FireServer(Plr) end
                         end
 
-                        local mt = getrawmetatable(game)
-                        local oldIndex = mt.__namecall
+                        local mt, oldIndex = getrawmetatable(game), nil
+                        oldIndex = mt.__namecall
                         setreadonly(mt,false)
                         mt.__namecall = newcclosure(function(self,...)
                             local method = getnamecallmethod()
-                            local args = {...}
                             if method == "LoadAnimation" and self:IsA("Tool") and self.Name == "Medkit" then
                                 return { Play = function() end, Stop = function() end }
                             end
@@ -2018,13 +2006,8 @@ PlayerTab:Toggle({
                         end)
                         setreadonly(mt,true)
 
-                        medkitTool.Activated:Connect(function()
-                            instantUseMedkit(medkitTool)
-                        end)
-
-                        pcall(function()
-                            Character.Humanoid:EquipTool(medkitTool)
-                        end)
+                        medkitTool.Activated:Connect(function() instantUseMedkit(medkitTool) end)
+                        pcall(function() Character.Humanoid:EquipTool(medkitTool) end)
                         task.wait(0.1)
                         pcall(function()
                             if medkitTool:FindFirstChild("Activate") then
@@ -2040,24 +2023,29 @@ PlayerTab:Toggle({
                         setreadonly(mt,true)
                     end
 
-                    -- 返回原位置
-                    pcall(function()
-                        HumanoidRootPart.CFrame = originalCFrame
-                    end)
+                    if returnCFrame then
+                        pcall(function() HumanoidRootPart.CFrame = returnCFrame end)
+                    end
                 end
             end
 
-            -- 监听掉血事件
-            Humanoid.HealthChanged:Connect(function(newHealth)
-                if not enabled then return end -- 关闭时不执行
+            _G.AutoMedkitConnection = Humanoid.HealthChanged:Connect(function(newHealth)
+                if not enabled then return end
                 if newHealth < lastHealth then
-                    getAndUseMedkit()
+                    local injuredCFrame = HumanoidRootPart.CFrame
+                    getAndUseMedkit(injuredCFrame)
                 end
                 lastHealth = newHealth
             end)
+        else
+            if _G.AutoMedkitConnection then
+                _G.AutoMedkitConnection:Disconnect()
+                _G.AutoMedkitConnection = nil
+            end
         end
     end
 })
+
 
 
 local Targets = {"All"} -- 初始甩飞目标，可填玩家名或 "All"
