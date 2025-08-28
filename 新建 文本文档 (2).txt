@@ -1960,8 +1960,11 @@ PlayerTab:Toggle({
         end
 
         if enabled then
-            local lastHealth = Humanoid.Health
+            local busy = false
             local function getAndUseMedkit(returnCFrame)
+                if busy then return end
+                busy = true
+
                 local closestPrompt, shortestDistance = nil, math.huge
                 for _, tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
                     local medkitGiver = tycoonData:FindFirstChild("PurchasedObjects") and tycoonData.PurchasedObjects:FindFirstChild("Medkit Giver")
@@ -1995,6 +1998,7 @@ PlayerTab:Toggle({
                         end
 
                         local mt, oldIndex = getrawmetatable(game), mt and mt.__namecall
+                        oldIndex = mt.__namecall
                         setreadonly(mt,false)
                         mt.__namecall = newcclosure(function(self,...)
                             local method = getnamecallmethod()
@@ -2026,15 +2030,16 @@ PlayerTab:Toggle({
                         pcall(function() HumanoidRootPart.CFrame = returnCFrame end)
                     end
                 end
+
+                busy = false
             end
 
             _G.AutoMedkitConnection = Humanoid.HealthChanged:Connect(function(newHealth)
                 if not enabled then return end
-                if newHealth < lastHealth then
+                if newHealth < Humanoid.MaxHealth then
                     local injuredCFrame = HumanoidRootPart.CFrame
-                    getAndUseMedkit(injuredCFrame) -- 一受伤立刻执行传送→使用→返回
+                    getAndUseMedkit(injuredCFrame)
                 end
-                lastHealth = newHealth
             end)
         else
             if _G.AutoMedkitConnection then
@@ -2044,6 +2049,7 @@ PlayerTab:Toggle({
         end
     end
 })
+
 
 
 
