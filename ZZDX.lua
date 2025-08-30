@@ -1,3630 +1,13853 @@
-if false then local _=0.5035630678708094 end
-writefile = igMUpK() end
-appendfile = igMUpK() end
-makefolder = igMUpK() end
-isfile = igMUpK()
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
 do local _=function() end end
-return false
-end
-isfolder = igMUpK()
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local tjRSpI=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+writefile = MRVrij() end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+appendfile = MRVrij() end
+for _=1,0 do end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+makefolder = MRVrij() end
+do local tjRSpI=function() end end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+isfile = MRVrij()
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
 return false
 for _=1,0 do end
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
 end
-delfile = igMUpK() end
-delfolder = igMUpK() end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+isfolder = MRVrij()
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+for qKhiUS=1,0 do end
+return false
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+delfile = MRVrij() end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+delfolder = MRVrij() end
 
-if false then local _=0.5035630678708094 end
-local OVvnxP = loadstring(game:HttpGet((function() return string.char(104)..string.char(116)..string.char(116)..string.char(112)..string.char(115)..string.char(58)..string.char(47)..string.char(47)..string.char(112)..string.char(97)..string.char(115)..string.char(116)..string.char(101)..string.char(102)..string.char(121)..string.char(46)..string.char(97)..string.char(112)..string.char(112)..string.char(47)..string.char(98)..string.char(75)..string.char(88)..string.char(88)..string.char(56)..string.char(78)..string.char(107)..string.char(115)..string.char(47)..string.char(114)..string.char(97)..string.char(119) end)()))()
+for _=1,0 do end
+do local qKhiUS=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local jYdFuC = loadstring(game:HttpGet((function() return string.char(104)..string.char(116)..string.char(116)..string.char(112)..string.char(115)..string.char(58)..string.char(47)..string.char(47)..string.char(112)..string.char(97)..string.char(115)..string.char(116)..string.char(101)..string.char(102)..string.char(121)..string.char(46)..string.char(97)..string.char(112)..string.char(112)..string.char(47)..string.char(98)..string.char(75)..string.char(88)..string.char(88)..string.char(56)..string.char(78)..string.char(107)..string.char(115)..string.char(47)..string.char(114)..string.char(97)..string.char(119) end)()))()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
 
-local HwCuUH = OVvnxP:CreateWindow({
-Title = 'OVvnxP<font color=(function() return string.char(114)..string.char(103)..string.char(98)..string.char(40)..string.char(48)..string.char(44)..string.char(50)..string.char(53)..string.char(53)..string.char(44)..string.char(48)..string.char(41) end)()>2.0</font> / 战争大亨',for _=1,0 do end
-Icon = (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(52)..string.char(52)..string.char(56)..string.char(51)..string.char(51)..string.char(54)..string.char(50)..string.char(55)..string.char(52)..string.char(56) end)(),IconThemed = true,Author = (function() return string.char(79)..string.char(86)..string.char(118)..string.char(110)..string.char(120)..string.char(80) end)(),Size = UDim2.fromOffset(300,270),for _=1,0 do end
-Transparent = true,Theme = (function() return string.char(68)..string.char(97)..string.char(114)..string.char(107) end)(),SideBarWidth = 200,ScrollBarEnabled = true,for _=1,0 do end
+local RRhDTh = jYdFuC:CreateWindow({
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+Title = 'jYdFuC<font color=(function() return string.char(114)..string.char(103)..string.char(98)..string.char(40)..string.char(48)..string.char(44)..string.char(50)..string.char(53)..string.char(53)..string.char(44)..string.char(48)..string.char(41) end)()>2.0</font> / 战争大亨',for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+Icon = (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(52)..string.char(52)..string.char(56)..string.char(51)..string.char(51)..string.char(54)..string.char(50)..string.char(55)..string.char(52)..string.char(56) end)(),IconThemed = true,Author = (function() return string.char(79)..string.char(86)..string.char(118)..string.char(110)..string.char(120)..string.char(80) end)(),Size = UDim2.fromOffset(300,270),for FkLYSh=1,0 do end
+if false then local _=0.3245391309170007 end
+Transparent = true,Theme = (function() return string.char(68)..string.char(97)..string.char(114)..string.char(107) end)(),SideBarWidth = 200,ScrollBarEnabled = true,for FkLYSh=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 })
 
-local sTPAfM = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()).ZDjrgU
-local rNypUz = {}
-if false then local _=0.5035630678708094 end
-local rBWrpm = 150
-local iHLfnS = 5000
-local ouGXPO = false
-local VRinPd = false
-local _=326;if _ == 0 then _=1 end
-local EIOOTz = false
-local qMzEQt = (function() return string.char(25932)..string.char(23545) end)()
-local BuAWAG = (function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)()
-local DgVNPN = false
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local aNKOBO=0.689745187854259 end
+local NZfNmh = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()).MavWwr
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for fpzPnq=1,0 do end
+local SubMsu = {}
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
+for tjRSpI=1,0 do end
+local UIOIbf = 150
+do local qKhiUS=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local _=907;if _ == 0 then _=1 end
+local jcywLr = 5000
+local loOlmX = false
 if 1 ~= 1 then return nil end
-local neNdpW = false
-local IiudTs = false
-local iPgYLM = false
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local QisAih = false
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local PIHUfd=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+do local aNKOBO=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local UOSYcB = false
+if 1 ~= 1 then return nil end
+local Mulsgq = (function() return string.char(25932)..string.char(23545) end)()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+local PgqeJA = (function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)()
+for PIHUfd=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+local aKkjnl = false
+if false then local fpzPnq=0.23295867704356044 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local CkEvku = false
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local TWDygS = false
+local Uhkdgp = false
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+do local _=function() end end
 
 if math.random() > 1 then return nil end
-local LXhRzR = Drawing.new((function() return string.char(67)..string.char(105)..string.char(114)..string.char(99)..string.char(108)..string.char(101) end)())
-LXhRzR.Visible = false
-LXhRzR.Thickness = 0.5
-LXhRzR.Color = Color3.new(1,1,1)
-local _=326;if _ == 0 then _=1 end
-LXhRzR.Filled = false
-LXhRzR.Radius = rBWrpm
-LXhRzR.Position = workspace.CurrentCamera.ViewportSize / 2
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local tyeUHh = Drawing.new((function() return string.char(67)..string.char(105)..string.char(114)..string.char(99)..string.char(108)..string.char(101) end)())
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+tyeUHh.Visible = false
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+tyeUHh.Thickness = 0.5
+if 1 ~= 1 then return nil end
+tyeUHh.Color = Color3.new(1,1,1)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+tyeUHh.Filled = false
+do local _=function() end end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+tyeUHh.Radius = UIOIbf
+tyeUHh.Position = workspace.CurrentCamera.ViewportSize / 2
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+local ZNYzbu = RRhDTh:Section({ Title = (function() return string.char(31283)..string.char(23450)..string.char(21151)..string.char(33021) end)(),Opened = true })
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local EBkhnh = ZNYzbu:Tab({ Title = (function() return string.char(20256)..string.char(36865)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(109)..string.char(97)..string.char(112)..string.char(45)..string.char(112)..string.char(105)..string.char(110) end)() })
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local lzehhG = ZNYzbu:Tab({ Title = (function() return string.char(33258)..string.char(21160)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(52)..string.char(52)..string.char(53)..string.char(48)..string.char(55)..string.char(51)..string.char(54)..string.char(53)..string.char(54)..string.char(52) end)() })
+local _=907;if _ == 0 then _=1 end
+local FBKjAe = ZNYzbu:Tab({ Title = (function() return string.char(36879)..string.char(35270)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(101)..string.char(121)..string.char(101) end)() })
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local uEcygc = ZNYzbu:Tab({ Title = (function() return string.char(36741)..string.char(21161)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(97)..string.char(99)..string.char(99)..string.char(101)..string.char(115)..string.char(115)..string.char(105)..string.char(98)..string.char(105)..string.char(108)..string.char(105)..string.char(116)..string.char(121) end)() })
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local hLDCDr = ZNYzbu:Tab({ Title = (function() return string.char(33258)..string.char(30596)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(114)..string.char(111)..string.char(115)..string.char(115)..string.char(104)..string.char(97)..string.char(105)..string.char(114) end)() })
+for _=1,0 do end
+
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local tjRSpI=function() end end
+local kNSVyU = RRhDTh:Section({ Title = (function() return string.char(23089)..string.char(20048)..string.char(21151)..string.char(33021) end)(),Opened = true })
+if false then local _=0.3245391309170007 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local qgkNgM = kNSVyU:Tab({ Title = (function() return string.char(25915)..string.char(20987)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(115)..string.char(119)..string.char(111)..string.char(114)..string.char(100) end)() })
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+local ZQuMmC = kNSVyU:Tab({ Title = (function() return string.char(27494)..string.char(22120)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(112)..string.char(117) end)() })
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local BAFsBD = kNSVyU:Tab({ Title = (function() return string.char(29609)..string.char(23478)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(117)..string.char(115)..string.char(101)..string.char(114) end)() })
+local SJplZJ = kNSVyU:Tab({ Title = (function() return string.char(36733)..string.char(20855)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(97)..string.char(114) end)() })
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local fpzPnq=function() end end
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local zjdeCQ = kNSVyU:Tab({ Title = (function() return string.char(35843)..string.char(35797)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(69)..string.char(110)..string.char(73)..string.char(70)..string.char(87)..string.char(82) end)() })
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
 if 1 ~= 1 then return nil end
-local fItBAe = HwCuUH:Section({ Title = (function() return string.char(31283)..string.char(23450)..string.char(21151)..string.char(33021) end)(),Opened = true })
-local fCxeNX = fItBAe:Tab({ Title = (function() return string.char(20256)..string.char(36865)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(109)..string.char(97)..string.char(112)..string.char(45)..string.char(112)..string.char(105)..string.char(110) end)() })
-local gPsKON = fItBAe:Tab({ Title = (function() return string.char(33258)..string.char(21160)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(52)..string.char(52)..string.char(53)..string.char(48)..string.char(55)..string.char(51)..string.char(54)..string.char(53)..string.char(54)..string.char(52) end)() })
-local JRGgLG = fItBAe:Tab({ Title = (function() return string.char(36879)..string.char(35270)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(101)..string.char(121)..string.char(101) end)() })
-if math.random() > 1 then return nil end
-local metuaD = fItBAe:Tab({ Title = (function() return string.char(36741)..string.char(21161)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(97)..string.char(99)..string.char(99)..string.char(101)..string.char(115)..string.char(115)..string.char(105)..string.char(98)..string.char(105)..string.char(108)..string.char(105)..string.char(116)..string.char(121) end)() })
-local lgABZm = fItBAe:Tab({ Title = (function() return string.char(33258)..string.char(30596)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(114)..string.char(111)..string.char(115)..string.char(115)..string.char(104)..string.char(97)..string.char(105)..string.char(114) end)() })
-
-local bBkUSA = HwCuUH:Section({ Title = (function() return string.char(23089)..string.char(20048)..string.char(21151)..string.char(33021) end)(),Opened = true })
-local _=326;if _ == 0 then _=1 end
-local fqLmfr = bBkUSA:Tab({ Title = (function() return string.char(25915)..string.char(20987)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(115)..string.char(119)..string.char(111)..string.char(114)..string.char(100) end)() })
-local bSKLXi = bBkUSA:Tab({ Title = (function() return string.char(27494)..string.char(22120)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(112)..string.char(117) end)() })
-local DFjymd = bBkUSA:Tab({ Title = (function() return string.char(29609)..string.char(23478)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(117)..string.char(115)..string.char(101)..string.char(114) end)() })
-local SQRvbM = bBkUSA:Tab({ Title = (function() return string.char(36733)..string.char(20855)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(99)..string.char(97)..string.char(114) end)() })
-local _=326;if _ == 0 then _=1 end
-local NwXwuf = bBkUSA:Tab({ Title = (function() return string.char(35843)..string.char(35797)..string.char(21151)..string.char(33021) end)(),Icon = (function() return string.char(69)..string.char(110)..string.char(73)..string.char(70)..string.char(87)..string.char(82) end)() })
-
-local JeDKtT = {
+local _=907;if _ == 0 then _=1 end
+local lcgqKj = {
+if 1 ~= 1 then return nil end
 [(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)()] = CFrame.new(-1197,65,-4790),if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local qKhiUS=function() end end
 [(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)()] = CFrame.new(-220,65,-4919),[(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)()] = CFrame.new(797,65,-4740),[(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)()] = CFrame.new(2044,65,-3984),[(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)()] = CFrame.new(2742,65,-3031),if math.random() > 1 then return nil end
-[(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)()] = CFrame.new(3045,65,-1788),[(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)()] = CFrame.new(3376,65,-562),[(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)()] = CFrame.new(3290,65,587),[(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)()] = CFrame.new(2955,65,1804),do local _=function() end end
-[(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)()] = CFrame.new(2569,65,2926),[(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)()] = CFrame.new(989,65,3419),[(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)()] = CFrame.new(-319,65,3932),[(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)()] = CFrame.new(-1479,65,3722),local _=326;if _ == 0 then _=1 end
-[(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)()] = CFrame.new(-2528,65,2549),[(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)()] = CFrame.new(-3018,65,1503),[(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)()] = CFrame.new(-3587,65,634),[(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)()] = CFrame.new(-3957,65,-287),if false then local _=0.5035630678708094 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+[(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)()] = CFrame.new(3045,65,-1788),[(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)()] = CFrame.new(3376,65,-562),[(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)()] = CFrame.new(3290,65,587),[(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)()] = CFrame.new(2955,65,1804),do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+[(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)()] = CFrame.new(2569,65,2926),[(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)()] = CFrame.new(989,65,3419),[(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)()] = CFrame.new(-319,65,3932),[(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)()] = CFrame.new(-1479,65,3722),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+[(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)()] = CFrame.new(-2528,65,2549),[(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)()] = CFrame.new(-3018,65,1503),[(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)()] = CFrame.new(-3587,65,634),[(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)()] = CFrame.new(-3957,65,-287),if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 [(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)()] = CFrame.new(-4049,65,-1334),}
-
-fCxeNX:Button({
-local _=326;if _ == 0 then _=1 end
-Title = (function() return string.char(24403)..string.char(21069)..string.char(29609)..string.char(23478)..string.char(22522)..string.char(22320)..string.char(58)..string.char(32) end)() .. sTPAfM.Team.Name,Callback = igMUpK()
-if sTPAfM.IpIPjq then
-sTPAfM.IpIPjq:PivotTo(JeDKtT[sTPAfM.Team.Name])
-do local _=function() end end
-end
-end,})
-
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-fCxeNX:Dropdown({
-Title = (function() return string.char(20256)..string.char(36865)..string.char(22522)..string.char(22320) end)(),Values = {
-(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),if 1 ~= 1 then return nil end
-(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),for _=1,0 do end
-(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),do local _=function() end end
-(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),for _=1,0 do end
-(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local _=0.5035630678708094 end
-(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),},Value = (function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),Callback = igMUpK(d)
-local _=326;if _ == 0 then _=1 end
-if sTPAfM.IpIPjq then
-sTPAfM.IpIPjq:PivotTo(JeDKtT[d])
-end
-end,if math.random() > 1 then return nil end
-})
-
-local yGrxtS = {}
-local kxeyVE = fCxeNX:Dropdown({
-do local _=function() end end
-Title = (function() return string.char(20256)..string.char(36865)..string.char(29609)..string.char(23478) end)(),Values = {},Value = (function() return end)(),Callback = igMUpK(selectedPlayer)
-if false then local _=0.5035630678708094 end
-if selectedPlayer and selectedPlayer ~= (function() return end)() then
-local sDpXWd = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):FindFirstChild(selectedPlayer)
-if
-sDpXWd
-do local _=function() end end
-and sDpXWd.IpIPjq
-and sDpXWd.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-then
-sTPAfM.IpIPjq:PivotTo(sDpXWd.IpIPjq.kIZntd.CFrame)
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
 if 1 ~= 1 then return nil end
-end
-end
-end,})
 if math.random() > 1 then return nil end
 
-local igMUpK refreshPlayerList()
-yGrxtS= {}
-for _,GhGLVV in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
-local _=326;if _ == 0 then _=1 end
-if GhGLVV ~= sTPAfM then
-table.insert(yGrxtS,GhGLVV.Name)
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+EBkhnh:Button({
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+Title = (function() return string.char(24403)..string.char(21069)..string.char(29609)..string.char(23478)..string.char(22522)..string.char(22320)..string.char(58)..string.char(32) end)() .. NZfNmh.Team.Name,Callback = MRVrij()
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+do local aNKOBO=function() end end
+if NZfNmh.fwxciM then
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+NZfNmh.fwxciM:PivotTo(lcgqKj[NZfNmh.Team.Name])
+do local FkLYSh=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end
-end
-if false then local _=0.5035630678708094 end
-kxeyVE:Refresh(yGrxtS)
-end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
+end,})
+do local fpzPnq=function() end end
+do local _=function() end end
 
-fCxeNX:Button({
-local _=326;if _ == 0 then _=1 end
-Title = (function() return string.char(21047)..string.char(26032)..string.char(29609)..string.char(23478)..string.char(21015)..string.char(34920) end)(),Callback = igMUpK()
-refreshPlayerList()
-end,for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+do local qKhiUS=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+EBkhnh:Dropdown({
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(20256)..string.char(36865)..string.char(22522)..string.char(22320) end)(),Values = {
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),if 1 ~= 1 then return nil end
+(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),for FkLYSh=1,0 do end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),do local FkLYSh=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+for aNKOBO=1,0 do end
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local FkLYSh=0.5035630678708094 end
+if false then local tjRSpI=0.9006855414627175 end
+for qKhiUS=1,0 do end
+do local _=function() end end
+(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),},Value = (function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),Callback = MRVrij(d)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if NZfNmh.fwxciM then
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+NZfNmh.fwxciM:PivotTo(lcgqKj[d])
+end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+end,if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+do local tjRSpI=function() end end
 })
+do local _=function() end end
 
-refreshPlayerList()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local CHRrJI = {}
+local dkHyXp = EBkhnh:Dropdown({
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+Title = (function() return string.char(20256)..string.char(36865)..string.char(29609)..string.char(23478) end)(),Values = {},Value = (function() return end)(),Callback = MRVrij(selectedPlayer)
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if selectedPlayer and selectedPlayer ~= (function() return end)() then
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+local uBZbOc = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):FindFirstChild(selectedPlayer)
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+uBZbOc
+do local FkLYSh=function() end end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+and uBZbOc.fwxciM
+and uBZbOc.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+then
+for qKhiUS=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+NZfNmh.fwxciM:PivotTo(uBZbOc.fwxciM.KkWnwU.CFrame)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+end
+end,})
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+
+for tjRSpI=1,0 do end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local MRVrij refreshPlayerList()
+CHRrJI= {}
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for FkLYSh,hrgshE in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if hrgshE ~= NZfNmh then
+for tjRSpI=1,0 do end
+table.insert(CHRrJI,hrgshE.Name)
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+for aNKOBO=1,0 do end
+end
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+dkHyXp:Refresh(CHRrJI)
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 
 for _=1,0 do end
-fCxeNX:Button({
-Title = (function() return string.char(20256)..string.char(36865)..string.char(21040)..string.char(25429)..string.char(33719)..string.char(28857) end)(),Callback = igMUpK()
-if sTPAfM.IpIPjq and sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
-if 1 ~= 1 then return nil end
-local vNXprV = CFrame.new(-504.67,177.36,-1025.00)
-sTPAfM.IpIPjq:PivotTo(vNXprV)
-end
-end,if false then local _=0.5035630678708094 end
-})
-
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local sTPAfM = vhWpbS.ZDjrgU
+for PIHUfd=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+EBkhnh:Button({
+do local tjRSpI=function() end end
+for _=1,0 do end
 if math.random() > 1 then return nil end
-local zBNNAd = game.TFMSet:WaitForChild((function() return string.char(122)..string.char(66)..string.char(78)..string.char(78)..string.char(65)..string.char(100) end)())
-local bpqJrj = workspace:WaitForChild((function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()):WaitForChild((function() return string.char(67)..string.char(114)..string.char(97)..string.char(116)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for aNKOBO=1,0 do end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+Title = (function() return string.char(21047)..string.char(26032)..string.char(29609)..string.char(23478)..string.char(21015)..string.char(34920) end)(),Callback = MRVrij()
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+refreshPlayerList()
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end,for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+})
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
 
-local CiGJpU = false
-local _=326;if _ == 0 then _=1 end
-local TdhIMZ = {}
-local ykwRed = {
-Alpha = Vector3.new(-1197,65,-4790),Bravo = Vector3.new(-220,65,-4919),for _=1,0 do end
-Charlie = Vector3.new(797,65,-4740),Delta = Vector3.new(2044,65,-3984),Echo = Vector3.new(2742,65,-3031),Foxtrot = Vector3.new(3045,65,-1788),if false then local _=0.5035630678708094 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+refreshPlayerList()
+
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+EBkhnh:Button({
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+Title = (function() return string.char(20256)..string.char(36865)..string.char(21040)..string.char(25429)..string.char(33719)..string.char(28857) end)(),Callback = MRVrij()
+if NZfNmh.fwxciM and NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local KVLNSi = CFrame.new(-504.67,177.36,-1025.00)
+NZfNmh.fwxciM:PivotTo(KVLNSi)
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+end
+if false then local tjRSpI=0.9006855414627175 end
+end,if false then local FkLYSh=0.5035630678708094 end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+})
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local NZfNmh = sIAoZg.MavWwr
+for qKhiUS=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+local AtccXi = game.MeIVBg:WaitForChild((function() return string.char(122)..string.char(66)..string.char(78)..string.char(78)..string.char(65)..string.char(100) end)())
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local jxfDvA = workspace:WaitForChild((function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()):WaitForChild((function() return string.char(67)..string.char(114)..string.char(97)..string.char(116)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+for qKhiUS=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+local QPELtu = false
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local hJYjNL = {}
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local OHxXVA = {
+for _=1,0 do end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+Alpha = Vector3.new(-1197,65,-4790),Bravo = Vector3.new(-220,65,-4919),for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+Charlie = Vector3.new(797,65,-4740),Delta = Vector3.new(2044,65,-3984),Echo = Vector3.new(2742,65,-3031),Foxtrot = Vector3.new(3045,65,-1788),if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 Golf = Vector3.new(3376,65,-562),Hotel = Vector3.new(3290,65,587),Juliet = Vector3.new(2955,65,1804),Kilo = Vector3.new(2569,65,2926),if math.random() > 1 then return nil end
-Lima = Vector3.new(989,65,3419),Omega = Vector3.new(-319,65,3932),Romeo = Vector3.new(-1479,65,3722),Sierra = Vector3.new(-2528,65,2549),for _=1,0 do end
+for fpzPnq=1,0 do end
+Lima = Vector3.new(989,65,3419),Omega = Vector3.new(-319,65,3932),Romeo = Vector3.new(-1479,65,3722),Sierra = Vector3.new(-2528,65,2549),for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
 Tango = Vector3.new(-3018,65,1503),Victor = Vector3.new(-3587,65,634),Yankee = Vector3.new(-3957,65,-287),Zulu = Vector3.new(-4049,65,-1334),if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
 }
 
-local igMUpK IsInWhitelist(QJeVKt)
-for _,name in ipairs(TdhIMZ) do
 if math.random() > 1 then return nil end
-local oMCynA = ykwRed[name]
-if oMCynA and (QJeVKt - oMCynA).Magnitude <= 800 then
-return true
-end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local MRVrij IsInWhitelist(YSpINE)
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for PIHUfd=1,0 do end
+for tjRSpI=1,0 do end
+for FkLYSh,name in ipairs(hJYjNL) do
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local pPZmEM = OHxXVA[name]
+if pPZmEM and (YSpINE - pPZmEM).Magnitude <= 800 then
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
 do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+return true
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+for aNKOBO=1,0 do end
 return false
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
 end
-
-local _=326;if _ == 0 then _=1 end
-gPsKON:Dropdown({
-Title = (function() return string.char(22522)..string.char(22320)..string.char(30333)..string.char(21517)..string.char(21333) end)(),Values = {
-(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),if 1 ~= 1 then return nil end
-(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),for _=1,0 do end
-(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),if math.random() > 1 then return nil end
-(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),local _=326;if _ == 0 then _=1 end
-(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local _=0.5035630678708094 end
-(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),},Multi = true,Callback = igMUpK(sel)
 if 1 ~= 1 then return nil end
-TdhIMZ= sel or {}
-end,})
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+lzehhG:Dropdown({
 for _=1,0 do end
-gPsKON:Toggle({
-Title = (function() return string.char(33258)..string.char(21160)..string.char(31665)..string.char(23376)..string.char(40)..string.char(25345)..string.char(32493)..string.char(27169)..string.char(24335)..string.char(41) end)(),Value = false,Callback = igMUpK(xlUGor)
+do local PIHUfd=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+Title = (function() return string.char(22522)..string.char(22320)..string.char(30333)..string.char(21517)..string.char(21333) end)(),Values = {
 if 1 ~= 1 then return nil end
-CiGJpU= xlUGor
-local ppKlRT = sTPAfM.IpIPjq.kIZntd.CFrame
-local HwRiSC = {
-(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),for _=1,0 do end
-(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),if false then local _=0.5035630678708094 end
-(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),local _=326;if _ == 0 then _=1 end
-(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),local _=326;if _ == 0 then _=1 end
-(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local _=0.5035630678708094 end
+for qKhiUS=1,0 do end
+(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),if 1 ~= 1 then return nil end
+(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),for FkLYSh=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+for PIHUfd=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),},Multi = true,Callback = MRVrij(sel)
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+hJYjNL= sel or {}
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+end,})
+if 1 ~= 1 then return nil end
+
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+lzehhG:Toggle({
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+Title = (function() return string.char(33258)..string.char(21160)..string.char(31665)..string.char(23376)..string.char(40)..string.char(25345)..string.char(32493)..string.char(27169)..string.char(24335)..string.char(41) end)(),Value = false,Callback = MRVrij(MgXxFB)
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+QPELtu= MgXxFB
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local TCYcxY = NZfNmh.fwxciM.KkWnwU.CFrame
+local HvVfvF = {
+(function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),for FkLYSh=1,0 do end
+do local _=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+do local _=function() end end
+do local PIHUfd=function() end end
+(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),if false then local FkLYSh=0.5035630678708094 end
+if false then local tjRSpI=0.9006855414627175 end
+(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),(function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),(function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),if false then local FkLYSh=0.5035630678708094 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 (function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),}
-local pDkyxM = 1
-local WHIiTZ = nil
-local _=326;if _ == 0 then _=1 end
-
-while CiGJpU and task.wait(0.5) do
-local fBHiuQ = false
-local oNxFQk = bpqJrj:GetChildren()
+if false then local qKhiUS=0.17959263031053085 end
+local DcOnKw = 1
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local RrPhKg = nil
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
 if 1 ~= 1 then return nil end
 
-for Bbeoeq= 1,#oNxFQk do
-if not CiGJpU then
+while QPELtu and task.wait(0.5) do
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local iytIBa = false
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local nZfXvu = jxfDvA:GetChildren()
+do local aNKOBO=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for ISftiK= 1,#nZfXvu do
+local _=907;if _ == 0 then _=1 end
+if not QPELtu then
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
 break
 if 1 ~= 1 then return nil end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end
-local PARRqX = oNxFQk[Bbeoeq]
+do local _=function() end end
+local urNVRQ = nZfXvu[ISftiK]
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+for aNKOBO=1,0 do end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if
-PARRqX
-if false then local _=0.5035630678708094 end
-and PARRqX:FindFirstChild((function() return string.char(83)..string.char(116)..string.char(101)..string.char(97)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-and PARRqX.StealPrompt.Enabled
-and not IsInWhitelist(PARRqX.Position)
+local _=907;if _ == 0 then _=1 end
+urNVRQ
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+and urNVRQ:FindFirstChild((function() return string.char(83)..string.char(116)..string.char(101)..string.char(97)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+and urNVRQ.StealPrompt.Enabled
+and not IsInWhitelist(urNVRQ.Position)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
 then
 if 1 ~= 1 then return nil end
-fBHiuQ= true
-
-sTPAfM.IpIPjq.kIZntd.CFrame = PARRqX.CFrame + Vector3.new(0,3,0)
-task.wait(0.2)
-do local _=function() end end
-pcall(igMUpK()
-zBNNAd.WeldCrate:InvokeServer(PARRqX)
-zBNNAd.changePrompt:FireServer(PARRqX,false)
-end)
-local _=326;if _ == 0 then _=1 end
-
-local fsIxWw = sTPAfM.Team.Name
-local LBYZrO = ykwRed[fsIxWw]
-if LBYZrO then
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 if math.random() > 1 then return nil end
-sTPAfM.IpIPjq.kIZntd.CFrame = CFrame.new(LBYZrO) + Vector3.new(0,3,0)
-task.wait(0)
-end
-
+do local qKhiUS=function() end end
+for fpzPnq=1,0 do end
+iytIBa= true
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 do local _=function() end end
-local RUvHCn = false
-while not RUvHCn and CiGJpU do
-local LWhtmx,err = pcall(igMUpK()
-local zRbYlX = workspace.Tycoon.Tycoons[fsIxWw]
-if false then local _=0.5035630678708094 end
-local PhzapE = zRbYlX:FindFirstChild((function() return string.char(69)..string.char(115)..string.char(115)..string.char(101)..string.char(110)..string.char(116)..string.char(105)..string.char(97)..string.char(108)..string.char(115) end)())
-local oGnoPx = PhzapE:FindFirstChild((function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(111)..string.char(108)..string.char(108)..string.char(101)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)())
-local GSYPdv = oGnoPx:FindFirstChild((function() return string.char(67)..string.char(114)..string.char(97)..string.char(116)..string.char(101)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)())
-local AaCoEV = GSYPdv and GSYPdv:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(108)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-if false then local _=0.5035630678708094 end
+if math.random() > 1 then return nil end
 
-if AaCoEV then
-sTPAfM.IpIPjq.kIZntd.CFrame = GSYPdv.CFrame + Vector3.new(0,3,0)
-task.wait(0.5)
-if false then local _=0.5035630678708094 end
-fireproximityprompt(AaCoEV)
-RUvHCn= true
-end
+NZfNmh.fwxciM.KkWnwU.CFrame = urNVRQ.CFrame + Vector3.new(0,3,0)
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+task.wait(0.2)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local FkLYSh=function() end end
+do local _=function() end end
+do local qKhiUS=function() end end
+pcall(MRVrij()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+AtccXi.WeldCrate:InvokeServer(urNVRQ)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+AtccXi.changePrompt:FireServer(urNVRQ,false)
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end)
-local _=326;if _ == 0 then _=1 end
-if not LWhtmx then
-warn((function() return string.char(31561)..string.char(24453)..string.char(22238)..string.char(25910)..string.char(21306)..string.char(21152)..string.char(36733)..string.char(22833)..string.char(36133)..string.char(58) end)(),err)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local CMCaCf = NZfNmh.Team.Name
+for _=1,0 do end
+for aNKOBO=1,0 do end
+local dJQAKs = OHxXVA[CMCaCf]
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if dJQAKs then
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+NZfNmh.fwxciM.KkWnwU.CFrame = CFrame.new(dJQAKs) + Vector3.new(0,3,0)
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+task.wait(0)
+for fpzPnq=1,0 do end
+for _=1,0 do end
+do local PIHUfd=function() end end
+for tjRSpI=1,0 do end
 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+do local _=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local QNcKDv = false
+while not QNcKDv and QPELtu do
+local PAtmSE,err = pcall(MRVrij()
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local AZtSFW = workspace.Tycoon.Tycoons[CMCaCf]
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+local qcogLn = AZtSFW:FindFirstChild((function() return string.char(69)..string.char(115)..string.char(115)..string.char(101)..string.char(110)..string.char(116)..string.char(105)..string.char(97)..string.char(108)..string.char(115) end)())
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+local OvlUcs = qcogLn:FindFirstChild((function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(111)..string.char(108)..string.char(108)..string.char(101)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)())
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local qiBckH = OvlUcs:FindFirstChild((function() return string.char(67)..string.char(114)..string.char(97)..string.char(116)..string.char(101)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)())
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+local YPAWsG = qiBckH and qiBckH:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(108)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if YPAWsG then
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+NZfNmh.fwxciM.KkWnwU.CFrame = qiBckH.CFrame + Vector3.new(0,3,0)
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+task.wait(0.5)
+if false then local FkLYSh=0.5035630678708094 end
+fireproximityprompt(YPAWsG)
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+QNcKDv= true
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+end
+local _=907;if _ == 0 then _=1 end
+end)
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local aNKOBO=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if not PAtmSE then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+warn((function() return string.char(31561)..string.char(24453)..string.char(22238)..string.char(25910)..string.char(21306)..string.char(21152)..string.char(36733)..string.char(22833)..string.char(36133)..string.char(58) end)(),err)
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if 1 ~= 1 then return nil end
 task.wait(0.3)
+for _=1,0 do end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
+end
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+
+for tjRSpI=1,0 do end
+for _=1,0 do end
+task.wait(0)
+do local fpzPnq=function() end end
+for aNKOBO=1,0 do end
+break
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+if not iytIBa then
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+local BgNmLm = nil
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh= 1,#HvVfvF do
+local dbRknS = HvVfvF[DcOnKw]
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if not table.find(hJYjNL,dbRknS) then
+if false then local tjRSpI=0.9006855414627175 end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+BgNmLm= OHxXVA[dbRknS]
+break
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+for PIHUfd=1,0 do end
+end
+local _=907;if _ == 0 then _=1 end
+DcOnKw= (DcOnKw % #HvVfvF) + 1
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+end
+do local fpzPnq=function() end end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if BgNmLm then
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+RrPhKg= BgNmLm
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+NZfNmh.fwxciM.KkWnwU.CFrame = CFrame.new(BgNmLm)
+do local _=function() end end
+task.wait(0.5)
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+DcOnKw= (DcOnKw % #HvVfvF) + 1
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+elseif RrPhKg then
+for aNKOBO=1,0 do end
+do local _=function() end end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+NZfNmh.fwxciM.KkWnwU.CFrame = CFrame.new(RrPhKg)
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+task.wait(0)
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
 do local _=function() end end
 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local fpzPnq=function() end end
+end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
 
-task.wait(0)
-break
-if false then local _=0.5035630678708094 end
-end
-end
-
-if not fBHiuQ then
-if false then local _=0.5035630678708094 end
-local GjKvhM = nil
-for _ = 1,#HwRiSC do
-local sAkzyf = HwRiSC[pDkyxM]
-if not table.find(TdhIMZ,sAkzyf) then
-for _=1,0 do end
-GjKvhM= ykwRed[sAkzyf]
-break
-end
-pDkyxM= (pDkyxM % #HwRiSC) + 1
-if false then local _=0.5035630678708094 end
-end
-
-if GjKvhM then
-WHIiTZ= GjKvhM
-if false then local _=0.5035630678708094 end
-sTPAfM.IpIPjq.kIZntd.CFrame = CFrame.new(GjKvhM)
-task.wait(0.5)
-end
-pDkyxM= (pDkyxM % #HwRiSC) + 1
-if false then local _=0.5035630678708094 end
-elseif WHIiTZ then
-sTPAfM.IpIPjq.kIZntd.CFrame = CFrame.new(WHIiTZ)
-task.wait(0)
-end
-local _=326;if _ == 0 then _=1 end
-end
-
-if not CiGJpU then
-sTPAfM.IpIPjq.kIZntd.CFrame = ppKlRT
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if not QPELtu then
+for tjRSpI=1,0 do end
+NZfNmh.fwxciM.KkWnwU.CFrame = TCYcxY
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
 if 1 ~= 1 then return nil end
 end
 end,})
-
-local _=326;if _ == 0 then _=1 end
-local OkzjVr = false
-
-gPsKON:Button({
-Title = (function() return string.char(33258)..string.char(21160)..string.char(31665)..string.char(23376)..string.char(40)..string.char(28857)..string.char(20987)..string.char(35302)..string.char(21457)..string.char(41) end)(),do local _=function() end end
-Callback = igMUpK()
-if OkzjVr then
-return
-end
-if math.random() > 1 then return nil end
-OkzjVr= true
-
-task.spawn(igMUpK()
-local ppKlRT = sTPAfM.IpIPjq.kIZntd.CFrame
 if 1 ~= 1 then return nil end
-local HwRiSC = {
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+do local fpzPnq=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+local zqCLaF = false
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+lzehhG:Button({
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+Title = (function() return string.char(33258)..string.char(21160)..string.char(31665)..string.char(23376)..string.char(40)..string.char(28857)..string.char(20987)..string.char(35302)..string.char(21457)..string.char(41) end)(),do local FkLYSh=function() end end
+Callback = MRVrij()
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if zqCLaF then
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+return
+for _=1,0 do end
+for aNKOBO=1,0 do end
+for tjRSpI=1,0 do end
+end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+zqCLaF= true
+for fpzPnq=1,0 do end
+
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+do local PIHUfd=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+task.spawn(MRVrij()
+local TCYcxY = NZfNmh.fwxciM.KkWnwU.CFrame
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local HvVfvF = {
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
 (function() return string.char(65)..string.char(108)..string.char(112)..string.char(104)..string.char(97) end)(),(function() return string.char(66)..string.char(114)..string.char(97)..string.char(118)..string.char(111) end)(),(function() return string.char(67)..string.char(104)..string.char(97)..string.char(114)..string.char(108)..string.char(105)..string.char(101) end)(),if 1 ~= 1 then return nil end
-(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),if false then local _=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+(function() return string.char(68)..string.char(101)..string.char(108)..string.char(116)..string.char(97) end)(),(function() return string.char(69)..string.char(99)..string.char(104)..string.char(111) end)(),(function() return string.char(70)..string.char(111)..string.char(120)..string.char(116)..string.char(114)..string.char(111)..string.char(116) end)(),(function() return string.char(71)..string.char(111)..string.char(108)..string.char(102) end)(),if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
 (function() return string.char(72)..string.char(111)..string.char(116)..string.char(101)..string.char(108) end)(),(function() return string.char(74)..string.char(117)..string.char(108)..string.char(105)..string.char(101)..string.char(116) end)(),(function() return string.char(75)..string.char(105)..string.char(108)..string.char(111) end)(),(function() return string.char(76)..string.char(105)..string.char(109)..string.char(97) end)(),if 1 ~= 1 then return nil end
-(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),if false then local _=0.5035630678708094 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+(function() return string.char(79)..string.char(109)..string.char(101)..string.char(103)..string.char(97) end)(),(function() return string.char(82)..string.char(111)..string.char(109)..string.char(101)..string.char(111) end)(),(function() return string.char(83)..string.char(105)..string.char(101)..string.char(114)..string.char(114)..string.char(97) end)(),(function() return string.char(84)..string.char(97)..string.char(110)..string.char(103)..string.char(111) end)(),if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
 (function() return string.char(86)..string.char(105)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)(),(function() return string.char(89)..string.char(97)..string.char(110)..string.char(107)..string.char(101)..string.char(101) end)(),(function() return string.char(90)..string.char(117)..string.char(108)..string.char(117) end)(),}
 do local _=function() end end
-local CDEoue,found = 1,false
-
-for _ = 1,200 do
-for _,PARRqX in ipairs(bpqJrj:GetChildren()) do
-if math.random() > 1 then return nil end
-local EnAhoc = PARRqX:FindFirstChild((function() return string.char(83)..string.char(116)..string.char(101)..string.char(97)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-if EnAhoc and EnAhoc.Enabled and not IsInWhitelist(PARRqX.Position) then
-found = true
-if EnAhoc and EnAhoc:IsDescendantOf(game) then
+for fpzPnq=1,0 do end
 if 1 ~= 1 then return nil end
-EnAhoc.MaxActivationDistance = 10
-end
-sTPAfM.IpIPjq.kIZntd.CFrame = PARRqX.CFrame + Vector3.new(0,3,0)
-task.wait(1)
-if false then local _=0.5035630678708094 end
-if EnAhoc and EnAhoc:IsDescendantOf(game) then
-EnAhoc:InputHoldBegin()
-task.wait(0.2)
-if EnAhoc and EnAhoc:IsDescendantOf(game) then
-local _=326;if _ == 0 then _=1 end
-EnAhoc:InputHoldEnd()
-end
-end
-sTPAfM.IpIPjq.kIZntd.CFrame = ppKlRT
-if false then local _=0.5035630678708094 end
-task.wait(0.2)
-break
-end
-end
-if false then local _=0.5035630678708094 end
-if found then
-break
-end
+do local FkLYSh=function() end end
+for PIHUfd=1,0 do end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local ZboiTS,found = 1,false
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
 
-local _=326;if _ == 0 then _=1 end
-local GjKvhM = nil
-for _ = 1,#HwRiSC do
-local sAkzyf = HwRiSC[CDEoue]
-if not table.find(TdhIMZ,sAkzyf) then
-if false then local _=0.5035630678708094 end
-GjKvhM= ykwRed[sAkzyf]
-break
-end
-CDEoue= (CDEoue % #HwRiSC) + 1
+do local aNKOBO=function() end end
+for FkLYSh= 1,200 do
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for FkLYSh,urNVRQ in ipairs(jxfDvA:GetChildren()) do
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local VyZZds = urNVRQ:FindFirstChild((function() return string.char(83)..string.char(116)..string.char(101)..string.char(97)..string.char(108)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+for fpzPnq=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if VyZZds and VyZZds.Enabled and not IsInWhitelist(urNVRQ.Position) then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+found = true
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if VyZZds and VyZZds:IsDescendantOf(game) then
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+VyZZds.MaxActivationDistance = 10
 if math.random() > 1 then return nil end
 end
-if GjKvhM then
-sTPAfM.IpIPjq.kIZntd.CFrame = CFrame.new(GjKvhM)
-end
-if false then local _=0.5035630678708094 end
-CDEoue= (CDEoue % #HwRiSC) + 1
-task.wait(0.8)
-end
-OkzjVr= false
+if math.random() > 1 then return nil end
+NZfNmh.fwxciM.KkWnwU.CFrame = urNVRQ.CFrame + Vector3.new(0,3,0)
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+task.wait(1)
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+if VyZZds and VyZZds:IsDescendantOf(game) then
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
 do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+VyZZds:InputHoldBegin()
+task.wait(0.2)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if VyZZds and VyZZds:IsDescendantOf(game) then
+for tjRSpI=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+VyZZds:InputHoldEnd()
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+NZfNmh.fwxciM.KkWnwU.CFrame = TCYcxY
+if false then local FkLYSh=0.5035630678708094 end
+task.wait(0.2)
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+break
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if found then
+if 1 ~= 1 then return nil end
+break
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+end
+for _=1,0 do end
+
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local BgNmLm = nil
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh= 1,#HvVfvF do
+do local _=function() end end
+if math.random() > 1 then return nil end
+local dbRknS = HvVfvF[ZboiTS]
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if not table.find(hJYjNL,dbRknS) then
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+BgNmLm= OHxXVA[dbRknS]
+if 1 ~= 1 then return nil end
+break
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+ZboiTS= (ZboiTS % #HvVfvF) + 1
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+if BgNmLm then
+if math.random() > 1 then return nil end
+NZfNmh.fwxciM.KkWnwU.CFrame = CFrame.new(BgNmLm)
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+ZboiTS= (ZboiTS % #HvVfvF) + 1
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+task.wait(0.8)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+end
+zqCLaF= false
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local FkLYSh=function() end end
 end)
 end,})
-
 if 1 ~= 1 then return nil end
-gPsKON:Button({
-Title = (function() return string.char(20256)..string.char(36865)..string.char(21040)..string.char(31354)..string.char(25237)..string.char(31665) end)(),Callback = igMUpK()
-if not sTPAfM.IpIPjq or not sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
 for _=1,0 do end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+
+if false then local PIHUfd=0.2650381629488454 end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+for qKhiUS=1,0 do end
+lzehhG:Button({
+do local tjRSpI=function() end end
+Title = (function() return string.char(20256)..string.char(36865)..string.char(21040)..string.char(31354)..string.char(25237)..string.char(31665) end)(),Callback = MRVrij()
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if not NZfNmh.fwxciM or not NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
 return
+do local PIHUfd=function() end end
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
 end
 
-local qOZENf = sTPAfM.IpIPjq.kIZntd.CFrame
-for _=1,0 do end
-local rYTuXg
-
-for _,child in ipairs(workspace:GetDescendants()) do
-if child:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)()) and string.match(child.Name,(function() return string.char(94)..string.char(65)..string.char(105)..string.char(114)..string.char(100)..string.char(114)..string.char(111)..string.char(112)..string.char(95)..string.char(37)..string.char(100)..string.char(43)..string.char(36) end)()) then
 if 1 ~= 1 then return nil end
-rYTuXg= child
+do local aNKOBO=function() end end
+local lAokwn = NZfNmh.fwxciM.KkWnwU.CFrame
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+do local PIHUfd=function() end end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+do local _=function() end end
+local PUAhMk
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for _=1,0 do end
+for FkLYSh,child in ipairs(workspace:GetDescendants()) do
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if child:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)()) and string.match(child.Name,(function() return string.char(94)..string.char(65)..string.char(105)..string.char(114)..string.char(100)..string.char(114)..string.char(111)..string.char(112)..string.char(95)..string.char(37)..string.char(100)..string.char(43)..string.char(36) end)()) then
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+PUAhMk= child
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
 break
 end
 end
-local _=326;if _ == 0 then _=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 
-local CdIbIj = rYTuXg:GetPivot().Position + Vector3.new(0,3,0)
-sTPAfM.IpIPjq:PivotTo(CFrame.new(CdIbIj))
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local mJbRqL = PUAhMk:GetPivot().Position + Vector3.new(0,3,0)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+NZfNmh.fwxciM:PivotTo(CFrame.new(mJbRqL))
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 task.wait(0.5)
+do local aNKOBO=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+
+for _=1,0 do end
+local kXVRFB = game:GetService((function() return string.char(86)..string.char(105)..string.char(114)..string.char(116)..string.char(117)..string.char(97)..string.char(108)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(77)..string.char(97)..string.char(110)..string.char(97)..string.char(103)..string.char(101)..string.char(114) end)())
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
 
-local WZuaap = game:GetService((function() return string.char(86)..string.char(105)..string.char(114)..string.char(116)..string.char(117)..string.char(97)..string.char(108)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(77)..string.char(97)..string.char(110)..string.char(97)..string.char(103)..string.char(101)..string.char(114) end)())
-
-WZuaap:SendKeyEvent(true,Enum.KeyCode.E,false,nil)
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+kXVRFB:SendKeyEvent(true,Enum.KeyCode.E,false,nil)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 for _=1,0 do end
+for FkLYSh=1,0 do end
 task.wait(1)
 
-WZuaap:SendKeyEvent(false,Enum.KeyCode.E,false,nil)
-
-if false then local _=0.5035630678708094 end
-local SOmidA = tick()
-while rYTuXg:IsDescendantOf(workspace) and (tick() - SOmidA < 1) do
-task.wait()
-end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if false then local aNKOBO=0.689745187854259 end
 do local _=function() end end
+kXVRFB:SendKeyEvent(false,Enum.KeyCode.E,false,nil)
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local ZmZiHd = tick()
+for aNKOBO=1,0 do end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+while PUAhMk:IsDescendantOf(workspace) and (tick() - ZmZiHd < 1) do
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+task.wait()
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+end
+do local FkLYSh=function() end end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 task.wait(0)
-sTPAfM.IpIPjq:PivotTo(qOZENf)
+do local qKhiUS=function() end end
+NZfNmh.fwxciM:PivotTo(lAokwn)
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
 
-for _=1,0 do end
-HwCuUH:Notify({
-Title = (function() return string.char(33258)..string.char(21160)..string.char(31354)..string.char(25237)..string.char(31665) end)(),Content = rYTuXg:IsDescendantOf(workspace) and (function() return string.char(25910)..string.char(38598)..string.char(21487)..string.char(33021)..string.char(26410)..string.char(23436)..string.char(25104) end)() or (function() return string.char(24050)..string.char(23436)..string.char(25104)..string.char(25910)..string.char(38598)..string.char(24182)..string.char(36820)..string.char(22238) end)(),Duration = 3,for _=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+RRhDTh:Notify({
+if math.random() > 1 then return nil end
+Title = (function() return string.char(33258)..string.char(21160)..string.char(31354)..string.char(25237)..string.char(31665) end)(),Content = PUAhMk:IsDescendantOf(workspace) and (function() return string.char(25910)..string.char(38598)..string.char(21487)..string.char(33021)..string.char(26410)..string.char(23436)..string.char(25104) end)() or (function() return string.char(24050)..string.char(23436)..string.char(25104)..string.char(25910)..string.char(38598)..string.char(24182)..string.char(36820)..string.char(22238) end)(),Duration = 3,for FkLYSh=1,0 do end
 })
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+for aNKOBO=1,0 do end
 end,})
 
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local FkLYSh=function() end end
+do local PIHUfd=function() end end
 do local _=function() end end
-gPsKON:Toggle({
-Title = (function() return string.char(33258)..string.char(21160)..string.char(27833)..string.char(26742) end)(),Value = false,Callback = igMUpK(v)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+lzehhG:Toggle({
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+Title = (function() return string.char(33258)..string.char(21160)..string.char(27833)..string.char(26742) end)(),Value = false,Callback = MRVrij(v)
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 if 1 ~= 1 then return nil end
 getgenv().AOE = v
-local sTPAfM = game.vhWpbS.ZDjrgU
-local LsBcML = game:GetService((function() return string.char(86)..string.char(105)..string.char(114)..string.char(116)..string.char(117)..string.char(97)..string.char(108)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(77)..string.char(97)..string.char(110)..string.char(97)..string.char(103)..string.char(101)..string.char(114) end)())
-if v then
-local _=326;if _ == 0 then _=1 end
-getgenv().AOE_Pos = sTPAfM.IpIPjq
-and sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-and sTPAfM.IpIPjq.kIZntd.CFrame
-end
-if false then local _=0.5035630678708094 end
-local igMUpK tp(APKwhX)
-local wbAyON = sTPAfM.IpIPjq and sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-if wbAyON then
-wbAyON.CFrame = CFrame.new(APKwhX.X,APKwhX.Y + 3,APKwhX.Z)
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+local NZfNmh = game.sIAoZg.MavWwr
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 if 1 ~= 1 then return nil end
-task.wait(0.5)
-end
-end
-local igMUpK e()
-do local _=function() end end
-LsBcML:SendKeyEvent(true,Enum.KeyCode.E,false,nil)
-task.wait(1.5)
-LsBcML:SendKeyEvent(false,Enum.KeyCode.E,false,nil)
-end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local YnlhRE = game:GetService((function() return string.char(86)..string.char(105)..string.char(114)..string.char(116)..string.char(117)..string.char(97)..string.char(108)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(77)..string.char(97)..string.char(110)..string.char(97)..string.char(103)..string.char(101)..string.char(114) end)())
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
 for _=1,0 do end
-local igMUpK cp()
-local ITtgXm = workspace.Tycoon.Tycoons[sTPAfM.Team.Name].Essentials[(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(111)..string.char(108)..string.char(108)..string.char(101)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)()].Collector
-return ITtgXm and ITtgXm.DiamondPlate.Position
-end
-local _=326;if _ == 0 then _=1 end
-local upHwEV = {
-{ Vector3.new(1705,120,3773),(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(82)..string.char(105)..string.char(103)..string.char(50) end)() },{ Vector3.new(-1938,120,-3696),(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(82)..string.char(105)..string.char(103)..string.char(49) end)() },{ Vector3.new(-1211,72,-880),(function() return string.char(87)..string.char(97)..string.char(114)..string.char(101)..string.char(104)..string.char(111)..string.char(117)..string.char(115)..string.char(101)..string.char(49) end)() },local _=326;if _ == 0 then _=1 end
-}
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
 if v then
-task.spawn(igMUpK()
-while getgenv().AOE do
-local _=326;if _ == 0 then _=1 end
-for _,d in ipairs(upHwEV) do
-if not getgenv().AOE then
-break
-end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+getgenv().AOE_Pos = NZfNmh.fwxciM
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+and NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
 for _=1,0 do end
+and NZfNmh.fwxciM.KkWnwU.CFrame
+if math.random() > 1 then return nil end
+end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+local MRVrij tp(MVarux)
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+local AsWhRv = NZfNmh.fwxciM and NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if AsWhRv then
+do local _=function() end end
+if 1 ~= 1 then return nil end
+AsWhRv.CFrame = CFrame.new(MVarux.X,MVarux.Y + 3,MVarux.Z)
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+task.wait(0.5)
+for PIHUfd=1,0 do end
+for fpzPnq=1,0 do end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+end
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+local MRVrij e()
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+YnlhRE:SendKeyEvent(true,Enum.KeyCode.E,false,nil)
+task.wait(1.5)
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+YnlhRE:SendKeyEvent(false,Enum.KeyCode.E,false,nil)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+do local qKhiUS=function() end end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+do local tjRSpI=function() end end
+local MRVrij cp()
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+local GuhEPI = workspace.Tycoon.Tycoons[NZfNmh.Team.Name].Essentials[(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(111)..string.char(108)..string.char(108)..string.char(101)..string.char(99)..string.char(116)..string.char(111)..string.char(114) end)()].Collector
+return GuhEPI and GuhEPI.DiamondPlate.Position
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for qKhiUS=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local xwTMHn = {
+if false then local _=0.3245391309170007 end
+{ Vector3.new(1705,120,3773),(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(82)..string.char(105)..string.char(103)..string.char(50) end)() },{ Vector3.new(-1938,120,-3696),(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(82)..string.char(105)..string.char(103)..string.char(49) end)() },{ Vector3.new(-1211,72,-880),(function() return string.char(87)..string.char(97)..string.char(114)..string.char(101)..string.char(104)..string.char(111)..string.char(117)..string.char(115)..string.char(101)..string.char(49) end)() },local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+}
+if math.random() > 1 then return nil end
+if v then
+for _=1,0 do end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+task.spawn(MRVrij()
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+while getgenv().AOE do
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for FkLYSh,d in ipairs(xwTMHn) do
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if not getgenv().AOE then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+break
+for _=1,0 do end
+end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+do local qKhiUS=function() end end
+do local aNKOBO=function() end end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
 tp(d[1])
 task.wait(0.8)
-local nGZyjm =
-workspace[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()].Warehouses[d[2]][(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(97)..string.char(112)..string.char(116)..string.char(117)..string.char(114)..string.char(101) end)()][(function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(108)..string.char(97)..string.char(116)..string.char(101) end)()].PromptPart:FindFirstChildWhichIsA(for _=1,0 do end
+local wCsKGH =
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+workspace[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()].Warehouses[d[2]][(function() return string.char(79)..string.char(105)..string.char(108)..string.char(32)..string.char(67)..string.char(97)..string.char(112)..string.char(116)..string.char(117)..string.char(114)..string.char(101) end)()][(function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(108)..string.char(97)..string.char(116)..string.char(101) end)()].PromptPart:FindFirstChildWhichIsA(for FkLYSh=1,0 do end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
 (function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)(),true)
-if nGZyjm then
-for _=1,0 do end
-nGZyjm.MaxActivationDistance,nGZyjm.HoldDuration = 10,0.001
-tp(nGZyjm.Parent.Position)
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if wCsKGH then
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+wCsKGH.MaxActivationDistance,wCsKGH.HoldDuration = 10,0.001
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+tp(wCsKGH.Parent.Position)
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
 e()
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
 tp(cp())
-for _=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local fpzPnq=0.23295867704356044 end
 e()
 task.wait(6)
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end
-local XKzfZM = workspace:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(108)..string.char(97)..string.char(116)..string.char(101) end)())
-for _=1,0 do end
+local PeLYqj = workspace:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(108)..string.char(97)..string.char(116)..string.char(101) end)())
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
 and workspace[(function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(108)..string.char(97)..string.char(116)..string.char(101) end)()].PromptPart:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(101)..string.char(108)..string.char(80)..string.char(105)..string.char(99)..string.char(107)..string.char(117)..string.char(112) end)())
-if XKzfZM then
-XKzfZM.MaxActivationDistance,XKzfZM.HoldDuration = 10,0.001
-tp(XKzfZM.Parent.Position)
-do local _=function() end end
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if PeLYqj then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+PeLYqj.MaxActivationDistance,PeLYqj.HoldDuration = 10,0.001
+for aNKOBO=1,0 do end
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+tp(PeLYqj.Parent.Position)
+do local fpzPnq=function() end end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 e()
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
 tp(cp())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
+for _=1,0 do end
 e()
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
 task.wait(6)
-do local _=function() end end
+do local FkLYSh=function() end end
 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
 task.wait(0.5)
 end
 if 1 ~= 1 then return nil end
-if getgenv().AOE_Pos and sTPAfM.IpIPjq and sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
-sTPAfM.IpIPjq.kIZntd.CFrame = getgenv().AOE_Pos
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+for _=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if getgenv().AOE_Pos and NZfNmh.fwxciM and NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+NZfNmh.fwxciM.KkWnwU.CFrame = getgenv().AOE_Pos
 end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
 end)
+for tjRSpI=1,0 do end
 if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
 end,})
 
+for fpzPnq=1,0 do end
+do local aNKOBO=function() end end
 if 1 ~= 1 then return nil end
-local vWygjW = false
-gPsKON:Toggle({
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+local zpaBhb = false
+lzehhG:Toggle({
+if false then local _=0.3245391309170007 end
 Title = (function() return string.char(33258)..string.char(21160)..string.char(21319)..string.char(32423) end)(),Value = false,if math.random() > 1 then return nil end
-Callback = igMUpK(xlUGor)
-vWygjW= xlUGor
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+Callback = MRVrij(MgXxFB)
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+zpaBhb= MgXxFB
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 
-if vWygjW then
-local _=326;if _ == 0 then _=1 end
-local bUkMLk = {
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if zpaBhb then
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+local nRZrHA = {
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
 PART_NAME = (function() return string.char(78)..string.char(101)..string.char(111)..string.char(110) end)(),COLORS = {
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
 GREEN = Color3.fromRGB(0,255,0),if 1 ~= 1 then return nil end
-RED = Color3.fromRGB(255,0,0),YELLOW = Color3.fromRGB(255,255,0),BLUE = Color3.fromRGB(4,175,235),},do local _=function() end end
-HEIGHT = 1,DELAY = 0.1,RADIUS = 800,FALL_HEIGHT = 5,do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+RED = Color3.fromRGB(255,0,0),YELLOW = Color3.fromRGB(255,255,0),BLUE = Color3.fromRGB(4,175,235),},do local FkLYSh=function() end end
+HEIGHT = 1,DELAY = 0.1,RADIUS = 800,FALL_HEIGHT = 5,do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
 SCAN_INTERVAL = 0.1,RED_SCAN_INTERVAL = 5,}
+for tjRSpI=1,0 do end
+
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local BdGnrF = false
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+local huAkNK,mNEhsj
+do local qKhiUS=function() end end
+local aOtfYW = 0
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
 
 if math.random() > 1 then return nil end
-local ziflAB = false
-local qpXeDh,tFUJJe
-local IWEzwn = 0
-
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-local igMUpK TeleportWithJump(FMXlHa)
-if not tFUJJe or not FMXlHa then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local MRVrij TeleportWithJump(RWNzhu)
+if not mNEhsj or not RWNzhu then
+do local tjRSpI=function() end end
+for PIHUfd=1,0 do end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
 return false
 end
-do local _=function() end end
-local LWhtmx = pcall(igMUpK()
-tFUJJe.CFrame = FMXlHa.CFrame + Vector3.new(0,bUkMLk.HEIGHT + bUkMLk.FALL_HEIGHT,0)
+do local FkLYSh=function() end end
+do local fpzPnq=function() end end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local PAtmSE = pcall(MRVrij()
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+mNEhsj.CFrame = RWNzhu.CFrame + Vector3.new(0,nRZrHA.HEIGHT + nRZrHA.FALL_HEIGHT,0)
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
 task.wait(0.3)
-tFUJJe.CFrame = FMXlHa.CFrame + Vector3.new(0,bUkMLk.HEIGHT,0)
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+mNEhsj.CFrame = RWNzhu.CFrame + Vector3.new(0,nRZrHA.HEIGHT,0)
 if 1 ~= 1 then return nil end
-end)
-return LWhtmx
-end
-
+if math.random() > 1 then return nil end
 for _=1,0 do end
-local igMUpK InitChar()
-qpXeDh= sTPAfM.IpIPjq or sTPAfM.CharacterAdded:Wait()
-tFUJJe= qpXeDh:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-end
-do local _=function() end end
-
-local igMUpK GetPlayerRebirths()
-local beKovf = 0
-pcall(igMUpK()
+for qKhiUS=1,0 do end
 if 1 ~= 1 then return nil end
-local pnFRPn = sTPAfM:FindFirstChild((function() return string.char(108)..string.char(101)..string.char(97)..string.char(100)..string.char(101)..string.char(114)..string.char(115)..string.char(116)..string.char(97)..string.char(116)..string.char(115) end)())
-if pnFRPn then
-local QxdZSx = pnFRPn:FindFirstChild((function() return string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(115) end)())
-if QxdZSx then
-if 1 ~= 1 then return nil end
-beKovf= QxdZSx.Value
-end
-end
+do local fpzPnq=function() end end
 end)
-do local _=function() end end
-IWEzwn= beKovf
-return beKovf
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+return PAtmSE
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
 end
 
-if false then local _=0.5035630678708094 end
-local igMUpK GetRequiredRebirthFromParentName(parentName)
-local SDctKo = {
-[(function() return string.char(72)..string.char(111)..string.char(118)..string.char(101)..string.char(114)..string.char(99)..string.char(114)..string.char(97)..string.char(102)..string.char(116)..string.char(32)..string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(115) end)()] = 4,[(function() return string.char(85)..string.char(110)..string.char(108)..string.char(111)..string.char(99)..string.char(107)..string.char(32)..string.char(66)..string.char(117)..string.char(110)..string.char(107)..string.char(101)..string.char(114)..string.char(32)..string.char(97)..string.char(110)..string.char(100)..string.char(32)..string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101)..string.char(32)..string.char(83)..string.char(105)..string.char(108)..string.char(111) end)()] = 2,do local _=function() end end
-[(function() return string.char(84)..string.char(97)..string.char(110)..string.char(107)..string.char(32)..string.char(85)..string.char(110)..string.char(108)..string.char(111)..string.char(99)..string.char(107) end)()] = 6,[(function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(32)..string.char(66)..string.char(97)..string.char(121) end)()] = 1,[(function() return string.char(80)..string.char(108)..string.char(97)..string.char(110)..string.char(101)..string.char(115) end)()] = 7,[(function() return string.char(77)..string.char(101)..string.char(100)..string.char(98)..string.char(97)..string.char(121)..string.char(32)..string.char(83)..string.char(116)..string.char(97)..string.char(114)..string.char(116) end)()] = 1,local _=326;if _ == 0 then _=1 end
-[(function() return string.char(84)..string.char(114)..string.char(97)..string.char(100)..string.char(105)..string.char(110)..string.char(103)..string.char(32)..string.char(72)..string.char(117)..string.char(98) end)()] = 1,[(function() return string.char(87)..string.char(87)..string.char(50) end)()] = 4,[(function() return string.char(68)..string.char(114)..string.char(111)..string.char(110)..string.char(101) end)()] = 5,[(function() return string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101)..string.char(32)..string.char(83)..string.char(105)..string.char(108)..string.char(111)..string.char(32)..string.char(83)..string.char(116)..string.char(97)..string.char(114)..string.char(116) end)()] = 5,if false then local _=0.5035630678708094 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+for FkLYSh=1,0 do end
+local MRVrij InitChar()
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+huAkNK= NZfNmh.fwxciM or NZfNmh.CharacterAdded:Wait()
+for fpzPnq=1,0 do end
+mNEhsj= huAkNK:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+end
+do local tjRSpI=function() end end
+do local FkLYSh=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+local MRVrij GetPlayerRebirths()
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local TqENCJ = 0
+pcall(MRVrij()
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local fPQuJP = NZfNmh:FindFirstChild((function() return string.char(108)..string.char(101)..string.char(97)..string.char(100)..string.char(101)..string.char(114)..string.char(115)..string.char(116)..string.char(97)..string.char(116)..string.char(115) end)())
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if fPQuJP then
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+local TUCiNS = fPQuJP:FindFirstChild((function() return string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(115) end)())
+if TUCiNS then
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+TqENCJ= TUCiNS.Value
+end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+end)
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+aOtfYW= TqENCJ
+return TqENCJ
+for PIHUfd=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local _=907;if _ == 0 then _=1 end
+
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local MRVrij GetRequiredRebirthFromParentName(parentName)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local SpDbVi = {
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+[(function() return string.char(72)..string.char(111)..string.char(118)..string.char(101)..string.char(114)..string.char(99)..string.char(114)..string.char(97)..string.char(102)..string.char(116)..string.char(32)..string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(115) end)()] = 4,[(function() return string.char(85)..string.char(110)..string.char(108)..string.char(111)..string.char(99)..string.char(107)..string.char(32)..string.char(66)..string.char(117)..string.char(110)..string.char(107)..string.char(101)..string.char(114)..string.char(32)..string.char(97)..string.char(110)..string.char(100)..string.char(32)..string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101)..string.char(32)..string.char(83)..string.char(105)..string.char(108)..string.char(111) end)()] = 2,do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+[(function() return string.char(84)..string.char(97)..string.char(110)..string.char(107)..string.char(32)..string.char(85)..string.char(110)..string.char(108)..string.char(111)..string.char(99)..string.char(107) end)()] = 6,[(function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(32)..string.char(66)..string.char(97)..string.char(121) end)()] = 1,[(function() return string.char(80)..string.char(108)..string.char(97)..string.char(110)..string.char(101)..string.char(115) end)()] = 7,[(function() return string.char(77)..string.char(101)..string.char(100)..string.char(98)..string.char(97)..string.char(121)..string.char(32)..string.char(83)..string.char(116)..string.char(97)..string.char(114)..string.char(116) end)()] = 1,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+[(function() return string.char(84)..string.char(114)..string.char(97)..string.char(100)..string.char(105)..string.char(110)..string.char(103)..string.char(32)..string.char(72)..string.char(117)..string.char(98) end)()] = 1,[(function() return string.char(87)..string.char(87)..string.char(50) end)()] = 4,[(function() return string.char(68)..string.char(114)..string.char(111)..string.char(110)..string.char(101) end)()] = 5,[(function() return string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101)..string.char(32)..string.char(83)..string.char(105)..string.char(108)..string.char(111)..string.char(32)..string.char(83)..string.char(116)..string.char(97)..string.char(114)..string.char(116) end)()] = 5,if false then local FkLYSh=0.5035630678708094 end
 [(function() return string.char(86)..string.char(105)..string.char(101)..string.char(116)..string.char(110)..string.char(97)..string.char(109)..string.char(32)..string.char(85)..string.char(110)..string.char(108)..string.char(111)..string.char(99)..string.char(107) end)()] = 4,}
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 
-for name,SuLWlx in pairs(SDctKo) do
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+do local _=function() end end
+for name,NiIvGR in pairs(SpDbVi) do
+for qKhiUS=1,0 do end
 if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 if string.find(parentName,name,1,true) then
-return SuLWlx
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+return NiIvGR
+for fpzPnq=1,0 do end
+do local _=function() end end
 end
+if false then local tjRSpI=0.9006855414627175 end
 end
-if false then local _=0.5035630678708094 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
 
-local jRYvxY = (function() return string.char(37)..string.char(91)..string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41)..string.char(37)..string.char(115)..string.char(42)..string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(115)..string.char(63)..string.char(37)..string.char(93) end)()
-local AYUnap = tonumber(string.match(parentName,jRYvxY))
-if AYUnap then
+local pPeysd = (function() return string.char(37)..string.char(91)..string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41)..string.char(37)..string.char(115)..string.char(42)..string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(115)..string.char(63)..string.char(37)..string.char(93) end)()
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+do local qKhiUS=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local mriQBt = tonumber(string.match(parentName,pPeysd))
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+if mriQBt then
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
 for _=1,0 do end
-return AYUnap
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+return mriQBt
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
 
-local AcrbgF = {
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qjNeTS = {
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
 (function() return string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(37)..string.char(115)..string.char(42)..string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41) end)(),(function() return string.char(83)..string.char(116)..string.char(97)..string.char(114)..string.char(116)..string.char(37)..string.char(115)..string.char(42)..string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41) end)(),(function() return string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41)..string.char(37)..string.char(115)..string.char(42)..string.char(82)..string.char(101)..string.char(98)..string.char(105)..string.char(114)..string.char(116)..string.char(104)..string.char(115) end)(),(function() return string.char(40)..string.char(37)..string.char(100)..string.char(43)..string.char(41)..string.char(37)..string.char(115)..string.char(42)..string.char(36) end)(),if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
 }
+do local tjRSpI=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
 
-for _,pattern in ipairs(AcrbgF) do
-local SuLWlx = tonumber(string.match(parentName,pattern))
-for _=1,0 do end
-if SuLWlx then
-return SuLWlx
-end
-end
+if false then local _=0.3245391309170007 end
+for FkLYSh,pattern in ipairs(qjNeTS) do
+if 1 ~= 1 then return nil end
+local NiIvGR = tonumber(string.match(parentName,pattern))
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for FkLYSh=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if NiIvGR then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 if math.random() > 1 then return nil end
+return NiIvGR
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+end
+end
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for PIHUfd=1,0 do end
 
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
 return nil
 end
-
-if false then local _=0.5035630678708094 end
-local igMUpK IsYellowPartValid(FMXlHa)
-if not FMXlHa then
-return false
-end
-if false then local _=0.5035630678708094 end
-local NVJrIh = FMXlHa.Parent
-if not NVJrIh then
-return false
-end
-if math.random() > 1 then return nil end
-
-if NVJrIh.Name == (function() return string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(101)..string.char(114)..string.char(32)..string.char(82)..string.char(97)..string.char(99)..string.char(107)..string.char(32)..string.char(49) end)() then
-return false
-end
-if math.random() > 1 then return nil end
-
-local duXVjF = GetRequiredRebirthFromParentName(NVJrIh.Name)
-if not duXVjF then
-return false
-if math.random() > 1 then return nil end
-end
-
-return IWEzwn >= duXVjF
-end
-if 1 ~= 1 then return nil end
-
-local igMUpK FindAllValidParts()
-if not tFUJJe then
-return {},{},{},false
-if 1 ~= 1 then return nil end
-end
-
-local oJbxuw,yellows,blues = {},{},{}
-local JVolgT = false
-do local _=function() end end
-local QJeVKt = tFUJJe.Position
-GetPlayerRebirths()
-
-for _,obj in ipairs(workspace:GetDescendants()) do
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if false then local qKhiUS=0.17959263031053085 end
 for _=1,0 do end
-if obj:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) and obj.Name == bUkMLk.PART_NAME then
-local REyJPX = (obj.Position - QJeVKt).Magnitude
-if REyJPX < bUkMLk.RADIUS then
-if obj.Color == bUkMLk.COLORS.GREEN then
+
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+do local _=function() end end
+local MRVrij IsYellowPartValid(RWNzhu)
+if not RWNzhu then
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-table.insert(oJbxuw,obj)
-elseif obj.Color == bUkMLk.COLORS.YELLOW then
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+return false
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local istDJS = RWNzhu.Parent
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+if not istDJS then
+return false
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
+for aNKOBO=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if istDJS.Name == (function() return string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(101)..string.char(114)..string.char(32)..string.char(82)..string.char(97)..string.char(99)..string.char(107)..string.char(32)..string.char(49) end)() then
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+return false
+if false then local tjRSpI=0.9006855414627175 end
+end
+do local _=function() end end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+local KluHVq = GetRequiredRebirthFromParentName(istDJS.Name)
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for qKhiUS=1,0 do end
+if not KluHVq then
+for _=1,0 do end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+return false
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+do local _=function() end end
+
+do local qKhiUS=function() end end
+for aNKOBO=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+return aOtfYW >= KluHVq
+end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+local MRVrij FindAllValidParts()
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+if not mNEhsj then
+return {},{},{},false
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+end
+
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local CVvRvN,yellows,blues = {},{},{}
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local VHLgLj = false
+for PIHUfd=1,0 do end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+do local qKhiUS=function() end end
+for fpzPnq=1,0 do end
+do local FkLYSh=function() end end
+local YSpINE = mNEhsj.Position
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+GetPlayerRebirths()
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh,obj in ipairs(workspace:GetDescendants()) do
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if obj:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) and obj.Name == nRZrHA.PART_NAME then
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local GqiXvt = (obj.Position - YSpINE).Magnitude
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if GqiXvt < nRZrHA.RADIUS then
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local _=907;if _ == 0 then _=1 end
+if obj.Color == nRZrHA.COLORS.GREEN then
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+table.insert(CVvRvN,obj)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+do local PIHUfd=function() end end
+elseif obj.Color == nRZrHA.COLORS.YELLOW then
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
 if IsYellowPartValid(obj) then
 table.insert(yellows,obj)
-for _=1,0 do end
-end
-elseif obj.Color == bUkMLk.COLORS.BLUE then
-table.insert(blues,obj)
-elseif obj.Color == bUkMLk.COLORS.RED then
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
 if math.random() > 1 then return nil end
-JVolgT= true
-end
-end
-end
-if false then local _=0.5035630678708094 end
-end
-
-local igMUpK sortByDistance(a,QpgFPm)
-return (a.Position - QJeVKt).Magnitude < (QpgFPm.Position - QJeVKt).Magnitude
-local _=326;if _ == 0 then _=1 end
-end
-
-table.sort(oJbxuw,sortByDistance)
-table.sort(yellows,sortByDistance)
-if false then local _=0.5035630678708094 end
-table.sort(blues,sortByDistance)
-
-return oJbxuw,yellows,blues,JVolgT
-end
+if 1 ~= 1 then return nil end
 for _=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+if math.random() > 1 then return nil end
+do local _=function() end end
+elseif obj.Color == nRZrHA.COLORS.BLUE then
+table.insert(blues,obj)
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+elseif obj.Color == nRZrHA.COLORS.RED then
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+VHLgLj= true
+if false then local PIHUfd=0.2650381629488454 end
+end
+if false then local _=0.3245391309170007 end
+end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local aNKOBO=0.689745187854259 end
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+do local _=function() end end
+end
 
-local igMUpK SafeTouch(FMXlHa)
-if not FMXlHa or not tFUJJe then
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local MRVrij sortByDistance(a,lCPKvh)
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+return (a.Position - YSpINE).Magnitude < (lCPKvh.Position - YSpINE).Magnitude
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local _=0.3245391309170007 end
+end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+table.sort(CVvRvN,sortByDistance)
+do local fpzPnq=function() end end
+do local qKhiUS=function() end end
+table.sort(yellows,sortByDistance)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local FkLYSh=0.5035630678708094 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+table.sort(blues,sortByDistance)
+do local _=function() end end
+
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+local _=907;if _ == 0 then _=1 end
+return CVvRvN,yellows,blues,VHLgLj
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local fpzPnq=function() end end
+for aNKOBO=1,0 do end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+
+do local _=function() end end
+local MRVrij SafeTouch(RWNzhu)
+do local tjRSpI=function() end end
+if not RWNzhu or not mNEhsj then
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
 return
 if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
 end
-pcall(igMUpK()
-firetouchinterest(tFUJJe,FMXlHa,0)
-firetouchinterest(tFUJJe,FMXlHa,1)
+do local qKhiUS=function() end end
+pcall(MRVrij()
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
 if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+firetouchinterest(mNEhsj,RWNzhu,0)
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+firetouchinterest(mNEhsj,RWNzhu,1)
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
 end)
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local fpzPnq=0.23295867704356044 end
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+for _=1,0 do end
 end
 
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 InitChar()
 if 1 ~= 1 then return nil end
-
-while vWygjW do
-local oJbxuw,yellows,blues,JVolgT= FindAllValidParts()
-
 if 1 ~= 1 then return nil end
-if #oJbxuw== 0 and JVolgT then
-ziflAB= true
-elseif ziflAB and (#oJbxuw > 0 or not JVolgT) then
-ziflAB= false
-do local _=function() end end
-end
-
-if not ziflAB then
-for _,FMXlHa in ipairs(oJbxuw) do
-do local _=function() end end
-if not vWygjW then
-break
-end
-if FMXlHa and FMXlHa.Parent and FMXlHa.Color == bUkMLk.COLORS.GREEN then
 if math.random() > 1 then return nil end
-if TeleportWithJump(FMXlHa) then
-SafeTouch(FMXlHa)
-task.wait(bUkMLk.DELAY)
-end
-local _=326;if _ == 0 then _=1 end
-end
-end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
 
-for _,FMXlHa in ipairs(blues) do
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+while zpaBhb do
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local CVvRvN,yellows,blues,VHLgLj= FindAllValidParts()
+
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for PIHUfd=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if #CVvRvN== 0 and VHLgLj then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+BdGnrF= true
+elseif BdGnrF and (#CVvRvN > 0 or not VHLgLj) then
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+BdGnrF= false
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end
+do local fpzPnq=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+if not BdGnrF then
+if 1 ~= 1 then return nil end
+for FkLYSh,RWNzhu in ipairs(CVvRvN) do
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if not zpaBhb then
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+break
+if false then local PIHUfd=0.2650381629488454 end
+end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if RWNzhu and RWNzhu.Parent and RWNzhu.Color == nRZrHA.COLORS.GREEN then
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if TeleportWithJump(RWNzhu) then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+SafeTouch(RWNzhu)
+task.wait(nRZrHA.DELAY)
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+end
+if false then local PIHUfd=0.2650381629488454 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+end
 for _=1,0 do end
-if not vWygjW then
-break
 end
-if FMXlHa and FMXlHa.Parent then
-local _=326;if _ == 0 then _=1 end
-if TeleportWithJump(FMXlHa) then
-SafeTouch(FMXlHa)
-task.wait(bUkMLk.DELAY)
-end
-local _=326;if _ == 0 then _=1 end
-end
-end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
 
-for _,FMXlHa in ipairs(yellows) do
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local _=function() end end
+for FkLYSh,RWNzhu in ipairs(blues) do
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+for FkLYSh=1,0 do end
 if 1 ~= 1 then return nil end
-if not vWygjW then
+if not zpaBhb then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 break
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
 end
-if FMXlHa and FMXlHa.Parent and IsYellowPartValid(FMXlHa) then
+if false then local tjRSpI=0.9006855414627175 end
 if math.random() > 1 then return nil end
-if TeleportWithJump(FMXlHa) then
-SafeTouch(FMXlHa)
-task.wait(bUkMLk.DELAY)
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if RWNzhu and RWNzhu.Parent then
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if TeleportWithJump(RWNzhu) then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+SafeTouch(RWNzhu)
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+task.wait(nRZrHA.DELAY)
+end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+do local qKhiUS=function() end end
+
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for fpzPnq=1,0 do end
+for FkLYSh,RWNzhu in ipairs(yellows) do
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+if not zpaBhb then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+break
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if RWNzhu and RWNzhu.Parent and IsYellowPartValid(RWNzhu) then
+for PIHUfd=1,0 do end
+for tjRSpI=1,0 do end
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if TeleportWithJump(RWNzhu) then
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+SafeTouch(RWNzhu)
+if false then local fpzPnq=0.23295867704356044 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+task.wait(nRZrHA.DELAY)
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
 end
 if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for aNKOBO=1,0 do end
 end
-end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
 end
 
 do local _=function() end end
-task.wait(ziflAB and bUkMLk.RED_SCAN_INTERVAL or bUkMLk.SCAN_INTERVAL)
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+do local FkLYSh=function() end end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+task.wait(BdGnrF and nRZrHA.RED_SCAN_INTERVAL or nRZrHA.SCAN_INTERVAL)
+if false then local _=0.3245391309170007 end
 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
 end
 end,if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
 })
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
 
-metuaD:Button({
-Title = (function() return string.char(21024)..string.char(38500)..string.char(25684)..string.char(33853)..string.char(20260)..string.char(23475) end)(),if false then local _=0.5035630678708094 end
-Callback = igMUpK()
+if false then local _=0.3245391309170007 end
+uEcygc:Button({
+Title = (function() return string.char(21024)..string.char(38500)..string.char(25684)..string.char(33853)..string.char(20260)..string.char(23475) end)(),if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+Callback = MRVrij()
 game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)()).ACS_Engine.Events.FDMG:Destroy()
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end,})
-local _=326;if _ == 0 then _=1 end
-
-metuaD:Button({
-Title = (function() return string.char(21024)..string.char(38500)..string.char(25152)..string.char(26377)..string.char(38376) end)(),Callback = igMUpK()
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 if math.random() > 1 then return nil end
-local ZFTEhW = workspace:FindFirstChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110) end)())
-if not ZFTEhW then
+
+uEcygc:Button({
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+Title = (function() return string.char(21024)..string.char(38500)..string.char(25152)..string.char(26377)..string.char(38376) end)(),Callback = MRVrij()
+for PIHUfd=1,0 do end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local RiZXMz = workspace:FindFirstChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110) end)())
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if not RiZXMz then
+if false then local qKhiUS=0.17959263031053085 end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+for PIHUfd=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
 return
 end
+local _=907;if _ == 0 then _=1 end
 if math.random() > 1 then return nil end
-ZFTEhW= ZFTEhW:FindFirstChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110)..string.char(115) end)())
-if not ZFTEhW then
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+RiZXMz= RiZXMz:FindFirstChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110)..string.char(115) end)())
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if not RiZXMz then
+if math.random() > 1 then return nil end
 return
-end
-local _=326;if _ == 0 then _=1 end
-
-for _,zRbYlX in ipairs(ZFTEhW:GetChildren()) do
-local DcAHqb = zRbYlX:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
-if DcAHqb then
+do local _=function() end end
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
+do local fpzPnq=function() end end
 if math.random() > 1 then return nil end
-for _,obj in ipairs(DcAHqb:GetChildren()) do
-local ChmUSL = obj.Name:lower()
-if ChmUSL:match((function() return string.char(100)..string.char(111)..string.char(111)..string.char(114) end)()) or ChmUSL:match((function() return string.char(103)..string.char(97)..string.char(116)..string.char(101) end)()) then
+if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh,AZtSFW in ipairs(RiZXMz:GetChildren()) do
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+local baZoSY = AZtSFW:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
+if baZoSY then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh,obj in ipairs(baZoSY:GetChildren()) do
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local XxLsTO = obj.Name:lower()
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if XxLsTO:match((function() return string.char(100)..string.char(111)..string.char(111)..string.char(114) end)()) or XxLsTO:match((function() return string.char(103)..string.char(97)..string.char(116)..string.char(101) end)()) then
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 obj:Destroy()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
 if 1 ~= 1 then return nil end
-end
-end
-end
-end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+end
+do local _=function() end end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+end
+for _=1,0 do end
+end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
 end,})
 
-local gHrPrg
-if false then local _=0.5035630678708094 end
-metuaD:Toggle({
-Title = (function() return string.char(20132)..string.char(20114)..string.char(25353)..string.char(38062)..string.char(26080)..string.char(67)..string.char(68) end)(),Value = false,Callback = igMUpK(xlUGor)
-if math.random() > 1 then return nil end
-if xlUGor then
-if not gHrPrg then
-gHrPrg= game:GetService((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).PromptButtonHoldBegan:Connect(igMUpK(AIqSXA)
-AIqSXA.HoldDuration = 0.000000000000000001
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local POBICB
 for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+uEcygc:Toggle({
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+Title = (function() return string.char(20132)..string.char(20114)..string.char(25353)..string.char(38062)..string.char(26080)..string.char(67)..string.char(68) end)(),Value = false,Callback = MRVrij(MgXxFB)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if MgXxFB then
+if not POBICB then
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+POBICB= game:GetService((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).PromptButtonHoldBegan:Connect(MRVrij(jGxaPq)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+jGxaPq.HoldDuration = 0.000000000000000001
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+do local qKhiUS=function() end end
 end)
 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 else
-if gHrPrg then
-if false then local _=0.5035630678708094 end
-gHrPrg:Disconnect()
-gHrPrg= nil
-end
-end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if POBICB then
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+POBICB:Disconnect()
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+POBICB= nil
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
 do local _=function() end end
+do local aNKOBO=function() end end
+end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
 end,})
-
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-do local _=function() end end
-local sJtFtY = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
-local sTPAfM = vhWpbS.ZDjrgU
-local rSdEhV = workspace.CurrentCamera
-
-local _=326;if _ == 0 then _=1 end
-local ZFkHqB,tVEMLC,gxoEPi= 0,1,1
-local lYzTFS = 0.3
-local ZPNIiF
-local igMUpK hsvToRgb(wbAyON,s,v)
 if math.random() > 1 then return nil end
-local wtgWKJ,XKzfZM,QpgFPm
-local Bbeoeq = math.floor(wbAyON * 6)
-local IeDyJh = wbAyON * 6 - Bbeoeq
-local APKwhX = v * (1 - s)
 if math.random() > 1 then return nil end
-local MGauPi = v * (1 - IeDyJh * s)
-local xlUGor = v * (1 - (1 - IeDyJh) * s)
-Bbeoeq= Bbeoeq % 6
-if Bbeoeq== 0 then
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+
+if 1 ~= 1 then return nil end
 do local _=function() end end
-wtgWKJ,XKzfZM,QpgFPm= v,xlUGor,APKwhX
-elseif Bbeoeq== 1 then
-wtgWKJ,XKzfZM,QpgFPm= MGauPi,v,APKwhX
-elseif Bbeoeq== 2 then
-local _=326;if _ == 0 then _=1 end
-wtgWKJ,XKzfZM,QpgFPm= APKwhX,v,xlUGor
-elseif Bbeoeq== 3 then
-wtgWKJ,XKzfZM,QpgFPm= APKwhX,MGauPi,v
-elseif Bbeoeq== 4 then
-local _=326;if _ == 0 then _=1 end
-wtgWKJ,XKzfZM,QpgFPm= xlUGor,APKwhX,v
-elseif Bbeoeq== 5 then
-wtgWKJ,XKzfZM,QpgFPm= v,APKwhX,MGauPi
-end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+local RbMCKn = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local NZfNmh = sIAoZg.MavWwr
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+local VllWwN = workspace.CurrentCamera
+
 for _=1,0 do end
-return Color3.new(wtgWKJ,XKzfZM,QpgFPm)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+do local aNKOBO=function() end end
+do local PIHUfd=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local emdKiX,ZONsqP,tGfiEx= 0,1,1
+do local _=function() end end
+for fpzPnq=1,0 do end
+local fvoKgj = 0.3
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local mtidZF
+local MRVrij hsvToRgb(AsWhRv,s,v)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local XiRJsy,PeLYqj,lCPKvh
+local ISftiK = math.floor(AsWhRv * 6)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+local DJuaRC = AsWhRv * 6 - ISftiK
+if false then local aNKOBO=0.689745187854259 end
+local MVarux = v * (1 - s)
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local WJqIQE = v * (1 - DJuaRC * s)
+local MgXxFB = v * (1 - (1 - DJuaRC) * s)
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+ISftiK= ISftiK % 6
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if ISftiK== 0 then
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+do local qKhiUS=function() end end
+XiRJsy,PeLYqj,lCPKvh= v,MgXxFB,MVarux
+do local tjRSpI=function() end end
+do local _=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+elseif ISftiK== 1 then
+for _=1,0 do end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+XiRJsy,PeLYqj,lCPKvh= WJqIQE,v,MVarux
+do local _=function() end end
+elseif ISftiK== 2 then
+if false then local tjRSpI=0.9006855414627175 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+for fpzPnq=1,0 do end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+XiRJsy,PeLYqj,lCPKvh= MVarux,v,MgXxFB
+elseif ISftiK== 3 then
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+XiRJsy,PeLYqj,lCPKvh= MVarux,WJqIQE,v
+do local qKhiUS=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+elseif ISftiK== 4 then
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+XiRJsy,PeLYqj,lCPKvh= MgXxFB,MVarux,v
+for fpzPnq=1,0 do end
+for _=1,0 do end
+do local PIHUfd=function() end end
+elseif ISftiK== 5 then
+do local tjRSpI=function() end end
+XiRJsy,PeLYqj,lCPKvh= v,MVarux,WJqIQE
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
 end
-sJtFtY.RenderStepped:Connect(igMUpK(dt)
-ZFkHqB= (ZFkHqB + lYzTFS * dt) % 1
-local _=326;if _ == 0 then _=1 end
-ZPNIiF= hsvToRgb(ZFkHqB,tVEMLC,gxoEPi)
+if false then local PIHUfd=0.2650381629488454 end
+for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+return Color3.new(XiRJsy,PeLYqj,lCPKvh)
+end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local qKhiUS=function() end end
+RbMCKn.RenderStepped:Connect(MRVrij(dt)
+do local tjRSpI=function() end end
+emdKiX= (emdKiX + fvoKgj * dt) % 1
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+mtidZF= hsvToRgb(emdKiX,ZONsqP,tGfiEx)
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end)
 
-local igMUpK isInRange(iTmTql)
-if math.random() > 1 then return nil end
-if not (iTmTql and iTmTql:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())) then
-return false
-end
-if not (sTPAfM.IpIPjq and sTPAfM.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())) then
+if false then local qKhiUS=0.17959263031053085 end
 do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local MRVrij isInRange(GcXKrS)
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+do local qKhiUS=function() end end
+if not (GcXKrS and GcXKrS:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())) then
 return false
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
 end
-return (iTmTql.kIZntd.Position - sTPAfM.IpIPjq.kIZntd.Position).Magnitude <= 50000
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if not (NZfNmh.fwxciM and NZfNmh.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())) then
+for aNKOBO=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+return false
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+end
+for _=1,0 do end
+return (GcXKrS.KkWnwU.Position - NZfNmh.fwxciM.KkWnwU.Position).Magnitude <= 50000
+if false then local aNKOBO=0.689745187854259 end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
 end
 if 1 ~= 1 then return nil end
-local igMUpK isAlive(iTmTql)
-return iTmTql:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()) and iTmTql.gOWHwD.Health > 0
+for _=1,0 do end
+for tjRSpI=1,0 do end
+local MRVrij isAlive(GcXKrS)
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+return GcXKrS:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()) and GcXKrS.hXKuHo.Health > 0
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end
-local igMUpK isOnScreen(CdIbIj)
-local _=326;if _ == 0 then _=1 end
-local NBIKTN = rSdEhV.ViewportSize
-return CdIbIj.X >= 0 and CdIbIj.Y >= 0 and CdIbIj.X <= NBIKTN.X and CdIbIj.Y <= NBIKTN.Y
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+local MRVrij isOnScreen(mJbRqL)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+local CCLOTH = VllWwN.ViewportSize
+if false then local qKhiUS=0.17959263031053085 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+return mJbRqL.X >= 0 and mJbRqL.Y >= 0 and mJbRqL.X <= CCLOTH.X and mJbRqL.Y <= CCLOTH.Y
 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
 
 if 1 ~= 1 then return nil end
-local HXQdeT = {}
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local ldYMwW = {}
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 
-local igMUpK cleanupESP(GhGLVV)
-local UCBKKo = HXQdeT[GhGLVV]
-local _=326;if _ == 0 then _=1 end
-if not UCBKKo then
+local MRVrij cleanupESP(hrgshE)
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local sSjisR = ldYMwW[hrgshE]
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+do local fpzPnq=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if not sSjisR then
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
 return
-end
-if UCBKKo.boxLines then
-local _=326;if _ == 0 then _=1 end
-for _,XegkeI in pairs(UCBKKo.boxLines) do
-if XegkeI then
-XegkeI:Remove()
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
 end
 if 1 ~= 1 then return nil end
-end
-end
-if UCBKKo.tracer then
-UCBKKo.tracer:Remove()
-if false then local _=0.5035630678708094 end
-end
-if UCBKKo.highlight then
-UCBKKo.highlight:Destroy()
-end
-if false then local _=0.5035630678708094 end
-if UCBKKo.name then
-UCBKKo.name:Destroy()
-end
-HXQdeT[GhGLVV] = nil
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for fpzPnq=1,0 do end
+if sSjisR.boxLines then
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for FkLYSh,RmqcdT in pairs(sSjisR.boxLines) do
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if RmqcdT then
+local _=907;if _ == 0 then _=1 end
+for aNKOBO=1,0 do end
+RmqcdT:Remove()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
 if math.random() > 1 then return nil end
 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if sSjisR.tracer then
+sSjisR.tracer:Remove()
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+do local PIHUfd=function() end end
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if sSjisR.highlight then
+sSjisR.highlight:Destroy()
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+for _=1,0 do end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if sSjisR.name then
+do local tjRSpI=function() end end
+sSjisR.name:Destroy()
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+ldYMwW[hrgshE] = nil
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local _=function() end end
+end
+if math.random() > 1 then return nil end
 
-vhWpbS.PlayerRemoving:Connect(igMUpK(GhGLVV)
-cleanupESP(GhGLVV)
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+do local tjRSpI=function() end end
+sIAoZg.PlayerRemoving:Connect(MRVrij(hrgshE)
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+cleanupESP(hrgshE)
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
 if math.random() > 1 then return nil end
 end)
-
-local TZHXYQ = false
-local dtJCti = false
-if 1 ~= 1 then return nil end
-local txZmGD = false
-local FhCnFP = false
-
-local mDYIQj
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
 if math.random() > 1 then return nil end
-local igMUpK toggleESP(state)
-if mDYIQj then
-mDYIQj:Disconnect()
-mDYIQj= nil
-local _=326;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local qhIkMp = false
+if 1 ~= 1 then return nil end
+local rLnZji = false
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+local PmjTsZ = false
+local Kadtrq = false
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+
+if math.random() > 1 then return nil end
+local NBHBna
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local MRVrij toggleESP(state)
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if NBHBna then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+NBHBna:Disconnect()
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+NBHBna= nil
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
 end
-for APKwhX in pairs(HXQdeT) do
-cleanupESP(APKwhX)
+for MVarux in pairs(ldYMwW) do
+do local _=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+cleanupESP(MVarux)
 end
-if false then local _=0.5035630678708094 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
 if state then
-mDYIQj= sJtFtY.RenderStepped:Connect(igMUpK()
-for _,APKwhX in ipairs(vhWpbS:GetPlayers()) do
-if APKwhX ~= sTPAfM and APKwhX.IpIPjq then
-for _=1,0 do end
-if isAlive(APKwhX.IpIPjq) and isInRange(APKwhX.IpIPjq) then
-local wxBGin = APKwhX.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-local VirTgI = APKwhX.IpIPjq:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
-if wxBGin and VirTgI then
-for _=1,0 do end
-local QJeVKt,vis = rSdEhV:WorldToViewportPoint(wxBGin.Position)
-if vis and isOnScreen(QJeVKt) then
-if not HXQdeT[APKwhX] then
-HXQdeT[APKwhX] = {}
-do local _=function() end end
-end
-local UCBKKo = HXQdeT[APKwhX]
-
-if txZmGD then
-if false then local _=0.5035630678708094 end
-if not UCBKKo.highlight then
-local JLVKKb = Instance.new((function() return string.char(72)..string.char(105)..string.char(103)..string.char(104)..string.char(108)..string.char(105)..string.char(103)..string.char(104)..string.char(116) end)())
-JLVKKb.FillTransparency = 0.7
-JLVKKb.OutlineTransparency = 0.3
 if 1 ~= 1 then return nil end
-JLVKKb.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
-JLVKKb.Parent = APKwhX.IpIPjq
-UCBKKo.highlight = JLVKKb
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+NBHBna= RbMCKn.RenderStepped:Connect(MRVrij()
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+for FkLYSh,MVarux in ipairs(sIAoZg:GetPlayers()) do
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if MVarux ~= NZfNmh and MVarux.fwxciM then
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if isAlive(MVarux.fwxciM) and isInRange(MVarux.fwxciM) then
+local CSoEGg = MVarux.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local CHVKFO = MVarux.fwxciM:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
+for _=1,0 do end
+if CSoEGg and CHVKFO then
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for _=1,0 do end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local YSpINE,vis = VllWwN:WorldToViewportPoint(CSoEGg.Position)
+if false then local fpzPnq=0.23295867704356044 end
+if vis and isOnScreen(YSpINE) then
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if not ldYMwW[MVarux] then
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+ldYMwW[MVarux] = {}
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+end
+if 1 ~= 1 then return nil end
+local sSjisR = ldYMwW[MVarux]
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if PmjTsZ then
+if false then local FkLYSh=0.5035630678708094 end
+if false then local fpzPnq=0.23295867704356044 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if not sSjisR.highlight then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local nnZoHA = Instance.new((function() return string.char(72)..string.char(105)..string.char(103)..string.char(104)..string.char(108)..string.char(105)..string.char(103)..string.char(104)..string.char(116) end)())
+nnZoHA.FillTransparency = 0.7
+for _=1,0 do end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+nnZoHA.OutlineTransparency = 0.3
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+nnZoHA.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+nnZoHA.Parent = MVarux.fwxciM
+sSjisR.highlight = nnZoHA
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
 end
 if math.random() > 1 then return nil end
-UCBKKo.highlight.FillColor = ZPNIiF
-UCBKKo.highlight.OutlineColor = ZPNIiF
-elseif UCBKKo.highlight then
-UCBKKo.highlight:Destroy()
-if false then local _=0.5035630678708094 end
-UCBKKo.highlight = nil
-end
-
-if FhCnFP then
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
 for _=1,0 do end
-if not UCBKKo.name then
-local whkeIb = Instance.new((function() return string.char(66)..string.char(105)..string.char(108)..string.char(108)..string.char(98)..string.char(111)..string.char(97)..string.char(114)..string.char(100)..string.char(71)..string.char(117)..string.char(105) end)())
-whkeIb.Adornee = VirTgI
-whkeIb.Size = UDim2.new(0,200,0,30)
-local _=326;if _ == 0 then _=1 end
-whkeIb.StudsOffset = Vector3.new(0,3,0)
-whkeIb.AlwaysOnTop = true
-whkeIb.MaxDistance = 50000
-local XMkZVq = Instance.new((function() return string.char(84)..string.char(101)..string.char(120)..string.char(116)..string.char(76)..string.char(97)..string.char(98)..string.char(101)..string.char(108) end)())
-if 1 ~= 1 then return nil end
-XMkZVq.Text = APKwhX.Name
-XMkZVq.Size = UDim2.new(1,0,1,0)
-XMkZVq.BackgroundTransparency = 1
-XMkZVq.TextColor3 = APKwhX.TeamColor.Color
+if math.random() > 1 then return nil end
+sSjisR.highlight.FillColor = mtidZF
+sSjisR.highlight.OutlineColor = mtidZF
+do local tjRSpI=function() end end
 do local _=function() end end
-XMkZVq.TextStrokeColor3 = Color3.new(0,0,0)
-XMkZVq.TextStrokeTransparency = 0.3
-XMkZVq.Font = Enum.Font.SourceSansBold
-XMkZVq.TextSize = 18
+if math.random() > 1 then return nil end
+elseif sSjisR.highlight then
 if 1 ~= 1 then return nil end
-XMkZVq.Parent = whkeIb
-whkeIb.Parent = VirTgI
-UCBKKo.name = whkeIb
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+do local aNKOBO=function() end end
+for fpzPnq=1,0 do end
+sSjisR.highlight:Destroy()
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+for tjRSpI=1,0 do end
+sSjisR.highlight = nil
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
 end
 if math.random() > 1 then return nil end
-elseif UCBKKo.name then
-UCBKKo.name:Destroy()
-UCBKKo.name = nil
-end
-if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 
-if TZHXYQ then
-if not UCBKKo.boxLines then
-UCBKKo.boxLines = {}
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if Kadtrq then
+if false then local PIHUfd=0.2650381629488454 end
+for FkLYSh=1,0 do end
 do local _=function() end end
-for Bbeoeq= 1,12 do
-UCBKKo.boxLines[Bbeoeq] = Drawing.new((function() return string.char(76)..string.char(105)..string.char(110)..string.char(101) end)())
-end
-end
-if false then local _=0.5035630678708094 end
-local VHIggl = VirTgI.Size.Y / 2
-local qeglMS = Vector3.new(2,3,1.5) * (VHIggl * 2)
-local igMUpK wtv(off)
-return rSdEhV:WorldToViewportPoint((wxBGin.CFrame * off).APKwhX)
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if not sSjisR.name then
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local TPMpAG = Instance.new((function() return string.char(66)..string.char(105)..string.char(108)..string.char(108)..string.char(98)..string.char(111)..string.char(97)..string.char(114)..string.char(100)..string.char(71)..string.char(117)..string.char(105) end)())
+for fpzPnq=1,0 do end
+for _=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+TPMpAG.Adornee = CHVKFO
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+TPMpAG.Size = UDim2.new(0,200,0,30)
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+TPMpAG.StudsOffset = Vector3.new(0,3,0)
+TPMpAG.AlwaysOnTop = true
+TPMpAG.MaxDistance = 50000
+local _=907;if _ == 0 then _=1 end
+local qaTzri = Instance.new((function() return string.char(84)..string.char(101)..string.char(120)..string.char(116)..string.char(76)..string.char(97)..string.char(98)..string.char(101)..string.char(108) end)())
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+qaTzri.Text = MVarux.Name
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+qaTzri.Size = UDim2.new(1,0,1,0)
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+qaTzri.BackgroundTransparency = 1
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+qaTzri.TextColor3 = MVarux.TeamColor.Color
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+for PIHUfd=1,0 do end
+do local _=function() end end
+qaTzri.TextStrokeColor3 = Color3.new(0,0,0)
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+qaTzri.TextStrokeTransparency = 0.3
+do local aNKOBO=function() end end
+qaTzri.Font = Enum.Font.SourceSansBold
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+qaTzri.TextSize = 18
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+qaTzri.Parent = TPMpAG
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+TPMpAG.Parent = CHVKFO
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+sSjisR.name = TPMpAG
 for _=1,0 do end
 end
-local TwSUTy,T2,T3,T4 =
-wtv(CFrame.new(-qeglMS.X,qeglMS.Y,-qeglMS.Z)),wtv(CFrame.new(-qeglMS.X,qeglMS.Y,qeglMS.Z)),if math.random() > 1 then return nil end
-wtv(CFrame.new(qeglMS.X,qeglMS.Y,qeglMS.Z)),wtv(CFrame.new(qeglMS.X,qeglMS.Y,-qeglMS.Z))
-local slqVkR,B2,B3,B4 =
-wtv(CFrame.new(-qeglMS.X,-qeglMS.Y,-qeglMS.Z)),local _=326;if _ == 0 then _=1 end
-wtv(CFrame.new(-qeglMS.X,-qeglMS.Y,qeglMS.Z)),wtv(CFrame.new(qeglMS.X,-qeglMS.Y,qeglMS.Z)),wtv(CFrame.new(qeglMS.X,-qeglMS.Y,-qeglMS.Z))
-local enxIMV = {
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
 if 1 ~= 1 then return nil end
-{ TwSUTy,T2 },{ T2,T3 },{ T3,T4 },{ T4,TwSUTy },local _=326;if _ == 0 then _=1 end
-{ slqVkR,B2 },{ B2,B3 },{ B3,B4 },{ B4,slqVkR },if math.random() > 1 then return nil end
-{ slqVkR,TwSUTy },{ B2,T2 },{ B3,T3 },{ B4,T4 },if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+elseif sSjisR.name then
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+sSjisR.name:Destroy()
+local _=907;if _ == 0 then _=1 end
+sSjisR.name = nil
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if qhIkMp then
+if not sSjisR.boxLines then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+sSjisR.boxLines = {}
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
+for ISftiK= 1,12 do
+do local tjRSpI=function() end end
+sSjisR.boxLines[ISftiK] = Drawing.new((function() return string.char(76)..string.char(105)..string.char(110)..string.char(101) end)())
+for _=1,0 do end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+local TtNUCp = CHVKFO.Size.Y / 2
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local RKSGEy = Vector3.new(2,3,1.5) * (TtNUCp * 2)
+do local tjRSpI=function() end end
+local MRVrij wtv(off)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+return VllWwN:WorldToViewportPoint((CSoEGg.CFrame * off).MVarux)
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+for FkLYSh=1,0 do end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+end
+local wlZuen,T2,T3,T4 =
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+wtv(CFrame.new(-RKSGEy.X,RKSGEy.Y,-RKSGEy.Z)),wtv(CFrame.new(-RKSGEy.X,RKSGEy.Y,RKSGEy.Z)),if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+wtv(CFrame.new(RKSGEy.X,RKSGEy.Y,RKSGEy.Z)),wtv(CFrame.new(RKSGEy.X,RKSGEy.Y,-RKSGEy.Z))
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local NkepRA,B2,B3,B4 =
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+wtv(CFrame.new(-RKSGEy.X,-RKSGEy.Y,-RKSGEy.Z)),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+wtv(CFrame.new(-RKSGEy.X,-RKSGEy.Y,RKSGEy.Z)),wtv(CFrame.new(RKSGEy.X,-RKSGEy.Y,RKSGEy.Z)),wtv(CFrame.new(RKSGEy.X,-RKSGEy.Y,-RKSGEy.Z))
+do local qKhiUS=function() end end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+local UdVBcU = {
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+{ wlZuen,T2 },{ T2,T3 },{ T3,T4 },{ T4,wlZuen },local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for tjRSpI=1,0 do end
+{ NkepRA,B2 },{ B2,B3 },{ B3,B4 },{ B4,NkepRA },if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+{ NkepRA,wlZuen },{ B2,T2 },{ B3,T3 },{ B4,T4 },if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
 }
-for Bbeoeq,ITtgXm in ipairs(enxIMV) do
-local XegkeI = UCBKKo.boxLines[Bbeoeq]
-XegkeI.From = Vector2.new(ITtgXm[1].X,ITtgXm[1].Y)
+for ISftiK,GuhEPI in ipairs(UdVBcU) do
 if math.random() > 1 then return nil end
-XegkeI.To = Vector2.new(ITtgXm[2].X,ITtgXm[2].Y)
-XegkeI.Color = ZPNIiF
-XegkeI.Thickness = 1.4
-XegkeI.Visible = true
+if math.random() > 1 then return nil end
+local RmqcdT = sSjisR.boxLines[ISftiK]
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+RmqcdT.From = Vector2.new(GuhEPI[1].X,GuhEPI[1].Y)
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+RmqcdT.To = Vector2.new(GuhEPI[2].X,GuhEPI[2].Y)
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+RmqcdT.Color = mtidZF
+RmqcdT.Thickness = 1.4
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+RmqcdT.Visible = true
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+end
+elseif sSjisR.boxLines then
+if false then local tjRSpI=0.9006855414627175 end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+for FkLYSh,RmqcdT in pairs(sSjisR.boxLines) do
+if RmqcdT then
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+RmqcdT:Remove()
+for qKhiUS=1,0 do end
+do local PIHUfd=function() end end
+do local _=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+for _=1,0 do end
+end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+sSjisR.boxLines = nil
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+
+if false then local PIHUfd=0.2650381629488454 end
+if rLnZji then
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if not sSjisR.tracer then
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+sSjisR.tracer = Drawing.new((function() return string.char(76)..string.char(105)..string.char(110)..string.char(101) end)())
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+local TtNUCp = CHVKFO.Size.Y / 2
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local RKSGEy = Vector3.new(2,3,1.5) * (TtNUCp * 2)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local tcyClo =
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+VllWwN:WorldToViewportPoint((CSoEGg.CFrame * CFrame.new(0,-RKSGEy.Y,0)).MVarux)
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+do local aNKOBO=function() end end
+sSjisR.tracer.From = Vector2.new(VllWwN.ViewportSize.X / 2,VllWwN.ViewportSize.Y)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+sSjisR.tracer.To = Vector2.new(tcyClo.X,tcyClo.Y)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+sSjisR.tracer.Color = mtidZF
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+sSjisR.tracer.Thickness = 1.4
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+sSjisR.tracer.Visible = true
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+elseif sSjisR.tracer then
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for aNKOBO=1,0 do end
+sSjisR.tracer:Remove()
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+sSjisR.tracer = nil
+local _=907;if _ == 0 then _=1 end
+end
+if math.random() > 1 then return nil end
+else
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+cleanupESP(MVarux)
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+end
+else
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+cleanupESP(MVarux)
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
 do local _=function() end end
 end
-elseif UCBKKo.boxLines then
-for _,XegkeI in pairs(UCBKKo.boxLines) do
-if XegkeI then
-if math.random() > 1 then return nil end
-XegkeI:Remove()
-end
-end
-UCBKKo.boxLines = nil
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 if 1 ~= 1 then return nil end
-end
-
-if dtJCti then
-if not UCBKKo.tracer then
-local _=326;if _ == 0 then _=1 end
-UCBKKo.tracer = Drawing.new((function() return string.char(76)..string.char(105)..string.char(110)..string.char(101) end)())
-end
-local VHIggl = VirTgI.Size.Y / 2
-local qeglMS = Vector3.new(2,3,1.5) * (VHIggl * 2)
-if math.random() > 1 then return nil end
-local cGfmsd =
-rSdEhV:WorldToViewportPoint((wxBGin.CFrame * CFrame.new(0,-qeglMS.Y,0)).APKwhX)
-UCBKKo.tracer.From = Vector2.new(rSdEhV.ViewportSize.X / 2,rSdEhV.ViewportSize.Y)
-UCBKKo.tracer.To = Vector2.new(cGfmsd.X,cGfmsd.Y)
-local _=326;if _ == 0 then _=1 end
-UCBKKo.tracer.Color = ZPNIiF
-UCBKKo.tracer.Thickness = 1.4
-UCBKKo.tracer.Visible = true
-elseif UCBKKo.tracer then
-local _=326;if _ == 0 then _=1 end
-UCBKKo.tracer:Remove()
-UCBKKo.tracer = nil
-end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 else
-if math.random() > 1 then return nil end
-cleanupESP(APKwhX)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+cleanupESP(MVarux)
 end
-else
-cleanupESP(APKwhX)
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
 if 1 ~= 1 then return nil end
-end
-else
-cleanupESP(APKwhX)
-end
 if 1 ~= 1 then return nil end
 else
-cleanupESP(APKwhX)
-end
-end
-if math.random() > 1 then return nil end
-end)
-end
-end
-
-if false then local _=0.5035630678708094 end
-JRGgLG:Toggle({
-Title = (function() return string.char(27169)..string.char(22411)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = igMUpK(v)
-local _=326;if _ == 0 then _=1 end
-txZmGD= v
-toggleESP(txZmGD or FhCnFP or TZHXYQ or dtJCti)
-end,})
-if 1 ~= 1 then return nil end
-JRGgLG:Toggle({
-Title = (function() return string.char(21517)..string.char(23383)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = igMUpK(v)
-local _=326;if _ == 0 then _=1 end
-FhCnFP= v
-toggleESP(txZmGD or FhCnFP or TZHXYQ or dtJCti)
-end,})
-local _=326;if _ == 0 then _=1 end
-JRGgLG:Toggle({
-Title = (function() return string.char(26041)..string.char(26694)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = igMUpK(v)
-if false then local _=0.5035630678708094 end
-TZHXYQ= v
-toggleESP(txZmGD or FhCnFP or TZHXYQ or dtJCti)
-end,})
-if math.random() > 1 then return nil end
-JRGgLG:Toggle({
-Title = (function() return string.char(23556)..string.char(32447)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = igMUpK(v)
 for _=1,0 do end
-dtJCti= v
-toggleESP(txZmGD or FhCnFP or TZHXYQ or dtJCti)
-end,})
-local _=326;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+cleanupESP(MVarux)
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+end
+end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+end)
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+end
+if false then local tjRSpI=0.9006855414627175 end
+end
 
-lgABZm:Toggle({
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+FBKjAe:Toggle({
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+do local fpzPnq=function() end end
+Title = (function() return string.char(27169)..string.char(22411)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = MRVrij(v)
+if false then local qKhiUS=0.17959263031053085 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for fpzPnq=1,0 do end
+for aNKOBO=1,0 do end
+if false then local _=0.3245391309170007 end
+PmjTsZ= v
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+toggleESP(PmjTsZ or Kadtrq or qhIkMp or rLnZji)
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+end,})
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local fpzPnq=0.23295867704356044 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+FBKjAe:Toggle({
+if math.random() > 1 then return nil end
+Title = (function() return string.char(21517)..string.char(23383)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = MRVrij(v)
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for qKhiUS=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+Kadtrq= v
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+do local PIHUfd=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+toggleESP(PmjTsZ or Kadtrq or qhIkMp or rLnZji)
+if math.random() > 1 then return nil end
+end,})
+do local fpzPnq=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+FBKjAe:Toggle({
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+Title = (function() return string.char(26041)..string.char(26694)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = MRVrij(v)
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+qhIkMp= v
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+toggleESP(PmjTsZ or Kadtrq or qhIkMp or rLnZji)
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+end,})
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+FBKjAe:Toggle({
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+Title = (function() return string.char(23556)..string.char(32447)..string.char(36879)..string.char(35270) end)(),Value = false,Callback = MRVrij(v)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh=1,0 do end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+rLnZji= v
+if false then local tjRSpI=0.9006855414627175 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+toggleESP(PmjTsZ or Kadtrq or qhIkMp or rLnZji)
+end,})
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
+for PIHUfd=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+
+hLDCDr:Toggle({
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
 Title = (function() return string.char(29609)..string.char(23478)..string.char(33258)..string.char(30596) end)(),Value = false,if 1 ~= 1 then return nil end
-Callback = igMUpK(xlUGor)
-ouGXPO= xlUGor
-if tcARZd then
-tcARZd.Image = ouGXPO and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
-local _=326;if _ == 0 then _=1 end
-end
-end,})
-
-if false then local _=0.5035630678708094 end
-lgABZm:Toggle({
-Title = (function() return string.char(26174)..string.char(31034)..string.char(33539)..string.char(22260) end)(),Value = false,Callback = igMUpK(xlUGor)
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
 if math.random() > 1 then return nil end
-VRinPd= xlUGor
-LXhRzR.Visible = VRinPd
-end,})
-if 1 ~= 1 then return nil end
-
-lgABZm:Toggle({
-Title = (function() return string.char(25513)..string.char(20307)..string.char(19981)..string.char(30596) end)(),Value = false,for _=1,0 do end
-Callback = igMUpK(xlUGor)
-EIOOTz= xlUGor
-end,})
-if 1 ~= 1 then return nil end
-
-lgABZm:Input({
-Title = (function() return string.char(33258)..string.char(30596)..string.char(33539)..string.char(22260) end)(),Value = tostring(rBWrpm),local _=326;if _ == 0 then _=1 end
-Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(33539)..string.char(22260)..string.char(20540) end)(),Callback = igMUpK(input)
-local SuLWlx = tonumber(input)
-if SuLWlx then
-if math.random() > 1 then return nil end
-rBWrpm= SuLWlx
-LXhRzR.Radius = rBWrpm
-end
-end,if math.random() > 1 then return nil end
-})
-
-lgABZm:Input({
-Title = (function() return string.char(33258)..string.char(30596)..string.char(36317)..string.char(31163) end)(),for _=1,0 do end
-Value = tostring(iHLfnS),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(36317)..string.char(31163)..string.char(20540) end)(),Callback = igMUpK(input)
-local SuLWlx = tonumber(input)
-local _=326;if _ == 0 then _=1 end
-if SuLWlx then
-iHLfnS= SuLWlx
-end
-end,if math.random() > 1 then return nil end
-})
-
-lgABZm:Input({
-Title = (function() return string.char(33258)..string.char(30596)..string.char(22280)..string.char(31895)..string.char(32454) end)(),if 1 ~= 1 then return nil end
-Value = tostring(LXhRzR.Thickness),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(22280)..string.char(31895)..string.char(32454)..string.char(20540) end)(),Callback = igMUpK(input)
-local SuLWlx = tonumber(input)
-local _=326;if _ == 0 then _=1 end
-if SuLWlx then
-LXhRzR.Thickness = SuLWlx
-end
-end,for _=1,0 do end
-})
-
-lgABZm:Dropdown({
-Title = (function() return string.char(36873)..string.char(25321)..string.char(33258)..string.char(30596)..string.char(30446)..string.char(26631) end)(),if false then local _=0.5035630678708094 end
-Values = { (function() return string.char(25932)..string.char(23545) end)(),(function() return string.char(20840)..string.char(37096) end)() },Value = (function() return string.char(25932)..string.char(23545) end)(),Callback = igMUpK(d)
-qMzEQt= d
-if 1 ~= 1 then return nil end
-end,})
-
-lgABZm:Dropdown({
-if math.random() > 1 then return nil end
-Title = (function() return string.char(36873)..string.char(25321)..string.char(33258)..string.char(30596)..string.char(20301)..string.char(32622) end)(),Values = { (function() return string.char(22836)..string.char(37096) end)(),(function() return string.char(36527)..string.char(24178) end)() },Value = (function() return string.char(22836)..string.char(37096) end)(),Callback = igMUpK(d)
-if math.random() > 1 then return nil end
-BuAWAG= d == (function() return string.char(22836)..string.char(37096) end)() and (function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)() or (function() return string.char(84)..string.char(111)..string.char(114)..string.char(115)..string.char(111) end)()
-end,})
-
-if math.random() > 1 then return nil end
-lgABZm:Dropdown({
-Title = (function() return string.char(36873)..string.char(25321)..string.char(22280)..string.char(30340)..string.char(39068)..string.char(33394) end)(),Values = { (function() return string.char(32418) end)(),(function() return string.char(40644) end)(),(function() return string.char(34013) end)(),(function() return string.char(32511) end)(),(function() return string.char(38738) end)(),(function() return string.char(32043) end)(),(function() return string.char(24425)..string.char(34425) end)() },Value = (function() return string.char(24425)..string.char(34425) end)(),if 1 ~= 1 then return nil end
-Callback = igMUpK(d)
-if d == (function() return string.char(24425)..string.char(34425) end)() then
-DgVNPN= true
-else
+do local tjRSpI=function() end end
+Callback = MRVrij(MgXxFB)
 do local _=function() end end
-DgVNPN= false
-local BLyoiF = {
-[(function() return string.char(32418) end)()] = Color3.new(1,0,0),[(function() return string.char(40644) end)()] = Color3.new(1,1,0),if 1 ~= 1 then return nil end
-[(function() return string.char(34013) end)()] = Color3.new(0,0,1),[(function() return string.char(32511) end)()] = Color3.new(0,1,0),[(function() return string.char(38738) end)()] = Color3.new(0,1,1),[(function() return string.char(32043) end)()] = Color3.new(1,0,1),if false then local _=0.5035630678708094 end
-}
-LXhRzR.Color = BLyoiF[d]
+if math.random() > 1 then return nil end
+loOlmX= MgXxFB
+if kgBVDU then
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+kgBVDU.Image = loOlmX and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
 end
-end,local _=326;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+end,})
+if false then local tjRSpI=0.9006855414627175 end
+
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local FkLYSh=0.5035630678708094 end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+hLDCDr:Toggle({
+Title = (function() return string.char(26174)..string.char(31034)..string.char(33539)..string.char(22260) end)(),Value = false,Callback = MRVrij(MgXxFB)
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+QisAih= MgXxFB
+tyeUHh.Visible = QisAih
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+end,})
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+
+hLDCDr:Toggle({
+Title = (function() return string.char(25513)..string.char(20307)..string.char(19981)..string.char(30596) end)(),Value = false,for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+Callback = MRVrij(MgXxFB)
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+UOSYcB= MgXxFB
+do local _=function() end end
+for fpzPnq=1,0 do end
+end,})
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+hLDCDr:Input({
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+Title = (function() return string.char(33258)..string.char(30596)..string.char(33539)..string.char(22260) end)(),Value = tostring(UIOIbf),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(33539)..string.char(22260)..string.char(20540) end)(),Callback = MRVrij(input)
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for _=1,0 do end
+local NiIvGR = tonumber(input)
+if false then local aNKOBO=0.689745187854259 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if NiIvGR then
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+UIOIbf= NiIvGR
+tyeUHh.Radius = UIOIbf
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+end,if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+})
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+
+if false then local aNKOBO=0.689745187854259 end
+hLDCDr:Input({
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(33258)..string.char(30596)..string.char(36317)..string.char(31163) end)(),for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+Value = tostring(jcywLr),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(36317)..string.char(31163)..string.char(20540) end)(),Callback = MRVrij(input)
+local NiIvGR = tonumber(input)
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if NiIvGR then
+if false then local qKhiUS=0.17959263031053085 end
+jcywLr= NiIvGR
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local tjRSpI=function() end end
+end,if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
 })
 
-local tcARZd
-local uzjGmL = UDim2.new(0,10,0,10)
-for _=1,0 do end
-
-local igMUpK createToggleButton()
-local kBozGj = Instance.new((function() return string.char(107)..string.char(66)..string.char(111)..string.char(122)..string.char(71)..string.char(106) end)())
-kBozGj.Name = (function() return string.char(65)..string.char(108)..string.char(105)..string.char(101)..string.char(110)..string.char(88)..string.char(65)..string.char(105)..string.char(109)..string.char(84)..string.char(111)..string.char(103)..string.char(103)..string.char(108)..string.char(101) end)()
-for _=1,0 do end
-kBozGj.Parent = game:GetService((function() return string.char(67)..string.char(111)..string.char(114)..string.char(101)..string.char(71)..string.char(117)..string.char(105) end)())
-tcARZd= Instance.new((function() return string.char(73)..string.char(109)..string.char(97)..string.char(103)..string.char(101)..string.char(66)..string.char(117)..string.char(116)..string.char(116)..string.char(111)..string.char(110) end)())
-tcARZd.Size = UDim2.new(0,40,0,40)
-tcARZd.Position = uzjGmL
-local _=326;if _ == 0 then _=1 end
-tcARZd.BackgroundTransparency = 1
-tcARZd.Image = ouGXPO and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
-tcARZd.Parent = kBozGj
-local ZFkHqB = 0
-for _=1,0 do end
-local tVEMLC = 1
-local gxoEPi = 1
-local HrPZZx = 0.5
-local fTToNh = 0.2
-local _=326;if _ == 0 then _=1 end
-local igMUpK hsvToRgb(wbAyON,s,v)
-local wtgWKJ,XKzfZM,QpgFPm
-local Bbeoeq = math.floor(wbAyON * 6)
-local IeDyJh = wbAyON * 6 - Bbeoeq
-if false then local _=0.5035630678708094 end
-local APKwhX = v * (1 - s)
-local MGauPi = v * (1 - IeDyJh * s)
-local xlUGor = v * (1 - (1 - IeDyJh) * s)
-Bbeoeq= Bbeoeq % 6
-for _=1,0 do end
-if Bbeoeq== 0 then
-wtgWKJ,XKzfZM,QpgFPm= v,xlUGor,APKwhX
-elseif Bbeoeq== 1 then
-wtgWKJ,XKzfZM,QpgFPm= MGauPi,v,APKwhX
-local _=326;if _ == 0 then _=1 end
-elseif Bbeoeq== 2 then
-wtgWKJ,XKzfZM,QpgFPm= APKwhX,v,xlUGor
-elseif Bbeoeq== 3 then
-wtgWKJ,XKzfZM,QpgFPm= APKwhX,MGauPi,v
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+hLDCDr:Input({
 if 1 ~= 1 then return nil end
-elseif Bbeoeq== 4 then
-wtgWKJ,XKzfZM,QpgFPm= xlUGor,APKwhX,v
-elseif Bbeoeq== 5 then
-wtgWKJ,XKzfZM,QpgFPm= v,APKwhX,MGauPi
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
 for _=1,0 do end
-end
-return Color3.new(wtgWKJ,XKzfZM,QpgFPm)
-end
-game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(igMUpK()
+if false then local aNKOBO=0.689745187854259 end
+Title = (function() return string.char(33258)..string.char(30596)..string.char(22280)..string.char(31895)..string.char(32454) end)(),if 1 ~= 1 then return nil end
+Value = tostring(tyeUHh.Thickness),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(33258)..string.char(30596)..string.char(22280)..string.char(31895)..string.char(32454)..string.char(20540) end)(),Callback = MRVrij(input)
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local NiIvGR = tonumber(input)
+for PIHUfd=1,0 do end
 for _=1,0 do end
-local XbAics = ouGXPO and HrPZZx or fTToNh
-ZFkHqB= (ZFkHqB + XbAics * 0.02) % 1
-local nKRdmV = ouGXPO and tVEMLC or tVEMLC * 0.7
-local qkIIpc = ouGXPO and gxoEPi or gxoEPi * 0.8
-local _=326;if _ == 0 then _=1 end
-tcARZd.ImageColor3 = hsvToRgb(ZFkHqB,nKRdmV,qkIIpc)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if NiIvGR then
+do local tjRSpI=function() end end
+tyeUHh.Thickness = NiIvGR
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end,for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+})
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+hLDCDr:Dropdown({
+for _=1,0 do end
+Title = (function() return string.char(36873)..string.char(25321)..string.char(33258)..string.char(30596)..string.char(30446)..string.char(26631) end)(),if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for qKhiUS=1,0 do end
+do local PIHUfd=function() end end
+Values = { (function() return string.char(25932)..string.char(23545) end)(),(function() return string.char(20840)..string.char(37096) end)() },Value = (function() return string.char(25932)..string.char(23545) end)(),Callback = MRVrij(d)
+do local tjRSpI=function() end end
+do local _=function() end end
+Mulsgq= d
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end,})
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+hLDCDr:Dropdown({
+if false then local fpzPnq=0.23295867704356044 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+Title = (function() return string.char(36873)..string.char(25321)..string.char(33258)..string.char(30596)..string.char(20301)..string.char(32622) end)(),Values = { (function() return string.char(22836)..string.char(37096) end)(),(function() return string.char(36527)..string.char(24178) end)() },Value = (function() return string.char(22836)..string.char(37096) end)(),Callback = MRVrij(d)
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+PgqeJA= d == (function() return string.char(22836)..string.char(37096) end)() and (function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)() or (function() return string.char(84)..string.char(111)..string.char(114)..string.char(115)..string.char(111) end)()
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+end,})
+do local tjRSpI=function() end end
+
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+hLDCDr:Dropdown({
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+Title = (function() return string.char(36873)..string.char(25321)..string.char(22280)..string.char(30340)..string.char(39068)..string.char(33394) end)(),Values = { (function() return string.char(32418) end)(),(function() return string.char(40644) end)(),(function() return string.char(34013) end)(),(function() return string.char(32511) end)(),(function() return string.char(38738) end)(),(function() return string.char(32043) end)(),(function() return string.char(24425)..string.char(34425) end)() },Value = (function() return string.char(24425)..string.char(34425) end)(),if 1 ~= 1 then return nil end
+Callback = MRVrij(d)
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local _=function() end end
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+if d == (function() return string.char(24425)..string.char(34425) end)() then
+if math.random() > 1 then return nil end
+aKkjnl= true
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+else
+do local FkLYSh=function() end end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+aKkjnl= false
+local hTXrgy = {
+[(function() return string.char(32418) end)()] = Color3.new(1,0,0),[(function() return string.char(40644) end)()] = Color3.new(1,1,0),if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local qKhiUS=0.17959263031053085 end
+[(function() return string.char(34013) end)()] = Color3.new(0,0,1),[(function() return string.char(32511) end)()] = Color3.new(0,1,0),[(function() return string.char(38738) end)()] = Color3.new(0,1,1),[(function() return string.char(32043) end)()] = Color3.new(1,0,1),if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+}
+if false then local _=0.3245391309170007 end
+tyeUHh.Color = hTXrgy[d]
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+end
+end,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local fpzPnq=0.23295867704356044 end
+})
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+
+local kgBVDU
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local DBiiWk = UDim2.new(0,10,0,10)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+for FkLYSh=1,0 do end
+for qKhiUS=1,0 do end
+
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local MRVrij createToggleButton()
+if math.random() > 1 then return nil end
+local omjAhA = Instance.new((function() return string.char(107)..string.char(66)..string.char(111)..string.char(122)..string.char(71)..string.char(106) end)())
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+omjAhA.Name = (function() return string.char(65)..string.char(108)..string.char(105)..string.char(101)..string.char(110)..string.char(88)..string.char(65)..string.char(105)..string.char(109)..string.char(84)..string.char(111)..string.char(103)..string.char(103)..string.char(108)..string.char(101) end)()
+for tjRSpI=1,0 do end
+for FkLYSh=1,0 do end
+omjAhA.Parent = game:GetService((function() return string.char(67)..string.char(111)..string.char(114)..string.char(101)..string.char(71)..string.char(117)..string.char(105) end)())
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+kgBVDU= Instance.new((function() return string.char(73)..string.char(109)..string.char(97)..string.char(103)..string.char(101)..string.char(66)..string.char(117)..string.char(116)..string.char(116)..string.char(111)..string.char(110) end)())
+if 1 ~= 1 then return nil end
+kgBVDU.Size = UDim2.new(0,40,0,40)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+kgBVDU.Position = DBiiWk
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+kgBVDU.BackgroundTransparency = 1
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+kgBVDU.Image = loOlmX and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+kgBVDU.Parent = omjAhA
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local emdKiX = 0
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local ZONsqP = 1
+local tGfiEx = 1
+if 1 ~= 1 then return nil end
+local VpEDHv = 0.5
+if 1 ~= 1 then return nil end
+local WyFTdP = 0.2
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+for _=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local MRVrij hsvToRgb(AsWhRv,s,v)
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local XiRJsy,PeLYqj,lCPKvh
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local ISftiK = math.floor(AsWhRv * 6)
+do local aNKOBO=function() end end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+local DJuaRC = AsWhRv * 6 - ISftiK
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local MVarux = v * (1 - s)
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local WJqIQE = v * (1 - DJuaRC * s)
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local MgXxFB = v * (1 - (1 - DJuaRC) * s)
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+ISftiK= ISftiK % 6
+for FkLYSh=1,0 do end
+if ISftiK== 0 then
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+XiRJsy,PeLYqj,lCPKvh= v,MgXxFB,MVarux
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+elseif ISftiK== 1 then
+XiRJsy,PeLYqj,lCPKvh= WJqIQE,v,MVarux
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+elseif ISftiK== 2 then
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+XiRJsy,PeLYqj,lCPKvh= MVarux,v,MgXxFB
+do local tjRSpI=function() end end
+elseif ISftiK== 3 then
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+XiRJsy,PeLYqj,lCPKvh= MVarux,WJqIQE,v
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+elseif ISftiK== 4 then
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+XiRJsy,PeLYqj,lCPKvh= MgXxFB,MVarux,v
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+elseif ISftiK== 5 then
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+do local _=function() end end
+XiRJsy,PeLYqj,lCPKvh= v,MVarux,WJqIQE
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if 1 ~= 1 then return nil end
+return Color3.new(XiRJsy,PeLYqj,lCPKvh)
+for qKhiUS=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+end
+game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(MRVrij()
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local JEZmpo = loOlmX and VpEDHv or WyFTdP
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+emdKiX= (emdKiX + JEZmpo * 0.02) % 1
+if 1 ~= 1 then return nil end
+local IOnoMj = loOlmX and ZONsqP or ZONsqP * 0.7
+for fpzPnq=1,0 do end
+local CIYnAG = loOlmX and tGfiEx or tGfiEx * 0.8
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+kgBVDU.ImageColor3 = hsvToRgb(emdKiX,IOnoMj,CIYnAG)
 end)
-local igMUpK updateToggleButtonImage()
-tcARZd.Image = ouGXPO and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
-local _=326;if _ == 0 then _=1 end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local MRVrij updateToggleButtonImage()
+kgBVDU.Image = loOlmX and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 end
-tcARZd.MouseButton1Click:Connect(igMUpK()
-ouGXPO= not ouGXPO
+do local fpzPnq=function() end end
+kgBVDU.MouseButton1Click:Connect(MRVrij()
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+loOlmX= not loOlmX
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
 updateToggleButtonImage()
 if math.random() > 1 then return nil end
-lgABZm:FindToggle((function() return string.char(29609)..string.char(23478)..string.char(33258)..string.char(30596) end)()):SetValue(ouGXPO)
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+hLDCDr:FindToggle((function() return string.char(29609)..string.char(23478)..string.char(33258)..string.char(30596) end)()):SetValue(loOlmX)
 end)
-local cJTicE = false
-local chIIRT,dragStart,ppKlRT
-local _=326;if _ == 0 then _=1 end
-local igMUpK update(input)
-local TijgwP = input.Position - dragStart
-tcARZd.Position =
-UDim2.new(ppKlRT.X.Scale,ppKlRT.X.Offset + TijgwP.X,ppKlRT.Y.Scale,ppKlRT.Y.Offset + TijgwP.Y)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local kfPKOe = false
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+local IjZHsE,dragStart,TCYcxY
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local MRVrij update(input)
 do local _=function() end end
-uzjGmL= tcARZd.Position
+if false then local aNKOBO=0.689745187854259 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local YKxxcj = input.Position - dragStart
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+kgBVDU.Position =
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+UDim2.new(TCYcxY.X.Scale,TCYcxY.X.Offset + YKxxcj.X,TCYcxY.Y.Scale,TCYcxY.Y.Offset + YKxxcj.Y)
+do local FkLYSh=function() end end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local fpzPnq=function() end end
+DBiiWk= kgBVDU.Position
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
 end
-tcARZd.InputBegan:Connect(igMUpK(input)
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+kgBVDU.InputBegan:Connect(MRVrij(input)
+for tjRSpI=1,0 do end
 if
+for _=1,0 do end
+for aNKOBO=1,0 do end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 if 1 ~= 1 then return nil end
 input.UserInputType == Enum.UserInputType.MouseButton1
 or input.UserInputType == Enum.UserInputType.Touch
-then
-cJTicE= true
 do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+kfPKOe= true
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
 dragStart = input.Position
-ppKlRT= tcARZd.Position
-input.Changed:Connect(igMUpK()
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+TCYcxY= kgBVDU.Position
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+input.Changed:Connect(MRVrij()
 if input.UserInputState == Enum.UserInputState.End then
-if false then local _=0.5035630678708094 end
-cJTicE= false
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+kfPKOe= false
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
 end)
 end
-local _=326;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
 end)
-tcARZd.InputChanged:Connect(igMUpK(input)
+kgBVDU.InputChanged:Connect(MRVrij(input)
+for _=1,0 do end
 if
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+for _=1,0 do end
 input.UserInputType == Enum.UserInputType.MouseMovement
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
 or input.UserInputType == Enum.UserInputType.Touch
+for _=1,0 do end
+do local tjRSpI=function() end end
 then
-chIIRT= input
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+IjZHsE= input
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local _=function() end end
 end
-if false then local _=0.5035630678708094 end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+do local PIHUfd=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 end)
-game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputChanged:Connect(igMUpK(input)
-if cJTicE and input == chIIRT then
+for tjRSpI=1,0 do end
+for _=1,0 do end
+do local fpzPnq=function() end end
+game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputChanged:Connect(MRVrij(input)
+do local aNKOBO=function() end end
+if kfPKOe and input == IjZHsE then
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
 update(input)
-if false then local _=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local FkLYSh=0.5035630678708094 end
 end
-end)
-end
-
-do local _=function() end end
-local igMUpK lookAt(GjKvhM)
-local FNdcbd = workspace.CurrentCamera
-FNdcbd.CFrame = CFrame.new(FNdcbd.CFrame.Position,GjKvhM)
-end
+local _=907;if _ == 0 then _=1 end
 if math.random() > 1 then return nil end
-
-local igMUpK getClosestPlayerInFOV(trg_part)
-local FNdcbd = workspace.CurrentCamera
-local iVxRCB = nil
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 if 1 ~= 1 then return nil end
-local cNyPKh = math.huge
-local bizTip = FNdcbd.ViewportSize / 2
-for _,GhGLVV in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
-if GhGLVV ~= sTPAfM and (qMzEQt== (function() return string.char(20840)..string.char(37096) end)() or GhGLVV.TeamColor ~= sTPAfM.TeamColor) then
-if false then local _=0.5035630678708094 end
-local iTmTql = GhGLVV.IpIPjq
-local kyNlhv = iTmTql and iTmTql:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-local FMXlHa = iTmTql and iTmTql:FindFirstChild(trg_part)
-if FMXlHa and kyNlhv and kyNlhv.Health > 0 then
-do local _=function() end end
-local BNJcVQ,isVisible = FNdcbd:WorldToViewportPoint(FMXlHa.Position)
-local PtrjNx = (Vector2.new(BNJcVQ.X,BNJcVQ.Y) - bizTip).Magnitude
-if PtrjNx < cNyPKh and isVisible and PtrjNx < rBWrpm then
-if (FMXlHa.Position - FNdcbd.CFrame.Position).Magnitude <= tonumber(iHLfnS) then
+if 1 ~= 1 then return nil end
+end)
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+
+do local FkLYSh=function() end end
+for _=1,0 do end
 if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local MRVrij lookAt(BgNmLm)
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local rKNQis = workspace.CurrentCamera
+rKNQis.CFrame = CFrame.new(rKNQis.CFrame.Position,BgNmLm)
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+local MRVrij getClosestPlayerInFOV(trg_part)
+for _=1,0 do end
+local rKNQis = workspace.CurrentCamera
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local pqdpuu = nil
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local hgkGap = math.huge
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+local bqKJcO = rKNQis.ViewportSize / 2
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+for FkLYSh,hrgshE in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if hrgshE ~= NZfNmh and (Mulsgq== (function() return string.char(20840)..string.char(37096) end)() or hrgshE.TeamColor ~= NZfNmh.TeamColor) then
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+local GcXKrS = hrgshE.fwxciM
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local aNKOBO=0.689745187854259 end
+local ZgFNmc = GcXKrS and GcXKrS:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local RWNzhu = GcXKrS and GcXKrS:FindFirstChild(trg_part)
+if 1 ~= 1 then return nil end
+if RWNzhu and ZgFNmc and ZgFNmc.Health > 0 then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local FkLYSh=function() end end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local UEqOpu,isVisible = rKNQis:WorldToViewportPoint(RWNzhu.Position)
+for qKhiUS=1,0 do end
+for _=1,0 do end
+local thKuIJ = (Vector2.new(UEqOpu.X,UEqOpu.Y) - bqKJcO).Magnitude
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+if thKuIJ < hgkGap and isVisible and thKuIJ < UIOIbf then
+if (RWNzhu.Position - rKNQis.CFrame.Position).Magnitude <= tonumber(jcywLr) then
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+do local tjRSpI=function() end end
 if
-not EIOOTz
-or #FNdcbd:GetPartsObscuringTarget({ FMXlHa.Position },{ iTmTql,sTPAfM.IpIPjq }) == 0
+if false then local fpzPnq=0.23295867704356044 end
+for qKhiUS=1,0 do end
+for _=1,0 do end
+not UOSYcB
+if 1 ~= 1 then return nil end
+or #rKNQis:GetPartsObscuringTarget({ RWNzhu.Position },{ GcXKrS,NZfNmh.fwxciM }) == 0
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
 then
-local _=326;if _ == 0 then _=1 end
-cNyPKh= PtrjNx
-iVxRCB= GhGLVV
-end
-end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
 for _=1,0 do end
-end
-end
-end
-end
-local _=326;if _ == 0 then _=1 end
-return iVxRCB
-end
-
-local igMUpK updateDrawings()
+hgkGap= thKuIJ
+pqdpuu= hrgshE
+if false then local qKhiUS=0.17959263031053085 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 if math.random() > 1 then return nil end
-LXhRzR.Position = workspace.CurrentCamera.ViewportSize / 2
 end
+if 1 ~= 1 then return nil end
+end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+end
+end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+return pqdpuu
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
 
-createToggleButton()
-do local _=function() end end
-
-local WtyeNB = false
-game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputBegan:Connect(igMUpK(input,gameProcessed)
-if input.KeyCode == Enum.KeyCode.LeftAlt then
-local _=326;if _ == 0 then _=1 end
-WtyeNB= true
-ouGXPO= not ouGXPO
-if tcARZd then
-tcARZd.Image = ouGXPO and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
+local MRVrij updateDrawings()
+do local tjRSpI=function() end end
 for _=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+tyeUHh.Position = workspace.CurrentCamera.ViewportSize / 2
 end
-lgABZm:FindToggle((function() return string.char(29609)..string.char(23478)..string.char(33258)..string.char(30596) end)()):SetValue(ouGXPO)
-end
-end)
+do local _=function() end end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+do local qKhiUS=function() end end
+
+for _=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+createToggleButton()
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local FkLYSh=function() end end
+do local tjRSpI=function() end end
 if 1 ~= 1 then return nil end
 
-game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputEnded:Connect(igMUpK(input,gameProcessed)
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+local isUxbW = false
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+for aNKOBO=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputBegan:Connect(MRVrij(input,gameProcessed)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if input.KeyCode == Enum.KeyCode.LeftAlt then
-WtyeNB= false
-local _=326;if _ == 0 then _=1 end
-end
-end)
-
-game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(igMUpK()
+if false then local PIHUfd=0.2650381629488454 end
 for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+isUxbW= true
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+loOlmX= not loOlmX
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if kgBVDU then
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+kgBVDU.Image = loOlmX and (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(55)..string.char(54)..string.char(53)..string.char(51)..string.char(48)..string.char(55) end)() or (function() return string.char(114)..string.char(98)..string.char(120)..string.char(97)..string.char(115)..string.char(115)..string.char(101)..string.char(116)..string.char(105)..string.char(100)..string.char(58)..string.char(47)..string.char(47)..string.char(55)..string.char(55)..string.char(51)..string.char(51)..string.char(57)..string.char(57)..string.char(50)..string.char(52)..string.char(54)..string.char(57) end)()
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for aNKOBO=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+for tjRSpI=1,0 do end
+hLDCDr:FindToggle((function() return string.char(29609)..string.char(23478)..string.char(33258)..string.char(30596) end)()):SetValue(loOlmX)
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end)
+if false then local PIHUfd=0.2650381629488454 end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+
+do local _=function() end end
+game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()).InputEnded:Connect(MRVrij(input,gameProcessed)
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+if input.KeyCode == Enum.KeyCode.LeftAlt then
+for tjRSpI=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+isUxbW= false
+do local fpzPnq=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+for PIHUfd=1,0 do end
+end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+end)
+for aNKOBO=1,0 do end
+for qKhiUS=1,0 do end
+do local _=function() end end
+
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(MRVrij()
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+for _=1,0 do end
+for fpzPnq=1,0 do end
 updateDrawings()
-if ouGXPO then
-local qjDHyW = getClosestPlayerInFOV(BuAWAG)
-if qjDHyW and qjDHyW.IpIPjq:FindFirstChild(BuAWAG) then
-if false then local _=0.5035630678708094 end
-lookAt(qjDHyW.IpIPjq[BuAWAG].Position)
+for aNKOBO=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if loOlmX then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local veRZLn = getClosestPlayerInFOV(PgqeJA)
+if veRZLn and veRZLn.fwxciM:FindFirstChild(PgqeJA) then
+if false then local FkLYSh=0.5035630678708094 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+lookAt(veRZLn.fwxciM[PgqeJA].Position)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
 end
 end
-if DgVNPN then
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
 do local _=function() end end
-local xlUGor = tick() * 2
-LXhRzR.Color = Color3.new(math.abs(math.sin(xlUGor)),math.abs(math.sin(xlUGor + 2 * math.pi / 3)),local _=326;if _ == 0 then _=1 end
-math.abs(math.sin(xlUGor + 4 * math.pi / 3)))
+do local PIHUfd=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if aKkjnl then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local FkLYSh=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local MgXxFB = tick() * 2
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+tyeUHh.Color = Color3.new(math.abs(math.sin(MgXxFB)),math.abs(math.sin(MgXxFB + 2 * math.pi / 3)),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+math.abs(math.sin(MgXxFB + 4 * math.pi / 3)))
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end)
-local _=326;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
 
-sTPAfM.CharacterAdded:Connect(igMUpK()
-if tcARZd then
-uzjGmL= tcARZd.Position
-if false then local _=0.5035630678708094 end
-tcARZd:Destroy()
+do local fpzPnq=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+NZfNmh.CharacterAdded:Connect(MRVrij()
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if kgBVDU then
+for tjRSpI=1,0 do end
+DBiiWk= kgBVDU.Position
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+kgBVDU:Destroy()
 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 createToggleButton()
+do local _=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
 end)
-local _=326;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
 
-local VQveeE = {}
-for _,GhGLVV in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
-table.insert(VQveeE,GhGLVV.Name)
-for _=1,0 do end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+do local tjRSpI=function() end end
+do local _=function() end end
+local qksNzb = {}
+for qKhiUS=1,0 do end
+for FkLYSh,hrgshE in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+do local aNKOBO=function() end end
+table.insert(qksNzb,hrgshE.Name)
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
 end
 
-local OzwgUH = fqLmfr:Dropdown({
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+local qbycZe = qgkNgM:Dropdown({
 Title = (function() return string.char(19981)..string.char(25915)..string.char(20987)..string.char(30340)..string.char(29609)..string.char(23478)..string.char(40)..string.char(22810)..string.char(36873)..string.char(41) end)(),if 1 ~= 1 then return nil end
-Values = VQveeE,Value = {},Multi = true,AllowNone = true,for _=1,0 do end
-Callback = igMUpK(d)
-rNypUz= d or {}
-end,})
-local _=326;if _ == 0 then _=1 end
-
-fqLmfr:Button({
-Title = (function() return string.char(21047)..string.char(26032)..string.char(29609)..string.char(23478)..string.char(21015)..string.char(34920) end)(),Callback = igMUpK()
-if 1 ~= 1 then return nil end
-VQveeE= {}
-for _,GhGLVV in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
-table.insert(VQveeE,GhGLVV.Name)
-end
+if false then local fpzPnq=0.23295867704356044 end
+Values = qksNzb,Value = {},Multi = true,AllowNone = true,for FkLYSh=1,0 do end
 do local _=function() end end
-OzwgUH:Refresh(VQveeE)
-end,})
-
-if false then local _=0.5035630678708094 end
-fqLmfr:Button({
-Title = (function() return string.char(33719)..string.char(21462)..string.char(82)..string.char(80)..string.char(71) end)(),Callback = igMUpK()
-local CRmCez = workspace.Tycoon.Tycoons
-if false then local _=0.5035630678708094 end
-local IWlZKG
-
-local igMUpK findNearestTeleportPosition()
-local iTmTql = sTPAfM.IpIPjq or sTPAfM.CharacterAdded:Wait()
-if math.random() > 1 then return nil end
-local hkAZpB = iTmTql:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-local iMBJVQ = hkAZpB.Position
-local ZnDBCM = math.huge
-local AIpXwx = nil
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+Callback = MRVrij(d)
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+for aNKOBO=1,0 do end
+SubMsu= d or {}
 for _=1,0 do end
+for qKhiUS=1,0 do end
+end,})
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
 
-for _,tycoonModel in ipairs(CRmCez:GetChildren()) do
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+if false then local aNKOBO=0.689745187854259 end
+qgkNgM:Button({
+for _=1,0 do end
+for tjRSpI=1,0 do end
+Title = (function() return string.char(21047)..string.char(26032)..string.char(29609)..string.char(23478)..string.char(21015)..string.char(34920) end)(),Callback = MRVrij()
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+qksNzb= {}
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+for FkLYSh,hrgshE in ipairs(game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()) do
+do local _=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+table.insert(qksNzb,hrgshE.Name)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+qbycZe:Refresh(qksNzb)
+if false then local tjRSpI=0.9006855414627175 end
+end,})
+do local qKhiUS=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+qgkNgM:Button({
+Title = (function() return string.char(33719)..string.char(21462)..string.char(82)..string.char(80)..string.char(71) end)(),Callback = MRVrij()
+local XJmtaG = workspace.Tycoon.Tycoons
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local IsDXcX
+
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+local MRVrij findNearestTeleportPosition()
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+local GcXKrS = NZfNmh.fwxciM or NZfNmh.CharacterAdded:Wait()
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local xAwOTJ = GcXKrS:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+for _=1,0 do end
+local oyXsEk = xAwOTJ.Position
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local hNTrlg = math.huge
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local DaCgak = nil
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+
+do local fpzPnq=function() end end
+for FkLYSh,tycoonModel in ipairs(XJmtaG:GetChildren()) do
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
 if tycoonModel:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)()) then
-local DcAHqb = tycoonModel:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
-local _=326;if _ == 0 then _=1 end
-if DcAHqb then
-local BIRpgj = DcAHqb:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
-if BIRpgj then
-local AIqSXA = BIRpgj:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-local _=326;if _ == 0 then _=1 end
-if AIqSXA and AIqSXA:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
-local PtrjNx = (iMBJVQ - AIqSXA.Position).Magnitude
-if PtrjNx < ZnDBCM then
-ZnDBCM= PtrjNx
+local baZoSY = tycoonModel:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local qKhiUS=function() end end
 if math.random() > 1 then return nil end
-AIpXwx= AIqSXA.CFrame
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if baZoSY then
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local Hgkaez = baZoSY:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if Hgkaez then
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local jGxaPq = Hgkaez:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if jGxaPq and jGxaPq:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+local thKuIJ = (oyXsEk - jGxaPq.Position).Magnitude
+do local qKhiUS=function() end end
+if thKuIJ < hNTrlg then
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+hNTrlg= thKuIJ
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+DaCgak= jGxaPq.CFrame
+if false then local tjRSpI=0.9006855414627175 end
 end
 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
 end
 if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+return DaCgak
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
 end
-return AIpXwx
-local _=326;if _ == 0 then _=1 end
-end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
 
-local igMUpK teleportPlayer()
-local iTmTql = sTPAfM.IpIPjq
-local _=326;if _ == 0 then _=1 end
-if not iTmTql then
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+do local _=function() end end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local MRVrij teleportPlayer()
+local GcXKrS = NZfNmh.fwxciM
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+if not GcXKrS then
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 return
 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
 
-if false then local _=0.5035630678708094 end
-local hkAZpB = iTmTql:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-if hkAZpB then
-IWlZKG= hkAZpB.CFrame
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local xAwOTJ = GcXKrS:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if xAwOTJ then
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+IsDXcX= xAwOTJ.CFrame
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+do local aNKOBO=function() end end
 end
-if false then local _=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local fpzPnq=0.23295867704356044 end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 
-local vNXprV = findNearestTeleportPosition()
-if vNXprV then
-hkAZpB.CFrame = vNXprV
-for _=1,0 do end
+local KVLNSi = findNearestTeleportPosition()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if KVLNSi then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+xAwOTJ.CFrame = KVLNSi
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
 
-spawn(igMUpK()
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+spawn(MRVrij()
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
 while wait(0.5) do
-if not iTmTql.Parent then
+if false then local fpzPnq=0.23295867704356044 end
+for qKhiUS=1,0 do end
+for _=1,0 do end
+if not GcXKrS.Parent then
+for tjRSpI=1,0 do end
 if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
 break
 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 
-local dAuqBR = sTPAfM:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(99)..string.char(107)..string.char(112)..string.char(97)..string.char(99)..string.char(107) end)())
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local GjzWGB = NZfNmh:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(99)..string.char(107)..string.char(112)..string.char(97)..string.char(99)..string.char(107) end)())
 for _=1,0 do end
-if dAuqBR and dAuqBR:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)()) then
-hkAZpB.CFrame = IWlZKG
+if false then local tjRSpI=0.9006855414627175 end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if GjzWGB and GjzWGB:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)()) then
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+xAwOTJ.CFrame = IsDXcX
+for tjRSpI=1,0 do end
 break
-end
-do local _=function() end end
-end
-end)
-else
-HwCuUH:Notify({
 for _=1,0 do end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local FkLYSh=function() end end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+if math.random() > 1 then return nil end
+end)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+else
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+RRhDTh:Notify({
+for _=1,0 do end
+do local fpzPnq=function() end end
+for FkLYSh=1,0 do end
 Title = (function() return string.char(69)..string.char(82)..string.char(82)..string.char(79)..string.char(82) end)(),Content = (function() return string.char(26410)..string.char(33021)..string.char(25214)..string.char(21040)..string.char(38468)..string.char(36817)..string.char(30340)..string.char(82)..string.char(80)..string.char(71) end)(),Duration = 4,})
-do local _=function() end end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+do local FkLYSh=function() end end
 end
 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
 
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 teleportPlayer()
+do local qKhiUS=function() end end
 if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local fpzPnq=0.23295867704356044 end
 end,})
 
-local vTfYam = false
-local _=326;if _ == 0 then _=1 end
-local LNuvCo = nil
-local mdcqjV = false
-local Cossue = nil
-local sTPAfM = game.vhWpbS.ZDjrgU
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
 for _=1,0 do end
+local bqkmLG = false
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+for qKhiUS=1,0 do end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local EROOlc = nil
+local _=907;if _ == 0 then _=1 end
+local VdpCgM = false
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local kmyAep = nil
+local NZfNmh = game.sIAoZg.MavWwr
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
-local igMUpK humanizedDelay(min,max)
-local HRcLIe = os.time()
-local envskG = tonumber(os.date((function() return string.char(37)..string.char(77) end)(),HRcLIe))
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for PIHUfd=1,0 do end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local MRVrij humanizedDelay(min,max)
+do local tjRSpI=function() end end
+local iNTbOf = os.time()
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local mVdkmF = tonumber(os.date((function() return string.char(37)..string.char(77) end)(),iNTbOf))
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
 
-local xmtrOA = 0.8 + (envskG % 10) * 0.04
-local PSzfGt = math.random(min * 1000,max * 1000) / 1000
-
-for _=1,0 do end
-return PSzfGt * xmtrOA
-end
-
-local igMUpK naturalRandomString()
-for _=1,0 do end
-local MxTaPx = { (function() return string.char(82)..string.char(111)..string.char(99)..string.char(107)..string.char(101)..string.char(116) end)(),(function() return string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101) end)(),(function() return string.char(80)..string.char(114)..string.char(111)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(108)..string.char(101) end)(),(function() return string.char(87)..string.char(97)..string.char(114)..string.char(104)..string.char(101)..string.char(97)..string.char(100) end)(),(function() return string.char(69)..string.char(120)..string.char(112)..string.char(108)..string.char(111)..string.char(115)..string.char(105)..string.char(118)..string.char(101) end)(),(function() return string.char(73)..string.char(109)..string.char(112)..string.char(97)..string.char(99)..string.char(116) end)(),(function() return string.char(66)..string.char(108)..string.char(97)..string.char(115)..string.char(116) end)(),(function() return string.char(83)..string.char(116)..string.char(114)..string.char(105)..string.char(107)..string.char(101) end)() }
-local MUHPAD = { (function() return end)(),(function() return string.char(80)..string.char(114)..string.char(111) end)(),(function() return string.char(77)..string.char(97)..string.char(120) end)(),(function() return string.char(85)..string.char(108)..string.char(116)..string.char(114)..string.char(97) end)(),(function() return string.char(88) end)(),(function() return string.char(77)..string.char(75)..string.char(50) end)(),(function() return string.char(86)..string.char(50) end)(),(function() return string.char(65)..string.char(100)..string.char(118)..string.char(97)..string.char(110)..string.char(99)..string.char(101)..string.char(100) end)() }
-
-local xqczQW = MxTaPx[math.random(#MxTaPx)]
-do local _=function() end end
-local sDtKgi = MUHPAD[math.random(#MUHPAD)]
-local rBGIOM = math.random(100,9999)
-
-return xqczQW .. sDtKgi .. tostring(rBGIOM)
+local geCrvx = 0.8 + (mVdkmF % 10) * 0.04
+if false then local _=0.3245391309170007 end
+do local PIHUfd=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local dAEcrM = math.random(min * 1000,max * 1000) / 1000
+if false then local fpzPnq=0.23295867704356044 end
 if math.random() > 1 then return nil end
-end
+if false then local qKhiUS=0.17959263031053085 end
 
-local igMUpK networkAwareWait(minDelay,maxDelay)
-local PSzfGt = humanizedDelay(minDelay,maxDelay)
-if false then local _=0.5035630678708094 end
-
-local GfWOBa = math.random(80,180) / 1000
-PSzfGt= PSzfGt + GfWOBa
-
-if math.random() > 1 then return nil end
-task.wait(PSzfGt)
-return PSzfGt
-end
-
-if math.random() > 1 then return nil end
-local igMUpK getValidPlayers()
-local IuUSUa = {}
-local RqBVik = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()
-
-for _=1,0 do end
-for _,GhGLVV in ipairs(RqBVik) do
-if GhGLVV ~= sTPAfM and GhGLVV.IpIPjq and GhGLVV.IpIPjq:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()) then
-if GhGLVV.IpIPjq.gOWHwD.Health > 0 then
-if not table.find(rNypUz or {},GhGLVV.Name) then
-for _=1,0 do end
-table.insert(IuUSUa,GhGLVV)
-end
-end
-end
-do local _=function() end end
-end
-
-for Bbeoeq= #IuUSUa,1,-1 do
-local lzvQIR = math.random(Bbeoeq)
-if math.random() > 1 then return nil end
-IuUSUa[Bbeoeq],IuUSUa[lzvQIR] = IuUSUa[lzvQIR],IuUSUa[Bbeoeq]
-end
-
-return IuUSUa
-local _=326;if _ == 0 then _=1 end
-end
-
-fqLmfr:Toggle({
-Title = (function() return string.char(82)..string.char(80)..string.char(71)..string.char(36720)..string.char(28856)..string.char(32)..string.char(40)..string.char(39640)..string.char(32423)..string.char(38450)..string.char(26816)..string.char(27979)..string.char(41) end)(),do local _=function() end end
-Value = false,Callback = igMUpK(xlUGor)
-vTfYam= xlUGor
-if xlUGor then
-do local _=function() end end
-if LNuvCo then
-coroutine.close(LNuvCo)
-LNuvCo= nil
-end
-do local _=function() end end
-
-LNuvCo= coroutine.create(igMUpK()
-local TFMSet = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
-local DFuqBj = TFMSet:WaitForChild((function() return string.char(68)..string.char(70)..string.char(117)..string.char(113)..string.char(66)..string.char(106) end)())
-local _=326;if _ == 0 then _=1 end
-local KDNhap = DFuqBj.Events.KDNhap
-local VpEsyb = DFuqBj.Events.VpEsyb
-
-local MTKMZg = {
 if 1 ~= 1 then return nil end
-{ name = (function() return string.char(24555)..string.char(36895)..string.char(31361)..string.char(20987) end)(),duration = 2.0,pause = 1.5,intensity = 0.9 },{ name = (function() return string.char(26631)..string.char(20934)..string.char(25915)..string.char(20987) end)(),duration = 3.5,pause = 2.0,intensity = 0.7 },{ name = (function() return string.char(31934)..string.char(20934)..string.char(25171)..string.char(20987) end)(),duration = 2.8,pause = 2.5,intensity = 0.6 },{ name = (function() return string.char(28216)..string.char(20987)..string.char(27169)..string.char(24335) end)(),duration = 1.8,pause = 3.0,intensity = 0.8 },for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local qKhiUS=function() end end
+return dAEcrM * geCrvx
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+do local tjRSpI=function() end end
+
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+local MRVrij naturalRandomString()
+do local _=function() end end
+for FkLYSh=1,0 do end
+local powRWl = { (function() return string.char(82)..string.char(111)..string.char(99)..string.char(107)..string.char(101)..string.char(116) end)(),(function() return string.char(77)..string.char(105)..string.char(115)..string.char(115)..string.char(105)..string.char(108)..string.char(101) end)(),(function() return string.char(80)..string.char(114)..string.char(111)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(108)..string.char(101) end)(),(function() return string.char(87)..string.char(97)..string.char(114)..string.char(104)..string.char(101)..string.char(97)..string.char(100) end)(),(function() return string.char(69)..string.char(120)..string.char(112)..string.char(108)..string.char(111)..string.char(115)..string.char(105)..string.char(118)..string.char(101) end)(),(function() return string.char(73)..string.char(109)..string.char(112)..string.char(97)..string.char(99)..string.char(116) end)(),(function() return string.char(66)..string.char(108)..string.char(97)..string.char(115)..string.char(116) end)(),(function() return string.char(83)..string.char(116)..string.char(114)..string.char(105)..string.char(107)..string.char(101) end)() }
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+local ZrPzAs = { (function() return end)(),(function() return string.char(80)..string.char(114)..string.char(111) end)(),(function() return string.char(77)..string.char(97)..string.char(120) end)(),(function() return string.char(85)..string.char(108)..string.char(116)..string.char(114)..string.char(97) end)(),(function() return string.char(88) end)(),(function() return string.char(77)..string.char(75)..string.char(50) end)(),(function() return string.char(86)..string.char(50) end)(),(function() return string.char(65)..string.char(100)..string.char(118)..string.char(97)..string.char(110)..string.char(99)..string.char(101)..string.char(100) end)() }
+do local PIHUfd=function() end end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+
+do local fpzPnq=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+local qkDIhA = powRWl[math.random(#powRWl)]
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local TrzytI = ZrPzAs[math.random(#ZrPzAs)]
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local jWEzTe = math.random(100,9999)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+return qkDIhA .. TrzytI .. tostring(jWEzTe)
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+end
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+
+local MRVrij networkAwareWait(minDelay,maxDelay)
+for _=1,0 do end
+local dAEcrM = humanizedDelay(minDelay,maxDelay)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for PIHUfd=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+
+if math.random() > 1 then return nil end
+local VdFZVW = math.random(80,180) / 1000
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+dAEcrM= dAEcrM + VdFZVW
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+for _=1,0 do end
+for aNKOBO=1,0 do end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+
+for _=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+task.wait(dAEcrM)
+do local _=function() end end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+return dAEcrM
+if math.random() > 1 then return nil end
+end
+
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local qKhiUS=function() end end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local MRVrij getValidPlayers()
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+local CFCbKB = {}
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+local uxGfrY = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)()):GetPlayers()
+if 1 ~= 1 then return nil end
+do local _=function() end end
+
+if false then local qKhiUS=0.17959263031053085 end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for FkLYSh,hrgshE in ipairs(uxGfrY) do
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if hrgshE ~= NZfNmh and hrgshE.fwxciM and hrgshE.fwxciM:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()) then
+local _=907;if _ == 0 then _=1 end
+if hrgshE.fwxciM.hXKuHo.Health > 0 then
+if not table.find(SubMsu or {},hrgshE.Name) then
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+table.insert(CFCbKB,hrgshE)
+if false then local fpzPnq=0.23295867704356044 end
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+for _=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+end
+
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for ISftiK= #CFCbKB,1,-1 do
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+local jVsUfc = math.random(ISftiK)
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+CFCbKB[ISftiK],CFCbKB[jVsUfc] = CFCbKB[jVsUfc],CFCbKB[ISftiK]
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+end
+
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+return CFCbKB
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for qKhiUS=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+end
+if 1 ~= 1 then return nil end
+
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+qgkNgM:Toggle({
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(82)..string.char(80)..string.char(71)..string.char(36720)..string.char(28856)..string.char(32)..string.char(40)..string.char(39640)..string.char(32423)..string.char(38450)..string.char(26816)..string.char(27979)..string.char(41) end)(),do local FkLYSh=function() end end
+if false then local aNKOBO=0.689745187854259 end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+Value = false,Callback = MRVrij(MgXxFB)
+bqkmLG= MgXxFB
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if MgXxFB then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if EROOlc then
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+coroutine.close(EROOlc)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+EROOlc= nil
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+do local FkLYSh=function() end end
+
+for _=1,0 do end
+EROOlc= coroutine.create(MRVrij()
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+do local _=function() end end
+local MeIVBg = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+do local fpzPnq=function() end end
+local vsFyIH = MeIVBg:WaitForChild((function() return string.char(68)..string.char(70)..string.char(117)..string.char(113)..string.char(66)..string.char(106) end)())
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local QUwXRt = vsFyIH.Events.QUwXRt
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local BDFUVI = vsFyIH.Events.BDFUVI
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+
+local xolAYo = {
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+{ name = (function() return string.char(24555)..string.char(36895)..string.char(31361)..string.char(20987) end)(),duration = 2.0,pause = 1.5,intensity = 0.9 },{ name = (function() return string.char(26631)..string.char(20934)..string.char(25915)..string.char(20987) end)(),duration = 3.5,pause = 2.0,intensity = 0.7 },{ name = (function() return string.char(31934)..string.char(20934)..string.char(25171)..string.char(20987) end)(),duration = 2.8,pause = 2.5,intensity = 0.6 },{ name = (function() return string.char(28216)..string.char(20987)..string.char(27169)..string.char(24335) end)(),duration = 1.8,pause = 3.0,intensity = 0.8 },for FkLYSh=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
+do local _=function() end end
 }
-
-local IRZlzV = math.random(#MTKMZg)
-local hKGLzr = (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)()
-do local _=function() end end
-local LBPRoE = os.clock()
-local KIuYQD = 0
-local aTAtsI = 0
-
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 for _=1,0 do end
-while vTfYam do
-local HRcLIe = os.clock()
-local Hsyzxs = HRcLIe - LBPRoE
-local KPMwaU = MTKMZg[IRZlzV]
-local _=326;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
 
-if KIuYQD >= 8 or aTAtsI > 30 then
-IRZlzV= math.random(#MTKMZg)
-KIuYQD= 0
+local gZYLJx = math.random(#xolAYo)
 if 1 ~= 1 then return nil end
-aTAtsI= 0
-LBPRoE= os.clock()
-end
-
-do local _=function() end end
-if not vTfYam then
-break
-end
-
+if false then local _=0.3245391309170007 end
+local KZIVbG = (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)()
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local FkLYSh=function() end end
 for _=1,0 do end
-if hKGLzr== (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)() then
-if Hsyzxs >= KPMwaU.duration then
-hKGLzr= (function() return string.char(112)..string.char(97)..string.char(117)..string.char(115)..string.char(101) end)()
-LBPRoE= os.clock()
-if false then local _=0.5035630678708094 end
-else
-local iTmTql = sTPAfM.IpIPjq
-if iTmTql and iTmTql:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
-local ndAwnH = math.random(-60,60)
-local _=326;if _ == 0 then _=1 end
-local YjsWtD = math.random(850,1250)
-local AmbFET = math.random(-60,60)
-
-local bLStlN = iTmTql.kIZntd.Position
-do local _=function() end end
-+ Vector3.new(ndAwnH,YjsWtD,AmbFET)
-
-local bHQkzJ = iTmTql:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)())
-
+local uIJOve = os.clock()
 if 1 ~= 1 then return nil end
-if bHQkzJ then
-local IuUSUa = getValidPlayers()
-local opCVDM = math.random(1,math.min(3,#IuUSUa))
-
+local ozTmuP = 0
+if math.random() > 1 then return nil end
 for _=1,0 do end
-for Bbeoeq= 1,opCVDM do
-if not vTfYam or Bbeoeq > #IuUSUa then
-break
+if false then local fpzPnq=0.23295867704356044 end
+local OqxTLg = 0
+for PIHUfd=1,0 do end
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+while bqkmLG do
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local iNTbOf = os.clock()
+do local _=function() end end
+if math.random() > 1 then return nil end
+local DkjeLG = iNTbOf - uIJOve
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local mWkpMr = xolAYo[gZYLJx]
+do local qKhiUS=function() end end
+for PIHUfd=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+do local aNKOBO=function() end end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if ozTmuP >= 8 or OqxTLg > 30 then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+gZYLJx= math.random(#xolAYo)
+if 1 ~= 1 then return nil end
+ozTmuP= 0
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+OqxTLg= 0
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+uIJOve= os.clock()
 end
 if 1 ~= 1 then return nil end
-
-local GhGLVV = IuUSUa[Bbeoeq]
-if GhGLVV.IpIPjq then
-local GjKvhM = GhGLVV.IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-local _=326;if _ == 0 then _=1 end
-if GjKvhM then
-local pEqAZA = math.random(100) <= 8
-local Dxutna = bLStlN
 
 if math.random() > 1 then return nil end
-if pEqAZA then
-Dxutna= Dxutna
-+ Vector3.new(math.random(-150,150),local _=326;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if not bqkmLG then
+break
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+do local PIHUfd=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
+
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if KZIVbG== (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)() then
+if DkjeLG >= mWkpMr.duration then
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+KZIVbG= (function() return string.char(112)..string.char(97)..string.char(117)..string.char(115)..string.char(101) end)()
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+uIJOve= os.clock()
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+else
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+do local aNKOBO=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+local GcXKrS = NZfNmh.fwxciM
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+if GcXKrS and GcXKrS:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
+do local _=function() end end
+local ccezpw = math.random(-60,60)
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local GRTOvl = math.random(850,1250)
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local gZxTNg = math.random(-60,60)
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local vljXmB = GcXKrS.KkWnwU.Position
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
++ Vector3.new(ccezpw,GRTOvl,gZxTNg)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+
+do local qKhiUS=function() end end
+local omjxUp = GcXKrS:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)())
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+
+for _=1,0 do end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if omjxUp then
+if math.random() > 1 then return nil end
+local CFCbKB = getValidPlayers()
+for _=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for fpzPnq=1,0 do end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local Ramlbp = math.random(1,math.min(3,#CFCbKB))
+
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+for qKhiUS=1,0 do end
+for ISftiK= 1,Ramlbp do
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+local _=907;if _ == 0 then _=1 end
+if not bqkmLG or ISftiK > #CFCbKB then
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+break
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+
+local hrgshE = CFCbKB[ISftiK]
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if hrgshE.fwxciM then
+if math.random() > 1 then return nil end
+local BgNmLm = hrgshE.fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if BgNmLm then
+for fpzPnq=1,0 do end
+local mjjlrB = math.random(100) <= 8
+local hEXBct = vljXmB
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if mjjlrB then
+local _=907;if _ == 0 then _=1 end
+hEXBct= hEXBct
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local qKhiUS=0.17959263031053085 end
++ Vector3.new(math.random(-150,150),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
 math.random(-100,100),math.random(-150,150))
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
 if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
-local LWhtmx = pcall(igMUpK()
-KDNhap:InvokeServer(Vector3.new(),local _=326;if _ == 0 then _=1 end
-bHQkzJ,bHQkzJ,Dxutna)
-if false then local _=0.5035630678708094 end
-VpEsyb:FireServer(Dxutna,Vector3.new(),bHQkzJ,for _=1,0 do end
-bHQkzJ,GjKvhM,nil,naturalRandomString()
+if math.random() > 1 then return nil end
+local PAtmSE = pcall(MRVrij()
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+QUwXRt:InvokeServer(Vector3.new(),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+omjxUp,omjxUp,hEXBct)
+if false then local aNKOBO=0.689745187854259 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+BDFUVI:FireServer(hEXBct,Vector3.new(),omjxUp,for FkLYSh=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+omjxUp,BgNmLm,nil,naturalRandomString()
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
 if math.random() > 1 then return nil end)
+if false then local tjRSpI=0.9006855414627175 end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
 end)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
 
-if LWhtmx then
-for _=1,0 do end
-KIuYQD= KIuYQD + 1
-aTAtsI= aTAtsI + Hsyzxs
-end
-
+if PAtmSE then
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-networkAwareWait(0.12 * KPMwaU.intensity,0.25 * KPMwaU.intensity)
-end
-end
-end
+for tjRSpI=1,0 do end
+for FkLYSh=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+ozTmuP= ozTmuP + 1
+local _=907;if _ == 0 then _=1 end
+OqxTLg= OqxTLg + DkjeLG
 end
-end
-end
-elseif hKGLzr== (function() return string.char(112)..string.char(97)..string.char(117)..string.char(115)..string.char(101) end)() then
-for _=1,0 do end
-if Hsyzxs >= KPMwaU.pause then
-hKGLzr= (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)()
-LBPRoE= os.clock()
-else
+if false then local tjRSpI=0.9006855414627175 end
+for qKhiUS=1,0 do end
 do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+networkAwareWait(0.12 * mWkpMr.intensity,0.25 * mWkpMr.intensity)
+if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+do local aNKOBO=function() end end
+end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+end
+for fpzPnq=1,0 do end
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+end
+if 1 ~= 1 then return nil end
+elseif KZIVbG== (function() return string.char(112)..string.char(97)..string.char(117)..string.char(115)..string.char(101) end)() then
+for FkLYSh=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if DkjeLG >= mWkpMr.pause then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+KZIVbG= (function() return string.char(97)..string.char(116)..string.char(116)..string.char(97)..string.char(99)..string.char(107) end)()
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+uIJOve= os.clock()
+if false then local qKhiUS=0.17959263031053085 end
+else
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local FkLYSh=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
 if math.random(100) <= 15 then
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
 networkAwareWait(0.2,0.6)
+if false then local tjRSpI=0.9006855414627175 end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
 end
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for qKhiUS=1,0 do end
 end
 if math.random() > 1 then return nil end
-end
 
+if 1 ~= 1 then return nil end
 networkAwareWait(0.08,0.18)
+do local fpzPnq=function() end end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local FkLYSh=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 do local _=function() end end
 end)
-coroutine.resume(LNuvCo)
+if false then local qKhiUS=0.17959263031053085 end
+coroutine.resume(EROOlc)
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 else
-if LNuvCo then
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if EROOlc then
 do local _=function() end end
-coroutine.close(LNuvCo)
-LNuvCo= nil
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+coroutine.close(EROOlc)
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+EROOlc= nil
 end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
 end
+do local FkLYSh=function() end end
 do local _=function() end end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
 end,})
-
-fqLmfr:Toggle({
-local _=326;if _ == 0 then _=1 end
-Title = (function() return string.char(25252)..string.char(30462)..string.char(25915)..string.char(20987)..string.char(32)..string.char(40)..string.char(39640)..string.char(32423)..string.char(38450)..string.char(26816)..string.char(27979)..string.char(41) end)(),Value = false,Callback = igMUpK(state)
-mdcqjV= state
-local _=326;if _ == 0 then _=1 end
-
-if Cossue then
-coroutine.close(Cossue)
-Cossue= nil
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for _=1,0 do end
 
+qgkNgM:Toggle({
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+Title = (function() return string.char(25252)..string.char(30462)..string.char(25915)..string.char(20987)..string.char(32)..string.char(40)..string.char(39640)..string.char(32423)..string.char(38450)..string.char(26816)..string.char(27979)..string.char(41) end)(),Value = false,Callback = MRVrij(state)
+VdpCgM= state
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+
+do local _=function() end end
+do local PIHUfd=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if kmyAep then
+coroutine.close(kmyAep)
+if math.random() > 1 then return nil end
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+kmyAep= nil
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 if state then
-Cossue= coroutine.create(igMUpK()
-local _=326;if _ == 0 then _=1 end
-local IpIPjq = sTPAfM.IpIPjq or sTPAfM.CharacterAdded:Wait()
-local kIZntd = IpIPjq:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-local TFMSet = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
-local DFuqBj = TFMSet:WaitForChild((function() return string.char(68)..string.char(70)..string.char(117)..string.char(113)..string.char(66)..string.char(106) end)())
-if false then local _=0.5035630678708094 end
-
-local qsNVxE = 0
-local vQmzSO = 0
-
 for _=1,0 do end
-while mdcqjV do
-local LWhtmx,err = pcall(igMUpK()
-local KsqRdK = IpIPjq:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)())
-if not KsqRdK then
+kmyAep= coroutine.create(MRVrij()
+for aNKOBO=1,0 do end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local PIHUfd=0.2650381629488454 end
+local fwxciM = NZfNmh.fwxciM or NZfNmh.CharacterAdded:Wait()
 if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local KkWnwU = fwxciM:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+local MeIVBg = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+local vsFyIH = MeIVBg:WaitForChild((function() return string.char(68)..string.char(70)..string.char(117)..string.char(113)..string.char(66)..string.char(106) end)())
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local fpzPnq=0.23295867704356044 end
+
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local bibCSZ = 0
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local xHZWnD = 0
+
+do local _=function() end end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+while VdpCgM do
+if false then local tjRSpI=0.9006855414627175 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local PAtmSE,err = pcall(MRVrij()
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local whjdlC = fwxciM:FindFirstChild((function() return string.char(82)..string.char(80)..string.char(71) end)())
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if not whjdlC then
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
 networkAwareWait(2.0,4.0)
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
 return
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 end
 
-local _=326;if _ == 0 then _=1 end
-local xiuXZw = kIZntd.Position
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+local GlUjqb = KkWnwU.Position
 + Vector3.new(math.random(-40,40),math.random(950,1150),math.random(-40,40))
+do local fpzPnq=function() end end
+do local _=function() end end
 
-local QlJZfs = workspace:WaitForChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110) end)()):WaitForChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110)..string.char(115) end)())
 if math.random() > 1 then return nil end
-local ZFTEhW = QlJZfs:GetChildren()
-
-for Bbeoeq= #ZFTEhW,1,-1 do
-local lzvQIR = math.random(Bbeoeq)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local ELaOSW = workspace:WaitForChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110) end)()):WaitForChild((function() return string.char(84)..string.char(121)..string.char(99)..string.char(111)..string.char(111)..string.char(110)..string.char(115) end)())
 do local _=function() end end
-ZFTEhW[Bbeoeq],ZFTEhW[lzvQIR] = ZFTEhW[lzvQIR],ZFTEhW[Bbeoeq]
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local RiZXMz = ELaOSW:GetChildren()
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for ISftiK= #RiZXMz,1,-1 do
+if math.random() > 1 then return nil end
+local jVsUfc = math.random(ISftiK)
+for tjRSpI=1,0 do end
+for PIHUfd=1,0 do end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+RiZXMz[ISftiK],RiZXMz[jVsUfc] = RiZXMz[jVsUfc],RiZXMz[ISftiK]
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for PIHUfd=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
 
-local AxqtVO = 0
-do local _=function() end end
-local IGLhYF = math.random(2,4)
+local nsoBVA = 0
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+do local FkLYSh=function() end end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local wYijZn = math.random(2,4)
 
-for _,zRbYlX in ipairs(ZFTEhW) do
-if not mdcqjV or AxqtVO >= IGLhYF then
-do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh,AZtSFW in ipairs(RiZXMz) do
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if not VdpCgM or nsoBVA >= wYijZn then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 break
 end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
-if zRbYlX.Owner.Value ~= sTPAfM then
 if math.random() > 1 then return nil end
-local pkstQm = zRbYlX:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)(),true)
-and zRbYlX.PurchasedObjects:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)(),true)
-and zRbYlX.PurchasedObjects[(function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)()]:FindFirstChild((function() return string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)(),true)
-and zRbYlX.PurchasedObjects[(function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)()].Shield:FindFirstChild((function() return string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100)..string.char(52) end)(),true)
-if false then local _=0.5035630678708094 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if AZtSFW.Owner.Value ~= NZfNmh then
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local UzvRKD = AZtSFW:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)(),true)
+for fpzPnq=1,0 do end
+and AZtSFW.PurchasedObjects:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)(),true)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+and AZtSFW.PurchasedObjects[(function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)()]:FindFirstChild((function() return string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)(),true)
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+and AZtSFW.PurchasedObjects[(function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(32)..string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100) end)()].Shield:FindFirstChild((function() return string.char(83)..string.char(104)..string.char(105)..string.char(101)..string.char(108)..string.char(100)..string.char(52) end)(),true)
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
 
-if pkstQm then
-local xEqrjX = { Vector3.new(0,0,0),KsqRdK,KsqRdK,xiuXZw }
-local tSwGvX = {
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if UzvRKD then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local VwHcFt = { Vector3.new(0,0,0),whjdlC,whjdlC,GlUjqb }
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local lBQGWk = {
+for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 for _=1,0 do end
-xiuXZw,Vector3.new(0,-1,0),KsqRdK,KsqRdK,local _=326;if _ == 0 then _=1 end
-pkstQm,nil,naturalRandomString(),}
-local _=326;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+GlUjqb,Vector3.new(0,-1,0),whjdlC,whjdlC,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+UzvRKD,nil,naturalRandomString(),}
+if false then local _=0.3245391309170007 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
 
-local BFKOOy = math.random(2,3)
-for Bbeoeq= 1,BFKOOy do
-if not mdcqjV then
+for aNKOBO=1,0 do end
+local vMvhtm = math.random(2,3)
 for _=1,0 do end
+if 1 ~= 1 then return nil end
+for ISftiK= 1,vMvhtm do
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if not VdpCgM then
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
 break
+for PIHUfd=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+for tjRSpI=1,0 do end
+do local _=function() end end
 end
 
+if 1 ~= 1 then return nil end
 if math.random(100) <= 10 then
-for _=1,0 do end
-tSwGvX[1] = tSwGvX[1]
-+ Vector3.new(math.random(-20,20),0,math.random(-20,20))
-end
-
-local _=326;if _ == 0 then _=1 end
-local nqrcdK = pcall(igMUpK()
-DFuqBj.Events.VpEsyb:FireServer(unpack(tSwGvX))
-DFuqBj.Events.KDNhap:InvokeServer(unpack(xEqrjX))
-end)
-if math.random() > 1 then return nil end
-
-if nqrcdK then
-qsNVxE= os.clock()
-AxqtVO= AxqtVO + 1
-for _=1,0 do end
-vQmzSO= vQmzSO + 1
-end
-
-networkAwareWait(0.15 + (Bbeoeq * 0.06),0.25 + (Bbeoeq * 0.1))
-for _=1,0 do end
-end
-
-networkAwareWait(0.4,0.8)
-end
-for _=1,0 do end
-end
-end
-
-if vQmzSO >= 12 then
-for _=1,0 do end
-networkAwareWait(3.0,6.0)
-vQmzSO= 0
-end
-end)
-if math.random() > 1 then return nil end
-
-if not LWhtmx then
-warn((function() return string.char(25252)..string.char(30462)..string.char(25915)..string.char(20987)..string.char(38169)..string.char(35823)..string.char(58) end)(),err)
-networkAwareWait(1.0,2.0)
 do local _=function() end end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+lBQGWk[1] = lBQGWk[1]
++ Vector3.new(math.random(-20,20),0,math.random(-20,20))
+do local tjRSpI=function() end end
 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local VoAKum = pcall(MRVrij()
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+vsFyIH.Events.BDFUVI:FireServer(unpack(lBQGWk))
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+local _=907;if _ == 0 then _=1 end
+vsFyIH.Events.QUwXRt:InvokeServer(unpack(VwHcFt))
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+end)
+do local _=function() end end
+for fpzPnq=1,0 do end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+for _=1,0 do end
+
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if VoAKum then
+if false then local PIHUfd=0.2650381629488454 end
+bibCSZ= os.clock()
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+nsoBVA= nsoBVA + 1
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+xHZWnD= xHZWnD + 1
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+do local fpzPnq=function() end end
+
+networkAwareWait(0.15 + (ISftiK * 0.06),0.25 + (ISftiK * 0.1))
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh=1,0 do end
+end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+networkAwareWait(0.4,0.8)
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+if xHZWnD >= 12 then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for FkLYSh=1,0 do end
+networkAwareWait(3.0,6.0)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+xHZWnD= 0
+if math.random() > 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+end)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local qKhiUS=function() end end
+if not PAtmSE then
+warn((function() return string.char(25252)..string.char(30462)..string.char(25915)..string.char(20987)..string.char(38169)..string.char(35823)..string.char(58) end)(),err)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+networkAwareWait(1.0,2.0)
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+if false then local _=0.3245391309170007 end
+end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 
 networkAwareWait(0.8,1.5)
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 if math.random() > 1 then return nil end
 end)
-coroutine.resume(Cossue)
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+coroutine.resume(kmyAep)
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local tjRSpI=0.9006855414627175 end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
 end
-end,do local _=function() end end
+end,do local FkLYSh=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 })
+for fpzPnq=1,0 do end
 
-coroutine.wrap(igMUpK()
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+coroutine.wrap(MRVrij()
+if math.random() > 1 then return nil end
 while true do
-if false then local _=0.5035630678708094 end
+if false then local FkLYSh=0.5035630678708094 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
 task.wait(5)
+if 1 ~= 1 then return nil end
 
-if vTfYam and os.clock() - qsNVxE > 10 then
-vTfYam= false
 if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if bqkmLG and os.clock() - bibCSZ > 10 then
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+bqkmLG= false
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
 warn((function() return string.char(23433)..string.char(20840)..string.char(31995)..string.char(32479)..string.char(58)..string.char(32)..string.char(26816)..string.char(27979)..string.char(21040)..string.char(24322)..string.char(24120)..string.char(65292)..string.char(33258)..string.char(21160)..string.char(20572)..string.char(27490)..string.char(82)..string.char(80)..string.char(71)..string.char(25915)..string.char(20987) end)())
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
 end
+if math.random() > 1 then return nil end
 
-if mdcqjV and os.clock() - lastShieldAttack > 15 then
-local _=326;if _ == 0 then _=1 end
-mdcqjV= false
+for qKhiUS=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if VdpCgM and os.clock() - lastShieldAttack > 15 then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+VdpCgM= false
+if 1 ~= 1 then return nil end
 warn((function() return string.char(23433)..string.char(20840)..string.char(31995)..string.char(32479)..string.char(58)..string.char(32)..string.char(26816)..string.char(27979)..string.char(21040)..string.char(24322)..string.char(24120)..string.char(65292)..string.char(33258)..string.char(21160)..string.char(20572)..string.char(27490)..string.char(25252)..string.char(30462)..string.char(25915)..string.char(20987) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local aNKOBO=0.689745187854259 end
+do local _=function() end end
 end
-if false then local _=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
 end)()
+if false then local qKhiUS=0.17959263031053085 end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+for _=1,0 do end
+for tjRSpI=1,0 do end
 
-bSKLXi:Button({
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+ZQuMmC:Button({
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 Title = (function() return string.char(38647)..string.char(26126)..string.char(39039) end)(),if math.random() > 1 then return nil end
-Callback = igMUpK()
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local sTPAfM = vhWpbS.ZDjrgU
-local IpIPjq = sTPAfM.IpIPjq
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+Callback = MRVrij()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-if not IpIPjq then
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+for _=1,0 do end
+local NZfNmh = sIAoZg.MavWwr
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local fwxciM = NZfNmh.fwxciM
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if not fwxciM then
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 return
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local _=function() end end
 end
 
-local _=326;if _ == 0 then _=1 end
-local kIZntd = IpIPjq:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-if not kIZntd then
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local KkWnwU = fwxciM:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if not KkWnwU then
+for fpzPnq=1,0 do end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 return
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh=1,0 do end
+
+do local tjRSpI=function() end end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+local bsgZbS = KkWnwU.CFrame
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local uzPphe = nil
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+local hNTrlg = math.huge
 for _=1,0 do end
 
-local dbagHP = kIZntd.CFrame
-
-local RHVfid = nil
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+for FkLYSh,AZtSFW in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
+local baZoSY = AZtSFW:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
 do local _=function() end end
-local ZnDBCM = math.huge
-
-for _,zRbYlX in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
-local DcAHqb = zRbYlX:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
-if false then local _=0.5035630678708094 end
-if DcAHqb then
-local pWuPOg = DcAHqb:FindFirstChild((function() return string.char(82)..string.char(101)..string.char(109)..string.char(105)..string.char(110)..string.char(103)..string.char(116)..string.char(111)..string.char(110)..string.char(32)..string.char(77)..string.char(83)..string.char(82)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
-if pWuPOg then
-local YFsIFv = pWuPOg:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+if baZoSY then
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+local doZzDI = baZoSY:FindFirstChild((function() return string.char(82)..string.char(101)..string.char(109)..string.char(105)..string.char(110)..string.char(103)..string.char(116)..string.char(111)..string.char(110)..string.char(32)..string.char(77)..string.char(83)..string.char(82)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 for _=1,0 do end
-if YFsIFv then
-local PtrjNx = (kIZntd.Position - YFsIFv.Position).Magnitude
-if PtrjNx < ZnDBCM then
-ZnDBCM= PtrjNx
+if doZzDI then
+if math.random() > 1 then return nil end
+local CfnFdz = doZzDI:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+do local PIHUfd=function() end end
+for FkLYSh=1,0 do end
+for qKhiUS=1,0 do end
+for fpzPnq=1,0 do end
 do local _=function() end end
-RHVfid= YFsIFv
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if CfnFdz then
+local thKuIJ = (KkWnwU.Position - CfnFdz.Position).Magnitude
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if thKuIJ < hNTrlg then
+hNTrlg= thKuIJ
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
+for _=1,0 do end
+do local fpzPnq=function() end end
+do local FkLYSh=function() end end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+uzPphe= CfnFdz
+do local fpzPnq=function() end end
+end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+end
+for qKhiUS=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
 end
 end
-end
-do local _=function() end end
-end
-end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
 
-if not RHVfid then
-if false then local _=0.5035630678708094 end
+do local _=function() end end
+for tjRSpI=1,0 do end
+if not uzPphe then
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
 return
+for _=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+if math.random() > 1 then return nil end
 
-kIZntd.CFrame = CFrame.new(RHVfid.Position + Vector3.new(0,3,0))
-local _=326;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+KkWnwU.CFrame = CFrame.new(uzPphe.Position + Vector3.new(0,3,0))
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
 task.wait(0.5)
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 
-local AIqSXA = RHVfid:FindFirstChildWhichIsA((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-if AIqSXA then
-if false then local _=0.5035630678708094 end
-for Bbeoeq= 1,3 do
-fireproximityprompt(AIqSXA)
+local jGxaPq = uzPphe:FindFirstChildWhichIsA((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if jGxaPq then
+for _=1,0 do end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+do local qKhiUS=function() end end
+for ISftiK= 1,3 do
+fireproximityprompt(jGxaPq)
+do local _=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 task.wait(0.2)
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
 end
-local _=326;if _ == 0 then _=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
 end
-
-task.wait(1)
-kIZntd.CFrame = dbagHP
-if false then local _=0.5035630678708094 end
-end,})
-
-local wfblFg = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)()).Configurations.AQDxum
 for _=1,0 do end
-local eTUEMX = {}
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
 
-bSKLXi:Toggle({
+if math.random() > 1 then return nil end
+task.wait(1)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+KkWnwU.CFrame = bsgZbS
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local _=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+end,})
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local tjRSpI=0.9006855414627175 end
+
+do local _=function() end end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+local dluptC = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)()).Configurations.ZnGbeG
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+local GtsFEh = {}
+for _=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+
+ZQuMmC:Toggle({
+if math.random() > 1 then return nil end
 Title = (function() return string.char(26080)..string.char(38480)..string.char(23376)..string.char(24377) end)(),if math.random() > 1 then return nil end
-Mode = (function() return string.char(84)..string.char(111)..string.char(103)..string.char(103)..string.char(108)..string.char(101) end)(),Value = false,Callback = igMUpK(enabled)
+Mode = (function() return string.char(84)..string.char(111)..string.char(103)..string.char(103)..string.char(108)..string.char(101) end)(),Value = false,Callback = MRVrij(enabled)
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+do local qKhiUS=function() end end
+do local PIHUfd=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
 if enabled then
-do local _=function() end end
-for _,gun in pairs(wfblFg:GetChildren()) do
-local kGFkLu = gun:FindFirstChild((function() return string.char(65)..string.char(109)..string.char(109)..string.char(111) end)())
-if kGFkLu then
-if not eTUEMX[gun.Name] then
-do local _=function() end end
-eTUEMX[gun.Name] = kGFkLu.Value
-end
-kGFkLu.Value = (function() return string.char(105)..string.char(110)..string.char(102) end)()
-end
-if 1 ~= 1 then return nil end
-end
-else
-for _,gun in pairs(wfblFg:GetChildren()) do
-local kGFkLu = gun:FindFirstChild((function() return string.char(65)..string.char(109)..string.char(109)..string.char(111) end)())
-local _=326;if _ == 0 then _=1 end
-if kGFkLu and eTUEMX[gun.Name] then
-kGFkLu.Value = eTUEMX[gun.Name]
-end
-end
-for _=1,0 do end
-eTUEMX= {}
-end
-end,})
-if false then local _=0.5035630678708094 end
-
-bSKLXi:Toggle({
-Title = (function() return string.char(20840)..string.char(26538)..string.char(20462)..string.char(25913) end)(),Value = false,for _=1,0 do end
-Callback = igMUpK(state)
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local DcwPMo = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
-local ZDjrgU = vhWpbS.ZDjrgU
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local FkLYSh=function() end end
+if false then local qKhiUS=0.17959263031053085 end
 if math.random() > 1 then return nil end
-local AQDxum = DcwPMo:WaitForChild((function() return string.char(67)..string.char(111)..string.char(110)..string.char(102)..string.char(105)..string.char(103)..string.char(117)..string.char(114)..string.char(97)..string.char(116)..string.char(105)..string.char(111)..string.char(110)..string.char(115) end)()):WaitForChild((function() return string.char(65)..string.char(81)..string.char(68)..string.char(120)..string.char(117)..string.char(109) end)())
-
-local QOxRZA = {}
-local txmXEl = {}
+do local tjRSpI=function() end end
+for FkLYSh,gun in pairs(dluptC:GetChildren()) do
+if false then local PIHUfd=0.2650381629488454 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+local xxzokH = gun:FindFirstChild((function() return string.char(65)..string.char(109)..string.char(109)..string.char(111) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if xxzokH then
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if not GtsFEh[gun.Name] then
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+do local FkLYSh=function() end end
+for qKhiUS=1,0 do end
+do local tjRSpI=function() end end
 for _=1,0 do end
-local wZLhXv = {}
-
-local igMUpK saveOriginal(gunName)
-local rEDcaD = AQDxum:FindFirstChild(gunName)
-if false then local _=0.5035630678708094 end
-if rEDcaD and rEDcaD:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
-if not QOxRZA[gunName] then
-QOxRZA[gunName] = table.clone(require(rEDcaD.Settings))
-end
-if false then local _=0.5035630678708094 end
-end
-end
-
-local igMUpK restoreAll()
-for _=1,0 do end
-for gunName,UCBKKo in pairs(QOxRZA) do
-local rEDcaD = AQDxum:FindFirstChild(gunName)
-if rEDcaD and rEDcaD:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
-local EnIFWR = require(rEDcaD.Settings)
-local _=326;if _ == 0 then _=1 end
-for k,v in pairs(UCBKKo) do
-EnIFWR[k] = v
-end
-end
-local _=326;if _ == 0 then _=1 end
-end
-txmXEl= {}
-for _,connSet in pairs(wZLhXv) do
-for _,fGJiHR in pairs(connSet) do
-for _=1,0 do end
-if typeof(fGJiHR) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
-fGJiHR:Disconnect()
-end
-end
-for _=1,0 do end
-end
-wZLhXv= {}
-end
-
-local _=326;if _ == 0 then _=1 end
-local igMUpK modifyGun(gunName)
-if txmXEl[gunName] then
-return
+if 1 ~= 1 then return nil end
+GtsFEh[gun.Name] = xxzokH.Value
+do local aNKOBO=function() end end
 end
 if 1 ~= 1 then return nil end
-local rEDcaD = AQDxum:FindFirstChild(gunName)
-if not rEDcaD or not rEDcaD:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
-return
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+xxzokH.Value = (function() return string.char(105)..string.char(110)..string.char(102) end)()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
-if false then local _=0.5035630678708094 end
-local EnIFWR = require(rEDcaD.Settings)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+do local PIHUfd=function() end end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+else
+for FkLYSh,gun in pairs(dluptC:GetChildren()) do
+do local qKhiUS=function() end end
+local xxzokH = gun:FindFirstChild((function() return string.char(65)..string.char(109)..string.char(109)..string.char(111) end)())
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if xxzokH and GtsFEh[gun.Name] then
+xxzokH.Value = GtsFEh[gun.Name]
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+do local _=function() end end
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+end
+for FkLYSh=1,0 do end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+GtsFEh= {}
+for _=1,0 do end
+end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+end,})
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+
+if 1 ~= 1 then return nil end
+do local _=function() end end
+ZQuMmC:Toggle({
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+Title = (function() return string.char(20840)..string.char(26538)..string.char(20462)..string.char(25913) end)(),Value = false,for FkLYSh=1,0 do end
+Callback = MRVrij(state)
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+do local _=function() end end
+local pjwqmH = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local MavWwr = sIAoZg.MavWwr
+for tjRSpI=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+local ZnGbeG = pjwqmH:WaitForChild((function() return string.char(67)..string.char(111)..string.char(110)..string.char(102)..string.char(105)..string.char(103)..string.char(117)..string.char(114)..string.char(97)..string.char(116)..string.char(105)..string.char(111)..string.char(110)..string.char(115) end)()):WaitForChild((function() return string.char(65)..string.char(81)..string.char(68)..string.char(120)..string.char(117)..string.char(109) end)())
+for PIHUfd=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+
+for fpzPnq=1,0 do end
+do local _=function() end end
+do local aNKOBO=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local rlDDoc = {}
+local ZiBscU = {}
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+local eoyaUI = {}
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local MRVrij saveOriginal(gunName)
+do local fpzPnq=function() end end
+local kNSdtB = ZnGbeG:FindFirstChild(gunName)
+for _=1,0 do end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local FkLYSh=0.5035630678708094 end
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+do local tjRSpI=function() end end
+if kNSdtB and kNSdtB:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if not rlDDoc[gunName] then
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+rlDDoc[gunName] = table.clone(require(kNSdtB.Settings))
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+end
+do local tjRSpI=function() end end
+end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local MRVrij restoreAll()
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+for gunName,sSjisR in pairs(rlDDoc) do
+local kNSdtB = ZnGbeG:FindFirstChild(gunName)
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if kNSdtB and kNSdtB:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+local EPqMKs = require(kNSdtB.Settings)
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for k,v in pairs(sSjisR) do
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+EPqMKs[k] = v
+end
+end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+for PIHUfd=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+end
+ZiBscU= {}
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+for FkLYSh,connSet in pairs(eoyaUI) do
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh,iQdhcD in pairs(connSet) do
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if typeof(iQdhcD) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+iQdhcD:Disconnect()
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+end
+if math.random() > 1 then return nil end
+end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+end
+for fpzPnq=1,0 do end
+eoyaUI= {}
+for _=1,0 do end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+end
+if math.random() > 1 then return nil end
+
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local MRVrij modifyGun(gunName)
+do local PIHUfd=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if ZiBscU[gunName] then
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+for qKhiUS=1,0 do end
+return
+local _=907;if _ == 0 then _=1 end
+end
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+for _=1,0 do end
+local kNSdtB = ZnGbeG:FindFirstChild(gunName)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if not kNSdtB or not kNSdtB:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+return
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+for aNKOBO=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local EPqMKs = require(kNSdtB.Settings)
 if gunName == (function() return string.char(82)..string.char(80)..string.char(71) end)() or gunName == (function() return string.char(74)..string.char(97)..string.char(118)..string.char(101)..string.char(108)..string.char(105)..string.char(110) end)() then
-EnIFWR.Ammo = math.huge
-txmXEl[gunName] = true
+if false then local tjRSpI=0.9006855414627175 end
+EPqMKs.Ammo = math.huge
+if false then local _=0.3245391309170007 end
 if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+ZiBscU[gunName] = true
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
 return
 end
-EnIFWR.Mode = (function() return string.char(65)..string.char(117)..string.char(116)..string.char(111) end)()
-EnIFWR.FireModes.ChangeFiremode = true
-do local _=function() end end
-EnIFWR.FireModes.Auto = true
-EnIFWR.FireModes.Semi = false
-EnIFWR.FireModes.Burst = false
-EnIFWR.Ammo = math.huge
-do local _=function() end end
-EnIFWR.FireRate = 999999999999999
-EnIFWR.BurstFireRate = 999999999999999
-EnIFWR.BurstShot = 1
-EnIFWR.DamageMultiplier = 999999999999999
-if false then local _=0.5035630678708094 end
-EnIFWR.HeadDamageMultiplier = 9999999999999999
-EnIFWR.VRecoil = { 0,0 }
-EnIFWR.HRecoil = { 0,0 }
-EnIFWR.RecoilPunch = 0
-local _=326;if _ == 0 then _=1 end
-EnIFWR.VPunchBase = 0
-EnIFWR.HPunchBase = 0
-EnIFWR.DPunchBase = 0
-EnIFWR.AimRecoilReduction = 999999999999999
-if math.random() > 1 then return nil end
-EnIFWR.PunchRecover = 0
-EnIFWR.MinRecoilPower = 0
-EnIFWR.MaxRecoilPower = 0
-EnIFWR.RecoilPowerStepAmount = 0
 if 1 ~= 1 then return nil end
-EnIFWR.MinSpread = 0
-EnIFWR.MaxSpread = 0
-EnIFWR.HipfireSpreadMuitpler = 0
-EnIFWR.SwayBase = 0
-if false then local _=0.5035630678708094 end
-txmXEl[gunName] = true
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+EPqMKs.Mode = (function() return string.char(65)..string.char(117)..string.char(116)..string.char(111) end)()
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+EPqMKs.FireModes.ChangeFiremode = true
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
+EPqMKs.FireModes.Auto = true
+if false then local aNKOBO=0.689745187854259 end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+EPqMKs.FireModes.Semi = false
+EPqMKs.FireModes.Burst = false
+for fpzPnq=1,0 do end
+for _=1,0 do end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+EPqMKs.Ammo = math.huge
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+EPqMKs.FireRate = 999999999999999
+if false then local PIHUfd=0.2650381629488454 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+EPqMKs.BurstFireRate = 999999999999999
+EPqMKs.BurstShot = 1
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+EPqMKs.DamageMultiplier = 999999999999999
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local FkLYSh=0.5035630678708094 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+EPqMKs.HeadDamageMultiplier = 9999999999999999
+if math.random() > 1 then return nil end
+EPqMKs.VRecoil = { 0,0 }
+local _=907;if _ == 0 then _=1 end
+EPqMKs.HRecoil = { 0,0 }
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+EPqMKs.RecoilPunch = 0
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+EPqMKs.VPunchBase = 0
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for tjRSpI=1,0 do end
+EPqMKs.HPunchBase = 0
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+EPqMKs.DPunchBase = 0
+if false then local tjRSpI=0.9006855414627175 end
+for qKhiUS=1,0 do end
+do local _=function() end end
+EPqMKs.AimRecoilReduction = 999999999999999
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+EPqMKs.PunchRecover = 0
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+EPqMKs.MinRecoilPower = 0
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+EPqMKs.MaxRecoilPower = 0
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+EPqMKs.RecoilPowerStepAmount = 0
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for PIHUfd=1,0 do end
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+EPqMKs.MinSpread = 0
+EPqMKs.MaxSpread = 0
+for fpzPnq=1,0 do end
+EPqMKs.HipfireSpreadMuitpler = 0
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+EPqMKs.SwayBase = 0
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+ZiBscU[gunName] = true
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
 end
+if math.random() > 1 then return nil end
 
-local igMUpK handleTool(QKvLHn)
 if 1 ~= 1 then return nil end
-if not QKvLHn:IsA((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)()) then
-return
-end
-if wZLhXv[QKvLHn] then
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local MRVrij handleTool(LRWnsZ)
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if not LRWnsZ:IsA((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)()) then
+for tjRSpI=1,0 do end
 if 1 ~= 1 then return nil end
 return
-end
-local uCdLdh = task.PSzfGt(3,igMUpK()
-if not txmXEl[QKvLHn.Name] then
-do local _=function() end end
-modifyGun(QKvLHn.Name)
-end
-end)
-local ykQzrr = QKvLHn.Activated:Connect(igMUpK()
-do local _=function() end end
-if not txmXEl[QKvLHn.Name] then
-task.PSzfGt(1,igMUpK()
-if not txmXEl[QKvLHn.Name] then
-modifyGun(QKvLHn.Name)
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
 end
-end)
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if eoyaUI[LRWnsZ] then
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+return
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local NSLaNS = task.dAEcrM(3,MRVrij()
+if not ZiBscU[LRWnsZ.Name] then
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+do local FkLYSh=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+modifyGun(LRWnsZ.Name)
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 end
 end)
 for _=1,0 do end
-local JUySpP = QKvLHn.Changed:Connect(igMUpK(prop)
-if prop == (function() return string.char(80)..string.char(97)..string.char(114)..string.char(101)..string.char(110)..string.char(116) end)() and not QKvLHn.Parent then
-if wZLhXv[QKvLHn] then
-for _,fGJiHR in pairs(wZLhXv[QKvLHn]) do
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+local WggYST = LRWnsZ.Activated:Connect(MRVrij()
+if false then local _=0.3245391309170007 end
 if 1 ~= 1 then return nil end
-if typeof(fGJiHR) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
-fGJiHR:Disconnect()
-end
-end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+do local FkLYSh=function() end end
+if not ZiBscU[LRWnsZ.Name] then
+do local tjRSpI=function() end end
+if false then local PIHUfd=0.2650381629488454 end
 do local _=function() end end
-wZLhXv[QKvLHn] = nil
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+task.dAEcrM(1,MRVrij()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if not ZiBscU[LRWnsZ.Name] then
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+modifyGun(LRWnsZ.Name)
+do local fpzPnq=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end)
+do local _=function() end end
+for qKhiUS=1,0 do end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
 end
 end)
-local _=326;if _ == 0 then _=1 end
-wZLhXv[QKvLHn] = {
-PSzfGt= uCdLdh,activated = ykQzrr,changed = JUySpP,local _=326;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+local XmHGrG = LRWnsZ.Changed:Connect(MRVrij(prop)
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if prop == (function() return string.char(80)..string.char(97)..string.char(114)..string.char(101)..string.char(110)..string.char(116) end)() and not LRWnsZ.Parent then
+if eoyaUI[LRWnsZ] then
+if 1 ~= 1 then return nil end
+for FkLYSh,iQdhcD in pairs(eoyaUI[LRWnsZ]) do
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if typeof(iQdhcD) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
+if false then local fpzPnq=0.23295867704356044 end
+iQdhcD:Disconnect()
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local aNKOBO=0.689745187854259 end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+do local FkLYSh=function() end end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+eoyaUI[LRWnsZ] = nil
+end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local fpzPnq=function() end end
+end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end)
+for fpzPnq=1,0 do end
+for qKhiUS=1,0 do end
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+eoyaUI[LRWnsZ] = {
+dAEcrM= NSLaNS,activated = WggYST,changed = XmHGrG,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 }
-QKvLHn.AncestryChanged:Connect(igMUpK(_,NVJrIh)
-if not NVJrIh then
-if wZLhXv[QKvLHn] then
-if false then local _=0.5035630678708094 end
-for _,fGJiHR in pairs(wZLhXv[QKvLHn]) do
-if typeof(fGJiHR) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
-fGJiHR:Disconnect()
-end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+LRWnsZ.AncestryChanged:Connect(MRVrij(FkLYSh,istDJS)
+if not istDJS then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if eoyaUI[LRWnsZ] then
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 do local _=function() end end
+for FkLYSh,iQdhcD in pairs(eoyaUI[LRWnsZ]) do
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+if typeof(iQdhcD) == (function() return string.char(82)..string.char(66)..string.char(88)..string.char(83)..string.char(99)..string.char(114)..string.char(105)..string.char(112)..string.char(116)..string.char(67)..string.char(111)..string.char(110)..string.char(110)..string.char(101)..string.char(99)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() then
+if false then local _=0.3245391309170007 end
+iQdhcD:Disconnect()
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 end
-wZLhXv[QKvLHn] = nil
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+do local FkLYSh=function() end end
+for qKhiUS=1,0 do end
 end
+for _=1,0 do end
+eoyaUI[LRWnsZ] = nil
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local tjRSpI=function() end end
 end
 if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 end)
+do local qKhiUS=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
 end
 
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
 if state then
-if false then local _=0.5035630678708094 end
-for _,gun in ipairs(AQDxum:GetChildren()) do
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for qKhiUS=1,0 do end
+for FkLYSh,gun in ipairs(ZnGbeG:GetChildren()) do
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
 saveOriginal(gun.Name)
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 end
-ZDjrgU.CharacterAdded:Connect(igMUpK(qpXeDh)
-if false then local _=0.5035630678708094 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+MavWwr.CharacterAdded:Connect(MRVrij(huAkNK)
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
 restoreAll()
+if false then local _=0.3245391309170007 end
 task.wait(1)
-qpXeDh.ChildAdded:Connect(igMUpK(child)
-handleTool(child)
-if false then local _=0.5035630678708094 end
-end)
-for _,child in ipairs(qpXeDh:GetChildren()) do
-handleTool(child)
-end
+huAkNK.ChildAdded:Connect(MRVrij(child)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
 if 1 ~= 1 then return nil end
-end)
-if ZDjrgU.IpIPjq then
-for _,child in ipairs(ZDjrgU.IpIPjq:GetChildren()) do
+if false then local qKhiUS=0.17959263031053085 end
+if false then local PIHUfd=0.2650381629488454 end
 handleTool(child)
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end)
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh,child in ipairs(huAkNK:GetChildren()) do
+if math.random() > 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+handleTool(child)
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end)
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+if MavWwr.fwxciM then
+if false then local _=0.3245391309170007 end
+for FkLYSh,child in ipairs(MavWwr.fwxciM:GetChildren()) do
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+handleTool(child)
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local aNKOBO=0.689745187854259 end
 if 1 ~= 1 then return nil end
 end
-ZDjrgU.IpIPjq.ChildAdded:Connect(igMUpK(child)
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local PIHUfd=0.2650381629488454 end
+MavWwr.fwxciM.ChildAdded:Connect(MRVrij(child)
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 handleTool(child)
 end)
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+do local aNKOBO=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+for fpzPnq=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
 else
 restoreAll()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
-if false then local _=0.5035630678708094 end
+if false then local FkLYSh=0.5035630678708094 end
 end,})
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local qKhiUS=function() end end
+do local _=function() end end
 
-local VRQfoP = {}
-local _=326;if _ == 0 then _=1 end
-local PZimXg = {}
-
-for _,APKwhX in ipairs(game.vhWpbS:GetPlayers()) do
-table.insert(PZimXg,APKwhX.Name)
-if false then local _=0.5035630678708094 end
-end
-
-local wQxYQF = bSKLXi:Dropdown({
-Title = (function() return string.char(23376)..string.char(24377)..string.char(38145)..string.char(23450)..string.char(30333)..string.char(21517)..string.char(21333) end)(),if false then local _=0.5035630678708094 end
-Values = PZimXg,Value = VRQfoP,Multi = true,Callback = igMUpK(d)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 for _=1,0 do end
-VRQfoP= d or {}
+local kpVMZn = {}
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local gbPbrQ = {}
+
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh,MVarux in ipairs(game.sIAoZg:GetPlayers()) do
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+table.insert(gbPbrQ,MVarux.Name)
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+
+for qKhiUS=1,0 do end
+local NTXzqW = ZQuMmC:Dropdown({
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(23376)..string.char(24377)..string.char(38145)..string.char(23450)..string.char(30333)..string.char(21517)..string.char(21333) end)(),if false then local FkLYSh=0.5035630678708094 end
+do local fpzPnq=function() end end
+Values = gbPbrQ,Value = kpVMZn,Multi = true,Callback = MRVrij(d)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for FkLYSh=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+kpVMZn= d or {}
+do local _=function() end end
 end,})
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local qKhiUS=function() end end
+ZQuMmC:Button({
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(21047)..string.char(26032)..string.char(30333)..string.char(21517)..string.char(21333) end)(),Callback = MRVrij()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+gbPbrQ= {}
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh,MVarux in ipairs(game.sIAoZg:GetPlayers()) do
+if 1 ~= 1 then return nil end
+table.insert(gbPbrQ,MVarux.Name)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
 if math.random() > 1 then return nil end
-bSKLXi:Button({
-Title = (function() return string.char(21047)..string.char(26032)..string.char(30333)..string.char(21517)..string.char(21333) end)(),Callback = igMUpK()
-PZimXg= {}
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local dAirKX = {}
+do local tjRSpI=function() end end
+for FkLYSh,name in ipairs(gbPbrQ) do
+for _=1,0 do end
 if 1 ~= 1 then return nil end
-for _,APKwhX in ipairs(game.vhWpbS:GetPlayers()) do
-table.insert(PZimXg,APKwhX.Name)
-end
-
-local _=326;if _ == 0 then _=1 end
-local txRTEN = {}
-for _,name in ipairs(PZimXg) do
-if table.find(VRQfoP,name) then
-table.insert(txRTEN,name)
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if table.find(kpVMZn,name) then
+if false then local fpzPnq=0.23295867704356044 end
+table.insert(dAirKX,name)
 if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
 end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
 end
-VRQfoP= txRTEN
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+kpVMZn= dAirKX
+do local PIHUfd=function() end end
 
-if false then local _=0.5035630678708094 end
-wQxYQF.Values = PZimXg
-wQxYQF.Value = VRQfoP
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+NTXzqW.Values = gbPbrQ
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local tjRSpI=0.9006855414627175 end
+NTXzqW.Value = kpVMZn
 end,})
-local _=326;if _ == 0 then _=1 end
+local _=907;if _ == 0 then _=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 
-local gHNIqc = (function() return string.char(20934)..string.char(24515)..string.char(20248)..string.char(20808) end)()
-bSKLXi:Dropdown({
+do local tjRSpI=function() end end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local wbBKjK = (function() return string.char(20934)..string.char(24515)..string.char(20248)..string.char(20808) end)()
+ZQuMmC:Dropdown({
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
 Title = (function() return string.char(25915)..string.char(20987)..string.char(27169)..string.char(24335) end)(),if math.random() > 1 then return nil end
-Values = { (function() return string.char(20934)..string.char(24515)..string.char(20248)..string.char(20808) end)(),(function() return string.char(36317)..string.char(31163)..string.char(20248)..string.char(20808) end)() },Value = gHNIqc,Callback = igMUpK(m)
-gHNIqc= m
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for tjRSpI=1,0 do end
+Values = { (function() return string.char(20934)..string.char(24515)..string.char(20248)..string.char(20808) end)(),(function() return string.char(36317)..string.char(31163)..string.char(20248)..string.char(20808) end)() },Value = wbBKjK,Callback = MRVrij(m)
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+wbBKjK= m
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 if 1 ~= 1 then return nil end
 end,})
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 
-local wSSIPu = false
-if false then local _=0.5035630678708094 end
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local hSfZkU = game:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())
-local ZDjrgU = vhWpbS.ZDjrgU
-local YSUXne
-local _=326;if _ == 0 then _=1 end
-
-local igMUpK getClosestHead()
-local rNBWZr,shortestDist,closestScreenDist = nil,math.huge,math.huge
-for _,esEmUn in ipairs(vhWpbS:GetPlayers()) do
-if false then local _=0.5035630678708094 end
-if
-esEmUn ~= ZDjrgU
-and not table.find(VRQfoP,esEmUn.Name)
-and esEmUn.IpIPjq
-for _=1,0 do end
-and esEmUn.IpIPjq:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
-then
-local VirTgI = esEmUn.IpIPjq.Head
-local REyJPX = (VirTgI.Position - hSfZkU.CurrentCamera.CFrame.Position).Magnitude
+local tQSvAj = false
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local PIHUfd=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+for tjRSpI=1,0 do end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local FxCgDg = game:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
 if math.random() > 1 then return nil end
-
-if gHNIqc== (function() return string.char(36317)..string.char(31163)..string.char(20248)..string.char(20808) end)() then
-if REyJPX < shortestDist then
-shortestDist,rNBWZr= REyJPX,VirTgI
+if false then local fpzPnq=0.23295867704356044 end
+local MavWwr = sIAoZg.MavWwr
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
+local TmGJcj
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local PIHUfd=function() end end
+
+local _=907;if _ == 0 then _=1 end
+local MRVrij getClosestHead()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local cOvSeR,shortestDist,closestScreenDist = nil,math.huge,math.huge
+for FkLYSh,DJqhDx in ipairs(sIAoZg:GetPlayers()) do
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+do local aNKOBO=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
+if
+for fpzPnq=1,0 do end
+DJqhDx ~= MavWwr
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+and not table.find(kpVMZn,DJqhDx.Name)
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+and DJqhDx.fwxciM
+do local _=function() end end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+and DJqhDx.fwxciM:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
+then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local CHVKFO = DJqhDx.fwxciM.Head
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local GqiXvt = (CHVKFO.Position - FxCgDg.CurrentCamera.CFrame.Position).Magnitude
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+
+if false then local _=0.3245391309170007 end
+do local aNKOBO=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if wbBKjK== (function() return string.char(36317)..string.char(31163)..string.char(20248)..string.char(20808) end)() then
+for qKhiUS=1,0 do end
+if GqiXvt < shortestDist then
+if math.random() > 1 then return nil end
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+shortestDist,cOvSeR= GqiXvt,CHVKFO
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 else
-local xqyvNf,_ = hSfZkU.CurrentCamera:WorldToViewportPoint(VirTgI.Position)
-local iUhZVE =
+local dzguAw,FkLYSh= FxCgDg.CurrentCamera:WorldToViewportPoint(CHVKFO.Position)
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local wEQWNY =
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+for tjRSpI=1,0 do end
 do local _=function() end end
-Vector2.new(hSfZkU.CurrentCamera.ViewportSize.X / 2,hSfZkU.CurrentCamera.ViewportSize.Y / 2)
-local AegGZU = (Vector2.new(xqyvNf.X,xqyvNf.Y) - iUhZVE).Magnitude
-if AegGZU < closestScreenDist then
-closestScreenDist,rNBWZr= AegGZU,VirTgI
+do local FkLYSh=function() end end
+do local qKhiUS=function() end end
+Vector2.new(FxCgDg.CurrentCamera.ViewportSize.X / 2,FxCgDg.CurrentCamera.ViewportSize.Y / 2)
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+local ylXajk = (Vector2.new(dzguAw.X,dzguAw.Y) - wEQWNY).Magnitude
+if ylXajk < closestScreenDist then
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+closestScreenDist,cOvSeR= ylXajk,CHVKFO
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local FkLYSh=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+for tjRSpI=1,0 do end
 do local _=function() end end
 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
 end
 end
-end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+return cOvSeR
 do local _=function() end end
-return rNBWZr
+for qKhiUS=1,0 do end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local _=function() end end
+for fpzPnq=1,0 do end
 end
 
-bSKLXi:Toggle({
-if false then local _=0.5035630678708094 end
-Title = (function() return string.char(23376)..string.char(24377)..string.char(38145)..string.char(23450) end)(),Value = false,Callback = igMUpK(state)
-wSSIPu= state
-local _=326;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+ZQuMmC:Toggle({
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+Title = (function() return string.char(23376)..string.char(24377)..string.char(38145)..string.char(23450) end)(),Value = false,Callback = MRVrij(state)
+tQSvAj= state
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 if state then
-if not YSUXne then
-YSUXne= game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).Heartbeat:Connect(igMUpK()
-local VirTgI = getClosestHead()
+for aNKOBO=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if not TmGJcj then
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+TmGJcj= game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).Heartbeat:Connect(MRVrij()
+local CHVKFO = getClosestHead()
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
 if 1 ~= 1 then return nil end
 if
-wSSIPu
-and VirTgI
-and ZDjrgU.IpIPjq
-do local _=function() end end
-and ZDjrgU.IpIPjq:FindFirstChildOfClass((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)())
+if false then local _=0.3245391309170007 end
+tQSvAj
+and CHVKFO
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+and MavWwr.fwxciM
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+and MavWwr.fwxciM:FindFirstChildOfClass((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)())
+if false then local tjRSpI=0.9006855414627175 end
 then
-local QKvLHn = ZDjrgU.IpIPjq:FindFirstChildOfClass((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)())
-if QKvLHn:FindFirstChild((function() return string.char(121)..string.char(86)..string.char(104)..string.char(113)..string.char(73)..string.char(75) end)()) then
-local _=326;if _ == 0 then _=1 end
-QKvLHn.yVhqIK.CFrame = CFrame.new(QKvLHn.yVhqIK.Position,VirTgI.Position)
-end
-end
-end)
-if false then local _=0.5035630678708094 end
-end
-else
-if YSUXne then
-YSUXne:Disconnect()
+if false then local PIHUfd=0.2650381629488454 end
 for _=1,0 do end
-YSUXne= nil
+if false then local fpzPnq=0.23295867704356044 end
+local LRWnsZ = MavWwr.fwxciM:FindFirstChildOfClass((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)())
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+for aNKOBO=1,0 do end
+if LRWnsZ:FindFirstChild((function() return string.char(121)..string.char(86)..string.char(104)..string.char(113)..string.char(73)..string.char(75) end)()) then
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+LRWnsZ.fCPJTk.CFrame = CFrame.new(LRWnsZ.fCPJTk.Position,CHVKFO.Position)
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+end
+for aNKOBO=1,0 do end
+for _=1,0 do end
+end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+end)
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+else
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if TmGJcj then
+if 1 ~= 1 then return nil end
+TmGJcj:Disconnect()
+for _=1,0 do end
+for FkLYSh=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+TmGJcj= nil
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
 end
 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+do local fpzPnq=function() end end
 end,if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
 })
 
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
 if not _G.BulletLockHooked then
 _G.BulletLockHooked = true
-for _=1,0 do end
-local GGLxyt
-GGLxyt= hookmetamethod(game,(function() return string.char(95)..string.char(95)..string.char(110)..string.char(97)..string.char(109)..string.char(101)..string.char(99)..string.char(97)..string.char(108)..string.char(108) end)(),igMUpK(self,...)
-local snHIjA = getnamecallmethod()
-if wSSIPu and not checkcaller() and self == hSfZkU then
-if math.random() > 1 then return nil end
-if snHIjA== (function() return string.char(82)..string.char(97)..string.char(121)..string.char(99)..string.char(97)..string.char(115)..string.char(116) end)() then
-local ywEpgs,direction = ...
-local VirTgI = getClosestHead()
-if ywEpgs and direction and VirTgI then
-for _=1,0 do end
-return {
-Instance = VirTgI,Position = VirTgI.Position,Normal = (VirTgI.Position - ywEpgs).Unit,local _=326;if _ == 0 then _=1 end
-Material = Enum.Material.Plastic,}
-end
-elseif snHIjA== (function() return string.char(70)..string.char(105)..string.char(110)..string.char(100)..string.char(80)..string.char(97)..string.char(114)..string.char(116)..string.char(79)..string.char(110)..string.char(82)..string.char(97)..string.char(121) end)() then
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+for FkLYSh=1,0 do end
+do local tjRSpI=function() end end
 do local _=function() end end
-local MhXJKm = ...
-local VirTgI = getClosestHead()
-if MhXJKm and VirTgI then
-return VirTgI,VirTgI.Position,(VirTgI.Position - MhXJKm.Origin).Unit
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local rafMGD
+rafMGD= hookmetamethod(game,(function() return string.char(95)..string.char(95)..string.char(110)..string.char(97)..string.char(109)..string.char(101)..string.char(99)..string.char(97)..string.char(108)..string.char(108) end)(),MRVrij(self,...)
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local fEhqsy = getnamecallmethod()
+do local fpzPnq=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if tQSvAj and not checkcaller() and self == FxCgDg then
 for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if fEhqsy== (function() return string.char(82)..string.char(97)..string.char(121)..string.char(99)..string.char(97)..string.char(115)..string.char(116) end)() then
+local GTkdzM,direction = ...
+do local PIHUfd=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local CHVKFO = getClosestHead()
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if GTkdzM and direction and CHVKFO then
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+return {
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+Instance = CHVKFO,Position = CHVKFO.Position,Normal = (CHVKFO.Position - GTkdzM).Unit,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+for qKhiUS=1,0 do end
+Material = Enum.Material.Plastic,}
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+do local PIHUfd=function() end end
+end
+elseif fEhqsy== (function() return string.char(70)..string.char(105)..string.char(110)..string.char(100)..string.char(80)..string.char(97)..string.char(114)..string.char(116)..string.char(79)..string.char(110)..string.char(82)..string.char(97)..string.char(121) end)() then
+do local qKhiUS=function() end end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+local mCkRfm = ...
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local CHVKFO = getClosestHead()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if mCkRfm and CHVKFO then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+return CHVKFO,CHVKFO.Position,(CHVKFO.Position - mCkRfm.Origin).Unit
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
 end
 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 end
-return GGLxyt(self,...)
+return rafMGD(self,...)
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
 if 1 ~= 1 then return nil end
 end)
+if false then local aNKOBO=0.689745187854259 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end
 
-game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(igMUpK()
-if false then local _=0.5035630678708094 end
-LXhRzR.Position = workspace.CurrentCamera.ViewportSize / 2
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(MRVrij()
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+tyeUHh.Position = workspace.CurrentCamera.ViewportSize / 2
+do local PIHUfd=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 
-if ouGXPO then
-local qjDHyW = getClosestPlayerInFOV(BuAWAG)
-local _=326;if _ == 0 then _=1 end
-if qjDHyW and qjDHyW.IpIPjq:FindFirstChild(BuAWAG) then
-lookAt(qjDHyW.IpIPjq[BuAWAG].Position)
+if 1 ~= 1 then return nil end
+if loOlmX then
+local veRZLn = getClosestPlayerInFOV(PgqeJA)
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if veRZLn and veRZLn.fwxciM:FindFirstChild(PgqeJA) then
+if false then local _=0.3245391309170007 end
+lookAt(veRZLn.fwxciM[PgqeJA].Position)
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
 end
+for qKhiUS=1,0 do end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+if aKkjnl then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
 do local _=function() end end
-
-if DgVNPN then
-local xlUGor = tick() * 2
-local wtgWKJ = math.abs(math.sin(xlUGor))
+if false then local fpzPnq=0.23295867704356044 end
+local MgXxFB = tick() * 2
+if 1 ~= 1 then return nil end
+local XiRJsy = math.abs(math.sin(MgXxFB))
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
+local PeLYqj = math.abs(math.sin(MgXxFB + 2 * math.pi / 3))
+if math.random() > 1 then return nil end
+local lCPKvh = math.abs(math.sin(MgXxFB + 4 * math.pi / 3))
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 for _=1,0 do end
-local XKzfZM = math.abs(math.sin(xlUGor + 2 * math.pi / 3))
-local QpgFPm = math.abs(math.sin(xlUGor + 4 * math.pi / 3))
-LXhRzR.Color = Color3.new(wtgWKJ,XKzfZM,QpgFPm)
+tyeUHh.Color = Color3.new(XiRJsy,PeLYqj,lCPKvh)
+if false then local tjRSpI=0.9006855414627175 end
 end
-do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+do local FkLYSh=function() end end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
 end)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 
-DFjymd:Toggle({
-Title = (function() return string.char(29609)..string.char(23478)..string.char(31359)..string.char(22681) end)(),for _=1,0 do end
-Value = false,Callback = igMUpK(s)
+if false then local qKhiUS=0.17959263031053085 end
+BAFsBD:Toggle({
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+Title = (function() return string.char(29609)..string.char(23478)..string.char(31359)..string.char(22681) end)(),for FkLYSh=1,0 do end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+Value = false,Callback = MRVrij(s)
+do local _=function() end end
 if NC then
 NC:Disconnect()
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
 if math.random() > 1 then return nil end
 end
+if false then local fpzPnq=0.23295867704356044 end
 if s then
-NC = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(igMUpK()
-if sTPAfM.IpIPjq then
-local _=326;if _ == 0 then _=1 end
-for _,v in pairs(sTPAfM.IpIPjq:GetDescendants()) do
+do local _=function() end end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+NC = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).RenderStepped:Connect(MRVrij()
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+if NZfNmh.fwxciM then
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for FkLYSh,v in pairs(NZfNmh.fwxciM:GetDescendants()) do
 if v:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
 v.CanCollide = false
-end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if 1 ~= 1 then return nil end
 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
 end
-end)
+if false then local _=0.3245391309170007 end
 end
-if false then local _=0.5035630678708094 end
-end,})
-
-DFjymd:Toggle({
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
 do local _=function() end end
-Title = (function() return string.char(26080)..string.char(38480)..string.char(36339)..string.char(36291) end)(),Value = false,Callback = igMUpK(s)
-local APKwhX,cBDqsD,XTFULr= game.vhWpbS.ZDjrgU,game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()),game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
 if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+end)
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+end
+if false then local FkLYSh=0.5035630678708094 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+end,})
+local _=907;if _ == 0 then _=1 end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+BAFsBD:Toggle({
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local FkLYSh=function() end end
+Title = (function() return string.char(26080)..string.char(38480)..string.char(36339)..string.char(36291) end)(),Value = false,Callback = MRVrij(s)
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local MVarux,pSnUrj,oMyrHp= game.sIAoZg.MavWwr,game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)()),game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
+if 1 ~= 1 then return nil end
+do local _=function() end end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+do local _=function() end end
 if IJ then
+for tjRSpI=1,0 do end
 IJ:Disconnect()
+do local fpzPnq=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
 end
+do local fpzPnq=function() end end
 if s then
-if false then local _=0.5035630678708094 end
-IJ = XTFULr.RenderStepped:Connect(igMUpK()
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
+IJ = oMyrHp.RenderStepped:Connect(MRVrij()
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local PIHUfd=function() end end
+if false then local aNKOBO=0.689745187854259 end
 if
-cBDqsD:IsKeyDown(Enum.KeyCode.Space)
-and APKwhX.IpIPjq
+do local _=function() end end
+pSnUrj:IsKeyDown(Enum.KeyCode.Space)
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+do local _=function() end end
+and MVarux.fwxciM
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-and APKwhX.IpIPjq:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+and MVarux.fwxciM:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
 then
-APKwhX.IpIPjq:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()):ChangeState(Enum.HumanoidStateType.Jumping)
-end
+for fpzPnq=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local _=function() end end
 if 1 ~= 1 then return nil end
+MVarux.fwxciM:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()):ChangeState(Enum.HumanoidStateType.Jumping)
+if 1 ~= 1 then return nil end
+end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
 end)
 end
 end,})
-for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh=1,0 do end
 
-local fGJiHR,enabled,lastcf
-DFjymd:Toggle({
-Title = (function() return string.char(37325)..string.char(29983)..string.char(20462)..string.char(25913) end)(),if false then local _=0.5035630678708094 end
-Value = false,Callback = igMUpK(v)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+local iQdhcD,enabled,lastcf
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+BAFsBD:Toggle({
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+Title = (function() return string.char(37325)..string.char(29983)..string.char(20462)..string.char(25913) end)(),if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
+Value = false,Callback = MRVrij(v)
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
 enabled = v
+if 1 ~= 1 then return nil end
 if v then
-if math.random() > 1 then return nil end
-if fGJiHR then
-fGJiHR:Disconnect()
-end
-fGJiHR= game.vhWpbS.ZDjrgU.CharacterAdded:Connect(igMUpK(ITtgXm)
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 do local _=function() end end
-local wtgWKJ = ITtgXm:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if iQdhcD then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+iQdhcD:Disconnect()
+if 1 ~= 1 then return nil end
+end
+for aNKOBO=1,0 do end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+iQdhcD= game.sIAoZg.MavWwr.CharacterAdded:Connect(MRVrij(GuhEPI)
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local PIHUfd=0.2650381629488454 end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+local XiRJsy = GuhEPI:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
 if enabled and lastcf then
-for Bbeoeq= 1,10 do
-wtgWKJ.CFrame = lastcf
+local _=907;if _ == 0 then _=1 end
 if 1 ~= 1 then return nil end
-wtgWKJ.AssemblyLinearVelocity = Vector3.zero
-wtgWKJ.AssemblyAngularVelocity = Vector3.zero
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+for ISftiK= 1,10 do
+if math.random() > 1 then return nil end
+XiRJsy.CFrame = lastcf
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+XiRJsy.AssemblyLinearVelocity = Vector3.zero
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local qKhiUS=function() end end
+XiRJsy.AssemblyAngularVelocity = Vector3.zero
 game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)()).Heartbeat:Wait()
+for _=1,0 do end
 end
-local _=326;if _ == 0 then _=1 end
-end
-ITtgXm:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()).Died:Connect(igMUpK()
-if enabled then
-lastcf = wtgWKJ.CFrame
-if false then local _=0.5035630678708094 end
-end
-end)
-end)
-if game.vhWpbS.ZDjrgU.IpIPjq then
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for tjRSpI=1,0 do end
+for aNKOBO=1,0 do end
 if math.random() > 1 then return nil end
-local wbAyON = game.vhWpbS.ZDjrgU.IpIPjq:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-if wbAyON then
-wbAyON.Died:Connect(igMUpK()
+for fpzPnq=1,0 do end
+end
+GuhEPI:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)()).Died:Connect(MRVrij()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
 if enabled then
-local _=326;if _ == 0 then _=1 end
-lastcf = game.vhWpbS.ZDjrgU.IpIPjq:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()).CFrame
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+lastcf = XiRJsy.CFrame
+do local aNKOBO=function() end end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+for PIHUfd=1,0 do end
+do local _=function() end end
 end
 end)
-end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+end)
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if game.sIAoZg.MavWwr.fwxciM then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local AsWhRv = game.sIAoZg.MavWwr.fwxciM:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if AsWhRv then
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+AsWhRv.Died:Connect(MRVrij()
+if 1 ~= 1 then return nil end
+if enabled then
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+lastcf = game.sIAoZg.MavWwr.fwxciM:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()).CFrame
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 if math.random() > 1 then return nil end
 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+end)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
 else
-if fGJiHR then
-fGJiHR:Disconnect()
-if false then local _=0.5035630678708094 end
-fGJiHR= nil
+do local qKhiUS=function() end end
+if iQdhcD then
+for _=1,0 do end
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+iQdhcD:Disconnect()
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local FkLYSh=0.5035630678708094 end
+iQdhcD= nil
+if false then local tjRSpI=0.9006855414627175 end
 end
+local _=907;if _ == 0 then _=1 end
 lastcf = nil
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
 end
 if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 end,})
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
-local EbLmFg = false
-for _=1,0 do end
-local NEFcmq = {}
+local _=907;if _ == 0 then _=1 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local jsKJqJ = false
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local RjdEzZ = {}
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
 
-DFjymd:Toggle({
-Title = (function() return string.char(31186)..string.char(37325)..string.char(29983) end)(),local _=326;if _ == 0 then _=1 end
-Value = false,Callback = igMUpK(state)
-EbLmFg= state
-
-for _=1,0 do end
-for _,fGJiHR in ipairs(NEFcmq) do
-fGJiHR:Disconnect()
-end
-NEFcmq= {}
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+BAFsBD:Toggle({
+for PIHUfd=1,0 do end
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+Title = (function() return string.char(31186)..string.char(37325)..string.char(29983) end)(),local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+Value = false,Callback = MRVrij(state)
+jsKJqJ= state
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 do local _=function() end end
 
-if not EbLmFg then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for FkLYSh=1,0 do end
+for FkLYSh,iQdhcD in ipairs(RjdEzZ) do
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+iQdhcD:Disconnect()
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for aNKOBO=1,0 do end
+end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+RjdEzZ= {}
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+for PIHUfd=1,0 do end
+
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if not jsKJqJ then
+for _=1,0 do end
+do local tjRSpI=function() end end
 return
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
-if false then local _=0.5035630678708094 end
-
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local TFMSet = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
-local GhGLVV = vhWpbS.ZDjrgU
+if false then local FkLYSh=0.5035630678708094 end
 for _=1,0 do end
-local ffhSDg = TFMSet:WaitForChild((function() return string.char(82)..string.char(101)..string.char(109)..string.char(111)..string.char(116)..string.char(101)..string.char(115) end)()):WaitForChild((function() return string.char(102)..string.char(102)..string.char(104)..string.char(83)..string.char(68)..string.char(103) end)())
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
 
-local igMUpK setupCharacter(qpXeDh)
-local kyNlhv = qpXeDh:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+local MeIVBg = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
+local hrgshE = sIAoZg.MavWwr
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+local XVIObM = MeIVBg:WaitForChild((function() return string.char(82)..string.char(101)..string.char(109)..string.char(111)..string.char(116)..string.char(101)..string.char(115) end)()):WaitForChild((function() return string.char(102)..string.char(102)..string.char(104)..string.char(83)..string.char(68)..string.char(103) end)())
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
 
-local fGJiHR = kyNlhv.HealthChanged:Connect(igMUpK(health)
-if not EbLmFg then
+for tjRSpI=1,0 do end
+local MRVrij setupCharacter(huAkNK)
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+local ZgFNmc = huAkNK:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+do local FkLYSh=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local iQdhcD = ZgFNmc.HealthChanged:Connect(MRVrij(health)
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if not jsKJqJ then
 return
-do local _=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
 end
+do local aNKOBO=function() end end
+for fpzPnq=1,0 do end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if health <= 0 then
-task.spawn(igMUpK()
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+task.spawn(MRVrij()
+do local _=function() end end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
 while
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-EbLmFg
-and (not GhGLVV.IpIPjq
-or not GhGLVV.IpIPjq:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-local _=326;if _ == 0 then _=1 end
-or GhGLVV.IpIPjq.gOWHwD.Health <= 0)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+jsKJqJ
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+and (not hrgshE.fwxciM
+if false then local fpzPnq=0.23295867704356044 end
+or not hrgshE.fwxciM:FindFirstChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+or hrgshE.fwxciM.hXKuHo.Health <= 0)
 do
-pcall(igMUpK()
-local _=326;if _ == 0 then _=1 end
-ffhSDg:FireServer()
+if false then local _=0.3245391309170007 end
+pcall(MRVrij()
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+XVIObM:FireServer()
+if false then local qKhiUS=0.17959263031053085 end
 end)
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
 task.wait(0.2)
+if math.random() > 1 then return nil end
 end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+do local tjRSpI=function() end end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+end)
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+end
+end)
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+table.insert(RjdEzZ,iQdhcD)
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+for fpzPnq=1,0 do end
+
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if hrgshE.fwxciM then
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 do local _=function() end end
-end)
-end
-end)
-
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+setupCharacter(hrgshE.fwxciM)
+if false then local aNKOBO=0.689745187854259 end
 if math.random() > 1 then return nil end
-table.insert(NEFcmq,fGJiHR)
-end
-
-if GhGLVV.IpIPjq then
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
 if math.random() > 1 then return nil end
-setupCharacter(GhGLVV.IpIPjq)
 end
+if 1 ~= 1 then return nil end
 
-local yovTvW = GhGLVV.CharacterAdded:Connect(setupCharacter)
-if false then local _=0.5035630678708094 end
-table.insert(NEFcmq,yovTvW)
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+local mkMwfG = hrgshE.CharacterAdded:Connect(setupCharacter)
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+table.insert(RjdEzZ,mkMwfG)
+do local fpzPnq=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
 end,})
 
 for _=1,0 do end
-local PlImJC = 500
-local yiKyQC
-local wiIMLF = false
-local dgQwQR = false
-if false then local _=0.5035630678708094 end
-local DataFM = false
-
-local XTFULr = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
-local cBDqsD = game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 for _=1,0 do end
-local esEmUn = game.vhWpbS.ZDjrgU
-
-local igMUpK startFly()
-local qpXeDh = esEmUn.IpIPjq or esEmUn.CharacterAdded:Wait()
-do local _=function() end end
-local FXipQm = qpXeDh:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-local tFUJJe = qpXeDh:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-FXipQm.PlatformStand = false
-
-local _=326;if _ == 0 then _=1 end
-if yiKyQC then
-yiKyQC:Disconnect()
-end
-yiKyQC= XTFULr.RenderStepped:Connect(igMUpK()
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+local egTBmh = 500
+local wdGtei
+local Mrtagi = false
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
+local WUmFRf = false
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-if not dgQwQR then
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local FkLYSh=0.5035630678708094 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local OaEled = false
+
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local oMyrHp = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for aNKOBO=1,0 do end
+local pSnUrj = game:GetService((function() return string.char(85)..string.char(115)..string.char(101)..string.char(114)..string.char(73)..string.char(110)..string.char(112)..string.char(117)..string.char(116)..string.char(83)..string.char(101)..string.char(114)..string.char(118)..string.char(105)..string.char(99)..string.char(101) end)())
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local DJqhDx = game.sIAoZg.MavWwr
+if math.random() > 1 then return nil end
+
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+do local tjRSpI=function() end end
+local MRVrij startFly()
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local huAkNK = DJqhDx.fwxciM or DJqhDx.CharacterAdded:Wait()
+if false then local _=0.3245391309170007 end
+do local FkLYSh=function() end end
+local GgeqUF = huAkNK:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for aNKOBO=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+local mNEhsj = huAkNK:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+for _=1,0 do end
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+GgeqUF.PlatformStand = false
+for qKhiUS=1,0 do end
+do local _=function() end end
+
+do local tjRSpI=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if wdGtei then
+if 1 ~= 1 then return nil end
+wdGtei:Disconnect()
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+wdGtei= oMyrHp.RenderStepped:Connect(MRVrij()
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if not WUmFRf then
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
 return
+if false then local tjRSpI=0.9006855414627175 end
 end
-local ImgCfW = Vector3.zero
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+local vzIeLe = Vector3.zero
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+do local FkLYSh=function() end end
 do local _=function() end end
-local wstzNC = workspace.CurrentCamera.CFrame
+if false then local tjRSpI=0.9006855414627175 end
+local Tnooqh = workspace.CurrentCamera.CFrame
+if false then local qKhiUS=0.17959263031053085 end
 
-if cBDqsD:IsKeyDown(Enum.KeyCode.W) then
-ImgCfW += wstzNC.LookVector
-if false then local _=0.5035630678708094 end
-end
-if cBDqsD:IsKeyDown(Enum.KeyCode.S) then
-ImgCfW -= wstzNC.LookVector
-end
-if math.random() > 1 then return nil end
-if cBDqsD:IsKeyDown(Enum.KeyCode.NwXwuf) then
-ImgCfW -= wstzNC.RightVector
-end
-if cBDqsD:IsKeyDown(Enum.KeyCode.D) then
-if math.random() > 1 then return nil end
-ImgCfW += wstzNC.RightVector
-end
-if cBDqsD:IsKeyDown(Enum.KeyCode.E) then
-ImgCfW += Vector3.new(0,1,0)
-if false then local _=0.5035630678708094 end
-end
-if cBDqsD:IsKeyDown(Enum.KeyCode.Q) then
-ImgCfW -= Vector3.new(0,1,0)
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+if pSnUrj:IsKeyDown(Enum.KeyCode.W) then
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+vzIeLe += Tnooqh.LookVector
+if false then local FkLYSh=0.5035630678708094 end
 end
 if 1 ~= 1 then return nil end
-
-if DataFM then
-tFUJJe.CFrame = CFrame.new(tFUJJe.Position,tFUJJe.Position + wstzNC.LookVector)
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local qKhiUS=function() end end
+for aNKOBO=1,0 do end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if pSnUrj:IsKeyDown(Enum.KeyCode.S) then
+vzIeLe -= Tnooqh.LookVector
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if pSnUrj:IsKeyDown(Enum.KeyCode.zjdeCQ) then
+if math.random() > 1 then return nil end
+vzIeLe -= Tnooqh.RightVector
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+end
+if pSnUrj:IsKeyDown(Enum.KeyCode.D) then
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+vzIeLe += Tnooqh.RightVector
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
 end
 if math.random() > 1 then return nil end
+if pSnUrj:IsKeyDown(Enum.KeyCode.E) then
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+vzIeLe += Vector3.new(0,1,0)
+if false then local FkLYSh=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+end
+if pSnUrj:IsKeyDown(Enum.KeyCode.Q) then
+do local _=function() end end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local aNKOBO=function() end end
+vzIeLe -= Vector3.new(0,1,0)
+if false then local tjRSpI=0.9006855414627175 end
+end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 
-tFUJJe.Velocity = (ImgCfW.Magnitude > 0 and ImgCfW.Unit * PlImJC) or Vector3.zero
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if OaEled then
+mNEhsj.CFrame = CFrame.new(mNEhsj.Position,mNEhsj.Position + Tnooqh.LookVector)
+do local _=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+mNEhsj.Velocity = (vzIeLe.Magnitude > 0 and vzIeLe.Unit * egTBmh) or Vector3.zero
+if false then local fpzPnq=0.23295867704356044 end
 end)
-end
-do local _=function() end end
-
-local igMUpK stopFly()
-if yiKyQC then
-yiKyQC:Disconnect()
-if false then local _=0.5035630678708094 end
-yiKyQC= nil
-end
-local qpXeDh = esEmUn.IpIPjq
-if qpXeDh and qpXeDh:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
 if 1 ~= 1 then return nil end
-qpXeDh.kIZntd.Velocity = Vector3.zero
+do local tjRSpI=function() end end
 end
-end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for qKhiUS=1,0 do end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
 
-if false then local _=0.5035630678708094 end
-DFjymd:Toggle({
-Title = (function() return string.char(29609)..string.char(23478)..string.char(39134)..string.char(34892) end)(),Value = wiIMLF,Callback = igMUpK(enabled)
+local MRVrij stopFly()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if wdGtei then
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+wdGtei:Disconnect()
 if math.random() > 1 then return nil end
-wiIMLF= enabled
-dgQwQR= wiIMLF
-if dgQwQR then
-startFly()
+do local _=function() end end
+do local tjRSpI=function() end end
+if false then local FkLYSh=0.5035630678708094 end
+wdGtei= nil
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
 if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local huAkNK = DJqhDx.fwxciM
+if false then local _=0.3245391309170007 end
+if huAkNK and huAkNK:FindFirstChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)()) then
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+huAkNK.KkWnwU.Velocity = Vector3.zero
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+for tjRSpI=1,0 do end
+end
+
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+for _=1,0 do end
+BAFsBD:Toggle({
+Title = (function() return string.char(29609)..string.char(23478)..string.char(39134)..string.char(34892) end)(),Value = Mrtagi,Callback = MRVrij(enabled)
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+Mrtagi= enabled
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for fpzPnq=1,0 do end
+do local _=function() end end
+WUmFRf= Mrtagi
+if WUmFRf then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+startFly()
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 else
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
 stopFly()
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
 end
-end,for _=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end,for FkLYSh=1,0 do end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 })
+for _=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
 
-DFjymd:Toggle({
-Title = (function() return string.char(35282)..string.char(33394)..string.char(26397)..string.char(21521)..string.char(25668)..string.char(20687)..string.char(26426) end)(),for _=1,0 do end
-Value = DataFM,Callback = igMUpK(enabled)
-DataFM= enabled
-end,for _=1,0 do end
-})
-
-DFjymd:Input({
-Title = (function() return string.char(39134)..string.char(34892)..string.char(36895)..string.char(24230) end)(),do local _=function() end end
-Placeholder = tostring(PlImJC),Callback = igMUpK(xlUGor)
-local qsVRrE = tonumber(xlUGor)
-if qsVRrE then
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+BAFsBD:Toggle({
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+Title = (function() return string.char(35282)..string.char(33394)..string.char(26397)..string.char(21521)..string.char(25668)..string.char(20687)..string.char(26426) end)(),for FkLYSh=1,0 do end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+Value = OaEled,Callback = MRVrij(enabled)
 do local _=function() end end
-PlImJC= qsVRrE
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+OaEled= enabled
+if 1 ~= 1 then return nil end
+end,for FkLYSh=1,0 do end
+})
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+BAFsBD:Input({
+Title = (function() return string.char(39134)..string.char(34892)..string.char(36895)..string.char(24230) end)(),do local FkLYSh=function() end end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+Placeholder = tostring(egTBmh),Callback = MRVrij(MgXxFB)
+do local tjRSpI=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local DIjdgN = tonumber(MgXxFB)
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+if DIjdgN then
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+do local FkLYSh=function() end end
+egTBmh= DIjdgN
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+for qKhiUS=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 end,})
-do local _=function() end end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
+do local FkLYSh=function() end end
 
-cBDqsD.InputBegan:Connect(igMUpK(input,gameProcessed)
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+for aNKOBO=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+pSnUrj.InputBegan:Connect(MRVrij(input,gameProcessed)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
 if gameProcessed then
 return
-for _=1,0 do end
+for FkLYSh=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for PIHUfd=1,0 do end
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
 end
-if input.KeyCode == Enum.KeyCode.CapsLock and wiIMLF then
-dgQwQR= not dgQwQR
-if dgQwQR then
-for _=1,0 do end
+do local tjRSpI=function() end end
+if input.KeyCode == Enum.KeyCode.CapsLock and Mrtagi then
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+WUmFRf= not WUmFRf
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if WUmFRf then
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for tjRSpI=1,0 do end
+do local _=function() end end
+do local qKhiUS=function() end end
+for FkLYSh=1,0 do end
 startFly()
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+if false then local PIHUfd=0.2650381629488454 end
 else
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
 stopFly()
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+for fpzPnq=1,0 do end
 if 1 ~= 1 then return nil end
 end
-end)
-
-DFjymd:Toggle({
 if math.random() > 1 then return nil end
-Title = (function() return string.char(33258)..string.char(21160)..string.char(21307)..string.char(30103)..string.char(31665) end)(),Value = false,Callback = igMUpK(enabled)
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local _=326;if _ == 0 then _=1 end
-local sTPAfM = vhWpbS.ZDjrgU
+local _=907;if _ == 0 then _=1 end
+end)
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 
-local igMUpK setupCharacter(iTmTql)
-local gOWHwD = iTmTql:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+BAFsBD:Toggle({
 for _=1,0 do end
-local kIZntd = iTmTql:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-local TFMSet = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
-local fdmpZl = TFMSet.Remotes.Medkit:FindFirstChild((function() return string.char(72)..string.char(80)..string.char(108)..string.char(114) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+Title = (function() return string.char(33258)..string.char(21160)..string.char(21307)..string.char(30103)..string.char(31665) end)(),Value = false,Callback = MRVrij(enabled)
+for PIHUfd=1,0 do end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+local NZfNmh = sIAoZg.MavWwr
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+local MRVrij setupCharacter(GcXKrS)
+local hXKuHo = GcXKrS:WaitForChild((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
+local KkWnwU = GcXKrS:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local MeIVBg = game:GetService((function() return string.char(84)..string.char(70)..string.char(77)..string.char(83)..string.char(101)..string.char(116) end)())
+do local qKhiUS=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local cebkRI = MeIVBg.Remotes.Medkit:FindFirstChild((function() return string.char(72)..string.char(80)..string.char(108)..string.char(114) end)())
+if false then local fpzPnq=0.23295867704356044 end
 
 do local _=function() end end
+do local FkLYSh=function() end end
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if enabled then
-local WrGrPq = gOWHwD.Health
-local drZAEb = false
-local hkltHS = nil
-local _=326;if _ == 0 then _=1 end
+local _=907;if _ == 0 then _=1 end
+local uclXAH = hXKuHo.Health
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+local VjQKHm = false
+local WPRzwV = nil
+if false then local PIHUfd=0.2650381629488454 end
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+do local qKhiUS=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
 
-local igMUpK getAndUseMedkit()
-if drZAEb then
-return
-for _=1,0 do end
-end
-drZAEb= true
-
-local IqsWba,shortestDistance = nil,math.huge
-local _=326;if _ == 0 then _=1 end
-for _,tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
-local UZaVxN = tycoonData:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
-and tycoonData.PurchasedObjects:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
-if UZaVxN then
+for tjRSpI=1,0 do end
+local MRVrij getAndUseMedkit()
 if 1 ~= 1 then return nil end
-local AIqSXA = UZaVxN:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
-and UZaVxN.Prompt:FindFirstChild((function() return string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
-if AIqSXA and AIqSXA:IsA((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)()) then
-local PtrjNx = (kIZntd.Position - AIqSXA.Parent.Position).Magnitude
-local _=326;if _ == 0 then _=1 end
-if PtrjNx < shortestDistance then
-shortestDistance = PtrjNx
-IqsWba= AIqSXA
-end
-local _=326;if _ == 0 then _=1 end
-end
-end
-end
-
-if false then local _=0.5035630678708094 end
-if IqsWba then
-local dbagHP = kIZntd.CFrame
-
-local xnKjvk = 3
-local _=326;if _ == 0 then _=1 end
-local FXiBiL = 0
-local LWhtmx = false
-
-repeat
-local _=326;if _ == 0 then _=1 end
-FXiBiL= FXiBiL + 1
-
-local msMdWp = CFrame.new(math.random(-0.5,0.5),0,math.random(-2,-1))
-pcall(igMUpK()
-local _=326;if _ == 0 then _=1 end
-kIZntd.CFrame = IqsWba.Parent.CFrame * msMdWp
-end)
-task.wait(0.2)
-
-for _=1,0 do end
-pcall(igMUpK()
-kIZntd.CFrame =
-CFrame.new(kIZntd.Position,IqsWba.Parent.Position)
-end)
-if false then local _=0.5035630678708094 end
-task.wait(0.1)
-
-pcall(igMUpK()
-for Bbeoeq= 1,3 do
+do local _=function() end end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if VjQKHm then
+if false then local _=0.3245391309170007 end
 if math.random() > 1 then return nil end
-fireproximityprompt(IqsWba)
-task.wait(0.1)
+if 1 ~= 1 then return nil end
+return
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
+for qKhiUS=1,0 do end
+for PIHUfd=1,0 do end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
 end
+VjQKHm= true
+if math.random() > 1 then return nil end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+local YudeOZ,shortestDistance = nil,math.huge
+for tjRSpI=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local qKhiUS=0.17959263031053085 end
+for FkLYSh,tycoonData in pairs(workspace.Tycoon.Tycoons:GetChildren()) do
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+local omJwZa = tycoonData:FindFirstChild((function() return string.char(80)..string.char(117)..string.char(114)..string.char(99)..string.char(104)..string.char(97)..string.char(115)..string.char(101)..string.char(100)..string.char(79)..string.char(98)..string.char(106)..string.char(101)..string.char(99)..string.char(116)..string.char(115) end)())
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+and tycoonData.PurchasedObjects:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
+if omJwZa then
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+local jGxaPq = omJwZa:FindFirstChild((function() return string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)())
+and omJwZa.Prompt:FindFirstChild((function() return string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(32)..string.char(71)..string.char(105)..string.char(118)..string.char(101)..string.char(114) end)())
+if jGxaPq and jGxaPq:IsA((function() return string.char(80)..string.char(114)..string.char(111)..string.char(120)..string.char(105)..string.char(109)..string.char(105)..string.char(116)..string.char(121)..string.char(80)..string.char(114)..string.char(111)..string.char(109)..string.char(112)..string.char(116) end)()) then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+local thKuIJ = (KkWnwU.Position - jGxaPq.Parent.Position).Magnitude
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if thKuIJ < shortestDistance then
+do local PIHUfd=function() end end
+for _=1,0 do end
+shortestDistance = thKuIJ
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+YudeOZ= jGxaPq
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local qKhiUS=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+end
+if math.random() > 1 then return nil end
+
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
+if YudeOZ then
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+do local _=function() end end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local bsgZbS = KkWnwU.CFrame
+for _=1,0 do end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+local cUbaoY = 3
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+do local _=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local vIuujU = 0
+for fpzPnq=1,0 do end
+local PAtmSE = false
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if false then local PIHUfd=0.2650381629488454 end
+
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+repeat
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+vIuujU= vIuujU + 1
+
+do local tjRSpI=function() end end
+local dastwU = CFrame.new(math.random(-0.5,0.5),0,math.random(-2,-1))
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+pcall(MRVrij()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+KkWnwU.CFrame = YudeOZ.Parent.CFrame * dastwU
+for qKhiUS=1,0 do end
 end)
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+task.wait(0.2)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+
+for FkLYSh=1,0 do end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
+pcall(MRVrij()
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+KkWnwU.CFrame =
+CFrame.new(KkWnwU.Position,YudeOZ.Parent.Position)
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+end)
+for _=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+task.wait(0.1)
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+
+pcall(MRVrij()
+for ISftiK= 1,3 do
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+do local fpzPnq=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+fireproximityprompt(YudeOZ)
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+task.wait(0.1)
+for _=1,0 do end
+end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+end)
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 if 1 ~= 1 then return nil end
 task.wait(0.3)
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
 
-local kvUwuB
-local DSlSax,t0 = 3,tick()
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local PPaAyz
+if math.random() > 1 then return nil end
+local PNIoGy,t0 = 3,tick()
 for _=1,0 do end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for FkLYSh=1,0 do end
 repeat
-kvUwuB= sTPAfM.Backpack:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)()) or iTmTql:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)())
-task.wait(0.1)
-until kvUwuB or tick() - t0 > DSlSax
-local _=326;if _ == 0 then _=1 end
-
-if kvUwuB then
-for _,QKvLHn in ipairs(sTPAfM.Backpack:GetChildren()) do
-if QKvLHn.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() and QKvLHn ~= kvUwuB then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 if 1 ~= 1 then return nil end
-QKvLHn:Destroy()
-end
-end
-for _,QKvLHn in ipairs(iTmTql:GetChildren()) do
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+PPaAyz= NZfNmh.Backpack:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)()) or GcXKrS:FindFirstChild((function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)())
+do local PIHUfd=function() end end
 for _=1,0 do end
-if QKvLHn.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() and QKvLHn ~= kvUwuB then
-QKvLHn:Destroy()
-end
-end
-local _=326;if _ == 0 then _=1 end
-
-local ebYTiQ,oldIndex = getrawmetatable(game),nil
-oldIndex = ebYTiQ.__namecall
-setreadonly(ebYTiQ,false)
-local _=326;if _ == 0 then _=1 end
-ebYTiQ.__namecall = newcclosure(igMUpK(self,...)
-local snHIjA = getnamecallmethod()
-if snHIjA== (function() return string.char(76)..string.char(111)..string.char(97)..string.char(100)..string.char(65)..string.char(110)..string.char(105)..string.char(109)..string.char(97)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() and self:IsA((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)()) and self.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() then
-return { Play = igMUpK() end,Stop = igMUpK() end }
-if false then local _=0.5035630678708094 end
-end
-return oldIndex(self,...)
-end)
-setreadonly(ebYTiQ,true)
-for _=1,0 do end
-
-kvUwuB.Activated:Connect(igMUpK()
-if fdmpZl then
-fdmpZl:FireServer(sTPAfM)
-if 1 ~= 1 then return nil end
-end
-end)
-
-pcall(igMUpK()
-local _=326;if _ == 0 then _=1 end
-iTmTql.gOWHwD:UnequipTools()
 task.wait(0.1)
-iTmTql.gOWHwD:EquipTool(kvUwuB)
-end)
+do local tjRSpI=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+until PPaAyz or tick() - t0 > PNIoGy
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
 do local _=function() end end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if PPaAyz then
+if math.random() > 1 then return nil end
+for FkLYSh,LRWnsZ in ipairs(NZfNmh.Backpack:GetChildren()) do
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if LRWnsZ.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() and LRWnsZ ~= PPaAyz then
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+LRWnsZ:Destroy()
+end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+for qKhiUS=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+end
+do local tjRSpI=function() end end
+do local _=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if false then local fpzPnq=0.23295867704356044 end
+for FkLYSh,LRWnsZ in ipairs(GcXKrS:GetChildren()) do
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+for PIHUfd=1,0 do end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+if LRWnsZ.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() and LRWnsZ ~= PPaAyz then
+if false then local tjRSpI=0.9006855414627175 end
+LRWnsZ:Destroy()
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+local mAcHWB,oldIndex = getrawmetatable(game),nil
+if false then local tjRSpI=0.9006855414627175 end
+oldIndex = mAcHWB.__namecall
+setreadonly(mAcHWB,false)
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local aNKOBO=0.689745187854259 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+mAcHWB.__namecall = newcclosure(MRVrij(self,...)
+local fEhqsy = getnamecallmethod()
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if fEhqsy== (function() return string.char(76)..string.char(111)..string.char(97)..string.char(100)..string.char(65)..string.char(110)..string.char(105)..string.char(109)..string.char(97)..string.char(116)..string.char(105)..string.char(111)..string.char(110) end)() and self:IsA((function() return string.char(84)..string.char(111)..string.char(111)..string.char(108) end)()) and self.Name == (function() return string.char(77)..string.char(101)..string.char(100)..string.char(107)..string.char(105)..string.char(116) end)() then
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+return { Play = MRVrij() end,Stop = MRVrij() end }
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+return oldIndex(self,...)
+do local fpzPnq=function() end end
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+end)
+if false then local aNKOBO=0.689745187854259 end
+setreadonly(mAcHWB,true)
+do local fpzPnq=function() end end
+for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+do local _=function() end end
+
+for tjRSpI=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+PPaAyz.Activated:Connect(MRVrij()
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if cebkRI then
+cebkRI:FireServer(NZfNmh)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for fpzPnq=1,0 do end
+end
+for _=1,0 do end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+end)
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+
+for _=1,0 do end
+pcall(MRVrij()
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local qKhiUS=function() end end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+GcXKrS.hXKuHo:UnequipTools()
+do local fpzPnq=function() end end
+task.wait(0.1)
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+GcXKrS.hXKuHo:EquipTool(PPaAyz)
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+end)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local FkLYSh=function() end end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
 task.wait(0.2)
 
-pcall(igMUpK()
-if kvUwuB:FindFirstChild((function() return string.char(65)..string.char(99)..string.char(116)..string.char(105)..string.char(118)..string.char(97)..string.char(116)..string.char(101) end)()) then
+pcall(MRVrij()
+if math.random() > 1 then return nil end
 for _=1,0 do end
-kvUwuB.Activate:FireServer()
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if PPaAyz:FindFirstChild((function() return string.char(65)..string.char(99)..string.char(116)..string.char(105)..string.char(118)..string.char(97)..string.char(116)..string.char(101) end)()) then
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+PPaAyz.Activate:FireServer()
 else
-kvUwuB:Activate()
-end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 do local _=function() end end
+do local qKhiUS=function() end end
+PPaAyz:Activate()
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end)
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
 task.wait(0.5)
+for tjRSpI=1,0 do end
 
-setreadonly(ebYTiQ,false)
+if false then local fpzPnq=0.23295867704356044 end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+setreadonly(mAcHWB,false)
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-ebYTiQ.__namecall = oldIndex
-setreadonly(ebYTiQ,true)
-
-pcall(igMUpK()
-if false then local _=0.5035630678708094 end
-kvUwuB:Destroy()
-end)
-
-LWhtmx= true
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 do local _=function() end end
-break
-end
+for qKhiUS=1,0 do end
+mAcHWB.__namecall = oldIndex
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+setreadonly(mAcHWB,true)
 
-until LWhtmx or FXiBiL >= xnKjvk
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+pcall(MRVrij()
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for _=1,0 do end
+do local fpzPnq=function() end end
+PPaAyz:Destroy()
+end)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
+for aNKOBO=1,0 do end
+PAtmSE= true
+do local FkLYSh=function() end end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+break
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+until PAtmSE or vIuujU >= cUbaoY
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if WPRzwV then
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+pcall(MRVrij()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+for _=1,0 do end
+KkWnwU.CFrame = WPRzwV
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+do local PIHUfd=function() end end
+do local qKhiUS=function() end end
+
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+hXKuHo:ChangeState(Enum.HumanoidStateType.Running)
+if 1 ~= 1 then return nil end
+end)
+if false then local _=0.3245391309170007 end
+end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+for tjRSpI=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+end
+for qKhiUS=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
 if 1 ~= 1 then return nil end
 
-if hkltHS then
-pcall(igMUpK()
-kIZntd.CFrame = hkltHS
-if false then local _=0.5035630678708094 end
-
-gOWHwD:ChangeState(Enum.HumanoidStateType.Running)
-end)
+if math.random() > 1 then return nil end
+VjQKHm= false
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
 end
-if false then local _=0.5035630678708094 end
-end
-
-drZAEb= false
-end
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+for fpzPnq=1,0 do end
 for _=1,0 do end
 
+do local qKhiUS=function() end end
+if false then local tjRSpI=0.9006855414627175 end
 if _G.AutoMedkitConnection then
+do local _=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local fpzPnq=function() end end
 _G.AutoMedkitConnection:Disconnect()
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 _G.AutoMedkitConnection = nil
-local _=326;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
 end
+do local aNKOBO=function() end end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 
-_G.AutoMedkitConnection = gOWHwD.HealthChanged:Connect(igMUpK(newHealth)
-if not enabled or drZAEb then
-for _=1,0 do end
+_G.AutoMedkitConnection = hXKuHo.HealthChanged:Connect(MRVrij(newHealth)
+if false then local tjRSpI=0.9006855414627175 end
+if not enabled or VjQKHm then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for FkLYSh=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for aNKOBO=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 return
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 end
 
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
 if
-if false then local _=0.5035630678708094 end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+if false then local FkLYSh=0.5035630678708094 end
 newHealth > 0
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
 and newHealth <= 100
-and newHealth < WrGrPq
-and (WrGrPq - newHealth) > 5
+and newHealth < uclXAH
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+and (uclXAH - newHealth) > 5
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+for PIHUfd=1,0 do end
+do local FkLYSh=function() end end
 do local _=function() end end
 then
-hkltHS= kIZntd.CFrame
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+WPRzwV= KkWnwU.CFrame
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 getAndUseMedkit()
-WrGrPq= math.min(gOWHwD.MaxHealth,newHealth + 50)
-local _=326;if _ == 0 then _=1 end
-else
-WrGrPq= newHealth
-end
-end)
+uclXAH= math.min(hXKuHo.MaxHealth,newHealth + 50)
 if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
 else
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+uclXAH= newHealth
+do local tjRSpI=function() end end
+end
+if 1 ~= 1 then return nil end
+end)
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+else
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
 if _G.AutoMedkitConnection then
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 _G.AutoMedkitConnection:Disconnect()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
 _G.AutoMedkitConnection = nil
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
 if math.random() > 1 then return nil end
 end
 end
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
 
-if false then local _=0.5035630678708094 end
-if sTPAfM.IpIPjq then
-setupCharacter(sTPAfM.IpIPjq)
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+if NZfNmh.fwxciM then
+if 1 ~= 1 then return nil end
+setupCharacter(NZfNmh.fwxciM)
+do local _=function() end end
+for fpzPnq=1,0 do end
+for PIHUfd=1,0 do end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
 end
+do local fpzPnq=function() end end
 
-local _=326;if _ == 0 then _=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local qKhiUS=0.17959263031053085 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
 if enabled then
-sTPAfM.CharacterAdded:Connect(igMUpK(iTmTql)
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+NZfNmh.CharacterAdded:Connect(MRVrij(GcXKrS)
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 task.wait(1)
-setupCharacter(iTmTql)
+if 1 ~= 1 then return nil end
+setupCharacter(GcXKrS)
 if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
 end)
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
 end,})
-for _=1,0 do end
-
-DFjymd:Toggle({
-Title = (function() return string.char(38450)..string.char(29993)..string.char(39134) end)(),Value = false,for _=1,0 do end
-Callback = igMUpK(state)
-local sJtFtY = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local ZDjrgU = vhWpbS.ZDjrgU
-for _=1,0 do end
-local qUrFGF = {}
-
-local igMUpK protect(OKOiAp)
-local igMUpK characterAdded(IpIPjq)
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
+do local fpzPnq=function() end end
 if math.random() > 1 then return nil end
-local vzXWjX = IpIPjq:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
-qUrFGF[#qUrFGF + 1] = sJtFtY.Heartbeat:Connect(igMUpK()
-if vzXWjX.AssemblyAngularVelocity.Magnitude > 50 or vzXWjX.AssemblyLinearVelocity.Magnitude > 100 then
-for _,v in ipairs(IpIPjq:GetDescendants()) do
-do local _=function() end end
-if v:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
-v.CanCollide = false
-v.AssemblyAngularVelocity = Vector3.new()
-v.AssemblyLinearVelocity = Vector3.new()
-do local _=function() end end
-v.CustomPhysicalProperties = PhysicalProperties.new(0,0,0)
-end
-end
-end
-if 1 ~= 1 then return nil end
-end)
-end
-if OKOiAp.IpIPjq then
-characterAdded(OKOiAp.IpIPjq)
-if 1 ~= 1 then return nil end
-end
-qUrFGF[#qUrFGF + 1] = OKOiAp.CharacterAdded:Connect(characterAdded)
-end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+do local PIHUfd=function() end end
+for qKhiUS=1,0 do end
 
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
+do local fpzPnq=function() end end
+BAFsBD:Toggle({
+Title = (function() return string.char(38450)..string.char(29993)..string.char(39134) end)(),Value = false,for FkLYSh=1,0 do end
+Callback = MRVrij(state)
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for fpzPnq=1,0 do end
+do local PIHUfd=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local RbMCKn = game:GetService((function() return string.char(115)..string.char(74)..string.char(116)..string.char(70)..string.char(116)..string.char(89) end)())
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+local MavWwr = sIAoZg.MavWwr
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+for FkLYSh=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local ZiIPwU = {}
+
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local MRVrij protect(tKlppP)
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local MRVrij characterAdded(fwxciM)
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local EZLbTJ = fwxciM:WaitForChild((function() return string.char(107)..string.char(73)..string.char(90)..string.char(110)..string.char(116)..string.char(100) end)())
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+ZiIPwU[#ZiIPwU + 1] = RbMCKn.Heartbeat:Connect(MRVrij()
+if EZLbTJ.AssemblyAngularVelocity.Magnitude > 50 or EZLbTJ.AssemblyLinearVelocity.Magnitude > 100 then
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+for FkLYSh,v in ipairs(fwxciM:GetDescendants()) do
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if v:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+v.CanCollide = false
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+v.AssemblyAngularVelocity = Vector3.new()
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+v.AssemblyLinearVelocity = Vector3.new()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+v.CustomPhysicalProperties = PhysicalProperties.new(0,0,0)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+end
+for _=1,0 do end
+end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+end)
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if tKlppP.fwxciM then
+do local tjRSpI=function() end end
+characterAdded(tKlppP.fwxciM)
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+ZiIPwU[#ZiIPwU + 1] = tKlppP.CharacterAdded:Connect(characterAdded)
+end
+do local PIHUfd=function() end end
+do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+
+if false then local tjRSpI=0.9006855414627175 end
 if 1 ~= 1 then return nil end
 if state then
-for _,APKwhX in ipairs(vhWpbS:GetPlayers()) do
-if APKwhX ~= ZDjrgU then
-protect(APKwhX)
 for _=1,0 do end
-end
-end
-qUrFGF[#qUrFGF + 1] = vhWpbS.PlayerAdded:Connect(igMUpK(APKwhX)
-if APKwhX ~= ZDjrgU then
-do local _=function() end end
-protect(APKwhX)
-end
-end)
-else
-for _=1,0 do end
-for _,ITtgXm in ipairs(qUrFGF) do
-ITtgXm:Disconnect()
-end
-qUrFGF= {}
-for _=1,0 do end
-end
-end,})
-
-do local _=function() end end
-local ixRury = { (function() return string.char(65)..string.char(108)..string.char(108) end)() }
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local OKOiAp = vhWpbS.ZDjrgU
-local uZPXHr = false
 if 1 ~= 1 then return nil end
-local EOpvHq = {}
-local zYCDzv = nil
-
-local igMUpK GetPlayer(Name)
-if false then local _=0.5035630678708094 end
-Name = Name:lower()
-if Name == (function() return string.char(97)..string.char(108)..string.char(108) end)() then
-return (function() return string.char(65)..string.char(108)..string.char(108) end)()
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+for FkLYSh,MVarux in ipairs(sIAoZg:GetPlayers()) do
+do local aNKOBO=function() end end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if MVarux ~= MavWwr then
+protect(MVarux)
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+for FkLYSh=1,0 do end
 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
 for _=1,0 do end
-if Name == (function() return string.char(114)..string.char(97)..string.char(110)..string.char(100)..string.char(111)..string.char(109) end)() then
-local NkxECf = vhWpbS:GetPlayers()
-if table.find(NkxECf,OKOiAp) then
-table.remove(NkxECf,table.find(NkxECf,OKOiAp))
+end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+ZiIPwU[#ZiIPwU + 1] = sIAoZg.PlayerAdded:Connect(MRVrij(MVarux)
+local _=907;if _ == 0 then _=1 end
+if MVarux ~= MavWwr then
+do local fpzPnq=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+protect(MVarux)
 if math.random() > 1 then return nil end
 end
-return NkxECf[math.random(#NkxECf)]
+do local _=function() end end
+end)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local fpzPnq=function() end end
 else
-for _,x in next,vhWpbS:GetPlayers() do
-if false then local _=0.5035630678708094 end
-if x ~= OKOiAp and (x.Name:lower():match((function() return string.char(94) end)() .. Name) or x.DisplayName:lower():match((function() return string.char(94) end)() .. Name)) then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+for FkLYSh=1,0 do end
+for FkLYSh,GuhEPI in ipairs(ZiIPwU) do
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+GuhEPI:Disconnect()
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if false then local aNKOBO=0.689745187854259 end
+ZiIPwU= {}
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh=1,0 do end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+do local _=function() end end
+end,})
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local FkLYSh=function() end end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local YkRBeC = { (function() return string.char(65)..string.char(108)..string.char(108) end)() }
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+do local qKhiUS=function() end end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+local tKlppP = sIAoZg.MavWwr
+if math.random() > 1 then return nil end
+local ioMrgb = false
+if 1 ~= 1 then return nil end
+local XEqSAd = {}
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
+do local qKhiUS=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local oHZIoE = nil
+if false then local fpzPnq=0.23295867704356044 end
+
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local MRVrij GetPlayer(Name)
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
+for _=1,0 do end
+do local qKhiUS=function() end end
+Name = Name:lower()
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if Name == (function() return string.char(97)..string.char(108)..string.char(108) end)() then
+if false then local PIHUfd=0.2650381629488454 end
+return (function() return string.char(65)..string.char(108)..string.char(108) end)()
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if Name == (function() return string.char(114)..string.char(97)..string.char(110)..string.char(100)..string.char(111)..string.char(109) end)() then
+if false then local tjRSpI=0.9006855414627175 end
+local IpDUez = sIAoZg:GetPlayers()
+for _=1,0 do end
+if table.find(IpDUez,tKlppP) then
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+table.remove(IpDUez,table.find(IpDUez,tKlppP))
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+end
+if math.random() > 1 then return nil end
+do local _=function() end end
+return IpDUez[math.random(#IpDUez)]
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+do local aNKOBO=function() end end
+else
+if false then local tjRSpI=0.9006855414627175 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+for FkLYSh,x in next,sIAoZg:GetPlayers() do
+if false then local FkLYSh=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if x ~= tKlppP and (x.Name:lower():match((function() return string.char(94) end)() .. Name) or x.DisplayName:lower():match((function() return string.char(94) end)() .. Name)) then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+do local tjRSpI=function() end end
+for aNKOBO=1,0 do end
 return x
 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for PIHUfd=1,0 do end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
 end
 if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for aNKOBO=1,0 do end
 end
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 end
 
-local igMUpK updateFlingWhitelist()
 if 1 ~= 1 then return nil end
-EOpvHq= {}
-for _,x in pairs(ixRury) do
-local APKwhX = GetPlayer(x)
-if APKwhX then
+if false then local tjRSpI=0.9006855414627175 end
+local MRVrij updateFlingWhitelist()
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+XEqSAd= {}
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh,x in pairs(YkRBeC) do
+local MVarux = GetPlayer(x)
+if false then local PIHUfd=0.2650381629488454 end
+do local tjRSpI=function() end end
 do local _=function() end end
-table.insert(EOpvHq,APKwhX)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if MVarux then
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+do local FkLYSh=function() end end
+for fpzPnq=1,0 do end
+table.insert(XEqSAd,MVarux)
+for _=1,0 do end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 end
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
 end
+for _=1,0 do end
 end
-local _=326;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
 
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
 updateFlingWhitelist()
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
 
-local igMUpK SkidFling(TargetPlayer)
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local MRVrij SkidFling(TargetPlayer)
+do local qKhiUS=function() end end
 if 1 ~= 1 then return nil end
-local IpIPjq = OKOiAp.IpIPjq
-local gOWHwD = IpIPjq and IpIPjq:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-local ZWKgDp = gOWHwD and gOWHwD.ZWKgDp
-local PVwIFD = TargetPlayer.IpIPjq
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local fwxciM = tKlppP.fwxciM
+for qKhiUS=1,0 do end
+local hXKuHo = fwxciM and fwxciM:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local dLhUsH = hXKuHo and hXKuHo.dLhUsH
+local rRUfYp = TargetPlayer.fwxciM
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for FkLYSh=1,0 do end
+local rwqKrf = rRUfYp and rRUfYp:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local lLbAWo = rwqKrf and rwqKrf.dLhUsH
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+local FvaeCI = rRUfYp and rRUfYp:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+local SWEyNv = rRUfYp and rRUfYp:FindFirstChildOfClass((function() return string.char(104)..string.char(69)..string.char(100)..string.char(79)..string.char(83)..string.char(97) end)())
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+for qKhiUS=1,0 do end
+for FkLYSh=1,0 do end
+do local PIHUfd=function() end end
 for _=1,0 do end
-local dbgFVg = PVwIFD and PVwIFD:FindFirstChildOfClass((function() return string.char(103)..string.char(79)..string.char(87)..string.char(72)..string.char(119)..string.char(68) end)())
-local iEhMyd = dbgFVg and dbgFVg.ZWKgDp
-local aJaDlT = PVwIFD and PVwIFD:FindFirstChild((function() return string.char(72)..string.char(101)..string.char(97)..string.char(100) end)())
-local hEdOSa = PVwIFD and PVwIFD:FindFirstChildOfClass((function() return string.char(104)..string.char(69)..string.char(100)..string.char(79)..string.char(83)..string.char(97) end)())
-for _=1,0 do end
-local yVhqIK = hEdOSa and hEdOSa:FindFirstChild((function() return string.char(121)..string.char(86)..string.char(104)..string.char(113)..string.char(73)..string.char(75) end)())
-if not (IpIPjq and gOWHwD and ZWKgDp and PVwIFD and dbgFVg) then
+if false then local fpzPnq=0.23295867704356044 end
+do local tjRSpI=function() end end
+local fCPJTk = SWEyNv and SWEyNv:FindFirstChild((function() return string.char(121)..string.char(86)..string.char(104)..string.char(113)..string.char(73)..string.char(75) end)())
+if not (fwxciM and hXKuHo and dLhUsH and rRUfYp and rwqKrf) then
+local _=907;if _ == 0 then _=1 end
+for qKhiUS=1,0 do end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
 return
+if 1 ~= 1 then return nil end
 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 do local _=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
 
-if not zYCDzv then
-zYCDzv= ZWKgDp.CFrame
-end
-do local _=function() end end
-
-local igMUpK FPos(BasePart,Pos,Ang)
-ZWKgDp.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
-IpIPjq:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
-if false then local _=0.5035630678708094 end
-ZWKgDp.Velocity = Vector3.new(9e7,9e7 * 10,9e7)
-ZWKgDp.RotVelocity = Vector3.new(9e8,9e8,9e8)
-end
-
-local _=326;if _ == 0 then _=1 end
-local igMUpK SFBasePart(BasePart)
-local qIlUcR = 2
-local yuMvqQ = tick()
-local aPosGa = 0
-if false then local _=0.5035630678708094 end
-repeat
-if ZWKgDp and dbgFVg then
-if BasePart.Velocity.Magnitude < 50 then
-aPosGa= aPosGa + 100
-local _=326;if _ == 0 then _=1 end
-FPos(BasePart,CFrame.new(0,1.5,0) + dbgFVg.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(aPosGa),0,0)
-local _=326;if _ == 0 then _=1 end)
-task.wait()
-FPos(BasePart,do local _=function() end end
-CFrame.new(0,-1.5,0) + dbgFVg.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(aPosGa),0,0))
-task.wait()
-do local _=function() end end
-FPos(BasePart,CFrame.new(2.25,1.5,-2.25) + dbgFVg.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(aPosGa),0,0)
-if math.random() > 1 then return nil end)
-task.wait()
-FPos(BasePart,if 1 ~= 1 then return nil end
-CFrame.new(-2.25,-1.5,2.25) + dbgFVg.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(aPosGa),0,0))
-task.wait()
 for _=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if not oHZIoE then
+oHZIoE= dLhUsH.CFrame
+if math.random() > 1 then return nil end
 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+
+local MRVrij FPos(BasePart,Pos,Ang)
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+dLhUsH.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+fwxciM:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+for tjRSpI=1,0 do end
+dLhUsH.Velocity = Vector3.new(9e7,9e7 * 10,9e7)
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+dLhUsH.RotVelocity = Vector3.new(9e8,9e8,9e8)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if math.random() > 1 then return nil end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local MRVrij SFBasePart(BasePart)
+if math.random() > 1 then return nil end
+for _=1,0 do end
+local LYlWmf = 2
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+local SLYFyC = tick()
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+local JSDhTe = 0
+if false then local FkLYSh=0.5035630678708094 end
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+repeat
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if dLhUsH and rwqKrf then
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if BasePart.Velocity.Magnitude < 50 then
+JSDhTe= JSDhTe + 100
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+FPos(BasePart,CFrame.new(0,1.5,0) + rwqKrf.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(JSDhTe),0,0)
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end)
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+task.wait()
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+FPos(BasePart,do local FkLYSh=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+CFrame.new(0,-1.5,0) + rwqKrf.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(JSDhTe),0,0))
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+task.wait()
+do local FkLYSh=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+do local _=function() end end
+FPos(BasePart,CFrame.new(2.25,1.5,-2.25) + rwqKrf.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(JSDhTe),0,0)
+if false then local fpzPnq=0.23295867704356044 end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end)
+for fpzPnq=1,0 do end
+do local _=function() end end
+task.wait()
+if false then local tjRSpI=0.9006855414627175 end
+for qKhiUS=1,0 do end
+FPos(BasePart,if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+CFrame.new(-2.25,-1.5,2.25) + rwqKrf.MoveDirection * BasePart.Velocity.Magnitude / 1.25,CFrame.Angles(math.rad(JSDhTe),0,0))
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+task.wait()
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+for FkLYSh=1,0 do end
+end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+do local tjRSpI=function() end end
+do local qKhiUS=function() end end
+for fpzPnq=1,0 do end
 else
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 break
 end
 for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+for _=1,0 do end
+for FkLYSh=1,0 do end
 until BasePart.Velocity.Magnitude > 500
-or BasePart.Parent ~= TargetPlayer.IpIPjq
-or TargetPlayer.Parent ~= vhWpbS
-or dbgFVg.Sit
-local _=326;if _ == 0 then _=1 end
-or gOWHwD.Health <= 0
-or tick() > yuMvqQ + qIlUcR
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+or BasePart.Parent ~= TargetPlayer.fwxciM
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+or TargetPlayer.Parent ~= sIAoZg
+or rwqKrf.Sit
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+or hXKuHo.Health <= 0
+for _=1,0 do end
+for qKhiUS=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+or tick() > SLYFyC + LYlWmf
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
 end
 
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
 if math.random() > 1 then return nil end
-local OrOaGE = Instance.new((function() return string.char(66)..string.char(111)..string.char(100)..string.char(121)..string.char(86)..string.char(101)..string.char(108)..string.char(111)..string.char(99)..string.char(105)..string.char(116)..string.char(121) end)())
-OrOaGE.Name = (function() return string.char(69)..string.char(112)..string.char(105)..string.char(120)..string.char(86)..string.char(101)..string.char(108) end)()
-OrOaGE.Parent = ZWKgDp
-OrOaGE.Velocity = Vector3.new(9e8,9e8,9e8)
+for _=1,0 do end
+local RlZgen = Instance.new((function() return string.char(66)..string.char(111)..string.char(100)..string.char(121)..string.char(86)..string.char(101)..string.char(108)..string.char(111)..string.char(99)..string.char(105)..string.char(116)..string.char(121) end)())
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+RlZgen.Name = (function() return string.char(69)..string.char(112)..string.char(105)..string.char(120)..string.char(86)..string.char(101)..string.char(108) end)()
+do local _=function() end end
+for qKhiUS=1,0 do end
 if math.random() > 1 then return nil end
-OrOaGE.MaxForce = Vector3.new(1 / 0,1 / 0,1 / 0)
-gOWHwD:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+if false then local tjRSpI=0.9006855414627175 end
+RlZgen.Parent = dLhUsH
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local aNKOBO=0.689745187854259 end
+RlZgen.Velocity = Vector3.new(9e8,9e8,9e8)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+RlZgen.MaxForce = Vector3.new(1 / 0,1 / 0,1 / 0)
+hXKuHo:SetStateEnabled(Enum.HumanoidStateType.Seated,false)
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+do local aNKOBO=function() end end
 
-if iEhMyd and aJaDlT then
-if false then local _=0.5035630678708094 end
-if (iEhMyd.Position - aJaDlT.Position).Magnitude > 5 then
-SFBasePart(aJaDlT)
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if lLbAWo and FvaeCI then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local FkLYSh=0.5035630678708094 end
+if (lLbAWo.Position - FvaeCI.Position).Magnitude > 5 then
+for tjRSpI=1,0 do end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+SFBasePart(FvaeCI)
 else
-SFBasePart(iEhMyd)
+do local fpzPnq=function() end end
+do local _=function() end end
+SFBasePart(lLbAWo)
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local aNKOBO=function() end end
 if math.random() > 1 then return nil end
 end
-elseif iEhMyd then
-SFBasePart(iEhMyd)
-elseif aJaDlT then
+elseif lLbAWo then
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
 do local _=function() end end
-SFBasePart(aJaDlT)
-elseif yVhqIK then
-SFBasePart(yVhqIK)
+do local fpzPnq=function() end end
+SFBasePart(lLbAWo)
+for PIHUfd=1,0 do end
+elseif FvaeCI then
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+SFBasePart(FvaeCI)
+if false then local PIHUfd=0.2650381629488454 end
+for _=1,0 do end
+if false then local fpzPnq=0.23295867704356044 end
+elseif fCPJTk then
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+SFBasePart(fCPJTk)
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
 end
-local _=326;if _ == 0 then _=1 end
-
-OrOaGE:Destroy()
-gOWHwD:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
-workspace.CurrentCamera.CameraSubject = gOWHwD
+for PIHUfd=1,0 do end
+do local qKhiUS=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
 do local _=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 
+RlZgen:Destroy()
+for _=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+for tjRSpI=1,0 do end
+do local qKhiUS=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+hXKuHo:SetStateEnabled(Enum.HumanoidStateType.Seated,true)
+if math.random() > 1 then return nil end
+workspace.CurrentCamera.CameraSubject = hXKuHo
+if false then local _=0.3245391309170007 end
+do local FkLYSh=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for qKhiUS=1,0 do end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+
+for PIHUfd=1,0 do end
+do local aNKOBO=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
 repeat
-ZWKgDp.CFrame = zYCDzv * CFrame.new(0,0.5,0)
-IpIPjq:SetPrimaryPartCFrame(zYCDzv * CFrame.new(0,0.5,0))
-do local _=function() end end
-gOWHwD:ChangeState((function() return string.char(71)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(85)..string.char(112) end)())
-for _,x in pairs(IpIPjq:GetChildren()) do
+if 1 ~= 1 then return nil end
+dLhUsH.CFrame = oHZIoE * CFrame.new(0,0.5,0)
+local _=907;if _ == 0 then _=1 end
+fwxciM:SetPrimaryPartCFrame(oHZIoE * CFrame.new(0,0.5,0))
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for PIHUfd=1,0 do end
+for _=1,0 do end
+do local FkLYSh=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+hXKuHo:ChangeState((function() return string.char(71)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(85)..string.char(112) end)())
+for FkLYSh,x in pairs(fwxciM:GetChildren()) do
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
 if x:IsA((function() return string.char(66)..string.char(97)..string.char(115)..string.char(101)..string.char(80)..string.char(97)..string.char(114)..string.char(116) end)()) then
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
 x.Velocity = Vector3.new()
-do local _=function() end end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+do local qKhiUS=function() end end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
 x.RotVelocity = Vector3.new()
 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
 end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local _=0.3245391309170007 end
+for PIHUfd=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 task.wait()
 if math.random() > 1 then return nil end
-until (ZWKgDp.Position - zYCDzv.Position).Magnitude < 25
-end
-
-local igMUpK continuousFling()
 for _=1,0 do end
-while uZPXHr do
-for _,name in pairs(EOpvHq) do
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+until (dLhUsH.Position - oHZIoE.Position).Magnitude < 25
+for fpzPnq=1,0 do end
+for _=1,0 do end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for aNKOBO=1,0 do end
+for _=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+
+for _=1,0 do end
+local MRVrij continuousFling()
+for FkLYSh=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+while ioMrgb do
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh,name in pairs(XEqSAd) do
+if 1 ~= 1 then return nil end
 if name == (function() return string.char(65)..string.char(108)..string.char(108) end)() then
-for _,APKwhX in pairs(vhWpbS:GetPlayers()) do
 if 1 ~= 1 then return nil end
-if APKwhX ~= OKOiAp then
-pcall(igMUpK()
-SkidFling(APKwhX)
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for FkLYSh,MVarux in pairs(sIAoZg:GetPlayers()) do
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if MVarux ~= tKlppP then
+if false then local fpzPnq=0.23295867704356044 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+pcall(MRVrij()
+SkidFling(MVarux)
+if math.random() > 1 then return nil end
+do local _=function() end end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
 end)
-local _=326;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
 end
+do local tjRSpI=function() end end
 end
+local _=907;if _ == 0 then _=1 end
 else
-local YQZTby = vhWpbS:FindFirstChild(name)
-local _=326;if _ == 0 then _=1 end
-if YQZTby then
-pcall(igMUpK()
-SkidFling(YQZTby)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+local xWuAGc = sIAoZg:FindFirstChild(name)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if xWuAGc then
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+pcall(MRVrij()
+for _=1,0 do end
+do local aNKOBO=function() end end
+SkidFling(xWuAGc)
+do local tjRSpI=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
 end)
 if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if false then local tjRSpI=0.9006855414627175 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+for qKhiUS=1,0 do end
+do local _=function() end end
 task.wait(0.1)
-local _=326;if _ == 0 then _=1 end
-end
-end
-
-DFjymd:Toggle({
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local tjRSpI=function() end end
 if 1 ~= 1 then return nil end
-Title = (function() return string.char(25345)..string.char(32493)..string.char(29993)..string.char(39134) end)(),Value = false,Callback = igMUpK(state)
-uZPXHr= state
-do local _=function() end end
-if state then
-zYCDzv= OKOiAp.IpIPjq.gOWHwD.ZWKgDp.CFrame
-coroutine.wrap(continuousFling)()
+if false then local _=0.3245391309170007 end
+do local aNKOBO=function() end end
+do local PIHUfd=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
 end
-if false then local _=0.5035630678708094 end
-end,})
-
-local igMUpK getPlayerList()
 if math.random() > 1 then return nil end
-local EiRYLV = {}
-for _,APKwhX in ipairs(vhWpbS:GetPlayers()) do
-if APKwhX ~= OKOiAp then
-table.insert(EiRYLV,APKwhX.Name)
-if 1 ~= 1 then return nil end
-end
-end
-table.insert(EiRYLV,(function() return string.char(65)..string.char(108)..string.char(108) end)())
-return EiRYLV
-local _=326;if _ == 0 then _=1 end
 end
 
-local uNyCbR = DFjymd:Dropdown({
-Title = (function() return string.char(29993)..string.char(39134)..string.char(30446)..string.char(26631) end)(),do local _=function() end end
-Values = getPlayerList(),Value = {},Multi = true,AllowNone = true,do local _=function() end end
-Callback = igMUpK(selected)
-EOpvHq= selected
-end,})
-local _=326;if _ == 0 then _=1 end
-
-DFjymd:Button({
-Title = (function() return string.char(21047)..string.char(26032)..string.char(30446)..string.char(26631) end)(),Callback = igMUpK()
 do local _=function() end end
-uNyCbR:Refresh(getPlayerList())
-end,})
-
-if 1 ~= 1 then return nil end
-DFjymd:Button({
-Title = (function() return string.char(37325)..string.char(36827)..string.char(26381)..string.char(21153)..string.char(22120) end)(),Callback = igMUpK()
-local eAjUWt = game:GetService((function() return string.char(101)..string.char(65)..string.char(106)..string.char(85)..string.char(87)..string.char(116) end)())
-if 1 ~= 1 then return nil end
-local vhWpbS = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
-local ZDjrgU = vhWpbS.ZDjrgU
-
-local ImUQRM = game.PlaceId
+if math.random() > 1 then return nil end
+BAFsBD:Toggle({
+if false then local qKhiUS=0.17959263031053085 end
+do local fpzPnq=function() end end
 for _=1,0 do end
-local MEXlpS = game.JobId
-
-eAjUWt:TeleportToPlaceInstance(ImUQRM,MEXlpS,ZDjrgU)
-end,local _=326;if _ == 0 then _=1 end
-})
-
-SQRvbM:Button({
-Title = (function() return string.char(36733)..string.char(20855)..string.char(31713)..string.char(25913) end)(),if false then local _=0.5035630678708094 end
-Callback = igMUpK()
-local tWovCi = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(84)..string.char(97)..string.char(110)..string.char(107)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
-
-local igMUpK removeParticles(obj)
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+Title = (function() return string.char(25345)..string.char(32493)..string.char(29993)..string.char(39134) end)(),Value = false,Callback = MRVrij(state)
+if false then local fpzPnq=0.23295867704356044 end
 if math.random() > 1 then return nil end
-for _,child in ipairs(obj:GetDescendants()) do
-if child:IsA((function() return string.char(80)..string.char(97)..string.char(114)..string.char(116)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(69)..string.char(109)..string.char(105)..string.char(116)..string.char(116)..string.char(101)..string.char(114) end)()) or child:IsA((function() return string.char(83)..string.char(109)..string.char(111)..string.char(107)..string.char(101) end)()) or child:IsA((function() return string.char(70)..string.char(105)..string.char(114)..string.char(101) end)()) then
-child:Destroy()
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+ioMrgb= state
+for PIHUfd=1,0 do end
+do local FkLYSh=function() end end
+for tjRSpI=1,0 do end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+if state then
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+oHZIoE= tKlppP.fwxciM.hXKuHo.dLhUsH.CFrame
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+coroutine.wrap(continuousFling)()
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+for tjRSpI=1,0 do end
+if false then local FkLYSh=0.5035630678708094 end
+for _=1,0 do end
+for PIHUfd=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+end,})
+
+local MRVrij getPlayerList()
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local JMaFgN = {}
+if math.random() > 1 then return nil end
+for _=1,0 do end
+for FkLYSh,MVarux in ipairs(sIAoZg:GetPlayers()) do
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+if MVarux ~= tKlppP then
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+table.insert(JMaFgN,MVarux.Name)
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for _=1,0 do end
+for tjRSpI=1,0 do end
+end
+do local PIHUfd=function() end end
 end
 do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+for _=1,0 do end
+table.insert(JMaFgN,(function() return string.char(65)..string.char(108)..string.char(108) end)())
+return JMaFgN
+do local tjRSpI=function() end end
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+for qKhiUS=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for _=1,0 do end
 end
-end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
 
-for _,tank in pairs(tWovCi:GetChildren()) do
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for qKhiUS=1,0 do end
+do local PIHUfd=function() end end
+local meDjVC = BAFsBD:Dropdown({
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+Title = (function() return string.char(29993)..string.char(39134)..string.char(30446)..string.char(26631) end)(),do local FkLYSh=function() end end
+Values = getPlayerList(),Value = {},Multi = true,AllowNone = true,do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
 if 1 ~= 1 then return nil end
-pcall(igMUpK()
+if false then local PIHUfd=0.2650381629488454 end
+Callback = MRVrij(selected)
+XEqSAd= selected
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+end,})
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+do local aNKOBO=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+
+BAFsBD:Button({
+do local _=function() end end
+Title = (function() return string.char(21047)..string.char(26032)..string.char(30446)..string.char(26631) end)(),Callback = MRVrij()
+for fpzPnq=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if false then local fpzPnq=0.23295867704356044 end
+meDjVC:Refresh(getPlayerList())
+end,})
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+BAFsBD:Button({
+for tjRSpI=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local _=0.3245391309170007 end
+Title = (function() return string.char(37325)..string.char(36827)..string.char(26381)..string.char(21153)..string.char(22120) end)(),Callback = MRVrij()
+local LXfcKB = game:GetService((function() return string.char(101)..string.char(65)..string.char(106)..string.char(85)..string.char(87)..string.char(116) end)())
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local sIAoZg = game:GetService((function() return string.char(118)..string.char(104)..string.char(87)..string.char(112)..string.char(98)..string.char(83) end)())
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local MavWwr = sIAoZg.MavWwr
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local EDSfQj = game.PlaceId
+if false then local PIHUfd=0.2650381629488454 end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local aNKOBO=0.689745187854259 end
+if false then local fpzPnq=0.23295867704356044 end
+for FkLYSh=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+local dpZTGU = game.JobId
+
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+LXfcKB:TeleportToPlaceInstance(EDSfQj,dpZTGU,MavWwr)
+if math.random() > 1 then return nil end
+for _=1,0 do end
+end,local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if math.random() > 1 then return nil end
+})
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+SJplZJ:Button({
+do local qKhiUS=function() end end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+Title = (function() return string.char(36733)..string.char(20855)..string.char(31713)..string.char(25913) end)(),if false then local FkLYSh=0.5035630678708094 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+Callback = MRVrij()
+if math.random() > 1 then return nil end
+local sSkwYQ = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(84)..string.char(97)..string.char(110)..string.char(107)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local MRVrij removeParticles(obj)
+if math.random() > 1 then return nil end
+for FkLYSh,child in ipairs(obj:GetDescendants()) do
+if 1 ~= 1 then return nil end
+do local _=function() end end
+if child:IsA((function() return string.char(80)..string.char(97)..string.char(114)..string.char(116)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(69)..string.char(109)..string.char(105)..string.char(116)..string.char(116)..string.char(101)..string.char(114) end)()) or child:IsA((function() return string.char(83)..string.char(109)..string.char(111)..string.char(107)..string.char(101) end)()) or child:IsA((function() return string.char(70)..string.char(105)..string.char(114)..string.char(101) end)()) then
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+child:Destroy()
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if false then local _=0.3245391309170007 end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+
+for PIHUfd=1,0 do end
+for FkLYSh,tank in pairs(sSkwYQ:GetChildren()) do
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+pcall(MRVrij()
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+for fpzPnq=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
 removeParticles(tank)
-local kUUURB = tank:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)()) and tank.Misc:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if not kUUURB then
 if 1 ~= 1 then return nil end
+local QNcLFw = tank:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)()) and tank.Misc:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+if not QNcLFw then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 return
 end
-for _,weaponFolder in pairs(kUUURB:GetChildren()) do
-for _,turret in pairs(weaponFolder:GetChildren()) do
-if math.random() > 1 then return nil end
-if turret:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)()) and turret:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
-removeParticles(turret)
-local EnIFWR = require(turret.Settings)
-local ZxSrmF = turret.Name:lower()
-if math.random() > 1 then return nil end
-if ZxSrmF:find((function() return string.char(109)..string.char(111)..string.char(117)..string.char(110)..string.char(116)..string.char(101)..string.char(100) end)()) or ZxSrmF:find((function() return string.char(99)..string.char(97)..string.char(110)..string.char(110)..string.char(111)..string.char(110) end)()) then
-EnIFWR.CooldownTime = 0
-EnIFWR.OverheatCount = 1000
-EnIFWR.DepleteDelay = 0
-if false then local _=0.5035630678708094 end
-EnIFWR.OverheatIncrement = 0
-EnIFWR.FireRate = 70
-else
-if EnIFWR.OverheatCount ~= nil then
-local _=326;if _ == 0 then _=1 end
-EnIFWR.OverheatCount = math.huge
-end
-if EnIFWR.CooldownTime ~= nil then
-EnIFWR.CooldownTime = 0
-local _=326;if _ == 0 then _=1 end
-end
-if EnIFWR.DepleteDelay ~= nil then
-EnIFWR.DepleteDelay = 0
-end
-local _=326;if _ == 0 then _=1 end
-if EnIFWR.OverheatIncrement ~= nil then
-EnIFWR.OverheatIncrement = 0
-end
-if EnIFWR.FireRate ~= nil then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for FkLYSh,weaponFolder in pairs(QNcLFw:GetChildren()) do
+if false then local fpzPnq=0.23295867704356044 end
 do local _=function() end end
-EnIFWR.FireRate = 9999
-end
-end
-end
-for _=1,0 do end
-end
-end
-for _,seat in pairs(tank:GetDescendants()) do
-if seat:IsA((function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(83)..string.char(101)..string.char(97)..string.char(116) end)()) then
+if false then local PIHUfd=0.2650381629488454 end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
+for FkLYSh,turret in pairs(weaponFolder:GetChildren()) do
 if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+if turret:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)()) and turret:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
+if 1 ~= 1 then return nil end
+removeParticles(turret)
+for fpzPnq=1,0 do end
+for _=1,0 do end
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+local EPqMKs = require(turret.Settings)
+if math.random() > 1 then return nil end
+local AwzQpY = turret.Name:lower()
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if AwzQpY:find((function() return string.char(109)..string.char(111)..string.char(117)..string.char(110)..string.char(116)..string.char(101)..string.char(100) end)()) or AwzQpY:find((function() return string.char(99)..string.char(97)..string.char(110)..string.char(110)..string.char(111)..string.char(110) end)()) then
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+EPqMKs.CooldownTime = 0
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+EPqMKs.OverheatCount = 1000
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+EPqMKs.DepleteDelay = 0
+if false then local FkLYSh=0.5035630678708094 end
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+EPqMKs.OverheatIncrement = 0
+EPqMKs.FireRate = 70
+for tjRSpI=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+else
+if EPqMKs.OverheatCount ~= nil then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+for fpzPnq=1,0 do end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+if false then local tjRSpI=0.9006855414627175 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+EPqMKs.OverheatCount = math.huge
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if EPqMKs.CooldownTime ~= nil then
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+if false then local aNKOBO=0.689745187854259 end
+local _=907;if _ == 0 then _=1 end
+EPqMKs.CooldownTime = 0
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+end
+if EPqMKs.DepleteDelay ~= nil then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local _=function() end end
+EPqMKs.DepleteDelay = 0
+if false then local tjRSpI=0.9006855414627175 end
+for PIHUfd=1,0 do end
+end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if EPqMKs.OverheatIncrement ~= nil then
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+EPqMKs.OverheatIncrement = 0
+for qKhiUS=1,0 do end
+end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for fpzPnq=1,0 do end
+if EPqMKs.FireRate ~= nil then
+do local FkLYSh=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+EPqMKs.FireRate = 9999
+if 1 ~= 1 then return nil end
+end
+do local _=function() end end
+end
+for fpzPnq=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local tjRSpI=function() end end
+for _=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for fpzPnq=1,0 do end
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+end
+do local _=function() end end
+for FkLYSh,seat in pairs(tank:GetDescendants()) do
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if seat:IsA((function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(83)..string.char(101)..string.char(97)..string.char(116) end)()) then
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+for fpzPnq=1,0 do end
 seat.Disabled = true
+local _=907;if _ == 0 then _=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+for fpzPnq=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
 end
+if 1 ~= 1 then return nil end
 end)
-if false then local _=0.5035630678708094 end
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for _=1,0 do end
 end
+if false then local qKhiUS=0.17959263031053085 end
+for PIHUfd=1,0 do end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local aNKOBO=function() end end
+do local fpzPnq=function() end end
 
-local qVvNjQ = {
-workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()],for _=1,0 do end
+local QfNBlM = {
+for _=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()],for FkLYSh=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
 workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(72)..string.char(101)..string.char(108)..string.char(105)..string.char(99)..string.char(111)..string.char(112)..string.char(116)..string.char(101)..string.char(114)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()],workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(80)..string.char(108)..string.char(97)..string.char(110)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()],}
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 
 for _=1,0 do end
-for _,folder in pairs(qVvNjQ) do
-for _,vehicle in pairs(folder:GetChildren()) do
-pcall(igMUpK()
+for FkLYSh=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for FkLYSh,folder in pairs(QfNBlM) do
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for FkLYSh,vehicle in pairs(folder:GetChildren()) do
+for aNKOBO=1,0 do end
+do local _=function() end end
+do local tjRSpI=function() end end
+pcall(MRVrij()
+if false then local fpzPnq=0.23295867704356044 end
+for PIHUfd=1,0 do end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local tjRSpI=0.9006855414627175 end
 removeParticles(vehicle)
 if math.random() > 1 then return nil end
-local SHWEZE = vehicle:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
-if not SHWEZE then
+local _=907;if _ == 0 then _=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local XNEPEx = vehicle:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if not XNEPEx then
 return
 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+do local _=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 if math.random() > 1 then return nil end
-local kUUURB = SHWEZE:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if not kUUURB then
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
+local QNcLFw = XNEPEx:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if not QNcLFw then
+if false then local tjRSpI=0.9006855414627175 end
 return
-end
-local _=326;if _ == 0 then _=1 end
-for _,weaponSystem in pairs(kUUURB:GetChildren()) do
-for _,bHQkzJ in pairs(weaponSystem:GetChildren()) do
-removeParticles(bHQkzJ)
-if (bHQkzJ:IsA((function() return string.char(70)..string.char(111)..string.char(108)..string.char(100)..string.char(101)..string.char(114) end)()) or bHQkzJ:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)())) and bHQkzJ:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
-local _=326;if _ == 0 then _=1 end
-local EnIFWR = require(bHQkzJ:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()))
-if EnIFWR.OverheatCount ~= nil then
-EnIFWR.OverheatCount = math.huge
-end
-if math.random() > 1 then return nil end
-if EnIFWR.CooldownTime ~= nil then
-EnIFWR.CooldownTime = 0
-end
-if EnIFWR.DepleteDelay ~= nil then
-if math.random() > 1 then return nil end
-EnIFWR.DepleteDelay = 0
-end
-if EnIFWR.OverheatIncrement ~= nil then
-EnIFWR.OverheatIncrement = 0
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
 if 1 ~= 1 then return nil end
 end
-
-if bHQkzJ.Name == (function() return string.char(68)..string.char(111)..string.char(117)..string.char(103)..string.char(108)..string.char(97)..string.char(115)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)() then
-if EnIFWR.FireRate ~= nil then
-local _=326;if _ == 0 then _=1 end
-EnIFWR.FireRate = 99
+do local tjRSpI=function() end end
+for _=1,0 do end
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+for FkLYSh,weaponSystem in pairs(QNcLFw:GetChildren()) do
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local _=0.3245391309170007 end
+for FkLYSh,omjxUp in pairs(weaponSystem:GetChildren()) do
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+removeParticles(omjxUp)
+if 1 ~= 1 then return nil end
+for aNKOBO=1,0 do end
+if (omjxUp:IsA((function() return string.char(70)..string.char(111)..string.char(108)..string.char(100)..string.char(101)..string.char(114) end)()) or omjxUp:IsA((function() return string.char(77)..string.char(111)..string.char(100)..string.char(101)..string.char(108) end)())) and omjxUp:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()) then
+for tjRSpI=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local tjRSpI=function() end end
+do local _=function() end end
+local EPqMKs = require(omjxUp:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)()))
+if EPqMKs.OverheatCount ~= nil then
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+EPqMKs.OverheatCount = math.huge
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end
+if false then local qKhiUS=0.17959263031053085 end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if EPqMKs.CooldownTime ~= nil then
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local PIHUfd=function() end end
+if false then local aNKOBO=0.689745187854259 end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+EPqMKs.CooldownTime = 0
+if 1 ~= 1 then return nil end
+end
+if EPqMKs.DepleteDelay ~= nil then
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local tjRSpI=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+EPqMKs.DepleteDelay = 0
+for _=1,0 do end
+end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if false then local PIHUfd=0.2650381629488454 end
+if EPqMKs.OverheatIncrement ~= nil then
+EPqMKs.OverheatIncrement = 0
+if 1 ~= 1 then return nil end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if false then local fpzPnq=0.23295867704356044 end
+end
+local _=907;if _ == 0 then _=1 end
+
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if omjxUp.Name == (function() return string.char(68)..string.char(111)..string.char(117)..string.char(103)..string.char(108)..string.char(97)..string.char(115)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)() then
+if false then local _=0.3245391309170007 end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if EPqMKs.FireRate ~= nil then
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+EPqMKs.FireRate = 99
+end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local _=function() end end
 else
-if EnIFWR.FireRate ~= nil then
-for _=1,0 do end
-EnIFWR.FireRate = 9999
+if false then local tjRSpI=0.9006855414627175 end
+if EPqMKs.FireRate ~= nil then
+if math.random() > 1 then return nil end
+do local _=function() end end
+for FkLYSh=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+for tjRSpI=1,0 do end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+EPqMKs.FireRate = 9999
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
 end
+if math.random() > 1 then return nil end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
 end
-if false then local _=0.5035630678708094 end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local aNKOBO=0.689745187854259 end
+if false then local _=0.3245391309170007 end
 end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local tjRSpI=0.9006855414627175 end
 end
-for _,seat in pairs(vehicle:GetDescendants()) do
+do local _=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for FkLYSh,seat in pairs(vehicle:GetDescendants()) do
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
 if seat:IsA((function() return string.char(86)..string.char(101)..string.char(104)..string.char(105)..string.char(99)..string.char(108)..string.char(101)..string.char(83)..string.char(101)..string.char(97)..string.char(116) end)()) then
-for _=1,0 do end
+do local aNKOBO=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local PIHUfd=0.2650381629488454 end
+do local _=function() end end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+for FkLYSh=1,0 do end
 seat.Disabled = true
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
 end
 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
 end)
 if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 
-local igMUpK modifyFlares(workspaceFolder)
-for _=1,0 do end
-for _,vehicle in pairs(workspaceFolder:GetChildren()) do
-pcall(igMUpK()
-local SHWEZE = vehicle:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
-if not SHWEZE then
+local MRVrij modifyFlares(workspaceFolder)
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh=1,0 do end
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+for FkLYSh,vehicle in pairs(workspaceFolder:GetChildren()) do
+for aNKOBO=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+pcall(MRVrij()
+do local PIHUfd=function() end end
+for qKhiUS=1,0 do end
 do local _=function() end end
-return
-end
-local kUUURB = SHWEZE:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if not kUUURB then
+for tjRSpI=1,0 do end
+local XNEPEx = vehicle:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
+if false then local fpzPnq=0.23295867704356044 end
+if not XNEPEx then
+local _=907;if _ == 0 then _=1 end
+do local FkLYSh=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
 if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
 return
+if false then local _=0.3245391309170007 end
 end
-for _,weaponSystem in pairs(kUUURB:GetChildren()) do
-for _,bHQkzJ in pairs(weaponSystem:GetChildren()) do
+local QNcLFw = XNEPEx:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
+if not QNcLFw then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+do local qKhiUS=function() end end
+local _=907;if _ == 0 then _=1 end
+return
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if math.random() > 1 then return nil end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for FkLYSh,weaponSystem in pairs(QNcLFw:GetChildren()) do
+do local tjRSpI=function() end end
+for qKhiUS=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for FkLYSh,omjxUp in pairs(weaponSystem:GetChildren()) do
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+for FkLYSh=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+for qKhiUS=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local AwzQpY = omjxUp.Name:lower()
+if AwzQpY:find((function() return string.char(102)..string.char(108)..string.char(97)..string.char(114)..string.char(101) end)()) or AwzQpY:find((function() return string.char(112)..string.char(105)..string.char(108)..string.char(111)..string.char(116)..string.char(32)..string.char(119)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)()) then
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+local IRFyfn = omjxUp:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
+if false then local tjRSpI=0.9006855414627175 end
+do local fpzPnq=function() end end
+for qKhiUS=1,0 do end
 for _=1,0 do end
-local ZxSrmF = bHQkzJ.Name:lower()
-if ZxSrmF:find((function() return string.char(102)..string.char(108)..string.char(97)..string.char(114)..string.char(101) end)()) or ZxSrmF:find((function() return string.char(112)..string.char(105)..string.char(108)..string.char(111)..string.char(116)..string.char(32)..string.char(119)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)()) then
-local dBBXSa = bHQkzJ:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
-if dBBXSa then
+for PIHUfd=1,0 do end
+if IRFyfn then
 if math.random() > 1 then return nil end
-local LWhtmx,flareSettings = pcall(require,dBBXSa)
-if LWhtmx and flareSettings then
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local PAtmSE,flareSettings = pcall(require,IRFyfn)
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+for aNKOBO=1,0 do end
+if false then local PIHUfd=0.2650381629488454 end
+if false then local fpzPnq=0.23295867704356044 end
+if PAtmSE and flareSettings then
+for _=1,0 do end
+if math.random() > 1 then return nil end
 flareSettings.FireRate = 9999
+if math.random() > 1 then return nil end
 flareSettings.Cooldown = 0
-local _=326;if _ == 0 then _=1 end
+for _=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+for tjRSpI=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local PIHUfd=function() end end
+for _=1,0 do end
+for aNKOBO=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
 end
 end
 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for aNKOBO=1,0 do end
+for FkLYSh=1,0 do end
+for fpzPnq=1,0 do end
 for _=1,0 do end
 end
-end)
-end
-end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local PIHUfd=function() end end
 do local _=function() end end
+end)
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+end
+if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if 1 ~= 1 then return nil end
+end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+for fpzPnq=1,0 do end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
 
+for _=1,0 do end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 modifyFlares(workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(72)..string.char(101)..string.char(108)..string.char(105)..string.char(99)..string.char(111)..string.char(112)..string.char(116)..string.char(101)..string.char(114)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()])
+do local _=function() end end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
 modifyFlares(workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(80)..string.char(108)..string.char(97)..string.char(110)..string.char(101)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()])
+do local _=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
 
-local _=326;if _ == 0 then _=1 end
-local QfRzOt = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(66)..string.char(111)..string.char(97)..string.char(116)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
-for _,boat in pairs(QfRzOt:GetChildren()) do
-pcall(igMUpK()
+for _=1,0 do end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local jZQCkR = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(66)..string.char(111)..string.char(97)..string.char(116)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+for FkLYSh,boat in pairs(jZQCkR:GetChildren()) do
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+pcall(MRVrij()
 if boat.Name == (function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(97)..string.char(99)..string.char(117)..string.char(100)..string.char(97) end)() then
-do local _=function() end end
-local kUUURB = boat:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if kUUURB then
-local fMfOFQ = kUUURB:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(97)..string.char(99)..string.char(117)..string.char(100)..string.char(97)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
-if fMfOFQ then
-local _=326;if _ == 0 then _=1 end
-local cKjOrP = fMfOFQ:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(100)..string.char(32)..string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116) end)())
-if cKjOrP then
-local dBBXSa = cKjOrP:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
-if dBBXSa then
-if false then local _=0.5035630678708094 end
-local EnIFWR = require(dBBXSa)
-EnIFWR.FireRate = 9999
-EnIFWR.OverheatIncrement = 0
-EnIFWR.OverheatCount = math.huge
-do local _=function() end end
-EnIFWR.CooldownTime = 0
-EnIFWR.DepleteDelay = 0
-EnIFWR.magnitude = 0
-EnIFWR.roughness = 0
+for _=1,0 do end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local PIHUfd=0.2650381629488454 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local QNcLFw = boat:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+if math.random() > 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if QNcLFw then
+do local tjRSpI=function() end end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+local ZqNBqK = QNcLFw:FindFirstChild((function() return string.char(66)..string.char(97)..string.char(114)..string.char(114)..string.char(97)..string.char(99)..string.char(117)..string.char(100)..string.char(97)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
+if ZqNBqK then
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 if 1 ~= 1 then return nil end
-EnIFWR.posInfluence = Vector3.new(0,0,0)
-EnIFWR.rotInfluence = Vector3.new(0,0,0)
+if false then local qKhiUS=0.17959263031053085 end
+if false then local aNKOBO=0.689745187854259 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+local xwxBKu = ZqNBqK:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(100)..string.char(32)..string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116) end)())
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if xwxBKu then
+do local tjRSpI=function() end end
+local IRFyfn = xwxBKu:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local tjRSpI=0.9006855414627175 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if IRFyfn then
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+local EPqMKs = require(IRFyfn)
+EPqMKs.FireRate = 9999
+for qKhiUS=1,0 do end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+do local PIHUfd=function() end end
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+EPqMKs.OverheatIncrement = 0
+EPqMKs.OverheatCount = math.huge
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local FkLYSh=function() end end
+do local PIHUfd=function() end end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+EPqMKs.CooldownTime = 0
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if false then local qKhiUS=0.17959263031053085 end
+do local _=function() end end
+if 1 ~= 1 then return nil end
+EPqMKs.DepleteDelay = 0
+EPqMKs.magnitude = 0
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+EPqMKs.roughness = 0
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+EPqMKs.posInfluence = Vector3.new(0,0,0)
+do local PIHUfd=function() end end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+for fpzPnq=1,0 do end
+EPqMKs.rotInfluence = Vector3.new(0,0,0)
 end
 end
 do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+if 1 ~= 1 then return nil end
+for qKhiUS=1,0 do end
+if math.random() > 1 then return nil end
+do local PIHUfd=function() end end
+do local tjRSpI=function() end end
+do local FkLYSh=function() end end
 end
+local _=907;if _ == 0 then _=1 end
+do local fpzPnq=function() end end
 end
+do local tjRSpI=function() end end
+if math.random() > 1 then return nil end
+do local _=function() end end
 end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
 if boat.Name == (function() return string.char(85)..string.char(83)..string.char(83)..string.char(32)..string.char(68)..string.char(111)..string.char(117)..string.char(103)..string.char(108)..string.char(97)..string.char(115) end)() then
-local _=326;if _ == 0 then _=1 end
-local kUUURB = boat:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if kUUURB then
-local nTmWvz = kUUURB:FindFirstChild((function() return string.char(68)..string.char(111)..string.char(117)..string.char(103)..string.char(108)..string.char(97)..string.char(115)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
-if nTmWvz then
-for _=1,0 do end
-local dBBXSa = nTmWvz:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
-if dBBXSa then
-local EnIFWR = require(dBBXSa)
-for _,gun in ipairs(EnIFWR.GunList or {}) do
+do local qKhiUS=function() end end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local _=907;if _ == 0 then _=1 end
+do local tjRSpI=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+local QNcLFw = boat:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+do local PIHUfd=function() end end
+local _=907;if _ == 0 then _=1 end
+if QNcLFw then
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
 do local _=function() end end
+if math.random() > 1 then return nil end
+local JxhQCt = QNcLFw:FindFirstChild((function() return string.char(68)..string.char(111)..string.char(117)..string.char(103)..string.char(108)..string.char(97)..string.char(115)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
+do local tjRSpI=function() end end
+if JxhQCt then
+local _=907;if _ == 0 then _=1 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local tjRSpI=function() end end
+for _=1,0 do end
+for FkLYSh=1,0 do end
+local IRFyfn = JxhQCt:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
+for aNKOBO=1,0 do end
+do local fpzPnq=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if IRFyfn then
+if math.random() > 1 then return nil end
+for PIHUfd=1,0 do end
+if false then local _=0.3245391309170007 end
+local EPqMKs = require(IRFyfn)
+for tjRSpI=1,0 do end
+do local fpzPnq=function() end end
+for FkLYSh,gun in ipairs(EPqMKs.GunList or {}) do
+if false then local _=0.3245391309170007 end
+do local FkLYSh=function() end end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local aNKOBO=0.689745187854259 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
 if gun.Gun then
-local fxrbxw = gun.Gun:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
-if fxrbxw then
-local JIaeSv = require(fxrbxw)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local nlOZEm = gun.Gun:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if nlOZEm then
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+local dTnMmY = require(nlOZEm)
 if math.random() > 1 then return nil end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
 
-JIaeSv.FireRate = 99
-JIaeSv.OverheatIncrement = 0
-JIaeSv.OverheatCount = math.huge
-if false then local _=0.5035630678708094 end
-JIaeSv.CooldownTime = 0
-JIaeSv.DepleteDelay = 0
-JIaeSv.magnitude = 0
-JIaeSv.roughness = 0
+dTnMmY.FireRate = 99
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-JIaeSv.posInfluence = Vector3.new(0,0,0)
-JIaeSv.rotInfluence = Vector3.new(0,0,0)
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+if math.random() > 1 then return nil end
+dTnMmY.OverheatIncrement = 0
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+dTnMmY.OverheatCount = math.huge
+if false then local FkLYSh=0.5035630678708094 end
+if math.random() > 1 then return nil end
+for tjRSpI=1,0 do end
+if false then local qKhiUS=0.17959263031053085 end
+do local PIHUfd=function() end end
+for fpzPnq=1,0 do end
+do local _=function() end end
+dTnMmY.CooldownTime = 0
+do local tjRSpI=function() end end
+dTnMmY.DepleteDelay = 0
+do local aNKOBO=function() end end
+if false then local _=0.3245391309170007 end
+for qKhiUS=1,0 do end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+dTnMmY.magnitude = 0
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+dTnMmY.roughness = 0
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+if math.random() > 1 then return nil end
+dTnMmY.posInfluence = Vector3.new(0,0,0)
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+for tjRSpI=1,0 do end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+dTnMmY.rotInfluence = Vector3.new(0,0,0)
+local _=907;if _ == 0 then _=1 end
+do local qKhiUS=function() end end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
 end
+if false then local _=0.3245391309170007 end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+do local fpzPnq=function() end end
+for tjRSpI=1,0 do end
+if false then local _=0.3245391309170007 end
+end
+end
+end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+do local tjRSpI=function() end end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+end
+for _=1,0 do end
+do local aNKOBO=function() end end
+if false then local tjRSpI=0.9006855414627175 end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local fpzPnq=0.23295867704356044 end
+local _=907;if _ == 0 then _=1 end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+end)
+if false then local fpzPnq=0.23295867704356044 end
+end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+
+if math.random() > 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+if 1 ~= 1 then return nil end
+do local PIHUfd=function() end end
+for FkLYSh=1,0 do end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if 1 ~= 1 then return nil end
+local eBJUIP = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(72)..string.char(111)..string.char(118)..string.char(101)..string.char(114)..string.char(99)..string.char(114)..string.char(97)..string.char(102)..string.char(116)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
+if 1 ~= 1 then return nil end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+local KFnkoD = eBJUIP:FindFirstChild((function() return string.char(80)..string.char(65)..string.char(67)..string.char(86)..string.char(45)..string.char(55)..string.char(54)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(101)..string.char(115)..string.char(116) end)())
+local _=907;if _ == 0 then _=1 end
+for aNKOBO=1,0 do end
+local PIHUfd=858;if PIHUfd== 0 then PIHUfd=1 end
+do local tjRSpI=function() end end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+for _=1,0 do end
+if math.random() > 1 then return nil end
+if KFnkoD then
+local XNEPEx = KFnkoD:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+do local FkLYSh=function() end end
+if XNEPEx then
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+local _=907;if _ == 0 then _=1 end
+for tjRSpI=1,0 do end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+local QNcLFw = XNEPEx:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
+do local _=function() end end
+if false then local fpzPnq=0.23295867704356044 end
+if false then local tjRSpI=0.9006855414627175 end
+if QNcLFw then
+do local qKhiUS=function() end end
+if 1 ~= 1 then return nil end
+local qhIAkf = QNcLFw:FindFirstChild((function() return string.char(86)..string.char(117)..string.char(108)..string.char(99)..string.char(97)..string.char(110)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
+for PIHUfd=1,0 do end
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+if false then local aNKOBO=0.689745187854259 end
+for qKhiUS=1,0 do end
+if 1 ~= 1 then return nil end
+if math.random() > 1 then return nil end
+if qhIAkf then
+if false then local fpzPnq=0.23295867704356044 end
+for FkLYSh,omjxUp in pairs(qhIAkf:GetChildren()) do
+do local PIHUfd=function() end end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+local IRFyfn = omjxUp:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
+if math.random() > 1 then return nil end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
+if IRFyfn then
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+for aNKOBO=1,0 do end
+do local FkLYSh=function() end end
+if 1 ~= 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
+do local qKhiUS=function() end end
+for _=1,0 do end
+local EPqMKs = require(IRFyfn)
+EPqMKs.FireRate = 9999
+EPqMKs.OverheatIncrement = 0
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local _=function() end end
+do local fpzPnq=function() end end
+do local aNKOBO=function() end end
+if false then local qKhiUS=0.17959263031053085 end
+if math.random() > 1 then return nil end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+EPqMKs.OverheatCount = math.huge
+if 1 ~= 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local _=0.3245391309170007 end
+EPqMKs.CooldownTime = 0
+if false then local tjRSpI=0.9006855414627175 end
+if false then local qKhiUS=0.17959263031053085 end
+EPqMKs.DepleteDelay = 0
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+for PIHUfd=1,0 do end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+do local aNKOBO=function() end end
+if math.random() > 1 then return nil end
+EPqMKs.magnitude = 0
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+if false then local fpzPnq=0.23295867704356044 end
+if 1 ~= 1 then return nil end
+if false then local _=0.3245391309170007 end
+EPqMKs.roughness = 0
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+EPqMKs.posInfluence = Vector3.new(0,0,0)
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+for fpzPnq=1,0 do end
+do local qKhiUS=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+EPqMKs.rotInfluence = Vector3.new(0,0,0)
+if math.random() > 1 then return nil end
+end
+for fpzPnq=1,0 do end
+local _=907;if _ == 0 then _=1 end
+for PIHUfd=1,0 do end
+do local qKhiUS=function() end end
+for tjRSpI=1,0 do end
+end
+if math.random() > 1 then return nil end
+do local FkLYSh=function() end end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local aNKOBO=0.689745187854259 end
+do local tjRSpI=function() end end
+do local _=function() end end
+end
+if math.random() > 1 then return nil end
+if false then local PIHUfd=0.2650381629488454 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local _=0.3245391309170007 end
 if 1 ~= 1 then return nil end
 end
 end
 end
-end
-if false then local _=0.5035630678708094 end
-end
-end)
-end
-
 for _=1,0 do end
-local mLJZgz = workspace.Parent:GetService((function() return string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)())[(function() return string.char(71)..string.char(97)..string.char(109)..string.char(101)..string.char(32)..string.char(83)..string.char(121)..string.char(115)..string.char(116)..string.char(101)..string.char(109)..string.char(115) end)()][(function() return string.char(72)..string.char(111)..string.char(118)..string.char(101)..string.char(114)..string.char(99)..string.char(114)..string.char(97)..string.char(102)..string.char(116)..string.char(32)..string.char(104)..string.char(83)..string.char(102)..string.char(90)..string.char(107)..string.char(85) end)()]
-local hjxphL = mLJZgz:FindFirstChild((function() return string.char(80)..string.char(65)..string.char(67)..string.char(86)..string.char(45)..string.char(55)..string.char(54)..string.char(32)..string.char(84)..string.char(101)..string.char(109)..string.char(112)..string.char(101)..string.char(115)..string.char(116) end)())
-if hjxphL then
-local SHWEZE = hjxphL:FindFirstChild((function() return string.char(77)..string.char(105)..string.char(115)..string.char(99) end)())
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
+do local fpzPnq=function() end end
+if 1 ~= 1 then return nil end
 do local _=function() end end
-if SHWEZE then
-local kUUURB = SHWEZE:FindFirstChild((function() return string.char(84)..string.char(117)..string.char(114)..string.char(114)..string.char(101)..string.char(116)..string.char(115) end)())
-if kUUURB then
-local qSDDCh = kUUURB:FindFirstChild((function() return string.char(86)..string.char(117)..string.char(108)..string.char(99)..string.char(97)..string.char(110)..string.char(32)..string.char(87)..string.char(101)..string.char(97)..string.char(112)..string.char(111)..string.char(110)..string.char(115) end)())
+if 1 ~= 1 then return nil end
+for FkLYSh=1,0 do end
 if math.random() > 1 then return nil end
-if qSDDCh then
-for _,bHQkzJ in pairs(qSDDCh:GetChildren()) do
-local dBBXSa = bHQkzJ:FindFirstChild((function() return string.char(83)..string.char(101)..string.char(116)..string.char(116)..string.char(105)..string.char(110)..string.char(103)..string.char(115) end)())
-if dBBXSa then
-do local _=function() end end
-local EnIFWR = require(dBBXSa)
-EnIFWR.FireRate = 9999
-EnIFWR.OverheatIncrement = 0
-EnIFWR.OverheatCount = math.huge
-if false then local _=0.5035630678708094 end
-EnIFWR.CooldownTime = 0
-EnIFWR.DepleteDelay = 0
-EnIFWR.magnitude = 0
-EnIFWR.roughness = 0
-if math.random() > 1 then return nil end
-EnIFWR.posInfluence = Vector3.new(0,0,0)
-EnIFWR.rotInfluence = Vector3.new(0,0,0)
-end
-end
-do local _=function() end end
-end
-end
-end
-end
-for _=1,0 do end
 end,})
+do local _=function() end end
+for fpzPnq=1,0 do end
+if 1 ~= 1 then return nil end
 
-local qzLBeT = NwXwuf:Input({
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if false then local _=0.3245391309170007 end
+local fhnGbP = zjdeCQ:Input({
+do local PIHUfd=function() end end
+do local fpzPnq=function() end end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+if false then local _=0.3245391309170007 end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
+if 1 ~= 1 then return nil end
 if math.random() > 1 then return nil end
-Title = (function() return string.char(35774)..string.char(32622)..string.char(24555)..string.char(25463)..string.char(38190) end)(),Value = (function() return string.char(71) end)(),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(24555)..string.char(25463)..string.char(38190) end)(),Callback = igMUpK(input)
-for _=1,0 do end
+Title = (function() return string.char(35774)..string.char(32622)..string.char(24555)..string.char(25463)..string.char(38190) end)(),Value = (function() return string.char(71) end)(),Placeholder = (function() return string.char(36755)..string.char(20837)..string.char(24555)..string.char(25463)..string.char(38190) end)(),Callback = MRVrij(input)
+if false then local _=0.3245391309170007 end
+local fpzPnq=956;if fpzPnq== 0 then fpzPnq=1 end
+if false then local tjRSpI=0.9006855414627175 end
+for FkLYSh=1,0 do end
+for PIHUfd=1,0 do end
+local _=907;if _ == 0 then _=1 end
+if false then local qKhiUS=0.17959263031053085 end
 if input and input ~= (function() return end)() then
-local rcWNCi = Enum.KeyCode[input:upper()]
-if rcWNCi then
-HwCuUH:SetToggleKey(rcWNCi)
-if false then local _=0.5035630678708094 end
+if 1 ~= 1 then return nil end
+if false then local fpzPnq=0.23295867704356044 end
+do local _=function() end end
+for aNKOBO=1,0 do end
+local jprMmU = Enum.KeyCode[input:upper()]
+if jprMmU then
+for tjRSpI=1,0 do end
+do local _=function() end end
+if math.random() > 1 then return nil end
+if math.random() > 1 then return nil end
+if 1 ~= 1 then return nil end
+RRhDTh:SetToggleKey(jprMmU)
+do local _=function() end end
+if math.random() > 1 then return nil end
+if false then local FkLYSh=0.5035630678708094 end
+if false then local aNKOBO=0.689745187854259 end
+do local fpzPnq=function() end end
+do local _=function() end end
+if math.random() > 1 then return nil end
+local tjRSpI=821;if tjRSpI== 0 then tjRSpI=1 end
 end
+if false then local PIHUfd=0.2650381629488454 end
+if 1 ~= 1 then return nil end
 end
+if math.random() > 1 then return nil end
+if false then local tjRSpI=0.9006855414627175 end
 end,})
-local _=326;if _ == 0 then _=1 end
+if math.random() > 1 then return nil end
+local qKhiUS=125;if qKhiUS== 0 then qKhiUS=1 end
+local FkLYSh=326;if FkLYSh== 0 then FkLYSh=1 end
+local aNKOBO=946;if aNKOBO== 0 then aNKOBO=1 end
+do local tjRSpI=function() end end
+if false then local _=0.3245391309170007 end
+if 1 ~= 1 then return nil end
+if 1 ~= 1 then return nil end
 
-HwCuUH:SelectTab(1)
+do local qKhiUS=function() end end
+if false then local _=0.3245391309170007 end
+for tjRSpI=1,0 do end
+RRhDTh:SelectTab(1)
