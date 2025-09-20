@@ -8,11 +8,8 @@ delfolder = function() end
 
 local AlienX = loadstring(game:HttpGet("https://pastefy.app/bKXX8Nks/raw"))()
 
-local RunService = game:GetService("RunService")
-
--- 创建窗口
 local Window = AlienX:CreateWindow({
-    Title = "AlienX 2.0 / 战争大亨", -- 初始文本
+    Title = 'AlienX<font color="rgb(0,255,0)">2.0</font> / 战争大亨',
     Icon = "rbxassetid://4483362748",
     IconThemed = true,
     Author = "Y",
@@ -27,28 +24,6 @@ local Window = AlienX:CreateWindow({
         Anonymous = false
     },    
 })
-
--- 获取窗口标题 TextLabel
-local titleLabel = Window.TitleLabel -- 如果 AlienX 没有暴露，需要自己找 TextLabel
-
--- 渐变颜色动画
-local t = 0
-RunService.RenderStepped:Connect(function(delta)
-    t = t + delta
-    local r = math.clamp(127 * math.sin(t) + 128, 0, 255)
-    local g = math.clamp(127 * math.sin(t + 2) + 128, 0, 255)
-    local b = math.clamp(127 * math.sin(t + 4) + 128, 0, 255)
-    if titleLabel then
-        -- 分段设置颜色：AlienX 渐变，其余文字白色
-        local text = "AlienX 2.0 / 战争大亨"
-        titleLabel.RichText = true
-        titleLabel.Text = string.format(
-            '<font color="rgb(%d,%d,%d)">AlienX</font> <font color="rgb(255,255,255)">2.0 / 战争大亨</font>',
-            r, g, b
-        )
-    end
-end)
-
 
 -- 稳定功能分类
 local StableSection = Window:Section({Title = "稳定功能", Opened = true})
@@ -1447,7 +1422,7 @@ local function getValidPlayers()
     return validPlayers
 end
 
--- RPG轰炸功能（去掉防检测，每秒攻击一次）
+-- RPG轰炸功能（每秒打一个人，循环攻击）
 AttackTab:Toggle({
     Title = "RPG轰炸",
     Value = false,
@@ -1471,16 +1446,25 @@ AttackTab:Toggle({
                         local weapon = character:FindFirstChild("RPG")
                         if weapon then
                             local validPlayers = getValidPlayers()
-                            for _, player in ipairs(validPlayers) do
-                                if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
-                                    local targetPos = player.Character.HumanoidRootPart.Position
-                                    FireRocket:InvokeServer(Vector3.new(), weapon, weapon, targetPos)
-                                    RocketHit:FireServer(targetPos, Vector3.new(), weapon, weapon, player.Character.HumanoidRootPart, nil, naturalRandomString())
+                            if #validPlayers > 0 then
+                                -- 按顺序攻击玩家列表
+                                for i = 1, #validPlayers do
+                                    if not loopActive then break end
+                                    local player = validPlayers[i]
+                                    if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
+                                        local targetPos = player.Character.HumanoidRootPart.Position
+                                        FireRocket:InvokeServer(Vector3.new(), weapon, weapon, targetPos)
+                                        RocketHit:FireServer(targetPos, Vector3.new(), weapon, weapon, player.Character.HumanoidRootPart, nil, naturalRandomString())
+                                        task.wait(1) -- 每秒打一个玩家
+                                    end
                                 end
+                            else
+                                task.wait(1) -- 没有玩家也等1秒再刷新
                             end
                         end
+                    else
+                        task.wait(1)
                     end
-                    task.wait(1) -- 每秒攻击一次
                 end
             end)
             coroutine.resume(rpgAttackThread)
@@ -1493,7 +1477,7 @@ AttackTab:Toggle({
     end
 })
 
--- 护盾攻击功能（去掉防检测，每秒攻击一次）
+-- 护盾攻击功能（保持每秒攻击一次）
 AttackTab:Toggle({
     Title = "护盾攻击",
     Value = false,
@@ -1517,6 +1501,7 @@ AttackTab:Toggle({
                     if rpg then
                         local tycoonsFolder = workspace:WaitForChild("Tycoon"):WaitForChild("Tycoons")
                         for _, tycoon in ipairs(tycoonsFolder:GetChildren()) do
+                            if not shieldAttackActive then break end
                             if tycoon.Owner.Value ~= Plr then
                                 local shield = tycoon:FindFirstChild("PurchasedObjects", true)
                                     and tycoon.PurchasedObjects:FindFirstChild("Base Shield", true)
@@ -1527,11 +1512,13 @@ AttackTab:Toggle({
                                     local attackPos = HumanoidRootPart.Position
                                     RocketSystem.Events.RocketHit:FireServer(attackPos, Vector3.new(), rpg, rpg, shield, nil, naturalRandomString())
                                     RocketSystem.Events.FireRocket:InvokeServer(Vector3.new(), rpg, rpg, attackPos)
+                                    task.wait(1) -- 每秒攻击一次
                                 end
                             end
                         end
+                    else
+                        task.wait(1)
                     end
-                    task.wait(1) -- 每秒攻击一次
                 end
             end)
             coroutine.resume(shieldAttackThread)
