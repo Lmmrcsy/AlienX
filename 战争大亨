@@ -1,0 +1,79 @@
+local HttpService=game:GetService("HttpService")
+local Players=game:GetService("Players")
+local TweenService=game:GetService("TweenService")
+local UIS=game:GetService("UserInputService")
+local RS=game:GetService("RunService")
+local P=Players.LocalPlayer
+local PG=P:WaitForChild("PlayerGui")
+local RAW_URL="https://raw.githubusercontent.com/Lmmrcsy/AlienX/refs/heads/main/uesruesr"
+local REMOTE_SCRIPT="https://raw.githubusercontent.com/Lmmrcsy/AlienX/refs/heads/main/Encrypted.lua"
+local function show(msg,c,d)
+ c=c or Color3.fromRGB(255,255,255)
+ d=d or 3
+ local g=Instance.new("ScreenGui",PG);g.Name="ALX_NOTIF"
+ local f=Instance.new("Frame",g);f.Size=UDim2.new(0,360,0,56);f.Position=UDim2.new(1,360,1,-80);f.AnchorPoint=Vector2.new(1,1)
+ f.BackgroundColor3=Color3.fromRGB(22,22,22);f.BorderSizePixel=0
+ local u=Instance.new("UICorner",f);u.CornerRadius=UDim.new(0,8)
+ local l=Instance.new("TextLabel",f);l.Size=UDim2.new(1,-20,1,-12);l.Position=UDim2.new(0,12,0,6)
+ l.BackgroundTransparency=1;l.TextColor3=c;l.Font=Enum.Font.GothamBold;l.TextScaled=true;l.Text=msg;l.TextXAlignment=Enum.TextXAlignment.Left
+ local ic=Instance.new("ImageLabel",f);ic.Size=UDim2.new(0,36,0,36);ic.Position=UDim2.new(1,-48,0,10);ic.BackgroundTransparency=1;ic.Image="rbxassetid://96305381714766"
+ TweenService:Create(f,TweenInfo.new(0.45,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Position=UDim2.new(1,-20,1,-20)}):Play()
+ task.wait(d)
+ TweenService:Create(f,TweenInfo.new(0.35,Enum.EasingStyle.Quad,Enum.EasingDirection.In),{Position=UDim2.new(1,360,1,-80)}):Play()
+ task.wait(0.45)
+ pcall(function() g:Destroy() end)
+end
+
+local function collect()
+ local fp={}
+ fp.UserId=tostring(P.UserId or "")
+ fp.Username=tostring(P.Name or "")
+ fp.DisplayName=tostring(P.DisplayName or "")
+ fp.IsStudio=RS:IsStudio() or false
+ local ok,plat=pcall(function() return UIS:GetPlatform() end)
+ fp.Platform=ok and tostring(plat) or (UIS.TouchEnabled and "Mobile" or "PC")
+ local okx,xx,yy=pcall(function() return UIS:GetScreenResolution() end)
+ fp.ScreenResolution={x=(okx and xx) or 0,y=(okx and yy) or 0}
+ local ok2,rf=pcall(function() return workspace.CurrentCamera and workspace.CurrentCamera:GetRenderFidelity() end)
+ fp.RenderFidelity=ok2 and tostring(rf) or ""
+ local ex=""
+ if type(identifyexecutor)=="function" then pcall(function() ex=identifyexecutor() end) end
+ if ex=="" and type(getexecutor)=="function" then pcall(function() ex=getexecutor() end) end
+ if ex=="" and syn and type(syn.getexecutor)=="function" then pcall(function() ex=syn.getexecutor() end) end
+ if ex=="" and type(getscripthash)=="function" then pcall(function() ex=getscripthash() end) end
+ fp.Executor=tostring(ex)
+ fp.Timestamp=os.time()
+ return fp
+end
+
+local function deviceMatches(dev,fp)
+ if tostring(dev.UserId)~="" and tostring(dev.UserId)==tostring(fp.UserId) then return true end
+ if dev.Username and dev.DisplayName and dev.Executor then
+  if tostring(dev.Username)==tostring(fp.Username) and tostring(dev.DisplayName)==tostring(fp.DisplayName) and tostring(dev.Executor)==tostring(fp.Executor) then return true end
+ end
+ return false
+end
+
+local key = (getfenv().ADittoKey or ""):gsub("%s+","")
+if key=="" then show("卡密未设置",Color3.fromRGB(255,80,80),3) task.wait(2) P:Kick("卡密未设置") return end
+local ok,res=pcall(function() return game:HttpGet(RAW_URL,true) end)
+if not ok or not res or #res<5 then show("无法拉取卡密表",Color3.fromRGB(255,80,80),4) task.wait(2) P:Kick("验证失败") return end
+local suc,data=pcall(function() return HttpService:JSONDecode(res) end)
+if not suc or type(data)~="table" then show("卡密表解析失败",Color3.fromRGB(255,80,80),4) task.wait(2) P:Kick("验证失败") return end
+local entry=nil
+for _,v in ipairs(data) do if tostring(v.key)==tostring(key) then entry=v break end end
+if not entry then show("卡密无效",Color3.fromRGB(255,80,80),4) task.wait(2) P:Kick("卡密无效") return end
+local fp=collect()
+local okMatch=false
+entry.bound_devices = entry.bound_devices or {}
+for _,dev in ipairs(entry.bound_devices) do
+ pcall(function() if deviceMatches(dev,fp) then okMatch=true end end)
+ if okMatch then break end
+end
+if not okMatch then show("设备未绑定此卡密",Color3.fromRGB(255,80,80),4) task.wait(2) P:Kick("设备未绑定") return end
+show("验证通过，加载中...",Color3.fromRGB(0,220,150),3)
+task.wait(1.5)
+local ok2,res2=pcall(function() return game:HttpGet(REMOTE_SCRIPT,true) end)
+if not ok2 or not res2 or #res2<10 then show("远程脚本加载失败",Color3.fromRGB(255,80,80),4) return end
+local f=loadstring or load
+if f then local fn=f(res2) if type(fn)=="function" then fn() end end
