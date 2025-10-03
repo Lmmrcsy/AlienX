@@ -1,7 +1,3 @@
--- 绕过所有验证
-getgenv().BypassKey = true
-getgenv().KeyVerified = true
-
 local LoadingSteps, Notice, LoadServer, Developers, List = loadstring(game:HttpGet('https://raw.githubusercontent.com/Lmmrcsy/AlienX/refs/heads/main/ui%E5%8A%9F%E8%83%BD'))()
 
 local TweenService = game:GetService("TweenService")
