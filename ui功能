@@ -1,0 +1,29 @@
+local Notice = {
+    {date = "2025-10-4", desc = "所有搬运均有Y所做"},
+}
+local LoadServer = {
+    "99夜",
+    "战争大亨",
+    "忍者传奇",
+    "刀刃球",
+    "俄亥俄州",
+}
+local LoadingSteps = {
+    {text = "正在初始化系统...", progress = 0},
+    {text = "检测运行环境...", progress = 8},
+    {text = "加载核心模块...", progress = 18},
+    {text = "初始化用户界面...", progress = 30},
+    {text = "连接远程服务器...", progress = 45},
+    {text = "验证用户权限...", progress = 60},
+    {text = "下载游戏数据...", progress = 75},
+    {text = "解析配置文件...", progress = 85},
+    {text = "准备游戏列表...", progress = 95},
+    {text = "AlienX中国最强！", progress = 100}
+}
+local Developers = {
+    {name = "Y", role = "老傻子", desc = "搬运负责人 · 搬运架构", color = Color3.fromRGB(255, 100, 100)},
+}
+local List = {
+    ["战争大亨"] = "https://raw.githubusercontent.com/Lmmrcsy/AlienX/refs/heads/main/Encrypted.lua",
+}
+return LoadingSteps, Notice, LoadServer, Developers, List 
