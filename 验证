@@ -100,12 +100,17 @@ local function createSimpleAuthUI()
     gui.Name = "ALX_AUTH_UI"
     gui.Parent = PG
     gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    gui.ResetOnSpawn = false
+    gui.IgnoreGuiInset = true -- 确保覆盖整个屏幕
 
-    -- 背景遮罩
+    -- 背景遮罩 - 修复铺满屏幕的问题
     local background = Instance.new("Frame")
     background.Size = UDim2.new(1, 0, 1, 0)
+    background.Position = UDim2.new(0, 0, 0, 0)
     background.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    background.BackgroundTransparency = 0.2
+    background.BackgroundTransparency = 0.3 -- 调整为半透明
+    background.BorderSizePixel = 0
+    background.ZIndex = 1
     background.Parent = gui
 
     -- 主容器
@@ -114,11 +119,17 @@ local function createSimpleAuthUI()
     mainContainer.Position = UDim2.new(0.5, -175, 0.5, -100)
     mainContainer.BackgroundColor3 = COLOR.BACKGROUND
     mainContainer.BorderSizePixel = 0
+    mainContainer.ZIndex = 2
     mainContainer.Parent = gui
 
     local containerCorner = Instance.new("UICorner")
     containerCorner.CornerRadius = UDim.new(0, 12)
     containerCorner.Parent = mainContainer
+
+    local containerStroke = Instance.new("UIStroke")
+    containerStroke.Color = COLOR.PRIMARY
+    containerStroke.Thickness = 2
+    containerStroke.Parent = mainContainer
 
     -- 标题
     local title = Instance.new("TextLabel")
@@ -129,6 +140,7 @@ local function createSimpleAuthUI()
     title.Font = Enum.Font.GothamBold
     title.TextSize = 18
     title.Text = "AlienX 验证系统"
+    title.ZIndex = 3
     title.Parent = mainContainer
 
     -- 状态文本
@@ -141,6 +153,7 @@ local function createSimpleAuthUI()
     statusLabel.TextSize = 14
     statusLabel.Text = "正在初始化验证系统..."
     statusLabel.TextWrapped = true
+    statusLabel.ZIndex = 3
     statusLabel.Parent = mainContainer
 
     -- 进度条背景
@@ -149,6 +162,7 @@ local function createSimpleAuthUI()
     progressBackground.Position = UDim2.new(0, 20, 0, 110)
     progressBackground.BackgroundColor3 = COLOR.CARD
     progressBackground.BorderSizePixel = 0
+    progressBackground.ZIndex = 3
     progressBackground.Parent = mainContainer
 
     local progressCorner = Instance.new("UICorner")
@@ -160,6 +174,7 @@ local function createSimpleAuthUI()
     progressFill.Size = UDim2.new(0, 0, 1, 0)
     progressFill.BackgroundColor3 = COLOR.PRIMARY
     progressFill.BorderSizePixel = 0
+    progressFill.ZIndex = 3
     progressFill.Parent = progressBackground
 
     local fillCorner = Instance.new("UICorner")
@@ -175,6 +190,7 @@ local function createSimpleAuthUI()
     loadingText.Font = Enum.Font.Gotham
     loadingText.TextSize = 12
     loadingText.Text = "请稍候..."
+    loadingText.ZIndex = 3
     loadingText.Parent = mainContainer
 
     -- 更新进度函数
@@ -185,11 +201,28 @@ local function createSimpleAuthUI()
         }):Play()
     end
 
+    -- 安全销毁函数
+    local function safeDestroy()
+        pcall(function()
+            -- 先淡出动画
+            TweenService:Create(background, TweenInfo.new(0.3), {
+                BackgroundTransparency = 1
+            }):Play()
+            TweenService:Create(mainContainer, TweenInfo.new(0.3), {
+                BackgroundTransparency = 1,
+                Position = UDim2.new(0.5, -175, 0.5, -50) -- 向下移动一点
+            }):Play()
+            task.wait(0.3)
+            gui:Destroy()
+        end)
+    end
+
     return {
         Gui = gui,
         UpdateProgress = updateProgress,
         StatusLabel = statusLabel,
-        LoadingText = loadingText
+        LoadingText = loadingText,
+        SafeDestroy = safeDestroy
     }
 end
 
@@ -257,7 +290,7 @@ local function main()
         ui.UpdateProgress(0, "服务器连接失败")
         show("无法连接验证服务器", "error", 4)
         task.wait(2)
-        pcall(function() ui.Gui:Destroy() end)
+        ui.SafeDestroy()
         P:Kick("验证失败: 服务器连接错误")
         return
     end
@@ -274,7 +307,7 @@ local function main()
         ui.UpdateProgress(0, "数据解析失败")
         show("验证数据解析失败", "error", 4)
         task.wait(2)
-        pcall(function() ui.Gui:Destroy() end)
+        ui.SafeDestroy()
         P:Kick("验证失败: 数据格式错误")
         return
     end
@@ -295,7 +328,7 @@ local function main()
         ui.UpdateProgress(0, "卡密无效")
         show("卡密无效", "error", 4)
         task.wait(2)
-        pcall(function() ui.Gui:Destroy() end)
+        ui.SafeDestroy()
         P:Kick("卡密无效")
         return
     end
@@ -319,7 +352,7 @@ local function main()
         ui.UpdateProgress(0, "设备未授权")
         show("设备未绑定此卡密", "error", 4)
         task.wait(2)
-        pcall(function() ui.Gui:Destroy() end)
+        ui.SafeDestroy()
         P:Kick("设备未绑定")
         return
     end
@@ -336,27 +369,22 @@ local function main()
     
     if not ok2 or not res2 or #res2 < 10 then
         show("脚本加载失败", "error", 4)
-        pcall(function() ui.Gui:Destroy() end)
+        ui.SafeDestroy()
         return
     end
 
     ui.UpdateProgress(1, "准备就绪")
     task.wait(0.5)
 
+    -- 执行脚本前先销毁UI
+    ui.SafeDestroy()
+    task.wait(0.3) -- 等待UI完全消失
+
     -- 执行脚本
     local f = loadstring or load
     if f then
         local fn = f(res2)
         if type(fn) == "function" then
-            -- 隐藏UI
-            pcall(function()
-                TweenService:Create(ui.Gui, TweenInfo.new(0.3), {
-                    BackgroundTransparency = 1
-                }):Play()
-                task.wait(0.3)
-                ui.Gui:Destroy()
-            end)
-            
             -- 执行主脚本
             local success, err = pcall(fn)
             if not success then
