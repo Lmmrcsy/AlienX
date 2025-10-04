@@ -30,9 +30,9 @@
         "Executor": "Delta"
       }
     ]
-  }
-]
-    "key": "sbnailong",
+  },
+  {
+    "key": "傻逼奶龙",
     "bound_devices": [
       {
         "Platform": "Enum.Platform.Android",
