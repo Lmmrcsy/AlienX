@@ -11281,17 +11281,17 @@ if not ar.IgnoreAlerts then
 ar:SetToTheCenter()
 ar:Dialog{
 
-Title="Close Window",
-Content="Do you want to close this window? You will not be able to open it again.",
+Title="关闭脚本",
+Content="你想要关闭脚本吗？",
 Buttons={
 {
-Title="Cancel",
+Title="取消",
 
 Callback=function()end,
 Variant="Secondary",
 },
 {
-Title="Close Window",
+Title="确定",
 
 Callback=function()ar:Destroy()end,
 Variant="Primary",
