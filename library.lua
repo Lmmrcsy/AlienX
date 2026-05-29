@@ -1,7 +1,5 @@
--- XA Hub UI Library
+-- XA Hub UI Library (修复版)
 -- 支持剑客就完事了
--- 作者: XA Team
--- 版本: 1.0
 
 local UI = {}
 local Players = game:GetService("Players")
@@ -44,14 +42,15 @@ local function CreateStroke(parent, thickness, color)
     return stroke
 end
 
+-- 修复：正确的阴影创建函数
 local function CreateShadow(parent)
-    local shadow = Instance.new("UICorner", parent)
-    shadow.CornerRadius = UDim.new(0, 8)
+    local corner = Instance.new("UICorner", parent)
+    corner.CornerRadius = UDim.new(0, 8)
     
     local shadowEffect = Instance.new("UIShadow", parent)
     shadowEffect.Color = Color3.fromRGB(0, 0, 0)
     shadowEffect.Transparency = 0.5
-    shadowEffect.Size = 2
+    shadowEffect.BlurSize = 2  -- 修复：使用 BlurSize 而不是 Size
     return shadowEffect
 end
 
@@ -74,6 +73,7 @@ function UI:CreateWindow(title, options)
     screenGui.Name = "XA_Hub_" .. title:gsub("%s+", "_")
     screenGui.Parent = CoreGui
     screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    screenGui.ResetOnSpawn = false
     
     -- 主框架
     local mainFrame = Instance.new("Frame")
@@ -141,7 +141,7 @@ function UI:CreateWindow(title, options)
         mainFrame.Visible = false
     end)
     
-    -- 侧边栏 (标签页按钮区域)
+    -- 侧边栏
     local sideBar = Instance.new("Frame")
     sideBar.Name = "SideBar"
     sideBar.Parent = mainFrame
@@ -164,14 +164,11 @@ function UI:CreateWindow(title, options)
     contentFrame.Size = UDim2.new(1, -155, 1, -55)
     contentFrame.Position = UDim2.new(0, 155, 0, 50)
     
-    -- 标签页按钮容器
-    local tabButtons = {}
-    
     -- 存储窗口数据
     window.Gui = screenGui
     window.MainFrame = mainFrame
     window.ContentFrame = contentFrame
-    window.TabButtons = tabButtons
+    window.TabButtons = {}
     window.SideBar = sideBar
     
     -- 切换标签页函数
@@ -270,7 +267,8 @@ function UI:Section(tab, title, collapsible)
         Title = title,
         Elements = {},
         Frame = nil,
-        Expanded = true
+        Expanded = true,
+        ContentHeight = 0
     }
     
     local sectionFrame = Instance.new("Frame")
@@ -349,7 +347,7 @@ function UI:Section(tab, title, collapsible)
         if section.Expanded then
             sectionFrame.Size = UDim2.new(1, -20, 0, 35 + totalHeight)
         end
-        tab.Frame.CanvasSize = UDim2.new(0, 0, 0, tabFrame.AbsoluteCanvasSize.Y)
+        tab.Frame.CanvasSize = UDim2.new(0, 0, 0, tab.Frame.AbsoluteCanvasSize.Y)
     end
     
     table.insert(tab.Sections, section)
@@ -603,15 +601,15 @@ function UI:Dropdown(section, text, options, defaultIndex, callback)
     
     local function updateDropdownHeight()
         local childCount = 0
-        for _ in pairs(dropdownList:GetChildren()) do
-            if not _:IsA("UIListLayout") and not _:IsA("UIPadding") then
+        for _, child in ipairs(dropdownList:GetChildren()) do
+            if child:IsA("TextButton") then
                 childCount = childCount + 1
             end
         end
         local height = math.min(childCount * 30, 150)
         dropdownList.Size = UDim2.new(1, -130, 0, expanded and height or 0)
         frame.Size = UDim2.new(1, -20, 0, expanded and 40 + height or 40)
-        section:UpdateCanvas()
+        if section.UpdateCanvas then section:UpdateCanvas() end
     end
     
     for i, option in ipairs(options) do
@@ -746,8 +744,7 @@ function UI:Keybind(section, text, defaultKey, callback)
         keyBtn.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
     end)
     
-    local inputConn
-    inputConn = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    UserInputService.InputBegan:Connect(function(input, gameProcessed)
         if gameProcessed then return end
         if listening then
             if input.KeyCode ~= Enum.KeyCode.Unknown then
