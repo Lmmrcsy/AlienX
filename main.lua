@@ -3028,14 +3028,14 @@ Checkbox=Color3.fromHex"#0091ff",
 Light={
 Name="Light",
 
-Accent=Color3.fromHex"#FFFFFF",
-Dialog=Color3.fromHex"#f4f4f5",
+Accent=Color3.fromHex"#000000",
+Dialog=Color3.fromHex"#ffffff",
 Outline=Color3.fromHex"#09090b",
 Text=Color3.fromHex"#000000",
 Placeholder=Color3.fromHex"#555555",
 Background=Color3.fromHex"#e4e4e7",
 Button=Color3.fromHex"#18181b",
-Icon=Color3.fromHex"#52525b",
+Icon=Color3.fromHex"#ffffff",
 },
 Rose={
 Name="Rose",
