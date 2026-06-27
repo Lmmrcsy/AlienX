@@ -599,6 +599,16 @@ end
 
 UpdateSliceScale(p)
 
+task.spawn(function()
+    while C and C.Parent do
+        local Grad = C:FindFirstChildOfClass("UIGradient")
+        if Grad then
+            Grad.Rotation = (Grad.Rotation + 5) % 360
+        end
+        task.wait(0.1) -- 控制变色速度
+    end
+end)
+
 return C,B and H or nil
 end
 
@@ -1623,16 +1633,19 @@ ImageTransparency=ah=="Primary"and.95 or.85,
 Name="SquircleOutline",
 },{
 ac("UIGradient",{
-Rotation=70,
+Rotation=0,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,0,0)),      -- 红
+ColorSequenceKeypoint.new(0.16,Color3.fromRGB(255,255,0)),    -- 黄
+ColorSequenceKeypoint.new(0.33,Color3.fromRGB(0,255,0)),      -- 绿
+ColorSequenceKeypoint.new(0.50,Color3.fromRGB(0,255,255)),    -- 青
+ColorSequenceKeypoint.new(0.66,Color3.fromRGB(0,0,255)),      -- 蓝
+ColorSequenceKeypoint.new(0.83,Color3.fromRGB(255,0,255)),    -- 紫
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,0,0))        -- 回到红
 },
 Transparency=NumberSequence.new{
-NumberSequenceKeypoint.new(0.0,0.1),
-NumberSequenceKeypoint.new(0.5,1),
-NumberSequenceKeypoint.new(1.0,0.1),
+NumberSequenceKeypoint.new(0.0,0.0),
+NumberSequenceKeypoint.new(1.0,0.0)
 }
 })
 }),
