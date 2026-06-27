@@ -10878,7 +10878,7 @@ task.spawn(function()
 task.wait(0.4)
 ar.UIElements.Main.Visible=false
 
-if ar.OpenButtonMain and not ar.Destroyed and not ar.IsPC and ar.IsOpenButtonEnabled then
+if ar.OpenButtonMain and not ar.Destroyed and ar.IsOpenButtonEnabled then
 ar.OpenButtonMain:Visible(true)
 end
 end)
